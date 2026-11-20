@@ -1,0 +1,31 @@
+{
+  "upstream_commit": "70355f7e9d6b849272d429d12e854f5890b89ae2",
+  "dataset": "FLIR-IISR",
+  "dataset_root": "datasets/FLIR-IISR",
+  "train_ids": "paper_reproduction/splits/train.txt",
+  "test_ids": "paper_reproduction/splits/test.txt",
+  "published_pair_count": 1457,
+  "accepted_optimizer_updates": 10000,
+  "global_batch": 4,
+  "crop_size": 512,
+  "sr_scale": 4,
+  "optimizer": "AdamW",
+  "peak_lr": 5e-05,
+  "weight_decay": 0.05,
+  "seed": 20261120,
+  "schedule": "lin0",
+  "warmup_epochs": 0.1,
+  "warmup_start_ratio": 0.005,
+  "final_lr_ratio": 0.01,
+  "max_grad_norm": 2.0,
+  "implementation": "Upstream TrainDataset and VARTrainer.train_step, autocast FP16, original train-mode BatchNorm and DropPath, same four-image batch across four layer partitions",
+  "class_branches": {
+    "0": "aligned HR target, matching LR input subsequently bicubic-downsampled 4x and upsampled",
+    "1": "LR as target, the same LR image as input subsequently bicubic-downsampled 4x and upsampled"
+  },
+  "low_resolution_folder_for_training": "LR",
+  "loss": "upstream mean token CE + 0.2 RGB mean squared error + 0.8 upstream ThermalOrderConsistencyLoss(reduction=mean)",
+  "training_pairs": 1192,
+  "test_pairs": 265,
+  "split_provenance": "Proposed project-defined 1192/265 alternative to the unpublished author IDs. The proposal was withdrawn; no FLIR model update was performed."
+}

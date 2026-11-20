@@ -1,0 +1,39 @@
+[W1120 14:05:52.845775615 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1120 14:05:52.846375257 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1120 14:05:59.349981202 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1120 14:05:59.350468202 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+localhost:8:8 [0] NCCL INFO NCCL_SOCKET_IFNAME set by environment to lo
+localhost:8:8 [0] NCCL INFO Bootstrap: Using lo:127.0.0.1<0>
+localhost:8:8 [0] NCCL INFO cudaDriverVersion 13000
+localhost:8:8 [0] NCCL INFO NCCL_CUMEM_HOST_ENABLE set by environment to 0.
+localhost:8:8 [0] NCCL INFO NCCL version 2.26.2+cuda12.2
+localhost:8:8 [0] NCCL INFO Comm config Blocking set to 0
+[W1120 14:06:00.794482765 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1120 14:06:00.795067788 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+localhost:9:9 [1] NCCL INFO cudaDriverVersion 13000
+localhost:9:9 [1] NCCL INFO NCCL_CUMEM_HOST_ENABLE set by environment to 0.
+localhost:9:9 [1] NCCL INFO NCCL_SOCKET_IFNAME set by environment to lo
+localhost:9:9 [1] NCCL INFO Bootstrap: Using lo:127.0.0.1<0>
+localhost:9:9 [1] NCCL INFO NCCL version 2.26.2+cuda12.2
+localhost:9:9 [1] NCCL INFO Comm config Blocking set to 0
+[W1120 14:06:00.808465035 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1120 14:06:00.808627288 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1120 14:06:00.809636365 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1120 14:06:00.809760371 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+localhost:11:11 [3] NCCL INFO cudaDriverVersion 13000
+localhost:11:11 [3] NCCL INFO NCCL_CUMEM_HOST_ENABLE set by environment to 0.
+localhost:11:11 [3] NCCL INFO NCCL_SOCKET_IFNAME set by environment to lo
+localhost:11:11 [3] NCCL INFO Bootstrap: Using lo:127.0.0.1<0>
+localhost:11:11 [3] NCCL INFO NCCL version 2.26.2+cuda12.2
+localhost:10:10 [2] NCCL INFO cudaDriverVersion 13000
+localhost:11:11 [3] NCCL INFO Comm config Blocking set to 0
+localhost:10:10 [2] NCCL INFO NCCL_CUMEM_HOST_ENABLE set by environment to 0.
+localhost:10:10 [2] NCCL INFO NCCL_SOCKET_IFNAME set by environment to lo
+localhost:10:10 [2] NCCL INFO Bootstrap: Using lo:127.0.0.1<0>
+localhost:10:10 [2] NCCL INFO NCCL version 2.26.2+cuda12.2
+localhost:10:10 [2] NCCL INFO Comm config Blocking set to 0
+W1120 14:09:55.982000 1 site-packages/torch/distributed/elastic/agent/server/api.py:719] Received 15 death signal, shutting down workers
+W1120 14:09:55.984000 1 site-packages/torch/distributed/elastic/multiprocessing/api.py:900] Sending process 8 closing signal SIGTERM
+W1120 14:09:55.985000 1 site-packages/torch/distributed/elastic/multiprocessing/api.py:900] Sending process 9 closing signal SIGTERM
+W1120 14:09:55.985000 1 site-packages/torch/distributed/elastic/multiprocessing/api.py:900] Sending process 10 closing signal SIGTERM
+W1120 14:09:55.986000 1 site-packages/torch/distributed/elastic/multiprocessing/api.py:900] Sending process 11 closing signal SIGTERM

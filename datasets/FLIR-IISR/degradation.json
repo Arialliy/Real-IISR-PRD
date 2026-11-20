@@ -1,0 +1,4380 @@
+{
+    "_comment": "degradation label",
+    "labels": {
+        "0": "Optical blur",
+        "1": "Motion blur"
+    },
+    "data": {
+        "000001.bmp": {
+            "degradation_label": 0
+        },
+        "000002.bmp": {
+            "degradation_label": 0
+        },
+        "000003.bmp": {
+            "degradation_label": 1
+        },
+        "000004.bmp": {
+            "degradation_label": 1
+        },
+        "000005.bmp": {
+            "degradation_label": 0
+        },
+        "000006.bmp": {
+            "degradation_label": 0
+        },
+        "000007.bmp": {
+            "degradation_label": 1
+        },
+        "000008.bmp": {
+            "degradation_label": 1
+        },
+        "000009.bmp": {
+            "degradation_label": 0
+        },
+        "000010.bmp": {
+            "degradation_label": 0
+        },
+        "000011.bmp": {
+            "degradation_label": 0
+        },
+        "000012.bmp": {
+            "degradation_label": 0
+        },
+        "000013.bmp": {
+            "degradation_label": 0
+        },
+        "000014.bmp": {
+            "degradation_label": 0
+        },
+        "000015.bmp": {
+            "degradation_label": 0
+        },
+        "000016.bmp": {
+            "degradation_label": 0
+        },
+        "000017.bmp": {
+            "degradation_label": 0
+        },
+        "000018.bmp": {
+            "degradation_label": 0
+        },
+        "000019.bmp": {
+            "degradation_label": 0
+        },
+        "000020.bmp": {
+            "degradation_label": 0
+        },
+        "000021.bmp": {
+            "degradation_label": 0
+        },
+        "000022.bmp": {
+            "degradation_label": 0
+        },
+        "000023.bmp": {
+            "degradation_label": 0
+        },
+        "000024.bmp": {
+            "degradation_label": 0
+        },
+        "000025.bmp": {
+            "degradation_label": 0
+        },
+        "000026.bmp": {
+            "degradation_label": 0
+        },
+        "000027.bmp": {
+            "degradation_label": 0
+        },
+        "000028.bmp": {
+            "degradation_label": 1
+        },
+        "000029.bmp": {
+            "degradation_label": 1
+        },
+        "000030.bmp": {
+            "degradation_label": 0
+        },
+        "000031.bmp": {
+            "degradation_label": 1
+        },
+        "000032.bmp": {
+            "degradation_label": 1
+        },
+        "000033.bmp": {
+            "degradation_label": 1
+        },
+        "000034.bmp": {
+            "degradation_label": 1
+        },
+        "000035.bmp": {
+            "degradation_label": 1
+        },
+        "000036.bmp": {
+            "degradation_label": 1
+        },
+        "000037.bmp": {
+            "degradation_label": 1
+        },
+        "000038.bmp": {
+            "degradation_label": 1
+        },
+        "000039.bmp": {
+            "degradation_label": 1
+        },
+        "000040.bmp": {
+            "degradation_label": 1
+        },
+        "000041.bmp": {
+            "degradation_label": 0
+        },
+        "000042.bmp": {
+            "degradation_label": 0
+        },
+        "000043.bmp": {
+            "degradation_label": 0
+        },
+        "000044.bmp": {
+            "degradation_label": 0
+        },
+        "000045.bmp": {
+            "degradation_label": 0
+        },
+        "000046.bmp": {
+            "degradation_label": 0
+        },
+        "000047.bmp": {
+            "degradation_label": 0
+        },
+        "000048.bmp": {
+            "degradation_label": 0
+        },
+        "000049.bmp": {
+            "degradation_label": 0
+        },
+        "000050.bmp": {
+            "degradation_label": 0
+        },
+        "000051.bmp": {
+            "degradation_label": 0
+        },
+        "000052.bmp": {
+            "degradation_label": 0
+        },
+        "000053.bmp": {
+            "degradation_label": 0
+        },
+        "000054.bmp": {
+            "degradation_label": 0
+        },
+        "000055.bmp": {
+            "degradation_label": 0
+        },
+        "000056.bmp": {
+            "degradation_label": 0
+        },
+        "000057.bmp": {
+            "degradation_label": 0
+        },
+        "000058.bmp": {
+            "degradation_label": 0
+        },
+        "000059.bmp": {
+            "degradation_label": 0
+        },
+        "000060.bmp": {
+            "degradation_label": 0
+        },
+        "000061.bmp": {
+            "degradation_label": 0
+        },
+        "000062.bmp": {
+            "degradation_label": 0
+        },
+        "000063.bmp": {
+            "degradation_label": 0
+        },
+        "000064.bmp": {
+            "degradation_label": 0
+        },
+        "000065.bmp": {
+            "degradation_label": 0
+        },
+        "000066.bmp": {
+            "degradation_label": 0
+        },
+        "000067.bmp": {
+            "degradation_label": 0
+        },
+        "000068.bmp": {
+            "degradation_label": 0
+        },
+        "000069.bmp": {
+            "degradation_label": 0
+        },
+        "000070.bmp": {
+            "degradation_label": 0
+        },
+        "000071.bmp": {
+            "degradation_label": 0
+        },
+        "000072.bmp": {
+            "degradation_label": 0
+        },
+        "000073.bmp": {
+            "degradation_label": 0
+        },
+        "000074.bmp": {
+            "degradation_label": 0
+        },
+        "000075.bmp": {
+            "degradation_label": 0
+        },
+        "000076.bmp": {
+            "degradation_label": 0
+        },
+        "000077.bmp": {
+            "degradation_label": 0
+        },
+        "000078.bmp": {
+            "degradation_label": 0
+        },
+        "000079.bmp": {
+            "degradation_label": 0
+        },
+        "000080.bmp": {
+            "degradation_label": 0
+        },
+        "000081.bmp": {
+            "degradation_label": 0
+        },
+        "000082.bmp": {
+            "degradation_label": 0
+        },
+        "000083.bmp": {
+            "degradation_label": 0
+        },
+        "000084.bmp": {
+            "degradation_label": 0
+        },
+        "000085.bmp": {
+            "degradation_label": 0
+        },
+        "000086.bmp": {
+            "degradation_label": 0
+        },
+        "000087.bmp": {
+            "degradation_label": 0
+        },
+        "000088.bmp": {
+            "degradation_label": 0
+        },
+        "000089.bmp": {
+            "degradation_label": 0
+        },
+        "000090.bmp": {
+            "degradation_label": 0
+        },
+        "000091.bmp": {
+            "degradation_label": 0
+        },
+        "000092.bmp": {
+            "degradation_label": 0
+        },
+        "000093.bmp": {
+            "degradation_label": 0
+        },
+        "000094.bmp": {
+            "degradation_label": 0
+        },
+        "000095.bmp": {
+            "degradation_label": 0
+        },
+        "000096.bmp": {
+            "degradation_label": 0
+        },
+        "000097.bmp": {
+            "degradation_label": 0
+        },
+        "000098.bmp": {
+            "degradation_label": 0
+        },
+        "000099.bmp": {
+            "degradation_label": 0
+        },
+        "000100.bmp": {
+            "degradation_label": 0
+        },
+        "000101.bmp": {
+            "degradation_label": 0
+        },
+        "000102.bmp": {
+            "degradation_label": 0
+        },
+        "000103.bmp": {
+            "degradation_label": 0
+        },
+        "000104.bmp": {
+            "degradation_label": 0
+        },
+        "000105.bmp": {
+            "degradation_label": 0
+        },
+        "000106.bmp": {
+            "degradation_label": 0
+        },
+        "000107.bmp": {
+            "degradation_label": 0
+        },
+        "000108.bmp": {
+            "degradation_label": 0
+        },
+        "000109.bmp": {
+            "degradation_label": 0
+        },
+        "000110.bmp": {
+            "degradation_label": 0
+        },
+        "000111.bmp": {
+            "degradation_label": 0
+        },
+        "000112.bmp": {
+            "degradation_label": 0
+        },
+        "000113.bmp": {
+            "degradation_label": 0
+        },
+        "000114.bmp": {
+            "degradation_label": 0
+        },
+        "000115.bmp": {
+            "degradation_label": 0
+        },
+        "000116.bmp": {
+            "degradation_label": 0
+        },
+        "000117.bmp": {
+            "degradation_label": 0
+        },
+        "000118.bmp": {
+            "degradation_label": 0
+        },
+        "000119.bmp": {
+            "degradation_label": 0
+        },
+        "000120.bmp": {
+            "degradation_label": 0
+        },
+        "000121.bmp": {
+            "degradation_label": 0
+        },
+        "000122.bmp": {
+            "degradation_label": 0
+        },
+        "000123.bmp": {
+            "degradation_label": 0
+        },
+        "000124.bmp": {
+            "degradation_label": 0
+        },
+        "000125.bmp": {
+            "degradation_label": 0
+        },
+        "000126.bmp": {
+            "degradation_label": 0
+        },
+        "000127.bmp": {
+            "degradation_label": 0
+        },
+        "000128.bmp": {
+            "degradation_label": 0
+        },
+        "000129.bmp": {
+            "degradation_label": 0
+        },
+        "000130.bmp": {
+            "degradation_label": 0
+        },
+        "000131.bmp": {
+            "degradation_label": 0
+        },
+        "000132.bmp": {
+            "degradation_label": 0
+        },
+        "000133.bmp": {
+            "degradation_label": 0
+        },
+        "000134.bmp": {
+            "degradation_label": 0
+        },
+        "000135.bmp": {
+            "degradation_label": 0
+        },
+        "000136.bmp": {
+            "degradation_label": 0
+        },
+        "000137.bmp": {
+            "degradation_label": 0
+        },
+        "000138.bmp": {
+            "degradation_label": 0
+        },
+        "000139.bmp": {
+            "degradation_label": 0
+        },
+        "000140.bmp": {
+            "degradation_label": 0
+        },
+        "000141.bmp": {
+            "degradation_label": 0
+        },
+        "000142.bmp": {
+            "degradation_label": 0
+        },
+        "000143.bmp": {
+            "degradation_label": 0
+        },
+        "000144.bmp": {
+            "degradation_label": 0
+        },
+        "000145.bmp": {
+            "degradation_label": 0
+        },
+        "000146.bmp": {
+            "degradation_label": 0
+        },
+        "000147.bmp": {
+            "degradation_label": 0
+        },
+        "000148.bmp": {
+            "degradation_label": 0
+        },
+        "000149.bmp": {
+            "degradation_label": 0
+        },
+        "000150.bmp": {
+            "degradation_label": 0
+        },
+        "000151.bmp": {
+            "degradation_label": 0
+        },
+        "000152.bmp": {
+            "degradation_label": 0
+        },
+        "000153.bmp": {
+            "degradation_label": 0
+        },
+        "000154.bmp": {
+            "degradation_label": 0
+        },
+        "000155.bmp": {
+            "degradation_label": 0
+        },
+        "000156.bmp": {
+            "degradation_label": 0
+        },
+        "000157.bmp": {
+            "degradation_label": 0
+        },
+        "000158.bmp": {
+            "degradation_label": 0
+        },
+        "000159.bmp": {
+            "degradation_label": 0
+        },
+        "000160.bmp": {
+            "degradation_label": 0
+        },
+        "000161.bmp": {
+            "degradation_label": 0
+        },
+        "000162.bmp": {
+            "degradation_label": 0
+        },
+        "000163.bmp": {
+            "degradation_label": 0
+        },
+        "000164.bmp": {
+            "degradation_label": 0
+        },
+        "000165.bmp": {
+            "degradation_label": 0
+        },
+        "000166.bmp": {
+            "degradation_label": 0
+        },
+        "000167.bmp": {
+            "degradation_label": 0
+        },
+        "000168.bmp": {
+            "degradation_label": 0
+        },
+        "000169.bmp": {
+            "degradation_label": 0
+        },
+        "000170.bmp": {
+            "degradation_label": 0
+        },
+        "000171.bmp": {
+            "degradation_label": 0
+        },
+        "000172.bmp": {
+            "degradation_label": 0
+        },
+        "000173.bmp": {
+            "degradation_label": 0
+        },
+        "000174.bmp": {
+            "degradation_label": 0
+        },
+        "000175.bmp": {
+            "degradation_label": 0
+        },
+        "000176.bmp": {
+            "degradation_label": 0
+        },
+        "000177.bmp": {
+            "degradation_label": 0
+        },
+        "000178.bmp": {
+            "degradation_label": 0
+        },
+        "000179.bmp": {
+            "degradation_label": 0
+        },
+        "000180.bmp": {
+            "degradation_label": 0
+        },
+        "000181.bmp": {
+            "degradation_label": 0
+        },
+        "000182.bmp": {
+            "degradation_label": 0
+        },
+        "000183.bmp": {
+            "degradation_label": 0
+        },
+        "000184.bmp": {
+            "degradation_label": 0
+        },
+        "000185.bmp": {
+            "degradation_label": 0
+        },
+        "000186.bmp": {
+            "degradation_label": 0
+        },
+        "000187.bmp": {
+            "degradation_label": 0
+        },
+        "000188.bmp": {
+            "degradation_label": 0
+        },
+        "000189.bmp": {
+            "degradation_label": 0
+        },
+        "000190.bmp": {
+            "degradation_label": 0
+        },
+        "000191.bmp": {
+            "degradation_label": 0
+        },
+        "000192.bmp": {
+            "degradation_label": 0
+        },
+        "000193.bmp": {
+            "degradation_label": 0
+        },
+        "000194.bmp": {
+            "degradation_label": 0
+        },
+        "000195.bmp": {
+            "degradation_label": 0
+        },
+        "000196.bmp": {
+            "degradation_label": 0
+        },
+        "000197.bmp": {
+            "degradation_label": 0
+        },
+        "000198.bmp": {
+            "degradation_label": 0
+        },
+        "000199.bmp": {
+            "degradation_label": 0
+        },
+        "000200.bmp": {
+            "degradation_label": 0
+        },
+        "000201.bmp": {
+            "degradation_label": 0
+        },
+        "000202.bmp": {
+            "degradation_label": 0
+        },
+        "000203.bmp": {
+            "degradation_label": 0
+        },
+        "000204.bmp": {
+            "degradation_label": 0
+        },
+        "000205.bmp": {
+            "degradation_label": 0
+        },
+        "000206.bmp": {
+            "degradation_label": 0
+        },
+        "000207.bmp": {
+            "degradation_label": 0
+        },
+        "000208.bmp": {
+            "degradation_label": 0
+        },
+        "000209.bmp": {
+            "degradation_label": 0
+        },
+        "000210.bmp": {
+            "degradation_label": 0
+        },
+        "000211.bmp": {
+            "degradation_label": 0
+        },
+        "000212.bmp": {
+            "degradation_label": 0
+        },
+        "000213.bmp": {
+            "degradation_label": 0
+        },
+        "000214.bmp": {
+            "degradation_label": 0
+        },
+        "000215.bmp": {
+            "degradation_label": 0
+        },
+        "000216.bmp": {
+            "degradation_label": 0
+        },
+        "000217.bmp": {
+            "degradation_label": 0
+        },
+        "000218.bmp": {
+            "degradation_label": 0
+        },
+        "000219.bmp": {
+            "degradation_label": 0
+        },
+        "000220.bmp": {
+            "degradation_label": 0
+        },
+        "000221.bmp": {
+            "degradation_label": 0
+        },
+        "000222.bmp": {
+            "degradation_label": 0
+        },
+        "000223.bmp": {
+            "degradation_label": 0
+        },
+        "000224.bmp": {
+            "degradation_label": 0
+        },
+        "000225.bmp": {
+            "degradation_label": 0
+        },
+        "000226.bmp": {
+            "degradation_label": 0
+        },
+        "000227.bmp": {
+            "degradation_label": 0
+        },
+        "000228.bmp": {
+            "degradation_label": 0
+        },
+        "000229.bmp": {
+            "degradation_label": 0
+        },
+        "000230.bmp": {
+            "degradation_label": 0
+        },
+        "000231.bmp": {
+            "degradation_label": 0
+        },
+        "000232.bmp": {
+            "degradation_label": 0
+        },
+        "000233.bmp": {
+            "degradation_label": 0
+        },
+        "000234.bmp": {
+            "degradation_label": 0
+        },
+        "000235.bmp": {
+            "degradation_label": 0
+        },
+        "000236.bmp": {
+            "degradation_label": 0
+        },
+        "000237.bmp": {
+            "degradation_label": 0
+        },
+        "000238.bmp": {
+            "degradation_label": 0
+        },
+        "000239.bmp": {
+            "degradation_label": 0
+        },
+        "000240.bmp": {
+            "degradation_label": 0
+        },
+        "000241.bmp": {
+            "degradation_label": 0
+        },
+        "000242.bmp": {
+            "degradation_label": 0
+        },
+        "000243.bmp": {
+            "degradation_label": 0
+        },
+        "000244.bmp": {
+            "degradation_label": 0
+        },
+        "000245.bmp": {
+            "degradation_label": 0
+        },
+        "000246.bmp": {
+            "degradation_label": 0
+        },
+        "000247.bmp": {
+            "degradation_label": 0
+        },
+        "000248.bmp": {
+            "degradation_label": 0
+        },
+        "000249.bmp": {
+            "degradation_label": 0
+        },
+        "000250.bmp": {
+            "degradation_label": 0
+        },
+        "000251.bmp": {
+            "degradation_label": 0
+        },
+        "000252.bmp": {
+            "degradation_label": 0
+        },
+        "000253.bmp": {
+            "degradation_label": 0
+        },
+        "000254.bmp": {
+            "degradation_label": 0
+        },
+        "000255.bmp": {
+            "degradation_label": 1
+        },
+        "000256.bmp": {
+            "degradation_label": 0
+        },
+        "000257.bmp": {
+            "degradation_label": 0
+        },
+        "000258.bmp": {
+            "degradation_label": 0
+        },
+        "000259.bmp": {
+            "degradation_label": 0
+        },
+        "000260.bmp": {
+            "degradation_label": 0
+        },
+        "000261.bmp": {
+            "degradation_label": 0
+        },
+        "000262.bmp": {
+            "degradation_label": 0
+        },
+        "000263.bmp": {
+            "degradation_label": 0
+        },
+        "000264.bmp": {
+            "degradation_label": 0
+        },
+        "000265.bmp": {
+            "degradation_label": 0
+        },
+        "000266.bmp": {
+            "degradation_label": 0
+        },
+        "000267.bmp": {
+            "degradation_label": 0
+        },
+        "000268.bmp": {
+            "degradation_label": 0
+        },
+        "000269.bmp": {
+            "degradation_label": 0
+        },
+        "000270.bmp": {
+            "degradation_label": 0
+        },
+        "000271.bmp": {
+            "degradation_label": 0
+        },
+        "000272.bmp": {
+            "degradation_label": 0
+        },
+        "000273.bmp": {
+            "degradation_label": 0
+        },
+        "000274.bmp": {
+            "degradation_label": 0
+        },
+        "000275.bmp": {
+            "degradation_label": 0
+        },
+        "000276.bmp": {
+            "degradation_label": 0
+        },
+        "000277.bmp": {
+            "degradation_label": 0
+        },
+        "000278.bmp": {
+            "degradation_label": 0
+        },
+        "000279.bmp": {
+            "degradation_label": 0
+        },
+        "000280.bmp": {
+            "degradation_label": 0
+        },
+        "000281.bmp": {
+            "degradation_label": 0
+        },
+        "000282.bmp": {
+            "degradation_label": 0
+        },
+        "000283.bmp": {
+            "degradation_label": 0
+        },
+        "000284.bmp": {
+            "degradation_label": 0
+        },
+        "000285.bmp": {
+            "degradation_label": 0
+        },
+        "000286.bmp": {
+            "degradation_label": 0
+        },
+        "000287.bmp": {
+            "degradation_label": 0
+        },
+        "000288.bmp": {
+            "degradation_label": 0
+        },
+        "000289.bmp": {
+            "degradation_label": 0
+        },
+        "000290.bmp": {
+            "degradation_label": 0
+        },
+        "000291.bmp": {
+            "degradation_label": 0
+        },
+        "000292.bmp": {
+            "degradation_label": 0
+        },
+        "000293.bmp": {
+            "degradation_label": 0
+        },
+        "000294.bmp": {
+            "degradation_label": 0
+        },
+        "000295.bmp": {
+            "degradation_label": 0
+        },
+        "000296.bmp": {
+            "degradation_label": 0
+        },
+        "000297.bmp": {
+            "degradation_label": 0
+        },
+        "000298.bmp": {
+            "degradation_label": 0
+        },
+        "000299.bmp": {
+            "degradation_label": 0
+        },
+        "000300.bmp": {
+            "degradation_label": 0
+        },
+        "000301.bmp": {
+            "degradation_label": 0
+        },
+        "000302.bmp": {
+            "degradation_label": 0
+        },
+        "000303.bmp": {
+            "degradation_label": 0
+        },
+        "000304.bmp": {
+            "degradation_label": 0
+        },
+        "000305.bmp": {
+            "degradation_label": 0
+        },
+        "000306.bmp": {
+            "degradation_label": 0
+        },
+        "000307.bmp": {
+            "degradation_label": 0
+        },
+        "000308.bmp": {
+            "degradation_label": 0
+        },
+        "000309.bmp": {
+            "degradation_label": 0
+        },
+        "000310.bmp": {
+            "degradation_label": 0
+        },
+        "000311.bmp": {
+            "degradation_label": 0
+        },
+        "000312.bmp": {
+            "degradation_label": 0
+        },
+        "000313.bmp": {
+            "degradation_label": 0
+        },
+        "000314.bmp": {
+            "degradation_label": 0
+        },
+        "000315.bmp": {
+            "degradation_label": 0
+        },
+        "000316.bmp": {
+            "degradation_label": 0
+        },
+        "000317.bmp": {
+            "degradation_label": 0
+        },
+        "000318.bmp": {
+            "degradation_label": 0
+        },
+        "000319.bmp": {
+            "degradation_label": 0
+        },
+        "000320.bmp": {
+            "degradation_label": 0
+        },
+        "000321.bmp": {
+            "degradation_label": 0
+        },
+        "000322.bmp": {
+            "degradation_label": 0
+        },
+        "000323.bmp": {
+            "degradation_label": 0
+        },
+        "000324.bmp": {
+            "degradation_label": 0
+        },
+        "000325.bmp": {
+            "degradation_label": 0
+        },
+        "000326.bmp": {
+            "degradation_label": 0
+        },
+        "000327.bmp": {
+            "degradation_label": 0
+        },
+        "000328.bmp": {
+            "degradation_label": 0
+        },
+        "000329.bmp": {
+            "degradation_label": 0
+        },
+        "000330.bmp": {
+            "degradation_label": 0
+        },
+        "000331.bmp": {
+            "degradation_label": 0
+        },
+        "000332.bmp": {
+            "degradation_label": 0
+        },
+        "000333.bmp": {
+            "degradation_label": 0
+        },
+        "000334.bmp": {
+            "degradation_label": 0
+        },
+        "000335.bmp": {
+            "degradation_label": 0
+        },
+        "000336.bmp": {
+            "degradation_label": 0
+        },
+        "000337.bmp": {
+            "degradation_label": 0
+        },
+        "000338.bmp": {
+            "degradation_label": 0
+        },
+        "000339.bmp": {
+            "degradation_label": 0
+        },
+        "000340.bmp": {
+            "degradation_label": 0
+        },
+        "000341.bmp": {
+            "degradation_label": 0
+        },
+        "000342.bmp": {
+            "degradation_label": 0
+        },
+        "000343.bmp": {
+            "degradation_label": 0
+        },
+        "000344.bmp": {
+            "degradation_label": 0
+        },
+        "000345.bmp": {
+            "degradation_label": 0
+        },
+        "000346.bmp": {
+            "degradation_label": 0
+        },
+        "000347.bmp": {
+            "degradation_label": 0
+        },
+        "000348.bmp": {
+            "degradation_label": 0
+        },
+        "000349.bmp": {
+            "degradation_label": 0
+        },
+        "000350.bmp": {
+            "degradation_label": 0
+        },
+        "000351.bmp": {
+            "degradation_label": 0
+        },
+        "000352.bmp": {
+            "degradation_label": 0
+        },
+        "000353.bmp": {
+            "degradation_label": 0
+        },
+        "000354.bmp": {
+            "degradation_label": 0
+        },
+        "000355.bmp": {
+            "degradation_label": 0
+        },
+        "000356.bmp": {
+            "degradation_label": 0
+        },
+        "000357.bmp": {
+            "degradation_label": 0
+        },
+        "000358.bmp": {
+            "degradation_label": 0
+        },
+        "000359.bmp": {
+            "degradation_label": 0
+        },
+        "000360.bmp": {
+            "degradation_label": 0
+        },
+        "000361.bmp": {
+            "degradation_label": 0
+        },
+        "000362.bmp": {
+            "degradation_label": 0
+        },
+        "000363.bmp": {
+            "degradation_label": 0
+        },
+        "000364.bmp": {
+            "degradation_label": 0
+        },
+        "000365.bmp": {
+            "degradation_label": 0
+        },
+        "000366.bmp": {
+            "degradation_label": 0
+        },
+        "000367.bmp": {
+            "degradation_label": 0
+        },
+        "000368.bmp": {
+            "degradation_label": 0
+        },
+        "000369.bmp": {
+            "degradation_label": 0
+        },
+        "000370.bmp": {
+            "degradation_label": 0
+        },
+        "000371.bmp": {
+            "degradation_label": 0
+        },
+        "000372.bmp": {
+            "degradation_label": 0
+        },
+        "000373.bmp": {
+            "degradation_label": 0
+        },
+        "000374.bmp": {
+            "degradation_label": 0
+        },
+        "000375.bmp": {
+            "degradation_label": 0
+        },
+        "000376.bmp": {
+            "degradation_label": 0
+        },
+        "000377.bmp": {
+            "degradation_label": 0
+        },
+        "000378.bmp": {
+            "degradation_label": 0
+        },
+        "000379.bmp": {
+            "degradation_label": 0
+        },
+        "000380.bmp": {
+            "degradation_label": 0
+        },
+        "000381.bmp": {
+            "degradation_label": 0
+        },
+        "000382.bmp": {
+            "degradation_label": 0
+        },
+        "000383.bmp": {
+            "degradation_label": 0
+        },
+        "000384.bmp": {
+            "degradation_label": 0
+        },
+        "000385.bmp": {
+            "degradation_label": 0
+        },
+        "000386.bmp": {
+            "degradation_label": 0
+        },
+        "000387.bmp": {
+            "degradation_label": 0
+        },
+        "000388.bmp": {
+            "degradation_label": 0
+        },
+        "000389.bmp": {
+            "degradation_label": 0
+        },
+        "000390.bmp": {
+            "degradation_label": 0
+        },
+        "000391.bmp": {
+            "degradation_label": 0
+        },
+        "000392.bmp": {
+            "degradation_label": 0
+        },
+        "000393.bmp": {
+            "degradation_label": 0
+        },
+        "000394.bmp": {
+            "degradation_label": 0
+        },
+        "000395.bmp": {
+            "degradation_label": 0
+        },
+        "000396.bmp": {
+            "degradation_label": 0
+        },
+        "000397.bmp": {
+            "degradation_label": 0
+        },
+        "000398.bmp": {
+            "degradation_label": 0
+        },
+        "000399.bmp": {
+            "degradation_label": 0
+        },
+        "000400.bmp": {
+            "degradation_label": 0
+        },
+        "000401.bmp": {
+            "degradation_label": 0
+        },
+        "000402.bmp": {
+            "degradation_label": 0
+        },
+        "000403.bmp": {
+            "degradation_label": 0
+        },
+        "000404.bmp": {
+            "degradation_label": 0
+        },
+        "000405.bmp": {
+            "degradation_label": 0
+        },
+        "000406.bmp": {
+            "degradation_label": 0
+        },
+        "000407.bmp": {
+            "degradation_label": 0
+        },
+        "000408.bmp": {
+            "degradation_label": 0
+        },
+        "000409.bmp": {
+            "degradation_label": 0
+        },
+        "000410.bmp": {
+            "degradation_label": 0
+        },
+        "000411.bmp": {
+            "degradation_label": 0
+        },
+        "000412.bmp": {
+            "degradation_label": 0
+        },
+        "000413.bmp": {
+            "degradation_label": 0
+        },
+        "000414.bmp": {
+            "degradation_label": 0
+        },
+        "000415.bmp": {
+            "degradation_label": 0
+        },
+        "000416.bmp": {
+            "degradation_label": 0
+        },
+        "000417.bmp": {
+            "degradation_label": 0
+        },
+        "000418.bmp": {
+            "degradation_label": 0
+        },
+        "000419.bmp": {
+            "degradation_label": 0
+        },
+        "000420.bmp": {
+            "degradation_label": 0
+        },
+        "000421.bmp": {
+            "degradation_label": 0
+        },
+        "000422.bmp": {
+            "degradation_label": 0
+        },
+        "000423.bmp": {
+            "degradation_label": 0
+        },
+        "000424.bmp": {
+            "degradation_label": 0
+        },
+        "000425.bmp": {
+            "degradation_label": 0
+        },
+        "000426.bmp": {
+            "degradation_label": 0
+        },
+        "000427.bmp": {
+            "degradation_label": 0
+        },
+        "000428.bmp": {
+            "degradation_label": 0
+        },
+        "000429.bmp": {
+            "degradation_label": 0
+        },
+        "000430.bmp": {
+            "degradation_label": 0
+        },
+        "000431.bmp": {
+            "degradation_label": 0
+        },
+        "000432.bmp": {
+            "degradation_label": 0
+        },
+        "000433.bmp": {
+            "degradation_label": 0
+        },
+        "000434.bmp": {
+            "degradation_label": 0
+        },
+        "000435.bmp": {
+            "degradation_label": 0
+        },
+        "000436.bmp": {
+            "degradation_label": 0
+        },
+        "000437.bmp": {
+            "degradation_label": 0
+        },
+        "000438.bmp": {
+            "degradation_label": 0
+        },
+        "000439.bmp": {
+            "degradation_label": 0
+        },
+        "000440.bmp": {
+            "degradation_label": 0
+        },
+        "000441.bmp": {
+            "degradation_label": 0
+        },
+        "000442.bmp": {
+            "degradation_label": 0
+        },
+        "000443.bmp": {
+            "degradation_label": 0
+        },
+        "000444.bmp": {
+            "degradation_label": 0
+        },
+        "000445.bmp": {
+            "degradation_label": 0
+        },
+        "000446.bmp": {
+            "degradation_label": 0
+        },
+        "000447.bmp": {
+            "degradation_label": 0
+        },
+        "000448.bmp": {
+            "degradation_label": 0
+        },
+        "000449.bmp": {
+            "degradation_label": 0
+        },
+        "000450.bmp": {
+            "degradation_label": 0
+        },
+        "000451.bmp": {
+            "degradation_label": 0
+        },
+        "000452.bmp": {
+            "degradation_label": 0
+        },
+        "000453.bmp": {
+            "degradation_label": 0
+        },
+        "000454.bmp": {
+            "degradation_label": 0
+        },
+        "000455.bmp": {
+            "degradation_label": 0
+        },
+        "000456.bmp": {
+            "degradation_label": 0
+        },
+        "000457.bmp": {
+            "degradation_label": 0
+        },
+        "000458.bmp": {
+            "degradation_label": 0
+        },
+        "000459.bmp": {
+            "degradation_label": 0
+        },
+        "000460.bmp": {
+            "degradation_label": 0
+        },
+        "000461.bmp": {
+            "degradation_label": 0
+        },
+        "000462.bmp": {
+            "degradation_label": 0
+        },
+        "000463.bmp": {
+            "degradation_label": 0
+        },
+        "000464.bmp": {
+            "degradation_label": 0
+        },
+        "000465.bmp": {
+            "degradation_label": 0
+        },
+        "000466.bmp": {
+            "degradation_label": 0
+        },
+        "000467.bmp": {
+            "degradation_label": 0
+        },
+        "000468.bmp": {
+            "degradation_label": 0
+        },
+        "000469.bmp": {
+            "degradation_label": 0
+        },
+        "000470.bmp": {
+            "degradation_label": 0
+        },
+        "000471.bmp": {
+            "degradation_label": 0
+        },
+        "000472.bmp": {
+            "degradation_label": 0
+        },
+        "000473.bmp": {
+            "degradation_label": 0
+        },
+        "000474.bmp": {
+            "degradation_label": 0
+        },
+        "000475.bmp": {
+            "degradation_label": 0
+        },
+        "000476.bmp": {
+            "degradation_label": 0
+        },
+        "000477.bmp": {
+            "degradation_label": 0
+        },
+        "000478.bmp": {
+            "degradation_label": 0
+        },
+        "000479.bmp": {
+            "degradation_label": 0
+        },
+        "000480.bmp": {
+            "degradation_label": 0
+        },
+        "000481.bmp": {
+            "degradation_label": 0
+        },
+        "000482.bmp": {
+            "degradation_label": 0
+        },
+        "000483.bmp": {
+            "degradation_label": 0
+        },
+        "000484.bmp": {
+            "degradation_label": 0
+        },
+        "000485.bmp": {
+            "degradation_label": 0
+        },
+        "000486.bmp": {
+            "degradation_label": 0
+        },
+        "000487.bmp": {
+            "degradation_label": 0
+        },
+        "000488.bmp": {
+            "degradation_label": 0
+        },
+        "000489.bmp": {
+            "degradation_label": 0
+        },
+        "000490.bmp": {
+            "degradation_label": 0
+        },
+        "000491.bmp": {
+            "degradation_label": 0
+        },
+        "000492.bmp": {
+            "degradation_label": 0
+        },
+        "000493.bmp": {
+            "degradation_label": 0
+        },
+        "000494.bmp": {
+            "degradation_label": 0
+        },
+        "000495.bmp": {
+            "degradation_label": 0
+        },
+        "000496.bmp": {
+            "degradation_label": 0
+        },
+        "000497.bmp": {
+            "degradation_label": 0
+        },
+        "000498.bmp": {
+            "degradation_label": 0
+        },
+        "000499.bmp": {
+            "degradation_label": 0
+        },
+        "000500.bmp": {
+            "degradation_label": 0
+        },
+        "000501.bmp": {
+            "degradation_label": 0
+        },
+        "000502.bmp": {
+            "degradation_label": 0
+        },
+        "000503.bmp": {
+            "degradation_label": 0
+        },
+        "000504.bmp": {
+            "degradation_label": 0
+        },
+        "000505.bmp": {
+            "degradation_label": 0
+        },
+        "000506.bmp": {
+            "degradation_label": 0
+        },
+        "000507.bmp": {
+            "degradation_label": 0
+        },
+        "000508.bmp": {
+            "degradation_label": 0
+        },
+        "000509.bmp": {
+            "degradation_label": 0
+        },
+        "000510.bmp": {
+            "degradation_label": 0
+        },
+        "000511.bmp": {
+            "degradation_label": 0
+        },
+        "000512.bmp": {
+            "degradation_label": 0
+        },
+        "000513.bmp": {
+            "degradation_label": 0
+        },
+        "000514.bmp": {
+            "degradation_label": 0
+        },
+        "000515.bmp": {
+            "degradation_label": 0
+        },
+        "000516.bmp": {
+            "degradation_label": 0
+        },
+        "000517.bmp": {
+            "degradation_label": 0
+        },
+        "000518.bmp": {
+            "degradation_label": 0
+        },
+        "000519.bmp": {
+            "degradation_label": 0
+        },
+        "000520.bmp": {
+            "degradation_label": 0
+        },
+        "000521.bmp": {
+            "degradation_label": 0
+        },
+        "000522.bmp": {
+            "degradation_label": 0
+        },
+        "000523.bmp": {
+            "degradation_label": 0
+        },
+        "000524.bmp": {
+            "degradation_label": 0
+        },
+        "000525.bmp": {
+            "degradation_label": 0
+        },
+        "000526.bmp": {
+            "degradation_label": 1
+        },
+        "000527.bmp": {
+            "degradation_label": 1
+        },
+        "000528.bmp": {
+            "degradation_label": 1
+        },
+        "000529.bmp": {
+            "degradation_label": 0
+        },
+        "000530.bmp": {
+            "degradation_label": 1
+        },
+        "000531.bmp": {
+            "degradation_label": 1
+        },
+        "000532.bmp": {
+            "degradation_label": 1
+        },
+        "000533.bmp": {
+            "degradation_label": 1
+        },
+        "000534.bmp": {
+            "degradation_label": 1
+        },
+        "000535.bmp": {
+            "degradation_label": 1
+        },
+        "000536.bmp": {
+            "degradation_label": 0
+        },
+        "000537.bmp": {
+            "degradation_label": 0
+        },
+        "000538.bmp": {
+            "degradation_label": 1
+        },
+        "000539.bmp": {
+            "degradation_label": 1
+        },
+        "000540.bmp": {
+            "degradation_label": 1
+        },
+        "000541.bmp": {
+            "degradation_label": 1
+        },
+        "000542.bmp": {
+            "degradation_label": 1
+        },
+        "000543.bmp": {
+            "degradation_label": 1
+        },
+        "000544.bmp": {
+            "degradation_label": 1
+        },
+        "000545.bmp": {
+            "degradation_label": 0
+        },
+        "000546.bmp": {
+            "degradation_label": 0
+        },
+        "000547.bmp": {
+            "degradation_label": 0
+        },
+        "000548.bmp": {
+            "degradation_label": 0
+        },
+        "000549.bmp": {
+            "degradation_label": 0
+        },
+        "000550.bmp": {
+            "degradation_label": 0
+        },
+        "000551.bmp": {
+            "degradation_label": 0
+        },
+        "000552.bmp": {
+            "degradation_label": 0
+        },
+        "000553.bmp": {
+            "degradation_label": 0
+        },
+        "000554.bmp": {
+            "degradation_label": 0
+        },
+        "000555.bmp": {
+            "degradation_label": 0
+        },
+        "000556.bmp": {
+            "degradation_label": 0
+        },
+        "000557.bmp": {
+            "degradation_label": 0
+        },
+        "000558.bmp": {
+            "degradation_label": 0
+        },
+        "000559.bmp": {
+            "degradation_label": 0
+        },
+        "000560.bmp": {
+            "degradation_label": 0
+        },
+        "000561.bmp": {
+            "degradation_label": 0
+        },
+        "000562.bmp": {
+            "degradation_label": 0
+        },
+        "000563.bmp": {
+            "degradation_label": 0
+        },
+        "000564.bmp": {
+            "degradation_label": 0
+        },
+        "000565.bmp": {
+            "degradation_label": 0
+        },
+        "000566.bmp": {
+            "degradation_label": 0
+        },
+        "000567.bmp": {
+            "degradation_label": 0
+        },
+        "000568.bmp": {
+            "degradation_label": 0
+        },
+        "000569.bmp": {
+            "degradation_label": 0
+        },
+        "000570.bmp": {
+            "degradation_label": 0
+        },
+        "000571.bmp": {
+            "degradation_label": 0
+        },
+        "000572.bmp": {
+            "degradation_label": 0
+        },
+        "000573.bmp": {
+            "degradation_label": 0
+        },
+        "000574.bmp": {
+            "degradation_label": 0
+        },
+        "000575.bmp": {
+            "degradation_label": 0
+        },
+        "000576.bmp": {
+            "degradation_label": 0
+        },
+        "000577.bmp": {
+            "degradation_label": 0
+        },
+        "000578.bmp": {
+            "degradation_label": 0
+        },
+        "000579.bmp": {
+            "degradation_label": 0
+        },
+        "000580.bmp": {
+            "degradation_label": 0
+        },
+        "000581.bmp": {
+            "degradation_label": 0
+        },
+        "000582.bmp": {
+            "degradation_label": 0
+        },
+        "000583.bmp": {
+            "degradation_label": 0
+        },
+        "000584.bmp": {
+            "degradation_label": 0
+        },
+        "000585.bmp": {
+            "degradation_label": 0
+        },
+        "000586.bmp": {
+            "degradation_label": 0
+        },
+        "000587.bmp": {
+            "degradation_label": 0
+        },
+        "000588.bmp": {
+            "degradation_label": 0
+        },
+        "000589.bmp": {
+            "degradation_label": 0
+        },
+        "000590.bmp": {
+            "degradation_label": 0
+        },
+        "000591.bmp": {
+            "degradation_label": 0
+        },
+        "000592.bmp": {
+            "degradation_label": 0
+        },
+        "000593.bmp": {
+            "degradation_label": 0
+        },
+        "000594.bmp": {
+            "degradation_label": 0
+        },
+        "000595.bmp": {
+            "degradation_label": 0
+        },
+        "000596.bmp": {
+            "degradation_label": 0
+        },
+        "000597.bmp": {
+            "degradation_label": 0
+        },
+        "000598.bmp": {
+            "degradation_label": 0
+        },
+        "000599.bmp": {
+            "degradation_label": 0
+        },
+        "000600.bmp": {
+            "degradation_label": 0
+        },
+        "000601.bmp": {
+            "degradation_label": 0
+        },
+        "000602.bmp": {
+            "degradation_label": 0
+        },
+        "000603.bmp": {
+            "degradation_label": 0
+        },
+        "000604.bmp": {
+            "degradation_label": 0
+        },
+        "000605.bmp": {
+            "degradation_label": 0
+        },
+        "000606.bmp": {
+            "degradation_label": 0
+        },
+        "000607.bmp": {
+            "degradation_label": 0
+        },
+        "000608.bmp": {
+            "degradation_label": 0
+        },
+        "000609.bmp": {
+            "degradation_label": 0
+        },
+        "000610.bmp": {
+            "degradation_label": 0
+        },
+        "000611.bmp": {
+            "degradation_label": 0
+        },
+        "000612.bmp": {
+            "degradation_label": 0
+        },
+        "000613.bmp": {
+            "degradation_label": 0
+        },
+        "000614.bmp": {
+            "degradation_label": 0
+        },
+        "000615.bmp": {
+            "degradation_label": 0
+        },
+        "000616.bmp": {
+            "degradation_label": 0
+        },
+        "000617.bmp": {
+            "degradation_label": 0
+        },
+        "000618.bmp": {
+            "degradation_label": 0
+        },
+        "000619.bmp": {
+            "degradation_label": 0
+        },
+        "000620.bmp": {
+            "degradation_label": 0
+        },
+        "000621.bmp": {
+            "degradation_label": 0
+        },
+        "000622.bmp": {
+            "degradation_label": 0
+        },
+        "000623.bmp": {
+            "degradation_label": 1
+        },
+        "000624.bmp": {
+            "degradation_label": 1
+        },
+        "000625.bmp": {
+            "degradation_label": 1
+        },
+        "000626.bmp": {
+            "degradation_label": 1
+        },
+        "000627.bmp": {
+            "degradation_label": 1
+        },
+        "000628.bmp": {
+            "degradation_label": 0
+        },
+        "000629.bmp": {
+            "degradation_label": 0
+        },
+        "000630.bmp": {
+            "degradation_label": 0
+        },
+        "000631.bmp": {
+            "degradation_label": 0
+        },
+        "000632.bmp": {
+            "degradation_label": 0
+        },
+        "000633.bmp": {
+            "degradation_label": 0
+        },
+        "000634.bmp": {
+            "degradation_label": 0
+        },
+        "000635.bmp": {
+            "degradation_label": 0
+        },
+        "000636.bmp": {
+            "degradation_label": 0
+        },
+        "000637.bmp": {
+            "degradation_label": 0
+        },
+        "000638.bmp": {
+            "degradation_label": 0
+        },
+        "000639.bmp": {
+            "degradation_label": 0
+        },
+        "000640.bmp": {
+            "degradation_label": 0
+        },
+        "000641.bmp": {
+            "degradation_label": 0
+        },
+        "000642.bmp": {
+            "degradation_label": 0
+        },
+        "000643.bmp": {
+            "degradation_label": 0
+        },
+        "000644.bmp": {
+            "degradation_label": 0
+        },
+        "000645.bmp": {
+            "degradation_label": 0
+        },
+        "000646.bmp": {
+            "degradation_label": 0
+        },
+        "000647.bmp": {
+            "degradation_label": 0
+        },
+        "000648.bmp": {
+            "degradation_label": 0
+        },
+        "000649.bmp": {
+            "degradation_label": 0
+        },
+        "000650.bmp": {
+            "degradation_label": 0
+        },
+        "000651.bmp": {
+            "degradation_label": 0
+        },
+        "000652.bmp": {
+            "degradation_label": 0
+        },
+        "000653.bmp": {
+            "degradation_label": 0
+        },
+        "000654.bmp": {
+            "degradation_label": 0
+        },
+        "000655.bmp": {
+            "degradation_label": 0
+        },
+        "000656.bmp": {
+            "degradation_label": 0
+        },
+        "000657.bmp": {
+            "degradation_label": 0
+        },
+        "000658.bmp": {
+            "degradation_label": 0
+        },
+        "000659.bmp": {
+            "degradation_label": 0
+        },
+        "000660.bmp": {
+            "degradation_label": 0
+        },
+        "000661.bmp": {
+            "degradation_label": 0
+        },
+        "000662.bmp": {
+            "degradation_label": 0
+        },
+        "000663.bmp": {
+            "degradation_label": 0
+        },
+        "000664.bmp": {
+            "degradation_label": 0
+        },
+        "000665.bmp": {
+            "degradation_label": 0
+        },
+        "000666.bmp": {
+            "degradation_label": 0
+        },
+        "000667.bmp": {
+            "degradation_label": 0
+        },
+        "000668.bmp": {
+            "degradation_label": 0
+        },
+        "000669.bmp": {
+            "degradation_label": 0
+        },
+        "000670.bmp": {
+            "degradation_label": 0
+        },
+        "000671.bmp": {
+            "degradation_label": 0
+        },
+        "000672.bmp": {
+            "degradation_label": 0
+        },
+        "000673.bmp": {
+            "degradation_label": 0
+        },
+        "000674.bmp": {
+            "degradation_label": 0
+        },
+        "000675.bmp": {
+            "degradation_label": 0
+        },
+        "000676.bmp": {
+            "degradation_label": 0
+        },
+        "000677.bmp": {
+            "degradation_label": 0
+        },
+        "000678.bmp": {
+            "degradation_label": 0
+        },
+        "000679.bmp": {
+            "degradation_label": 0
+        },
+        "000680.bmp": {
+            "degradation_label": 0
+        },
+        "000681.bmp": {
+            "degradation_label": 0
+        },
+        "000682.bmp": {
+            "degradation_label": 0
+        },
+        "000683.bmp": {
+            "degradation_label": 0
+        },
+        "000684.bmp": {
+            "degradation_label": 0
+        },
+        "000685.bmp": {
+            "degradation_label": 0
+        },
+        "000686.bmp": {
+            "degradation_label": 0
+        },
+        "000687.bmp": {
+            "degradation_label": 0
+        },
+        "000688.bmp": {
+            "degradation_label": 0
+        },
+        "000689.bmp": {
+            "degradation_label": 0
+        },
+        "000690.bmp": {
+            "degradation_label": 0
+        },
+        "000691.bmp": {
+            "degradation_label": 0
+        },
+        "000692.bmp": {
+            "degradation_label": 0
+        },
+        "000693.bmp": {
+            "degradation_label": 0
+        },
+        "000694.bmp": {
+            "degradation_label": 0
+        },
+        "000695.bmp": {
+            "degradation_label": 0
+        },
+        "000696.bmp": {
+            "degradation_label": 0
+        },
+        "000697.bmp": {
+            "degradation_label": 0
+        },
+        "000698.bmp": {
+            "degradation_label": 0
+        },
+        "000699.bmp": {
+            "degradation_label": 0
+        },
+        "000700.bmp": {
+            "degradation_label": 0
+        },
+        "000701.bmp": {
+            "degradation_label": 0
+        },
+        "000702.bmp": {
+            "degradation_label": 0
+        },
+        "000703.bmp": {
+            "degradation_label": 0
+        },
+        "000704.bmp": {
+            "degradation_label": 0
+        },
+        "000705.bmp": {
+            "degradation_label": 0
+        },
+        "000706.bmp": {
+            "degradation_label": 0
+        },
+        "000707.bmp": {
+            "degradation_label": 0
+        },
+        "000708.bmp": {
+            "degradation_label": 0
+        },
+        "000709.bmp": {
+            "degradation_label": 0
+        },
+        "000710.bmp": {
+            "degradation_label": 0
+        },
+        "000711.bmp": {
+            "degradation_label": 0
+        },
+        "000712.bmp": {
+            "degradation_label": 0
+        },
+        "000713.bmp": {
+            "degradation_label": 0
+        },
+        "000714.bmp": {
+            "degradation_label": 0
+        },
+        "000715.bmp": {
+            "degradation_label": 0
+        },
+        "000716.bmp": {
+            "degradation_label": 0
+        },
+        "000717.bmp": {
+            "degradation_label": 0
+        },
+        "000718.bmp": {
+            "degradation_label": 0
+        },
+        "000719.bmp": {
+            "degradation_label": 0
+        },
+        "000720.bmp": {
+            "degradation_label": 0
+        },
+        "000721.bmp": {
+            "degradation_label": 0
+        },
+        "000722.bmp": {
+            "degradation_label": 0
+        },
+        "000723.bmp": {
+            "degradation_label": 0
+        },
+        "000724.bmp": {
+            "degradation_label": 0
+        },
+        "000725.bmp": {
+            "degradation_label": 0
+        },
+        "000726.bmp": {
+            "degradation_label": 0
+        },
+        "000727.bmp": {
+            "degradation_label": 0
+        },
+        "000728.bmp": {
+            "degradation_label": 0
+        },
+        "000729.bmp": {
+            "degradation_label": 0
+        },
+        "000730.bmp": {
+            "degradation_label": 0
+        },
+        "000731.bmp": {
+            "degradation_label": 0
+        },
+        "000732.bmp": {
+            "degradation_label": 0
+        },
+        "000733.bmp": {
+            "degradation_label": 0
+        },
+        "000734.bmp": {
+            "degradation_label": 0
+        },
+        "000735.bmp": {
+            "degradation_label": 0
+        },
+        "000736.bmp": {
+            "degradation_label": 0
+        },
+        "000737.bmp": {
+            "degradation_label": 0
+        },
+        "000738.bmp": {
+            "degradation_label": 0
+        },
+        "000739.bmp": {
+            "degradation_label": 0
+        },
+        "000740.bmp": {
+            "degradation_label": 0
+        },
+        "000741.bmp": {
+            "degradation_label": 0
+        },
+        "000742.bmp": {
+            "degradation_label": 0
+        },
+        "000743.bmp": {
+            "degradation_label": 0
+        },
+        "000744.bmp": {
+            "degradation_label": 0
+        },
+        "000745.bmp": {
+            "degradation_label": 0
+        },
+        "000746.bmp": {
+            "degradation_label": 0
+        },
+        "000747.bmp": {
+            "degradation_label": 0
+        },
+        "000748.bmp": {
+            "degradation_label": 0
+        },
+        "000749.bmp": {
+            "degradation_label": 0
+        },
+        "000750.bmp": {
+            "degradation_label": 0
+        },
+        "000751.bmp": {
+            "degradation_label": 0
+        },
+        "000752.bmp": {
+            "degradation_label": 0
+        },
+        "000753.bmp": {
+            "degradation_label": 0
+        },
+        "000754.bmp": {
+            "degradation_label": 0
+        },
+        "000755.bmp": {
+            "degradation_label": 0
+        },
+        "000756.bmp": {
+            "degradation_label": 0
+        },
+        "000757.bmp": {
+            "degradation_label": 0
+        },
+        "000758.bmp": {
+            "degradation_label": 0
+        },
+        "000759.bmp": {
+            "degradation_label": 0
+        },
+        "000760.bmp": {
+            "degradation_label": 0
+        },
+        "000761.bmp": {
+            "degradation_label": 0
+        },
+        "000762.bmp": {
+            "degradation_label": 0
+        },
+        "000763.bmp": {
+            "degradation_label": 0
+        },
+        "000764.bmp": {
+            "degradation_label": 0
+        },
+        "000765.bmp": {
+            "degradation_label": 0
+        },
+        "000766.bmp": {
+            "degradation_label": 0
+        },
+        "000767.bmp": {
+            "degradation_label": 0
+        },
+        "000768.bmp": {
+            "degradation_label": 0
+        },
+        "000769.bmp": {
+            "degradation_label": 0
+        },
+        "000770.bmp": {
+            "degradation_label": 0
+        },
+        "000771.bmp": {
+            "degradation_label": 0
+        },
+        "000772.bmp": {
+            "degradation_label": 0
+        },
+        "000773.bmp": {
+            "degradation_label": 0
+        },
+        "000774.bmp": {
+            "degradation_label": 0
+        },
+        "000775.bmp": {
+            "degradation_label": 0
+        },
+        "000776.bmp": {
+            "degradation_label": 0
+        },
+        "000777.bmp": {
+            "degradation_label": 0
+        },
+        "000778.bmp": {
+            "degradation_label": 0
+        },
+        "000779.bmp": {
+            "degradation_label": 0
+        },
+        "000780.bmp": {
+            "degradation_label": 0
+        },
+        "000781.bmp": {
+            "degradation_label": 0
+        },
+        "000782.bmp": {
+            "degradation_label": 0
+        },
+        "000783.bmp": {
+            "degradation_label": 0
+        },
+        "000784.bmp": {
+            "degradation_label": 0
+        },
+        "000785.bmp": {
+            "degradation_label": 0
+        },
+        "000786.bmp": {
+            "degradation_label": 0
+        },
+        "000787.bmp": {
+            "degradation_label": 0
+        },
+        "000788.bmp": {
+            "degradation_label": 0
+        },
+        "000789.bmp": {
+            "degradation_label": 0
+        },
+        "000790.bmp": {
+            "degradation_label": 0
+        },
+        "000791.bmp": {
+            "degradation_label": 0
+        },
+        "000792.bmp": {
+            "degradation_label": 0
+        },
+        "000793.bmp": {
+            "degradation_label": 0
+        },
+        "000794.bmp": {
+            "degradation_label": 0
+        },
+        "000795.bmp": {
+            "degradation_label": 0
+        },
+        "000796.bmp": {
+            "degradation_label": 0
+        },
+        "000797.bmp": {
+            "degradation_label": 0
+        },
+        "000798.bmp": {
+            "degradation_label": 0
+        },
+        "000799.bmp": {
+            "degradation_label": 0
+        },
+        "000800.bmp": {
+            "degradation_label": 0
+        },
+        "000801.bmp": {
+            "degradation_label": 0
+        },
+        "000802.bmp": {
+            "degradation_label": 0
+        },
+        "000803.bmp": {
+            "degradation_label": 0
+        },
+        "000804.bmp": {
+            "degradation_label": 0
+        },
+        "000805.bmp": {
+            "degradation_label": 0
+        },
+        "000806.bmp": {
+            "degradation_label": 0
+        },
+        "000807.bmp": {
+            "degradation_label": 0
+        },
+        "000808.bmp": {
+            "degradation_label": 0
+        },
+        "000809.bmp": {
+            "degradation_label": 0
+        },
+        "000810.bmp": {
+            "degradation_label": 0
+        },
+        "000811.bmp": {
+            "degradation_label": 0
+        },
+        "000812.bmp": {
+            "degradation_label": 0
+        },
+        "000813.bmp": {
+            "degradation_label": 0
+        },
+        "000814.bmp": {
+            "degradation_label": 0
+        },
+        "000815.bmp": {
+            "degradation_label": 0
+        },
+        "000816.bmp": {
+            "degradation_label": 0
+        },
+        "000817.bmp": {
+            "degradation_label": 0
+        },
+        "000818.bmp": {
+            "degradation_label": 0
+        },
+        "000819.bmp": {
+            "degradation_label": 0
+        },
+        "000820.bmp": {
+            "degradation_label": 0
+        },
+        "000821.bmp": {
+            "degradation_label": 0
+        },
+        "000822.bmp": {
+            "degradation_label": 0
+        },
+        "000823.bmp": {
+            "degradation_label": 0
+        },
+        "000824.bmp": {
+            "degradation_label": 0
+        },
+        "000825.bmp": {
+            "degradation_label": 0
+        },
+        "000826.bmp": {
+            "degradation_label": 0
+        },
+        "000827.bmp": {
+            "degradation_label": 0
+        },
+        "000828.bmp": {
+            "degradation_label": 0
+        },
+        "000829.bmp": {
+            "degradation_label": 0
+        },
+        "000830.bmp": {
+            "degradation_label": 0
+        },
+        "000831.bmp": {
+            "degradation_label": 0
+        },
+        "000832.bmp": {
+            "degradation_label": 0
+        },
+        "000833.bmp": {
+            "degradation_label": 0
+        },
+        "000834.bmp": {
+            "degradation_label": 0
+        },
+        "000835.bmp": {
+            "degradation_label": 0
+        },
+        "000836.bmp": {
+            "degradation_label": 0
+        },
+        "000837.bmp": {
+            "degradation_label": 0
+        },
+        "000838.bmp": {
+            "degradation_label": 0
+        },
+        "000839.bmp": {
+            "degradation_label": 0
+        },
+        "000840.bmp": {
+            "degradation_label": 0
+        },
+        "000841.bmp": {
+            "degradation_label": 0
+        },
+        "000842.bmp": {
+            "degradation_label": 0
+        },
+        "000843.bmp": {
+            "degradation_label": 0
+        },
+        "000844.bmp": {
+            "degradation_label": 0
+        },
+        "000845.bmp": {
+            "degradation_label": 0
+        },
+        "000846.bmp": {
+            "degradation_label": 0
+        },
+        "000847.bmp": {
+            "degradation_label": 0
+        },
+        "000848.bmp": {
+            "degradation_label": 0
+        },
+        "000849.bmp": {
+            "degradation_label": 0
+        },
+        "000850.bmp": {
+            "degradation_label": 0
+        },
+        "000851.bmp": {
+            "degradation_label": 0
+        },
+        "000852.bmp": {
+            "degradation_label": 0
+        },
+        "000853.bmp": {
+            "degradation_label": 0
+        },
+        "000854.bmp": {
+            "degradation_label": 0
+        },
+        "000855.bmp": {
+            "degradation_label": 0
+        },
+        "000856.bmp": {
+            "degradation_label": 0
+        },
+        "000857.bmp": {
+            "degradation_label": 0
+        },
+        "000858.bmp": {
+            "degradation_label": 0
+        },
+        "000859.bmp": {
+            "degradation_label": 0
+        },
+        "000860.bmp": {
+            "degradation_label": 0
+        },
+        "000861.bmp": {
+            "degradation_label": 0
+        },
+        "000862.bmp": {
+            "degradation_label": 0
+        },
+        "000863.bmp": {
+            "degradation_label": 0
+        },
+        "000864.bmp": {
+            "degradation_label": 0
+        },
+        "000865.bmp": {
+            "degradation_label": 0
+        },
+        "000866.bmp": {
+            "degradation_label": 0
+        },
+        "000867.bmp": {
+            "degradation_label": 0
+        },
+        "000868.bmp": {
+            "degradation_label": 0
+        },
+        "000869.bmp": {
+            "degradation_label": 0
+        },
+        "000870.bmp": {
+            "degradation_label": 0
+        },
+        "000871.bmp": {
+            "degradation_label": 0
+        },
+        "000872.bmp": {
+            "degradation_label": 0
+        },
+        "000873.bmp": {
+            "degradation_label": 0
+        },
+        "000874.bmp": {
+            "degradation_label": 0
+        },
+        "000875.bmp": {
+            "degradation_label": 0
+        },
+        "000876.bmp": {
+            "degradation_label": 0
+        },
+        "000877.bmp": {
+            "degradation_label": 0
+        },
+        "000878.bmp": {
+            "degradation_label": 0
+        },
+        "000879.bmp": {
+            "degradation_label": 0
+        },
+        "000880.bmp": {
+            "degradation_label": 0
+        },
+        "000881.bmp": {
+            "degradation_label": 0
+        },
+        "000882.bmp": {
+            "degradation_label": 0
+        },
+        "000883.bmp": {
+            "degradation_label": 0
+        },
+        "000884.bmp": {
+            "degradation_label": 0
+        },
+        "000885.bmp": {
+            "degradation_label": 0
+        },
+        "000886.bmp": {
+            "degradation_label": 0
+        },
+        "000887.bmp": {
+            "degradation_label": 0
+        },
+        "000888.bmp": {
+            "degradation_label": 0
+        },
+        "000889.bmp": {
+            "degradation_label": 0
+        },
+        "000890.bmp": {
+            "degradation_label": 0
+        },
+        "000891.bmp": {
+            "degradation_label": 0
+        },
+        "000892.bmp": {
+            "degradation_label": 0
+        },
+        "000893.bmp": {
+            "degradation_label": 0
+        },
+        "000894.bmp": {
+            "degradation_label": 0
+        },
+        "000895.bmp": {
+            "degradation_label": 0
+        },
+        "000896.bmp": {
+            "degradation_label": 0
+        },
+        "000897.bmp": {
+            "degradation_label": 0
+        },
+        "000898.bmp": {
+            "degradation_label": 0
+        },
+        "000899.bmp": {
+            "degradation_label": 0
+        },
+        "000900.bmp": {
+            "degradation_label": 0
+        },
+        "000901.bmp": {
+            "degradation_label": 0
+        },
+        "000902.bmp": {
+            "degradation_label": 0
+        },
+        "000903.bmp": {
+            "degradation_label": 0
+        },
+        "000904.bmp": {
+            "degradation_label": 0
+        },
+        "000905.bmp": {
+            "degradation_label": 0
+        },
+        "000906.bmp": {
+            "degradation_label": 0
+        },
+        "000907.bmp": {
+            "degradation_label": 0
+        },
+        "000908.bmp": {
+            "degradation_label": 0
+        },
+        "000909.bmp": {
+            "degradation_label": 0
+        },
+        "000910.bmp": {
+            "degradation_label": 0
+        },
+        "000911.bmp": {
+            "degradation_label": 0
+        },
+        "000912.bmp": {
+            "degradation_label": 0
+        },
+        "000913.bmp": {
+            "degradation_label": 0
+        },
+        "000914.bmp": {
+            "degradation_label": 0
+        },
+        "000915.bmp": {
+            "degradation_label": 0
+        },
+        "000916.bmp": {
+            "degradation_label": 0
+        },
+        "000917.bmp": {
+            "degradation_label": 0
+        },
+        "000918.bmp": {
+            "degradation_label": 0
+        },
+        "000919.bmp": {
+            "degradation_label": 0
+        },
+        "000920.bmp": {
+            "degradation_label": 0
+        },
+        "000921.bmp": {
+            "degradation_label": 0
+        },
+        "000922.bmp": {
+            "degradation_label": 0
+        },
+        "000923.bmp": {
+            "degradation_label": 0
+        },
+        "000924.bmp": {
+            "degradation_label": 0
+        },
+        "000925.bmp": {
+            "degradation_label": 0
+        },
+        "000926.bmp": {
+            "degradation_label": 0
+        },
+        "000927.bmp": {
+            "degradation_label": 0
+        },
+        "000928.bmp": {
+            "degradation_label": 0
+        },
+        "000929.bmp": {
+            "degradation_label": 0
+        },
+        "000930.bmp": {
+            "degradation_label": 0
+        },
+        "000931.bmp": {
+            "degradation_label": 0
+        },
+        "000932.bmp": {
+            "degradation_label": 0
+        },
+        "000933.bmp": {
+            "degradation_label": 0
+        },
+        "000934.bmp": {
+            "degradation_label": 0
+        },
+        "000935.bmp": {
+            "degradation_label": 0
+        },
+        "000936.bmp": {
+            "degradation_label": 0
+        },
+        "000937.bmp": {
+            "degradation_label": 0
+        },
+        "000938.bmp": {
+            "degradation_label": 0
+        },
+        "000939.bmp": {
+            "degradation_label": 0
+        },
+        "000940.bmp": {
+            "degradation_label": 0
+        },
+        "000941.bmp": {
+            "degradation_label": 0
+        },
+        "000942.bmp": {
+            "degradation_label": 0
+        },
+        "000943.bmp": {
+            "degradation_label": 0
+        },
+        "000944.bmp": {
+            "degradation_label": 0
+        },
+        "000945.bmp": {
+            "degradation_label": 0
+        },
+        "000946.bmp": {
+            "degradation_label": 0
+        },
+        "000947.bmp": {
+            "degradation_label": 0
+        },
+        "000948.bmp": {
+            "degradation_label": 0
+        },
+        "000949.bmp": {
+            "degradation_label": 0
+        },
+        "000950.bmp": {
+            "degradation_label": 0
+        },
+        "000951.bmp": {
+            "degradation_label": 1
+        },
+        "000952.bmp": {
+            "degradation_label": 0
+        },
+        "000953.bmp": {
+            "degradation_label": 0
+        },
+        "000954.bmp": {
+            "degradation_label": 0
+        },
+        "000955.bmp": {
+            "degradation_label": 0
+        },
+        "000956.bmp": {
+            "degradation_label": 0
+        },
+        "000957.bmp": {
+            "degradation_label": 0
+        },
+        "000958.bmp": {
+            "degradation_label": 0
+        },
+        "000959.bmp": {
+            "degradation_label": 0
+        },
+        "000960.bmp": {
+            "degradation_label": 0
+        },
+        "000961.bmp": {
+            "degradation_label": 0
+        },
+        "000962.bmp": {
+            "degradation_label": 0
+        },
+        "000963.bmp": {
+            "degradation_label": 0
+        },
+        "000964.bmp": {
+            "degradation_label": 0
+        },
+        "000965.bmp": {
+            "degradation_label": 0
+        },
+        "000966.bmp": {
+            "degradation_label": 0
+        },
+        "000967.bmp": {
+            "degradation_label": 0
+        },
+        "000968.bmp": {
+            "degradation_label": 0
+        },
+        "000969.bmp": {
+            "degradation_label": 0
+        },
+        "000970.bmp": {
+            "degradation_label": 0
+        },
+        "000971.bmp": {
+            "degradation_label": 0
+        },
+        "000972.bmp": {
+            "degradation_label": 0
+        },
+        "000973.bmp": {
+            "degradation_label": 0
+        },
+        "000974.bmp": {
+            "degradation_label": 0
+        },
+        "000975.bmp": {
+            "degradation_label": 0
+        },
+        "000976.bmp": {
+            "degradation_label": 0
+        },
+        "000977.bmp": {
+            "degradation_label": 0
+        },
+        "000978.bmp": {
+            "degradation_label": 0
+        },
+        "000979.bmp": {
+            "degradation_label": 0
+        },
+        "000980.bmp": {
+            "degradation_label": 0
+        },
+        "000981.bmp": {
+            "degradation_label": 0
+        },
+        "000982.bmp": {
+            "degradation_label": 0
+        },
+        "000983.bmp": {
+            "degradation_label": 0
+        },
+        "000984.bmp": {
+            "degradation_label": 0
+        },
+        "000985.bmp": {
+            "degradation_label": 0
+        },
+        "000986.bmp": {
+            "degradation_label": 0
+        },
+        "000987.bmp": {
+            "degradation_label": 0
+        },
+        "000988.bmp": {
+            "degradation_label": 0
+        },
+        "000989.bmp": {
+            "degradation_label": 0
+        },
+        "000990.bmp": {
+            "degradation_label": 0
+        },
+        "000991.bmp": {
+            "degradation_label": 0
+        },
+        "000992.bmp": {
+            "degradation_label": 0
+        },
+        "000993.bmp": {
+            "degradation_label": 0
+        },
+        "000994.bmp": {
+            "degradation_label": 0
+        },
+        "000995.bmp": {
+            "degradation_label": 0
+        },
+        "000996.bmp": {
+            "degradation_label": 0
+        },
+        "000997.bmp": {
+            "degradation_label": 0
+        },
+        "000998.bmp": {
+            "degradation_label": 0
+        },
+        "000999.bmp": {
+            "degradation_label": 0
+        },
+        "001000.bmp": {
+            "degradation_label": 0
+        },
+        "001001.bmp": {
+            "degradation_label": 0
+        },
+        "001002.bmp": {
+            "degradation_label": 0
+        },
+        "001003.bmp": {
+            "degradation_label": 0
+        },
+        "001004.bmp": {
+            "degradation_label": 0
+        },
+        "001005.bmp": {
+            "degradation_label": 0
+        },
+        "001006.bmp": {
+            "degradation_label": 0
+        },
+        "001007.bmp": {
+            "degradation_label": 0
+        },
+        "001008.bmp": {
+            "degradation_label": 0
+        },
+        "001009.bmp": {
+            "degradation_label": 0
+        },
+        "001010.bmp": {
+            "degradation_label": 0
+        },
+        "001011.bmp": {
+            "degradation_label": 0
+        },
+        "001012.bmp": {
+            "degradation_label": 0
+        },
+        "001013.bmp": {
+            "degradation_label": 0
+        },
+        "001014.bmp": {
+            "degradation_label": 0
+        },
+        "001015.bmp": {
+            "degradation_label": 0
+        },
+        "001016.bmp": {
+            "degradation_label": 0
+        },
+        "001017.bmp": {
+            "degradation_label": 0
+        },
+        "001018.bmp": {
+            "degradation_label": 0
+        },
+        "001019.bmp": {
+            "degradation_label": 0
+        },
+        "001020.bmp": {
+            "degradation_label": 0
+        },
+        "001021.bmp": {
+            "degradation_label": 0
+        },
+        "001022.bmp": {
+            "degradation_label": 0
+        },
+        "001023.bmp": {
+            "degradation_label": 0
+        },
+        "001024.bmp": {
+            "degradation_label": 0
+        },
+        "001025.bmp": {
+            "degradation_label": 0
+        },
+        "001026.bmp": {
+            "degradation_label": 0
+        },
+        "001027.bmp": {
+            "degradation_label": 0
+        },
+        "001028.bmp": {
+            "degradation_label": 0
+        },
+        "001029.bmp": {
+            "degradation_label": 0
+        },
+        "001030.bmp": {
+            "degradation_label": 0
+        },
+        "001031.bmp": {
+            "degradation_label": 0
+        },
+        "001032.bmp": {
+            "degradation_label": 0
+        },
+        "001033.bmp": {
+            "degradation_label": 0
+        },
+        "001034.bmp": {
+            "degradation_label": 0
+        },
+        "001035.bmp": {
+            "degradation_label": 0
+        },
+        "001036.bmp": {
+            "degradation_label": 0
+        },
+        "001037.bmp": {
+            "degradation_label": 0
+        },
+        "001038.bmp": {
+            "degradation_label": 0
+        },
+        "001039.bmp": {
+            "degradation_label": 0
+        },
+        "001040.bmp": {
+            "degradation_label": 0
+        },
+        "001041.bmp": {
+            "degradation_label": 0
+        },
+        "001042.bmp": {
+            "degradation_label": 0
+        },
+        "001043.bmp": {
+            "degradation_label": 0
+        },
+        "001044.bmp": {
+            "degradation_label": 0
+        },
+        "001045.bmp": {
+            "degradation_label": 0
+        },
+        "001046.bmp": {
+            "degradation_label": 0
+        },
+        "001047.bmp": {
+            "degradation_label": 0
+        },
+        "001048.bmp": {
+            "degradation_label": 0
+        },
+        "001049.bmp": {
+            "degradation_label": 0
+        },
+        "001050.bmp": {
+            "degradation_label": 0
+        },
+        "001051.bmp": {
+            "degradation_label": 0
+        },
+        "001052.bmp": {
+            "degradation_label": 0
+        },
+        "001053.bmp": {
+            "degradation_label": 0
+        },
+        "001054.bmp": {
+            "degradation_label": 0
+        },
+        "001055.bmp": {
+            "degradation_label": 0
+        },
+        "001056.bmp": {
+            "degradation_label": 0
+        },
+        "001057.bmp": {
+            "degradation_label": 0
+        },
+        "001058.bmp": {
+            "degradation_label": 0
+        },
+        "001059.bmp": {
+            "degradation_label": 0
+        },
+        "001060.bmp": {
+            "degradation_label": 0
+        },
+        "001061.bmp": {
+            "degradation_label": 0
+        },
+        "001062.bmp": {
+            "degradation_label": 0
+        },
+        "001063.bmp": {
+            "degradation_label": 0
+        },
+        "001064.bmp": {
+            "degradation_label": 0
+        },
+        "001065.bmp": {
+            "degradation_label": 0
+        },
+        "001066.bmp": {
+            "degradation_label": 0
+        },
+        "001067.bmp": {
+            "degradation_label": 0
+        },
+        "001068.bmp": {
+            "degradation_label": 0
+        },
+        "001069.bmp": {
+            "degradation_label": 0
+        },
+        "001070.bmp": {
+            "degradation_label": 0
+        },
+        "001071.bmp": {
+            "degradation_label": 0
+        },
+        "001072.bmp": {
+            "degradation_label": 0
+        },
+        "001073.bmp": {
+            "degradation_label": 0
+        },
+        "001074.bmp": {
+            "degradation_label": 0
+        },
+        "001075.bmp": {
+            "degradation_label": 0
+        },
+        "001076.bmp": {
+            "degradation_label": 0
+        },
+        "001077.bmp": {
+            "degradation_label": 0
+        },
+        "001078.bmp": {
+            "degradation_label": 0
+        },
+        "001079.bmp": {
+            "degradation_label": 0
+        },
+        "001080.bmp": {
+            "degradation_label": 0
+        },
+        "001081.bmp": {
+            "degradation_label": 0
+        },
+        "001082.bmp": {
+            "degradation_label": 0
+        },
+        "001083.bmp": {
+            "degradation_label": 0
+        },
+        "001084.bmp": {
+            "degradation_label": 0
+        },
+        "001085.bmp": {
+            "degradation_label": 0
+        },
+        "001086.bmp": {
+            "degradation_label": 0
+        },
+        "001087.bmp": {
+            "degradation_label": 0
+        },
+        "001088.bmp": {
+            "degradation_label": 0
+        },
+        "001089.bmp": {
+            "degradation_label": 0
+        },
+        "001090.bmp": {
+            "degradation_label": 0
+        },
+        "001091.bmp": {
+            "degradation_label": 0
+        },
+        "001092.bmp": {
+            "degradation_label": 0
+        },
+        "001093.bmp": {
+            "degradation_label": 0
+        },
+        "001094.bmp": {
+            "degradation_label": 0
+        },
+        "001095.bmp": {
+            "degradation_label": 0
+        },
+        "001096.bmp": {
+            "degradation_label": 0
+        },
+        "001097.bmp": {
+            "degradation_label": 0
+        },
+        "001098.bmp": {
+            "degradation_label": 0
+        },
+        "001099.bmp": {
+            "degradation_label": 0
+        },
+        "001100.bmp": {
+            "degradation_label": 0
+        },
+        "001101.bmp": {
+            "degradation_label": 0
+        },
+        "001102.bmp": {
+            "degradation_label": 0
+        },
+        "001103.bmp": {
+            "degradation_label": 0
+        },
+        "001104.bmp": {
+            "degradation_label": 0
+        },
+        "001105.bmp": {
+            "degradation_label": 0
+        },
+        "001106.bmp": {
+            "degradation_label": 0
+        },
+        "001107.bmp": {
+            "degradation_label": 0
+        },
+        "001108.bmp": {
+            "degradation_label": 0
+        },
+        "001109.bmp": {
+            "degradation_label": 0
+        },
+        "001110.bmp": {
+            "degradation_label": 0
+        },
+        "001111.bmp": {
+            "degradation_label": 0
+        },
+        "001112.bmp": {
+            "degradation_label": 0
+        },
+        "001113.bmp": {
+            "degradation_label": 0
+        },
+        "001114.bmp": {
+            "degradation_label": 0
+        },
+        "001115.bmp": {
+            "degradation_label": 0
+        },
+        "001116.bmp": {
+            "degradation_label": 0
+        },
+        "001117.bmp": {
+            "degradation_label": 0
+        },
+        "001118.bmp": {
+            "degradation_label": 0
+        },
+        "001119.bmp": {
+            "degradation_label": 0
+        },
+        "001120.bmp": {
+            "degradation_label": 0
+        },
+        "001121.bmp": {
+            "degradation_label": 0
+        },
+        "001122.bmp": {
+            "degradation_label": 0
+        },
+        "001123.bmp": {
+            "degradation_label": 0
+        },
+        "001124.bmp": {
+            "degradation_label": 0
+        },
+        "001125.bmp": {
+            "degradation_label": 0
+        },
+        "001126.bmp": {
+            "degradation_label": 0
+        },
+        "001127.bmp": {
+            "degradation_label": 0
+        },
+        "001128.bmp": {
+            "degradation_label": 0
+        },
+        "001129.bmp": {
+            "degradation_label": 0
+        },
+        "001130.bmp": {
+            "degradation_label": 0
+        },
+        "001131.bmp": {
+            "degradation_label": 0
+        },
+        "001132.bmp": {
+            "degradation_label": 0
+        },
+        "001133.bmp": {
+            "degradation_label": 0
+        },
+        "001134.bmp": {
+            "degradation_label": 0
+        },
+        "001135.bmp": {
+            "degradation_label": 0
+        },
+        "001136.bmp": {
+            "degradation_label": 0
+        },
+        "001137.bmp": {
+            "degradation_label": 0
+        },
+        "001138.bmp": {
+            "degradation_label": 0
+        },
+        "001139.bmp": {
+            "degradation_label": 0
+        },
+        "001140.bmp": {
+            "degradation_label": 0
+        },
+        "001141.bmp": {
+            "degradation_label": 0
+        },
+        "001142.bmp": {
+            "degradation_label": 0
+        },
+        "001143.bmp": {
+            "degradation_label": 0
+        },
+        "001144.bmp": {
+            "degradation_label": 0
+        },
+        "001145.bmp": {
+            "degradation_label": 0
+        },
+        "001146.bmp": {
+            "degradation_label": 0
+        },
+        "001147.bmp": {
+            "degradation_label": 0
+        },
+        "001148.bmp": {
+            "degradation_label": 0
+        },
+        "001149.bmp": {
+            "degradation_label": 0
+        },
+        "001150.bmp": {
+            "degradation_label": 0
+        },
+        "001151.bmp": {
+            "degradation_label": 0
+        },
+        "001152.bmp": {
+            "degradation_label": 0
+        },
+        "001153.bmp": {
+            "degradation_label": 0
+        },
+        "001154.bmp": {
+            "degradation_label": 0
+        },
+        "001155.bmp": {
+            "degradation_label": 0
+        },
+        "001156.bmp": {
+            "degradation_label": 0
+        },
+        "001157.bmp": {
+            "degradation_label": 0
+        },
+        "001158.bmp": {
+            "degradation_label": 0
+        },
+        "001159.bmp": {
+            "degradation_label": 0
+        },
+        "001160.bmp": {
+            "degradation_label": 0
+        },
+        "001161.bmp": {
+            "degradation_label": 0
+        },
+        "001162.bmp": {
+            "degradation_label": 0
+        },
+        "001163.bmp": {
+            "degradation_label": 0
+        },
+        "001164.bmp": {
+            "degradation_label": 0
+        },
+        "001165.bmp": {
+            "degradation_label": 0
+        },
+        "001166.bmp": {
+            "degradation_label": 0
+        },
+        "001167.bmp": {
+            "degradation_label": 0
+        },
+        "001168.bmp": {
+            "degradation_label": 0
+        },
+        "001169.bmp": {
+            "degradation_label": 0
+        },
+        "001170.bmp": {
+            "degradation_label": 0
+        },
+        "001171.bmp": {
+            "degradation_label": 0
+        },
+        "001172.bmp": {
+            "degradation_label": 0
+        },
+        "001173.bmp": {
+            "degradation_label": 0
+        },
+        "001174.bmp": {
+            "degradation_label": 0
+        },
+        "001175.bmp": {
+            "degradation_label": 0
+        },
+        "001176.bmp": {
+            "degradation_label": 0
+        },
+        "001177.bmp": {
+            "degradation_label": 0
+        },
+        "001178.bmp": {
+            "degradation_label": 0
+        },
+        "001179.bmp": {
+            "degradation_label": 0
+        },
+        "001180.bmp": {
+            "degradation_label": 0
+        },
+        "001181.bmp": {
+            "degradation_label": 0
+        },
+        "001182.bmp": {
+            "degradation_label": 0
+        },
+        "001183.bmp": {
+            "degradation_label": 0
+        },
+        "001184.bmp": {
+            "degradation_label": 0
+        },
+        "001185.bmp": {
+            "degradation_label": 0
+        },
+        "001186.bmp": {
+            "degradation_label": 0
+        },
+        "001187.bmp": {
+            "degradation_label": 0
+        },
+        "001188.bmp": {
+            "degradation_label": 0
+        },
+        "001189.bmp": {
+            "degradation_label": 0
+        },
+        "001190.bmp": {
+            "degradation_label": 0
+        },
+        "001191.bmp": {
+            "degradation_label": 0
+        },
+        "001192.bmp": {
+            "degradation_label": 0
+        },
+        "001193.bmp": {
+            "degradation_label": 0
+        },
+        "001194.bmp": {
+            "degradation_label": 0
+        },
+        "001195.bmp": {
+            "degradation_label": 0
+        },
+        "001196.bmp": {
+            "degradation_label": 0
+        },
+        "001197.bmp": {
+            "degradation_label": 0
+        },
+        "001198.bmp": {
+            "degradation_label": 0
+        },
+        "001199.bmp": {
+            "degradation_label": 0
+        },
+        "001200.bmp": {
+            "degradation_label": 0
+        },
+        "001201.bmp": {
+            "degradation_label": 0
+        },
+        "001202.bmp": {
+            "degradation_label": 0
+        },
+        "001203.bmp": {
+            "degradation_label": 0
+        },
+        "001204.bmp": {
+            "degradation_label": 0
+        },
+        "001205.bmp": {
+            "degradation_label": 0
+        },
+        "001206.bmp": {
+            "degradation_label": 0
+        },
+        "001207.bmp": {
+            "degradation_label": 0
+        },
+        "001208.bmp": {
+            "degradation_label": 0
+        },
+        "001209.bmp": {
+            "degradation_label": 0
+        },
+        "001210.bmp": {
+            "degradation_label": 0
+        },
+        "001211.bmp": {
+            "degradation_label": 0
+        },
+        "001212.bmp": {
+            "degradation_label": 0
+        },
+        "001213.bmp": {
+            "degradation_label": 0
+        },
+        "001214.bmp": {
+            "degradation_label": 0
+        },
+        "001215.bmp": {
+            "degradation_label": 0
+        },
+        "001216.bmp": {
+            "degradation_label": 0
+        },
+        "001217.bmp": {
+            "degradation_label": 0
+        },
+        "001218.bmp": {
+            "degradation_label": 0
+        },
+        "001219.bmp": {
+            "degradation_label": 0
+        },
+        "001220.bmp": {
+            "degradation_label": 0
+        },
+        "001221.bmp": {
+            "degradation_label": 0
+        },
+        "001222.bmp": {
+            "degradation_label": 0
+        },
+        "001223.bmp": {
+            "degradation_label": 0
+        },
+        "001224.bmp": {
+            "degradation_label": 0
+        },
+        "001225.bmp": {
+            "degradation_label": 0
+        },
+        "001226.bmp": {
+            "degradation_label": 0
+        },
+        "001227.bmp": {
+            "degradation_label": 0
+        },
+        "001228.bmp": {
+            "degradation_label": 0
+        },
+        "001229.bmp": {
+            "degradation_label": 0
+        },
+        "001230.bmp": {
+            "degradation_label": 0
+        },
+        "001231.bmp": {
+            "degradation_label": 0
+        },
+        "001232.bmp": {
+            "degradation_label": 0
+        },
+        "001233.bmp": {
+            "degradation_label": 0
+        },
+        "001234.bmp": {
+            "degradation_label": 0
+        },
+        "001235.bmp": {
+            "degradation_label": 0
+        },
+        "001236.bmp": {
+            "degradation_label": 0
+        },
+        "001237.bmp": {
+            "degradation_label": 0
+        },
+        "001238.bmp": {
+            "degradation_label": 0
+        },
+        "001239.bmp": {
+            "degradation_label": 0
+        },
+        "001240.bmp": {
+            "degradation_label": 0
+        },
+        "001241.bmp": {
+            "degradation_label": 0
+        },
+        "001242.bmp": {
+            "degradation_label": 0
+        },
+        "001243.bmp": {
+            "degradation_label": 0
+        },
+        "001244.bmp": {
+            "degradation_label": 0
+        },
+        "001245.bmp": {
+            "degradation_label": 0
+        },
+        "001246.bmp": {
+            "degradation_label": 0
+        },
+        "001247.bmp": {
+            "degradation_label": 0
+        },
+        "001248.bmp": {
+            "degradation_label": 0
+        },
+        "001249.bmp": {
+            "degradation_label": 0
+        },
+        "001250.bmp": {
+            "degradation_label": 0
+        },
+        "001251.bmp": {
+            "degradation_label": 0
+        },
+        "001252.bmp": {
+            "degradation_label": 0
+        },
+        "001253.bmp": {
+            "degradation_label": 0
+        },
+        "001254.bmp": {
+            "degradation_label": 0
+        },
+        "001255.bmp": {
+            "degradation_label": 0
+        },
+        "001256.bmp": {
+            "degradation_label": 0
+        },
+        "001257.bmp": {
+            "degradation_label": 0
+        },
+        "001258.bmp": {
+            "degradation_label": 0
+        },
+        "001259.bmp": {
+            "degradation_label": 0
+        },
+        "001260.bmp": {
+            "degradation_label": 0
+        },
+        "001261.bmp": {
+            "degradation_label": 0
+        },
+        "001262.bmp": {
+            "degradation_label": 0
+        },
+        "001263.bmp": {
+            "degradation_label": 0
+        },
+        "001264.bmp": {
+            "degradation_label": 0
+        },
+        "001265.bmp": {
+            "degradation_label": 0
+        },
+        "001266.bmp": {
+            "degradation_label": 0
+        },
+        "001267.bmp": {
+            "degradation_label": 0
+        },
+        "001268.bmp": {
+            "degradation_label": 0
+        },
+        "001269.bmp": {
+            "degradation_label": 0
+        },
+        "001270.bmp": {
+            "degradation_label": 0
+        },
+        "001271.bmp": {
+            "degradation_label": 0
+        },
+        "001272.bmp": {
+            "degradation_label": 0
+        },
+        "001273.bmp": {
+            "degradation_label": 0
+        },
+        "001274.bmp": {
+            "degradation_label": 0
+        },
+        "001275.bmp": {
+            "degradation_label": 0
+        },
+        "001276.bmp": {
+            "degradation_label": 0
+        },
+        "001277.bmp": {
+            "degradation_label": 0
+        },
+        "001278.bmp": {
+            "degradation_label": 0
+        },
+        "001279.bmp": {
+            "degradation_label": 0
+        },
+        "001280.bmp": {
+            "degradation_label": 0
+        },
+        "001281.bmp": {
+            "degradation_label": 0
+        },
+        "001282.bmp": {
+            "degradation_label": 0
+        },
+        "001283.bmp": {
+            "degradation_label": 0
+        },
+        "001284.bmp": {
+            "degradation_label": 0
+        },
+        "001285.bmp": {
+            "degradation_label": 0
+        },
+        "001286.bmp": {
+            "degradation_label": 0
+        },
+        "001287.bmp": {
+            "degradation_label": 0
+        },
+        "001288.bmp": {
+            "degradation_label": 0
+        },
+        "001289.bmp": {
+            "degradation_label": 0
+        },
+        "001290.bmp": {
+            "degradation_label": 0
+        },
+        "001291.bmp": {
+            "degradation_label": 0
+        },
+        "001292.bmp": {
+            "degradation_label": 0
+        },
+        "001293.bmp": {
+            "degradation_label": 0
+        },
+        "001294.bmp": {
+            "degradation_label": 0
+        },
+        "001295.bmp": {
+            "degradation_label": 0
+        },
+        "001296.bmp": {
+            "degradation_label": 0
+        },
+        "001297.bmp": {
+            "degradation_label": 0
+        },
+        "001298.bmp": {
+            "degradation_label": 0
+        },
+        "001299.bmp": {
+            "degradation_label": 0
+        },
+        "001300.bmp": {
+            "degradation_label": 0
+        },
+        "001301.bmp": {
+            "degradation_label": 0
+        },
+        "001302.bmp": {
+            "degradation_label": 0
+        },
+        "001303.bmp": {
+            "degradation_label": 0
+        },
+        "001304.bmp": {
+            "degradation_label": 1
+        },
+        "001305.bmp": {
+            "degradation_label": 1
+        },
+        "001306.bmp": {
+            "degradation_label": 1
+        },
+        "001307.bmp": {
+            "degradation_label": 1
+        },
+        "001308.bmp": {
+            "degradation_label": 0
+        },
+        "001309.bmp": {
+            "degradation_label": 0
+        },
+        "001310.bmp": {
+            "degradation_label": 0
+        },
+        "001311.bmp": {
+            "degradation_label": 0
+        },
+        "001312.bmp": {
+            "degradation_label": 0
+        },
+        "001313.bmp": {
+            "degradation_label": 0
+        },
+        "001314.bmp": {
+            "degradation_label": 0
+        },
+        "001315.bmp": {
+            "degradation_label": 0
+        },
+        "001316.bmp": {
+            "degradation_label": 0
+        },
+        "001317.bmp": {
+            "degradation_label": 0
+        },
+        "001318.bmp": {
+            "degradation_label": 0
+        },
+        "001319.bmp": {
+            "degradation_label": 0
+        },
+        "001320.bmp": {
+            "degradation_label": 0
+        },
+        "001321.bmp": {
+            "degradation_label": 0
+        },
+        "001322.bmp": {
+            "degradation_label": 0
+        },
+        "001323.bmp": {
+            "degradation_label": 0
+        },
+        "001324.bmp": {
+            "degradation_label": 0
+        },
+        "001325.bmp": {
+            "degradation_label": 0
+        },
+        "001326.bmp": {
+            "degradation_label": 0
+        },
+        "001327.bmp": {
+            "degradation_label": 0
+        },
+        "001328.bmp": {
+            "degradation_label": 0
+        },
+        "001329.bmp": {
+            "degradation_label": 0
+        },
+        "001330.bmp": {
+            "degradation_label": 0
+        },
+        "001331.bmp": {
+            "degradation_label": 0
+        },
+        "001332.bmp": {
+            "degradation_label": 0
+        },
+        "001333.bmp": {
+            "degradation_label": 0
+        },
+        "001334.bmp": {
+            "degradation_label": 0
+        },
+        "001335.bmp": {
+            "degradation_label": 0
+        },
+        "001336.bmp": {
+            "degradation_label": 0
+        },
+        "001337.bmp": {
+            "degradation_label": 0
+        },
+        "001338.bmp": {
+            "degradation_label": 0
+        },
+        "001339.bmp": {
+            "degradation_label": 0
+        },
+        "001340.bmp": {
+            "degradation_label": 0
+        },
+        "001341.bmp": {
+            "degradation_label": 0
+        },
+        "001342.bmp": {
+            "degradation_label": 0
+        },
+        "001343.bmp": {
+            "degradation_label": 0
+        },
+        "001344.bmp": {
+            "degradation_label": 0
+        },
+        "001345.bmp": {
+            "degradation_label": 0
+        },
+        "001346.bmp": {
+            "degradation_label": 0
+        },
+        "001347.bmp": {
+            "degradation_label": 0
+        },
+        "001348.bmp": {
+            "degradation_label": 0
+        },
+        "001349.bmp": {
+            "degradation_label": 0
+        },
+        "001350.bmp": {
+            "degradation_label": 0
+        },
+        "001351.bmp": {
+            "degradation_label": 0
+        },
+        "001352.bmp": {
+            "degradation_label": 0
+        },
+        "001353.bmp": {
+            "degradation_label": 0
+        },
+        "001354.bmp": {
+            "degradation_label": 0
+        },
+        "001355.bmp": {
+            "degradation_label": 0
+        },
+        "001356.bmp": {
+            "degradation_label": 0
+        },
+        "001357.bmp": {
+            "degradation_label": 0
+        },
+        "001358.bmp": {
+            "degradation_label": 0
+        },
+        "001359.bmp": {
+            "degradation_label": 0
+        },
+        "001360.bmp": {
+            "degradation_label": 0
+        },
+        "001361.bmp": {
+            "degradation_label": 0
+        },
+        "001362.bmp": {
+            "degradation_label": 0
+        },
+        "001363.bmp": {
+            "degradation_label": 0
+        },
+        "001364.bmp": {
+            "degradation_label": 0
+        },
+        "001365.bmp": {
+            "degradation_label": 0
+        },
+        "001366.bmp": {
+            "degradation_label": 0
+        },
+        "001367.bmp": {
+            "degradation_label": 0
+        },
+        "001368.bmp": {
+            "degradation_label": 0
+        },
+        "001369.bmp": {
+            "degradation_label": 0
+        },
+        "001370.bmp": {
+            "degradation_label": 0
+        },
+        "001371.bmp": {
+            "degradation_label": 0
+        },
+        "001372.bmp": {
+            "degradation_label": 0
+        },
+        "001373.bmp": {
+            "degradation_label": 0
+        },
+        "001374.bmp": {
+            "degradation_label": 0
+        },
+        "001375.bmp": {
+            "degradation_label": 0
+        },
+        "001376.bmp": {
+            "degradation_label": 0
+        },
+        "001377.bmp": {
+            "degradation_label": 0
+        },
+        "001378.bmp": {
+            "degradation_label": 0
+        },
+        "001379.bmp": {
+            "degradation_label": 0
+        },
+        "001380.bmp": {
+            "degradation_label": 0
+        },
+        "001381.bmp": {
+            "degradation_label": 0
+        },
+        "001382.bmp": {
+            "degradation_label": 0
+        },
+        "001383.bmp": {
+            "degradation_label": 0
+        },
+        "001384.bmp": {
+            "degradation_label": 0
+        },
+        "001385.bmp": {
+            "degradation_label": 0
+        },
+        "001386.bmp": {
+            "degradation_label": 0
+        },
+        "001387.bmp": {
+            "degradation_label": 0
+        },
+        "001388.bmp": {
+            "degradation_label": 0
+        },
+        "001389.bmp": {
+            "degradation_label": 0
+        },
+        "001390.bmp": {
+            "degradation_label": 0
+        },
+        "001391.bmp": {
+            "degradation_label": 0
+        },
+        "001392.bmp": {
+            "degradation_label": 0
+        },
+        "001393.bmp": {
+            "degradation_label": 0
+        },
+        "001394.bmp": {
+            "degradation_label": 0
+        },
+        "001395.bmp": {
+            "degradation_label": 0
+        },
+        "001396.bmp": {
+            "degradation_label": 0
+        },
+        "001397.bmp": {
+            "degradation_label": 0
+        },
+        "001398.bmp": {
+            "degradation_label": 0
+        },
+        "001399.bmp": {
+            "degradation_label": 0
+        },
+        "001400.bmp": {
+            "degradation_label": 0
+        },
+        "001401.bmp": {
+            "degradation_label": 0
+        },
+        "001402.bmp": {
+            "degradation_label": 0
+        },
+        "001403.bmp": {
+            "degradation_label": 0
+        },
+        "001404.bmp": {
+            "degradation_label": 0
+        },
+        "001405.bmp": {
+            "degradation_label": 0
+        },
+        "001406.bmp": {
+            "degradation_label": 0
+        },
+        "001407.bmp": {
+            "degradation_label": 0
+        },
+        "001408.bmp": {
+            "degradation_label": 0
+        },
+        "001409.bmp": {
+            "degradation_label": 0
+        },
+        "001410.bmp": {
+            "degradation_label": 0
+        },
+        "001411.bmp": {
+            "degradation_label": 0
+        },
+        "001412.bmp": {
+            "degradation_label": 0
+        },
+        "001413.bmp": {
+            "degradation_label": 0
+        },
+        "001414.bmp": {
+            "degradation_label": 0
+        },
+        "001415.bmp": {
+            "degradation_label": 0
+        },
+        "001416.bmp": {
+            "degradation_label": 0
+        },
+        "001417.bmp": {
+            "degradation_label": 0
+        },
+        "001418.bmp": {
+            "degradation_label": 0
+        },
+        "001419.bmp": {
+            "degradation_label": 0
+        },
+        "001420.bmp": {
+            "degradation_label": 0
+        },
+        "001421.bmp": {
+            "degradation_label": 0
+        },
+        "001422.bmp": {
+            "degradation_label": 0
+        },
+        "001423.bmp": {
+            "degradation_label": 0
+        },
+        "001424.bmp": {
+            "degradation_label": 0
+        },
+        "001425.bmp": {
+            "degradation_label": 0
+        },
+        "001426.bmp": {
+            "degradation_label": 0
+        },
+        "001427.bmp": {
+            "degradation_label": 0
+        },
+        "001428.bmp": {
+            "degradation_label": 0
+        },
+        "001429.bmp": {
+            "degradation_label": 0
+        },
+        "001430.bmp": {
+            "degradation_label": 0
+        },
+        "001431.bmp": {
+            "degradation_label": 0
+        },
+        "001432.bmp": {
+            "degradation_label": 0
+        },
+        "001433.bmp": {
+            "degradation_label": 0
+        },
+        "001434.bmp": {
+            "degradation_label": 0
+        },
+        "001435.bmp": {
+            "degradation_label": 0
+        },
+        "001436.bmp": {
+            "degradation_label": 0
+        },
+        "001437.bmp": {
+            "degradation_label": 0
+        },
+        "001438.bmp": {
+            "degradation_label": 0
+        },
+        "001439.bmp": {
+            "degradation_label": 0
+        },
+        "001440.bmp": {
+            "degradation_label": 0
+        },
+        "001441.bmp": {
+            "degradation_label": 0
+        },
+        "001442.bmp": {
+            "degradation_label": 0
+        },
+        "001443.bmp": {
+            "degradation_label": 0
+        },
+        "001444.bmp": {
+            "degradation_label": 0
+        },
+        "001445.bmp": {
+            "degradation_label": 0
+        },
+        "001446.bmp": {
+            "degradation_label": 0
+        },
+        "001447.bmp": {
+            "degradation_label": 0
+        },
+        "001448.bmp": {
+            "degradation_label": 0
+        },
+        "001449.bmp": {
+            "degradation_label": 0
+        },
+        "001450.bmp": {
+            "degradation_label": 0
+        },
+        "001451.bmp": {
+            "degradation_label": 0
+        },
+        "001452.bmp": {
+            "degradation_label": 0
+        },
+        "001453.bmp": {
+            "degradation_label": 0
+        },
+        "001454.bmp": {
+            "degradation_label": 0
+        },
+        "001455.bmp": {
+            "degradation_label": 0
+        },
+        "001456.bmp": {
+            "degradation_label": 0
+        },
+        "001457.bmp": {
+            "degradation_label": 0
+        }
+    }
+}

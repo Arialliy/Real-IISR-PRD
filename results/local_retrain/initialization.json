@@ -1,0 +1,135 @@
+{
+  "source_readme": "vendor/Real-IISR/README.md",
+  "upstream_reference": "vendor/Real-IISR/train.py:128",
+  "training_initialization": "Published VQ-VAE and VARSR source initialization for an independent local retraining run",
+  "verified_at": "2026-11-20T22:08:39+08:00",
+  "source_metadata_url": "https://huggingface.co/api/models/qyp2000/VARSR/tree/a0e478f5e1640a7e048f1303781b6d34ff3296ca",
+  "files": {
+    "VQVAE.pth": {
+      "path": "checkpoints/VQVAE.pth",
+      "source_repository": "https://huggingface.co/qyp2000/VARSR",
+      "revision": "a0e478f5e1640a7e048f1303781b6d34ff3296ca",
+      "url": "https://huggingface.co/qyp2000/VARSR/resolve/a0e478f5e1640a7e048f1303781b6d34ff3296ca/VQVAE.pth",
+      "size_bytes": 1400076874,
+      "sha256": "b4b60aaa47e7cff7fdebb479521138efbbd968faa893fe0d4f8c703fd49ddf45",
+      "matches_pinned_lfs_oid": true,
+      "torch_load": {
+        "weights_only": true,
+        "mmap": true,
+        "map_location": "cpu",
+        "pytorch_version": "2.7.0+cu128",
+        "success": true,
+        "zip_archive": true,
+        "root_keys": [
+          "epoch",
+          "iter",
+          "trainer",
+          "args"
+        ],
+        "trainer_keys": [
+          "config",
+          "vae_local",
+          "loss_fn",
+          "vae_opt",
+          "loss_opt"
+        ],
+        "source_tensor_dict": "trainer.vae_local",
+        "tensor_entries": 324,
+        "source_patch_nums": [
+          1,
+          2,
+          3,
+          4,
+          6,
+          9,
+          12,
+          16,
+          20,
+          24,
+          28,
+          32
+        ],
+        "finite_tensor_probes": {
+          "quantize.embedding.weight": [
+            4096,
+            32
+          ],
+          "encoder.conv_in.weight": [
+            160,
+            3,
+            3,
+            3
+          ],
+          "decoder.conv_out.weight": [
+            3,
+            160,
+            3,
+            3
+          ]
+        }
+      }
+    },
+    "VARSR.pth": {
+      "path": "checkpoints/VARSR.pth",
+      "source_repository": "https://huggingface.co/qyp2000/VARSR",
+      "revision": "a0e478f5e1640a7e048f1303781b6d34ff3296ca",
+      "url": "https://huggingface.co/qyp2000/VARSR/resolve/a0e478f5e1640a7e048f1303781b6d34ff3296ca/VARSR.pth",
+      "size_bytes": 13702361426,
+      "sha256": "fd7ebfa6e1d69abdbe5097957c647cbac840cf225355fded2847b6a4d67914db",
+      "matches_pinned_lfs_oid": true,
+      "torch_load": {
+        "weights_only": true,
+        "mmap": true,
+        "map_location": "cpu",
+        "pytorch_version": "2.7.0+cu128",
+        "success": true,
+        "zip_archive": true,
+        "root_keys": [
+          "epoch",
+          "iter",
+          "trainer",
+          "args"
+        ],
+        "trainer_keys": [
+          "config",
+          "var_wo_ddp",
+          "vae_local",
+          "var_opt"
+        ],
+        "source_tensor_dict": "trainer.var_wo_ddp",
+        "tensor_entries": 405,
+        "source_patch_nums": [
+          1,
+          2,
+          3,
+          4,
+          6,
+          9,
+          13,
+          18,
+          24,
+          32
+        ],
+        "finite_tensor_probes": {
+          "class_emb.weight": [
+            2,
+            1536
+          ],
+          "pos_start": [
+            1,
+            1025,
+            1536
+          ],
+          "blocks.0.attn.mat_qkv.weight": [
+            4608,
+            1536
+          ],
+          "head.weight": [
+            4096,
+            1536
+          ]
+        }
+      }
+    }
+  }
+}

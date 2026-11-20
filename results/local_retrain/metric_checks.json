@@ -1,0 +1,46 @@
+{
+  "data": "analytic fixture only",
+  "cases": {
+    "reference": {
+      "whole_mae_dn": 0.0,
+      "whole_psnr_db": null,
+      "plan_background_rmse_dn": 0.0,
+      "weighted_background_column_residual_dn": 0.0,
+      "native_median_ring_contrast_bias_dn": 0.0,
+      "native_median_ring_contrast_abs_error_dn": 0.0
+    },
+    "core_-7_dn": {
+      "native_median_ring_contrast_bias_dn": -7.0000000000000036,
+      "native_median_ring_contrast_abs_error_dn": 7.0000000000000036,
+      "weighted_background_column_residual_dn": 0.0,
+      "whole_mae_dn": 0.0729166666666667
+    },
+    "core_+12_dn": {
+      "native_median_ring_contrast_bias_dn": 12.0,
+      "native_median_ring_contrast_abs_error_dn": 12.0,
+      "weighted_background_column_residual_dn": 0.0,
+      "whole_mae_dn": 0.125
+    },
+    "column_offsets": {
+      "weighted_background_column_residual_dn": 3.0219175586491924,
+      "plan_background_mean_error_dn": -0.6206896551724209,
+      "whole_psnr_db": 37.33899114820285
+    },
+    "padding_only": {
+      "whole_mae_dn": 0.0,
+      "whole_psnr_db": null,
+      "weighted_background_column_residual_dn": 0.0,
+      "native_median_ring_contrast_bias_dn": 0.0,
+      "native_median_ring_contrast_abs_error_dn": 0.0
+    }
+  },
+  "coverage": {
+    "valid_pixels": 384,
+    "background_pixels": 348,
+    "eligible_background_columns": 24,
+    "native_components": 1,
+    "eligible_native_components": 1,
+    "plan_background_pixels": 348,
+    "plan_background_columns": 24
+  }
+}

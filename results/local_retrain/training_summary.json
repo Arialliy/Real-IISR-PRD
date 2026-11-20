@@ -1,0 +1,288 @@
+{
+  "protocol": "SIRST same-size denoising, local train split only; original global CAC baseline initialized from the two upstream source models",
+  "official_source": "vendor/Real-IISR",
+  "manifest_sha256": "192c73934cd78efe8d283024add8c43d03ccbaaea89d4072a06e35d7a64faaa0",
+  "initialization": {
+    "VQVAE.pth": "b4b60aaa47e7cff7fdebb479521138efbbd968faa893fe0d4f8c703fd49ddf45",
+    "VARSR.pth": "fd7ebfa6e1d69abdbe5097957c647cbac840cf225355fded2847b6a4d67914db"
+  },
+  "training_images": 213,
+  "epochs_completed": 20,
+  "accepted_optimizer_updates": 1080,
+  "global_batch_size": 4,
+  "training_draw": "epoch-wise seeded synthetic noise, seed 0, single negative branch, zero gray padding, subject to valid mask",
+  "effective_image_presentations": 4320,
+  "number_of_unique_origins": 213,
+  "held_out_test_images_used": 0,
+  "trainable_tensors": 388,
+  "trainable_parameters": 1144665865,
+  "matched_trainable_varsr_tensors": 316,
+  "changed_vs_source_varsr": 316,
+  "frozen_vae_source_entries_bitwise_equal": 323,
+  "frozen_vae_shape_adapted_buffer": "quantize.ema_vocab_hit_SV",
+  "row_count": 1080,
+  "overflow_retries": 0,
+  "included_epochs": [
+    {
+      "epoch": 1,
+      "updates": 54,
+      "unique_train_images": 213,
+      "padded_batch_slots": 3,
+      "loss_means": {
+        "token_ce": 3.879671410278038,
+        "rgb_mse": 0.02683769755444869,
+        "valid_order": 2.0449464466632393e-06
+      }
+    },
+    {
+      "epoch": 2,
+      "updates": 54,
+      "unique_train_images": 213,
+      "padded_batch_slots": 3,
+      "loss_means": {
+        "token_ce": 2.976232714123196,
+        "rgb_mse": 0.009356399260771772,
+        "valid_order": 1.7745023643246906e-06
+      }
+    },
+    {
+      "epoch": 3,
+      "updates": 54,
+      "unique_train_images": 213,
+      "padded_batch_slots": 3,
+      "loss_means": {
+        "token_ce": 2.3701412081718445,
+        "rgb_mse": 0.007522036045513771,
+        "valid_order": 1.1595043967605324e-06
+      }
+    },
+    {
+      "epoch": 4,
+      "updates": 54,
+      "unique_train_images": 213,
+      "padded_batch_slots": 3,
+      "loss_means": {
+        "token_ce": 1.7110338961636578,
+        "rgb_mse": 0.005252204455987171,
+        "valid_order": 7.409556047158308e-07
+      }
+    },
+    {
+      "epoch": 5,
+      "updates": 54,
+      "unique_train_images": 213,
+      "padded_batch_slots": 3,
+      "loss_means": {
+        "token_ce": 1.1712715062830183,
+        "rgb_mse": 0.005955458864466184,
+        "valid_order": 4.725918759457065e-07
+      }
+    },
+    {
+      "epoch": 6,
+      "updates": 54,
+      "unique_train_images": 213,
+      "padded_batch_slots": 3,
+      "loss_means": {
+        "token_ce": 0.8096028174515124,
+        "rgb_mse": 0.004137069058035397,
+        "valid_order": 7.814947009192279e-07
+      }
+    },
+    {
+      "epoch": 7,
+      "updates": 54,
+      "unique_train_images": 213,
+      "padded_batch_slots": 3,
+      "loss_means": {
+        "token_ce": 0.5415559460719427,
+        "rgb_mse": 0.0036759219537661585,
+        "valid_order": 2.861203142231524e-07
+      }
+    },
+    {
+      "epoch": 8,
+      "updates": 54,
+      "unique_train_images": 213,
+      "padded_batch_slots": 3,
+      "loss_means": {
+        "token_ce": 0.357410255405638,
+        "rgb_mse": 0.004728019918763527,
+        "valid_order": 2.52481671364285e-07
+      }
+    },
+    {
+      "epoch": 9,
+      "updates": 54,
+      "unique_train_images": 213,
+      "padded_batch_slots": 3,
+      "loss_means": {
+        "token_ce": 0.2578056611948543,
+        "rgb_mse": 0.003456648247299233,
+        "valid_order": 3.385215265965329e-07
+      }
+    },
+    {
+      "epoch": 10,
+      "updates": 54,
+      "unique_train_images": 213,
+      "padded_batch_slots": 3,
+      "loss_means": {
+        "token_ce": 0.18582089921390568,
+        "rgb_mse": 0.0028628653240890278,
+        "valid_order": 1.4249830168519448e-07
+      }
+    },
+    {
+      "epoch": 11,
+      "updates": 54,
+      "unique_train_images": 213,
+      "padded_batch_slots": 3,
+      "loss_means": {
+        "token_ce": 0.13744787392378957,
+        "rgb_mse": 0.0021229643284136224,
+        "valid_order": 1.372688485183986e-07
+      }
+    },
+    {
+      "epoch": 12,
+      "updates": 54,
+      "unique_train_images": 213,
+      "padded_batch_slots": 3,
+      "loss_means": {
+        "token_ce": 0.10066470828045297,
+        "rgb_mse": 0.0018891314555528676,
+        "valid_order": 1.0269106135811039e-07
+      }
+    },
+    {
+      "epoch": 13,
+      "updates": 54,
+      "unique_train_images": 213,
+      "padded_batch_slots": 3,
+      "loss_means": {
+        "token_ce": 0.07366701529395801,
+        "rgb_mse": 0.0016216025466780626,
+        "valid_order": 1.0361397657355487e-07
+      }
+    },
+    {
+      "epoch": 14,
+      "updates": 54,
+      "unique_train_images": 213,
+      "padded_batch_slots": 3,
+      "loss_means": {
+        "token_ce": 0.07725228552051165,
+        "rgb_mse": 0.0014057691317888115,
+        "valid_order": 1.0079211827302899e-07
+      }
+    },
+    {
+      "epoch": 15,
+      "updates": 54,
+      "unique_train_images": 213,
+      "padded_batch_slots": 3,
+      "loss_means": {
+        "token_ce": 0.05173718624023928,
+        "rgb_mse": 0.0014799192479889218,
+        "valid_order": 2.0846597919504322e-07
+      }
+    },
+    {
+      "epoch": 16,
+      "updates": 54,
+      "unique_train_images": 213,
+      "padded_batch_slots": 3,
+      "loss_means": {
+        "token_ce": 0.046709759867991564,
+        "rgb_mse": 0.0009495453964013399,
+        "valid_order": 1.0373183393734091e-07
+      }
+    },
+    {
+      "epoch": 17,
+      "updates": 54,
+      "unique_train_images": 213,
+      "padded_batch_slots": 3,
+      "loss_means": {
+        "token_ce": 0.030512666364234907,
+        "rgb_mse": 0.0009050691129501771,
+        "valid_order": 9.327773759977205e-08
+      }
+    },
+    {
+      "epoch": 18,
+      "updates": 54,
+      "unique_train_images": 213,
+      "padded_batch_slots": 3,
+      "loss_means": {
+        "token_ce": 0.023512082527978,
+        "rgb_mse": 0.0007453721447274331,
+        "valid_order": 9.540492129644917e-08
+      }
+    },
+    {
+      "epoch": 19,
+      "updates": 54,
+      "unique_train_images": 213,
+      "padded_batch_slots": 3,
+      "loss_means": {
+        "token_ce": 0.027405506301740254,
+        "rgb_mse": 0.0006549885090660407,
+        "valid_order": 7.618812201702372e-08
+      }
+    },
+    {
+      "epoch": 20,
+      "updates": 54,
+      "unique_train_images": 213,
+      "padded_batch_slots": 3,
+      "loss_means": {
+        "token_ce": 0.022783969554843173,
+        "rgb_mse": 0.0006584380386845658,
+        "valid_order": 7.289171211195256e-08
+      }
+    }
+  ],
+  "update_log_sha256": "e9ed27a6a764c62143e144c306bb2ba9cb0fa1b001f161a1fa8391f578d439ea",
+  "last_update": {
+    "epoch": 20,
+    "update": 1080,
+    "lr": 5.000000000000001e-07,
+    "token_ce": 0.00829583965241909,
+    "rgb_mse": 0.0007304221508093178,
+    "valid_order": 0.0,
+    "grad_norm": 0.3830004334449768,
+    "loss_scale": 4096.0,
+    "retries": 0,
+    "elapsed_seconds": 2072.81,
+    "peak_allocated_gib": [
+      7.84,
+      9.44,
+      9.44,
+      20.82
+    ]
+  },
+  "elapsed_seconds_to_last_update": 2072.81,
+  "peak_allocated_gib_per_gpu": [
+    7.84,
+    9.44,
+    9.44,
+    20.82
+  ],
+  "scalar_values_finite": true,
+  "checkpoint": {
+    "path": "checkpoints/sirst_retrained_baseline.pt",
+    "bytes": 5088674951,
+    "sha256": "fb2eaf0426e1634b8cde12c7d8951ded9d6b4f04a0ae2ef77a1c13f794caacab",
+    "state_dict_entries": 763,
+    "format": "sirst_local_retrain_v1"
+  },
+  "intermediate_optimizer_state": {
+    "epoch": 15,
+    "step": 810,
+    "tracked_parameter_tensors": 388
+  },
+  "training_entry": "train_local_baseline.py",
+  "command": "results/local_retrain/run.sh"
+}

@@ -1,0 +1,5407 @@
+{
+  "split": "NUAA-SIRST/train",
+  "manifest_sha256": "192c73934cd78efe8d283024add8c43d03ccbaaea89d4072a06e35d7a64faaa0",
+  "checkpoint_sha256": "fb2eaf0426e1634b8cde12c7d8951ded9d6b4f04a0ae2ef77a1c13f794caacab",
+  "data_seed": 0,
+  "epoch": 0,
+  "draw_id": 0,
+  "branch": "noisy_minus against reference_minus",
+  "units": "0–255 grayscale DN",
+  "hard_inference": "upstream top_k=1 top_p=0.75 cfg=1 g_seed=0 FP16, no color matching",
+  "aggregation": "per-image metric then equal-weight mean over eligible images",
+  "samples": [
+    {
+      "sample_id": "NUAA-SIRST/Misc_119",
+      "data_sha256": "4ee815cc3975a668d94ed8a2d69e50fde871c5d77e407811622fd5fd091db89a",
+      "coverage": {
+        "valid_pixels": 58312,
+        "background_pixels": 58065,
+        "eligible_background_columns": 296,
+        "native_components": 2,
+        "eligible_native_components": 2
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 2.838468339492815,
+          "background_rmse_dn": 3.718635375593928,
+          "background_column_residual_dn": 3.475540506676633,
+          "native_contrast_abs_error_dn": 0.9700745390728116
+        },
+        "retrained": {
+          "valid_mae_dn": 6.139077636120233,
+          "background_rmse_dn": 9.053462462571321,
+          "background_column_residual_dn": 2.1144142791270735,
+          "native_contrast_abs_error_dn": 14.881375475786626
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_64",
+      "data_sha256": "7d26b1825e65b0a9e4bf5ddbc2b3ab1f4b5a08a00f3eabe05d714d974da0c7f6",
+      "coverage": {
+        "valid_pixels": 65391,
+        "background_pixels": 65152,
+        "eligible_background_columns": 307,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 8.221304420078722,
+          "background_rmse_dn": 10.413461683438047,
+          "background_column_residual_dn": 10.112382614622687,
+          "native_contrast_abs_error_dn": 0.34722726591306885
+        },
+        "retrained": {
+          "valid_mae_dn": 2.256485085020297,
+          "background_rmse_dn": 2.8516501366465032,
+          "background_column_residual_dn": 0.7995741691843533,
+          "native_contrast_abs_error_dn": 10.630584427721558
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_90",
+      "data_sha256": "c96302b3cca80f14e513209c515f2262916ce576c4b81ca46eecb9cd2762fa00",
+      "coverage": {
+        "valid_pixels": 64448,
+        "background_pixels": 64001,
+        "eligible_background_columns": 304,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 6.443473612091171,
+          "background_rmse_dn": 8.060047069008762,
+          "background_column_residual_dn": 7.110801182402456,
+          "native_contrast_abs_error_dn": 1.8517564587729896
+        },
+        "retrained": {
+          "valid_mae_dn": 4.729926882126963,
+          "background_rmse_dn": 6.75092794230423,
+          "background_column_residual_dn": 2.3839967193279055,
+          "native_contrast_abs_error_dn": 47.39328253612201
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_364",
+      "data_sha256": "d7c7080fb61710781aa7c2fd9aa056d7e71f36cdfc4c0e61517258030ab94523",
+      "coverage": {
+        "valid_pixels": 78400,
+        "background_pixels": 78206,
+        "eligible_background_columns": 280,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 5.828946185982501,
+          "background_rmse_dn": 7.251400467442815,
+          "background_column_residual_dn": 7.1039437457103105,
+          "native_contrast_abs_error_dn": 3.3481823578476906
+        },
+        "retrained": {
+          "valid_mae_dn": 2.4950526012772962,
+          "background_rmse_dn": 4.412750363277989,
+          "background_column_residual_dn": 1.721888103883628,
+          "native_contrast_abs_error_dn": 8.74556120804378
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_250",
+      "data_sha256": "7bd5017e5ba6c9b65d87583ddcd9b016f38687bffd9480a3a5bdae41c08a097b",
+      "coverage": {
+        "valid_pixels": 46898,
+        "background_pixels": 46418,
+        "eligible_background_columns": 262,
+        "native_components": 6,
+        "eligible_native_components": 6
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 9.262002768663873,
+          "background_rmse_dn": 11.602154731878196,
+          "background_column_residual_dn": 10.992208113593605,
+          "native_contrast_abs_error_dn": 4.09979106448248
+        },
+        "retrained": {
+          "valid_mae_dn": 2.344674953742724,
+          "background_rmse_dn": 2.955206828174868,
+          "background_column_residual_dn": 1.175392349144996,
+          "native_contrast_abs_error_dn": 13.395489809874375
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_351",
+      "data_sha256": "f717f9d244a20fb5f8ff3aead4ebbc263e6732941ab22ed1c0f8a8957e7ae16d",
+      "coverage": {
+        "valid_pixels": 62525,
+        "background_pixels": 62361,
+        "eligible_background_columns": 305,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 6.525742639679281,
+          "background_rmse_dn": 8.264183483123054,
+          "background_column_residual_dn": 7.65296282773389,
+          "native_contrast_abs_error_dn": 1.793487747865064
+        },
+        "retrained": {
+          "valid_mae_dn": 2.216129936301103,
+          "background_rmse_dn": 3.5290526278109517,
+          "background_column_residual_dn": 1.331425061793237,
+          "native_contrast_abs_error_dn": 6.351589415488498
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_39",
+      "data_sha256": "20f311b332c02df6c2db0f5e7eacf3ebd8a9e5539b50ada719a2a6ae51c2d12e",
+      "coverage": {
+        "valid_pixels": 43776,
+        "background_pixels": 43626,
+        "eligible_background_columns": 256,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 0.8004532241223691,
+          "background_rmse_dn": 1.0064213496165597,
+          "background_column_residual_dn": 0.6431711270995358,
+          "native_contrast_abs_error_dn": 0.33847263902425767
+        },
+        "retrained": {
+          "valid_mae_dn": 5.342150967187257,
+          "background_rmse_dn": 7.598783475776517,
+          "background_column_residual_dn": 2.5711289182678074,
+          "native_contrast_abs_error_dn": 2.4383603945374492
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_313",
+      "data_sha256": "985586cbdbf7e55e5990aa4ff44658bdb69fca5df3db774e6947d8d99175dae2",
+      "coverage": {
+        "valid_pixels": 73224,
+        "background_pixels": 72713,
+        "eligible_background_columns": 324,
+        "native_components": 3,
+        "eligible_native_components": 3
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 2.1233628496285912,
+          "background_rmse_dn": 2.630554480885898,
+          "background_column_residual_dn": 2.6273963558773614,
+          "native_contrast_abs_error_dn": 0.76136104392977
+        },
+        "retrained": {
+          "valid_mae_dn": 5.209904468077427,
+          "background_rmse_dn": 6.926170795163236,
+          "background_column_residual_dn": 1.7642173491251878,
+          "native_contrast_abs_error_dn": 21.836325177857347
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_179",
+      "data_sha256": "b691fe379a5c781881db8651484d57e469dfe457e3b957e9c0de38b023282590",
+      "coverage": {
+        "valid_pixels": 47790,
+        "background_pixels": 47636,
+        "eligible_background_columns": 270,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 3.769058939018646,
+          "background_rmse_dn": 4.759713153417418,
+          "background_column_residual_dn": 3.7449579291213015,
+          "native_contrast_abs_error_dn": 0.8962212285647789
+        },
+        "retrained": {
+          "valid_mae_dn": 3.253922819367616,
+          "background_rmse_dn": 6.164356936156473,
+          "background_column_residual_dn": 2.2032473676969104,
+          "native_contrast_abs_error_dn": 47.9967432996879
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_344",
+      "data_sha256": "6b00689779d655d041d182895543a2ef23a9864d7318b9d78c4cfbdf7eb5249b",
+      "coverage": {
+        "valid_pixels": 77976,
+        "background_pixels": 77756,
+        "eligible_background_columns": 342,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 7.650281204359027,
+          "background_rmse_dn": 9.501284614567638,
+          "background_column_residual_dn": 9.392680851576072,
+          "native_contrast_abs_error_dn": 2.1974043558750833
+        },
+        "retrained": {
+          "valid_mae_dn": 2.2682151088858564,
+          "background_rmse_dn": 3.263939735604516,
+          "background_column_residual_dn": 1.5310142521266104,
+          "native_contrast_abs_error_dn": 20.782759669635976
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_421",
+      "data_sha256": "3d6092ac51a3be063dd46e92d79a2b6bcac00531d30dec45968b55691c3d1e34",
+      "coverage": {
+        "valid_pixels": 75150,
+        "background_pixels": 74867,
+        "eligible_background_columns": 334,
+        "native_components": 3,
+        "eligible_native_components": 3
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 6.176660119832871,
+          "background_rmse_dn": 7.803497193465523,
+          "background_column_residual_dn": 7.739695966062746,
+          "native_contrast_abs_error_dn": 2.0966249079931347
+        },
+        "retrained": {
+          "valid_mae_dn": 2.7813457841072196,
+          "background_rmse_dn": 4.133382637750122,
+          "background_column_residual_dn": 0.5502403134072873,
+          "native_contrast_abs_error_dn": 12.713484775186295
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_398",
+      "data_sha256": "9738e00a7a0bdd926e04aa8c749c3a2454e6aeeff1f1549390c9fe346324c0d8",
+      "coverage": {
+        "valid_pixels": 79804,
+        "background_pixels": 79586,
+        "eligible_background_columns": 281,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 6.496907114668194,
+          "background_rmse_dn": 9.090043924267901,
+          "background_column_residual_dn": 8.639896169395776,
+          "native_contrast_abs_error_dn": 5.160463051456544
+        },
+        "retrained": {
+          "valid_mae_dn": 5.3187356380447115,
+          "background_rmse_dn": 9.649732931634304,
+          "background_column_residual_dn": 3.829595968921143,
+          "native_contrast_abs_error_dn": 52.57726885419753
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_417",
+      "data_sha256": "33c690a03e5ea2a0d219ee4ec3fd0f0bddbb1002db93b956baf0c0c648594ce8",
+      "coverage": {
+        "valid_pixels": 73700,
+        "background_pixels": 73574,
+        "eligible_background_columns": 335,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 2.833689835382527,
+          "background_rmse_dn": 3.546997452465136,
+          "background_column_residual_dn": 1.386110987463118,
+          "native_contrast_abs_error_dn": 0.33219351280819287
+        },
+        "retrained": {
+          "valid_mae_dn": 3.432610067938994,
+          "background_rmse_dn": 5.718735004782437,
+          "background_column_residual_dn": 1.6800430185227477,
+          "native_contrast_abs_error_dn": 23.968471108512446
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_95",
+      "data_sha256": "58fc55f06cd8ea1675d030bfff0c543238b03a8edd78ff35aa9b8392c1329881",
+      "coverage": {
+        "valid_pixels": 52355,
+        "background_pixels": 52135,
+        "eligible_background_columns": 283,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 9.039473238882385,
+          "background_rmse_dn": 11.313963747343527,
+          "background_column_residual_dn": 11.165267042304729,
+          "native_contrast_abs_error_dn": 2.7741424234547254
+        },
+        "retrained": {
+          "valid_mae_dn": 6.601415451934465,
+          "background_rmse_dn": 8.892862406857123,
+          "background_column_residual_dn": 2.0549030798030175,
+          "native_contrast_abs_error_dn": 4.303800140586298
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_339",
+      "data_sha256": "75432204e88aed10a0d0ca1597d9a2caa01536ee94366b3873d8257a1f9a1cb2",
+      "coverage": {
+        "valid_pixels": 69996,
+        "background_pixels": 69841,
+        "eligible_background_columns": 307,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 1.0620271727332893,
+          "background_rmse_dn": 1.3264047860636448,
+          "background_column_residual_dn": 1.2191078940422888,
+          "native_contrast_abs_error_dn": 1.7894516587257385
+        },
+        "retrained": {
+          "valid_mae_dn": 3.0037881356047538,
+          "background_rmse_dn": 5.01120061294994,
+          "background_column_residual_dn": 1.3451779460947992,
+          "native_contrast_abs_error_dn": 16.432697977870703
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_426",
+      "data_sha256": "06a6c557b17ed6e90d476c90ee675db2981507c8e3bd877fd7d53c356209df91",
+      "coverage": {
+        "valid_pixels": 50220,
+        "background_pixels": 49830,
+        "eligible_background_columns": 270,
+        "native_components": 4,
+        "eligible_native_components": 4
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 7.779182740579512,
+          "background_rmse_dn": 9.580489669473339,
+          "background_column_residual_dn": 9.56624032834013,
+          "native_contrast_abs_error_dn": 3.2172935684149464
+        },
+        "retrained": {
+          "valid_mae_dn": 3.3440328781674378,
+          "background_rmse_dn": 5.484339287254623,
+          "background_column_residual_dn": 1.8155884152061914,
+          "native_contrast_abs_error_dn": 32.50017313045091
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_269",
+      "data_sha256": "3e6dabd4f7184c5e0f5e72a252bbaa15601880cfbff1fa334ad42b0e27dd2fe3",
+      "coverage": {
+        "valid_pixels": 62800,
+        "background_pixels": 62594,
+        "eligible_background_columns": 314,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 2.684022061422372,
+          "background_rmse_dn": 3.3621768917537525,
+          "background_column_residual_dn": 2.8095922912289306,
+          "native_contrast_abs_error_dn": 0.1408725008368492
+        },
+        "retrained": {
+          "valid_mae_dn": 2.016259962351174,
+          "background_rmse_dn": 3.392223368157658,
+          "background_column_residual_dn": 2.0047613659287324,
+          "native_contrast_abs_error_dn": 16.936299711465836
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_316",
+      "data_sha256": "2c1b708c3b55dfcf00452892c229e5b9cb7f588aecde0f7364f2fadf905a0d0e",
+      "coverage": {
+        "valid_pixels": 45612,
+        "background_pixels": 45323,
+        "eligible_background_columns": 252,
+        "native_components": 2,
+        "eligible_native_components": 2
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 6.013595184874328,
+          "background_rmse_dn": 7.422816832185022,
+          "background_column_residual_dn": 7.310545345469716,
+          "native_contrast_abs_error_dn": 5.196693378899779
+        },
+        "retrained": {
+          "valid_mae_dn": 4.022337878076372,
+          "background_rmse_dn": 5.642642789952429,
+          "background_column_residual_dn": 1.4972520921077943,
+          "native_contrast_abs_error_dn": 17.85711573187139
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_419",
+      "data_sha256": "d3365ddc653a3d7caee5cdaf1a542deab368b2c3127004e8a8ff79e434ec0d60",
+      "coverage": {
+        "valid_pixels": 73710,
+        "background_pixels": 73568,
+        "eligible_background_columns": 315,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 7.513975018382946,
+          "background_rmse_dn": 9.475011011164591,
+          "background_column_residual_dn": 9.345221627755327,
+          "native_contrast_abs_error_dn": 1.4968189984560016
+        },
+        "retrained": {
+          "valid_mae_dn": 1.0218097193300797,
+          "background_rmse_dn": 1.7147165525406112,
+          "background_column_residual_dn": 0.7656236395847172,
+          "native_contrast_abs_error_dn": 8.730708700418472
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_144",
+      "data_sha256": "3c7d24411ff9d2bde598deb54fc4193080f20af0731e0750d8a0b5d68a116df6",
+      "coverage": {
+        "valid_pixels": 58976,
+        "background_pixels": 58668,
+        "eligible_background_columns": 304,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 5.754037164140299,
+          "background_rmse_dn": 7.193254366633925,
+          "background_column_residual_dn": 6.712065278327671,
+          "native_contrast_abs_error_dn": 0.7105909964890889
+        },
+        "retrained": {
+          "valid_mae_dn": 5.188673548881728,
+          "background_rmse_dn": 7.893027221193035,
+          "background_column_residual_dn": 1.7395740829113395,
+          "native_contrast_abs_error_dn": 21.990362435285547
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_149",
+      "data_sha256": "771eea1837bf58d099ff5a052e8070c6567a6c58669601d5ebc9e91558bf13e8",
+      "coverage": {
+        "valid_pixels": 55539,
+        "background_pixels": 55415,
+        "eligible_background_columns": 297,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 3.23581616603748,
+          "background_rmse_dn": 4.060898301981393,
+          "background_column_residual_dn": 2.2479048016503222,
+          "native_contrast_abs_error_dn": 1.7038309797644615
+        },
+        "retrained": {
+          "valid_mae_dn": 2.0390268881472564,
+          "background_rmse_dn": 4.241938430820203,
+          "background_column_residual_dn": 1.7660344178713787,
+          "native_contrast_abs_error_dn": 9.293360251933336
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_146",
+      "data_sha256": "b50515dbd6155d8eef6c536fbe2fef9d1f82816da2ee3d67d9aff618c4eada30",
+      "coverage": {
+        "valid_pixels": 65656,
+        "background_pixels": 65467,
+        "eligible_background_columns": 283,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 0.8590373507311287,
+          "background_rmse_dn": 1.0755923024366525,
+          "background_column_residual_dn": 0.5464776936803146,
+          "native_contrast_abs_error_dn": 0.2917350500097705
+        },
+        "retrained": {
+          "valid_mae_dn": 3.5519214730337128,
+          "background_rmse_dn": 4.764133057697717,
+          "background_column_residual_dn": 1.5918745379026866,
+          "native_contrast_abs_error_dn": 49.354958612368335
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_31",
+      "data_sha256": "e28aeff30927072402f59921b72247a6bcc4799c01f54647a0f8342bc8db4edb",
+      "coverage": {
+        "valid_pixels": 76800,
+        "background_pixels": 76614,
+        "eligible_background_columns": 320,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 5.704205595684471,
+          "background_rmse_dn": 7.1759436480424865,
+          "background_column_residual_dn": 6.7251086544203895,
+          "native_contrast_abs_error_dn": 0.2591831135478887
+        },
+        "retrained": {
+          "valid_mae_dn": 2.2157685246726033,
+          "background_rmse_dn": 3.124768810826752,
+          "background_column_residual_dn": 0.9467486761119149,
+          "native_contrast_abs_error_dn": 23.55762538584796
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_58",
+      "data_sha256": "7218754ac88037e4ee0cb383fcb6240fe8fdcf093a02e9e51cd9f9a7b704df45",
+      "coverage": {
+        "valid_pixels": 83160,
+        "background_pixels": 82940,
+        "eligible_background_columns": 330,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 3.8179872486998883,
+          "background_rmse_dn": 4.846948025245779,
+          "background_column_residual_dn": 4.502925010173976,
+          "native_contrast_abs_error_dn": 0.14922917001078484
+        },
+        "retrained": {
+          "valid_mae_dn": 6.206270004510507,
+          "background_rmse_dn": 8.089673519341364,
+          "background_column_residual_dn": 1.737455001589708,
+          "native_contrast_abs_error_dn": 18.645591427617617
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_4",
+      "data_sha256": "38780b337a7a10e34478aab50b1b764a1b1a0b86e59f7e9a992c7f536f7944e0",
+      "coverage": {
+        "valid_pixels": 96744,
+        "background_pixels": 96152,
+        "eligible_background_columns": 348,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 2.8437896280454047,
+          "background_rmse_dn": 3.5882432850823824,
+          "background_column_residual_dn": 3.3862766774678073,
+          "native_contrast_abs_error_dn": 0.21598400564456854
+        },
+        "retrained": {
+          "valid_mae_dn": 2.1882554599333135,
+          "background_rmse_dn": 3.4624016477635347,
+          "background_column_residual_dn": 0.7753173389066238,
+          "native_contrast_abs_error_dn": 9.18933483992791
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_264",
+      "data_sha256": "2f091d9277fda64ebf41304b62ae42dfdede0507d45388184d222b1b76bf078c",
+      "coverage": {
+        "valid_pixels": 43688,
+        "background_pixels": 43558,
+        "eligible_background_columns": 254,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 0.9611191754218281,
+          "background_rmse_dn": 1.207536297282512,
+          "background_column_residual_dn": 0.826389699842622,
+          "native_contrast_abs_error_dn": 0.035663843728028805
+        },
+        "retrained": {
+          "valid_mae_dn": 3.0509469976808656,
+          "background_rmse_dn": 4.55425969236705,
+          "background_column_residual_dn": 2.0466570256884684,
+          "native_contrast_abs_error_dn": 22.53233468016753
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_283",
+      "data_sha256": "b5cbdb13df371eae39ce2a4f055ac6d8224cc0c7a9370d775bfe27982fa936da",
+      "coverage": {
+        "valid_pixels": 60196,
+        "background_pixels": 60078,
+        "eligible_background_columns": 298,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 8.775744511732812,
+          "background_rmse_dn": 10.856911222626376,
+          "background_column_residual_dn": 10.83564447628647,
+          "native_contrast_abs_error_dn": 7.0907867811620235
+        },
+        "retrained": {
+          "valid_mae_dn": 2.3345002966488426,
+          "background_rmse_dn": 3.2357173811216273,
+          "background_column_residual_dn": 0.9996817841285697,
+          "native_contrast_abs_error_dn": 26.570134297013283
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_284",
+      "data_sha256": "280f0489239577d1d8e973873eda280460651fa237a9b1002a0c0a3e00e8dbc7",
+      "coverage": {
+        "valid_pixels": 65892,
+        "background_pixels": 65513,
+        "eligible_background_columns": 323,
+        "native_components": 7,
+        "eligible_native_components": 7
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 6.622951851333074,
+          "background_rmse_dn": 8.234418714365907,
+          "background_column_residual_dn": 7.930324796483612,
+          "native_contrast_abs_error_dn": 2.9633138916289914
+        },
+        "retrained": {
+          "valid_mae_dn": 2.6180740481894174,
+          "background_rmse_dn": 5.525605904797009,
+          "background_column_residual_dn": 1.8593686504732303,
+          "native_contrast_abs_error_dn": 9.071067467158523
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_150",
+      "data_sha256": "ddcc7a867eb2675f4bfd1002a3b1a73b13fee8c3e140195809738b38bf08a7ec",
+      "coverage": {
+        "valid_pixels": 64890,
+        "background_pixels": 64779,
+        "eligible_background_columns": 315,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 3.3954063267190864,
+          "background_rmse_dn": 4.387907615868539,
+          "background_column_residual_dn": 2.63136289173255,
+          "native_contrast_abs_error_dn": 1.7134653743017803
+        },
+        "retrained": {
+          "valid_mae_dn": 2.698571109642213,
+          "background_rmse_dn": 4.847208492978805,
+          "background_column_residual_dn": 1.6051520787902702,
+          "native_contrast_abs_error_dn": 3.0970246094194325
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_220",
+      "data_sha256": "9dad149b54ff0938c7733334bf8b1cb0940e2fe640c461fd6fc9cfaa1f9c5b56",
+      "coverage": {
+        "valid_pixels": 64070,
+        "background_pixels": 63924,
+        "eligible_background_columns": 298,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 6.552450679957783,
+          "background_rmse_dn": 8.278042774167456,
+          "background_column_residual_dn": 8.018844752563663,
+          "native_contrast_abs_error_dn": 6.800610462251383
+        },
+        "retrained": {
+          "valid_mae_dn": 2.8515176482130014,
+          "background_rmse_dn": 4.016678191016066,
+          "background_column_residual_dn": 2.0890434578757358,
+          "native_contrast_abs_error_dn": 23.75105361239268
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_133",
+      "data_sha256": "27c1f44355c83f9d530e803d61574609082ee3c95a48ef2799fb6bc34b954b7a",
+      "coverage": {
+        "valid_pixels": 75658,
+        "background_pixels": 75524,
+        "eligible_background_columns": 362,
+        "native_components": 2,
+        "eligible_native_components": 2
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 7.259674331896566,
+          "background_rmse_dn": 8.954340884320699,
+          "background_column_residual_dn": 8.862140577567745,
+          "native_contrast_abs_error_dn": 2.1321016711493335
+        },
+        "retrained": {
+          "valid_mae_dn": 2.7608788762297833,
+          "background_rmse_dn": 4.606507131076351,
+          "background_column_residual_dn": 2.3033960919801815,
+          "native_contrast_abs_error_dn": 18.17077985530098
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_77",
+      "data_sha256": "ea02e0e96286a20784ff5a2d2ceaaf66c5bb59a62f2c9ab3b669e24706e251f1",
+      "coverage": {
+        "valid_pixels": 51150,
+        "background_pixels": 50883,
+        "eligible_background_columns": 275,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 2.5501654528284887,
+          "background_rmse_dn": 3.194475435247665,
+          "background_column_residual_dn": 0.2906098158623798,
+          "native_contrast_abs_error_dn": 0.036426172949946836
+        },
+        "retrained": {
+          "valid_mae_dn": 5.592698001735939,
+          "background_rmse_dn": 9.605069890836592,
+          "background_column_residual_dn": 2.9505350864419584,
+          "native_contrast_abs_error_dn": 1.2730107112572737
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_70",
+      "data_sha256": "1892521f2739884d404664da17fdd263a9da542c293d1147bae619bc7dbc6751",
+      "coverage": {
+        "valid_pixels": 84838,
+        "background_pixels": 84671,
+        "eligible_background_columns": 338,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 4.127047473289907,
+          "background_rmse_dn": 5.167861761738773,
+          "background_column_residual_dn": 3.3799305723434214,
+          "native_contrast_abs_error_dn": 0.8871324554896883
+        },
+        "retrained": {
+          "valid_mae_dn": 2.5522806559888895,
+          "background_rmse_dn": 3.753055067675556,
+          "background_column_residual_dn": 1.230319809165261,
+          "native_contrast_abs_error_dn": 4.738743899187314
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_425",
+      "data_sha256": "01974ebd8d6df5c162a6cf2bb7ef1d40b37b51373de7bc658f1b2719a3af030b",
+      "coverage": {
+        "valid_pixels": 58422,
+        "background_pixels": 58134,
+        "eligible_background_columns": 321,
+        "native_components": 2,
+        "eligible_native_components": 2
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 5.011749660929799,
+          "background_rmse_dn": 6.3693105213802514,
+          "background_column_residual_dn": 5.707229207064663,
+          "native_contrast_abs_error_dn": 1.1388226682985467
+        },
+        "retrained": {
+          "valid_mae_dn": 4.030381130488643,
+          "background_rmse_dn": 6.185205833725679,
+          "background_column_residual_dn": 1.5999543368574107,
+          "native_contrast_abs_error_dn": 14.336946616082319
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_195",
+      "data_sha256": "ecde14195ae2c44043e36679fb9b3a502ac85578d40dc9a0f897d7b9d4fdb595",
+      "coverage": {
+        "valid_pixels": 61093,
+        "background_pixels": 60913,
+        "eligible_background_columns": 307,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 3.4095236276587744,
+          "background_rmse_dn": 4.221313157041953,
+          "background_column_residual_dn": 4.090244428073445,
+          "native_contrast_abs_error_dn": 1.6535741877146908
+        },
+        "retrained": {
+          "valid_mae_dn": 1.1978953195744624,
+          "background_rmse_dn": 1.889779351282351,
+          "background_column_residual_dn": 0.6410097948542357,
+          "native_contrast_abs_error_dn": 17.521823364401
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_304",
+      "data_sha256": "caaf7166207eb12f38949c8216a80499d5190cef11ce7f21215f33739782460d",
+      "coverage": {
+        "valid_pixels": 44100,
+        "background_pixels": 43974,
+        "eligible_background_columns": 210,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 8.710008993602933,
+          "background_rmse_dn": 10.919381994771229,
+          "background_column_residual_dn": 10.658125527687902,
+          "native_contrast_abs_error_dn": 3.979676676023266
+        },
+        "retrained": {
+          "valid_mae_dn": 2.9090732845484095,
+          "background_rmse_dn": 3.8881539812245376,
+          "background_column_residual_dn": 1.0692385731894336,
+          "native_contrast_abs_error_dn": 35.275850006442816
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_329",
+      "data_sha256": "c052e55b83e0d504d9d219774a7f743978fa35b18789323f8dbdbe1210068efb",
+      "coverage": {
+        "valid_pixels": 52080,
+        "background_pixels": 51929,
+        "eligible_background_columns": 248,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 7.205886236276083,
+          "background_rmse_dn": 9.167443000412517,
+          "background_column_residual_dn": 8.971318364262467,
+          "native_contrast_abs_error_dn": 1.6246179390231126
+        },
+        "retrained": {
+          "valid_mae_dn": 2.193047038948996,
+          "background_rmse_dn": 3.0876906598602827,
+          "background_column_residual_dn": 0.7498313234212606,
+          "native_contrast_abs_error_dn": 12.896425098271264
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_65",
+      "data_sha256": "ed02e61cae5788336f3281b208583ce14041a9e8f4124e5d4173d40b0b0bc7ed",
+      "coverage": {
+        "valid_pixels": 107316,
+        "background_pixels": 106921,
+        "eligible_background_columns": 396,
+        "native_components": 2,
+        "eligible_native_components": 2
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 3.0650209338657897,
+          "background_rmse_dn": 3.8406133480073725,
+          "background_column_residual_dn": 1.9380306607631055,
+          "native_contrast_abs_error_dn": 0.739902913660181
+        },
+        "retrained": {
+          "valid_mae_dn": 2.5689042265416875,
+          "background_rmse_dn": 3.320716542426401,
+          "background_column_residual_dn": 0.6557635029056401,
+          "native_contrast_abs_error_dn": 5.816772796071253
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_167",
+      "data_sha256": "9b31b900a5497bb16d96b82b3239609d7b7fff0abbc4423f17863159b46370ce",
+      "coverage": {
+        "valid_pixels": 51888,
+        "background_pixels": 51728,
+        "eligible_background_columns": 282,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 3.3488261335719787,
+          "background_rmse_dn": 4.180631559620409,
+          "background_column_residual_dn": 3.710558360014026,
+          "native_contrast_abs_error_dn": 3.0369047980223383
+        },
+        "retrained": {
+          "valid_mae_dn": 2.947741145512295,
+          "background_rmse_dn": 4.829553986111003,
+          "background_column_residual_dn": 3.3288925283395114,
+          "native_contrast_abs_error_dn": 12.651892982955491
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_174",
+      "data_sha256": "ef875c5027b2a73f1b4a8748cc4136fdf540429ac4e32b17733b86e3721d0a83",
+      "coverage": {
+        "valid_pixels": 53010,
+        "background_pixels": 52900,
+        "eligible_background_columns": 285,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 3.627957069977536,
+          "background_rmse_dn": 4.5667124313447225,
+          "background_column_residual_dn": 4.107345380693433,
+          "native_contrast_abs_error_dn": 1.288879853757945
+        },
+        "retrained": {
+          "valid_mae_dn": 1.458708459215189,
+          "background_rmse_dn": 2.0197621564614288,
+          "background_column_residual_dn": 1.2071982622130275,
+          "native_contrast_abs_error_dn": 51.20527130704034
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_202",
+      "data_sha256": "e04f5dea02803ea20dd4ef2a99ad3814509bd6c617ecccf45ae7ba4c0f40dcce",
+      "coverage": {
+        "valid_pixels": 71610,
+        "background_pixels": 71441,
+        "eligible_background_columns": 341,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 7.664317373535937,
+          "background_rmse_dn": 9.72874006114919,
+          "background_column_residual_dn": 9.61659695541669,
+          "native_contrast_abs_error_dn": 2.4275242637556333
+        },
+        "retrained": {
+          "valid_mae_dn": 2.1538233337436177,
+          "background_rmse_dn": 2.9040503783002567,
+          "background_column_residual_dn": 0.7472873675523247,
+          "native_contrast_abs_error_dn": 3.1949949723023634
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_157",
+      "data_sha256": "d38ac0ddf0cb06b45a7dd889cc0b9a742e13bca6f2d29cf1d8642de611b48a86",
+      "coverage": {
+        "valid_pixels": 61936,
+        "background_pixels": 61727,
+        "eligible_background_columns": 316,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 4.753075034271717,
+          "background_rmse_dn": 5.993190933100859,
+          "background_column_residual_dn": 5.9258761216297735,
+          "native_contrast_abs_error_dn": 2.2586548894643785
+        },
+        "retrained": {
+          "valid_mae_dn": 2.936493749382637,
+          "background_rmse_dn": 5.280560304772946,
+          "background_column_residual_dn": 1.4701450898907569,
+          "native_contrast_abs_error_dn": 10.844100220501423
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_96",
+      "data_sha256": "eba73e2dd8dee0f60d1624ce55ecf084ca832925201061cca19521c646e7eb52",
+      "coverage": {
+        "valid_pixels": 62565,
+        "background_pixels": 62229,
+        "eligible_background_columns": 291,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 6.440122639277632,
+          "background_rmse_dn": 8.070097791070953,
+          "background_column_residual_dn": 7.177744832457073,
+          "native_contrast_abs_error_dn": 3.140404999446347
+        },
+        "retrained": {
+          "valid_mae_dn": 5.74181899743825,
+          "background_rmse_dn": 7.890985194719755,
+          "background_column_residual_dn": 1.8681938103979314,
+          "native_contrast_abs_error_dn": 19.454565357925517
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_320",
+      "data_sha256": "f8d179e91ff1dcadea86453f731c59d6b03b940f1120d06143900ab0ea0dc0fb",
+      "coverage": {
+        "valid_pixels": 44156,
+        "background_pixels": 43863,
+        "eligible_background_columns": 266,
+        "native_components": 3,
+        "eligible_native_components": 3
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 7.132166819296833,
+          "background_rmse_dn": 9.05495090233462,
+          "background_column_residual_dn": 8.545167251050168,
+          "native_contrast_abs_error_dn": 1.5718160342329588
+        },
+        "retrained": {
+          "valid_mae_dn": 3.4329269287402617,
+          "background_rmse_dn": 7.011153610406734,
+          "background_column_residual_dn": 3.4531382770032257,
+          "native_contrast_abs_error_dn": 26.433110638183877
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_369",
+      "data_sha256": "ac7c9243ead0edd497dbe6ca695dee92962bd8b40b0e7382ebb1a647b0793d41",
+      "coverage": {
+        "valid_pixels": 44100,
+        "background_pixels": 43977,
+        "eligible_background_columns": 210,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 1.4779847785830498,
+          "background_rmse_dn": 1.8225035970764896,
+          "background_column_residual_dn": 1.7333848558146656,
+          "native_contrast_abs_error_dn": 0.04509166221727025
+        },
+        "retrained": {
+          "valid_mae_dn": 1.762088930799442,
+          "background_rmse_dn": 2.648595152442234,
+          "background_column_residual_dn": 1.4606352400231402,
+          "native_contrast_abs_error_dn": 8.340025832029905
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_109",
+      "data_sha256": "10248adee1c1ce991d968f14342afe22693658e60530a46b80e4fb45f25c64be",
+      "coverage": {
+        "valid_pixels": 90342,
+        "background_pixels": 90218,
+        "eligible_background_columns": 378,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 2.6245778560273,
+          "background_rmse_dn": 3.2640744926896486,
+          "background_column_residual_dn": 2.6781417771002327,
+          "native_contrast_abs_error_dn": 1.4296660187480212
+        },
+        "retrained": {
+          "valid_mae_dn": 5.831413168094641,
+          "background_rmse_dn": 8.168322495209047,
+          "background_column_residual_dn": 2.3819623601027566,
+          "native_contrast_abs_error_dn": 44.21175671557149
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_16",
+      "data_sha256": "7df7baeae29e913f3cc8895298612c4ed4d32dea197c311a00d70c65830b6e85",
+      "coverage": {
+        "valid_pixels": 59072,
+        "background_pixels": 58906,
+        "eligible_background_columns": 284,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 4.563608729337572,
+          "background_rmse_dn": 5.697313972828887,
+          "background_column_residual_dn": 5.021400914704877,
+          "native_contrast_abs_error_dn": 1.3552998276427388
+        },
+        "retrained": {
+          "valid_mae_dn": 3.2640389367063003,
+          "background_rmse_dn": 4.90673302762849,
+          "background_column_residual_dn": 1.2210212432971028,
+          "native_contrast_abs_error_dn": 25.24855479411781
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_40",
+      "data_sha256": "b00d0e259ae9cc5ffe48c285ca2b125ff14f032b4fd5acb956dc2d133fa1d9cd",
+      "coverage": {
+        "valid_pixels": 12960,
+        "background_pixels": 12825,
+        "eligible_background_columns": 135,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 6.09783391641772,
+          "background_rmse_dn": 7.517320698563912,
+          "background_column_residual_dn": 6.530279572898116,
+          "native_contrast_abs_error_dn": 4.488010995090008
+        },
+        "retrained": {
+          "valid_mae_dn": 6.764641136875811,
+          "background_rmse_dn": 9.209642030070292,
+          "background_column_residual_dn": 2.678881900098395,
+          "native_contrast_abs_error_dn": 66.34580325521529
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_295",
+      "data_sha256": "acf6e87927a99d0e0ec7768c6417b76d57a25b034d41831c9d53343fca1c839c",
+      "coverage": {
+        "valid_pixels": 76800,
+        "background_pixels": 76620,
+        "eligible_background_columns": 320,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 6.0112660216429505,
+          "background_rmse_dn": 7.473007288583045,
+          "background_column_residual_dn": 6.768487785510502,
+          "native_contrast_abs_error_dn": 4.668240398168564
+        },
+        "retrained": {
+          "valid_mae_dn": 1.9993285323202143,
+          "background_rmse_dn": 3.0302596917463487,
+          "background_column_residual_dn": 0.9643276244376159,
+          "native_contrast_abs_error_dn": 8.542419243603945
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_147",
+      "data_sha256": "6b6b70a52077aaa3f64bffebcf13a576e5c80d7427cdddd0905a779bf1b4c010",
+      "coverage": {
+        "valid_pixels": 55428,
+        "background_pixels": 55265,
+        "eligible_background_columns": 298,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 2.0458074944272466,
+          "background_rmse_dn": 2.564432225051822,
+          "background_column_residual_dn": 0.9497644337122705,
+          "native_contrast_abs_error_dn": 0.44203337553819144
+        },
+        "retrained": {
+          "valid_mae_dn": 2.5229825503723124,
+          "background_rmse_dn": 3.4256854515884747,
+          "background_column_residual_dn": 1.5833339548172685,
+          "native_contrast_abs_error_dn": 15.372271024685654
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_247",
+      "data_sha256": "18c65928ca2fb4ad87768c22a6ff2c4474ba620cd492c6466932e4d392b5b7da",
+      "coverage": {
+        "valid_pixels": 55315,
+        "background_pixels": 55061,
+        "eligible_background_columns": 299,
+        "native_components": 2,
+        "eligible_native_components": 2
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 6.538062461340804,
+          "background_rmse_dn": 7.860603407147264,
+          "background_column_residual_dn": 7.739862654871252,
+          "native_contrast_abs_error_dn": 3.411676280769261
+        },
+        "retrained": {
+          "valid_mae_dn": 4.018667631793451,
+          "background_rmse_dn": 5.04358489046767,
+          "background_column_residual_dn": 2.5197970613543172,
+          "native_contrast_abs_error_dn": 8.800091638291503
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_423",
+      "data_sha256": "9f3e4e863e04d2760847dff8071ed3828fd257a3b10cfb98da968dd3ac454e44",
+      "coverage": {
+        "valid_pixels": 50960,
+        "background_pixels": 50756,
+        "eligible_background_columns": 280,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 5.979081720936519,
+          "background_rmse_dn": 8.293313534548604,
+          "background_column_residual_dn": 7.540302231229062,
+          "native_contrast_abs_error_dn": 7.698849438352045
+        },
+        "retrained": {
+          "valid_mae_dn": 6.73981004287078,
+          "background_rmse_dn": 11.018157536189365,
+          "background_column_residual_dn": 1.1732342695593476,
+          "native_contrast_abs_error_dn": 54.55346425591561
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_152",
+      "data_sha256": "db8a61ae785c518b640bf69f2c072dc2c05809413b3437b71b93f1266f00a97c",
+      "coverage": {
+        "valid_pixels": 61004,
+        "background_pixels": 60862,
+        "eligible_background_columns": 302,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 7.020730767589599,
+          "background_rmse_dn": 8.71225719658502,
+          "background_column_residual_dn": 7.852479368804848,
+          "native_contrast_abs_error_dn": 3.6615464531562543
+        },
+        "retrained": {
+          "valid_mae_dn": 2.5139671711455223,
+          "background_rmse_dn": 5.169077628321465,
+          "background_column_residual_dn": 2.2613780623419304,
+          "native_contrast_abs_error_dn": 15.232832418246703
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_100",
+      "data_sha256": "e72e4e53e0421d97435602336f26728db6c2bc95246d2e992ab59d8dd5311f38",
+      "coverage": {
+        "valid_pixels": 70716,
+        "background_pixels": 70573,
+        "eligible_background_columns": 332,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 9.399880522177927,
+          "background_rmse_dn": 11.604147200350404,
+          "background_column_residual_dn": 11.499497160046575,
+          "native_contrast_abs_error_dn": 2.540456713784648
+        },
+        "retrained": {
+          "valid_mae_dn": 2.92618023559398,
+          "background_rmse_dn": 3.8247606192586026,
+          "background_column_residual_dn": 1.5285899194215833,
+          "native_contrast_abs_error_dn": 11.083486759167464
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_263",
+      "data_sha256": "80690d6a596664345a691276ccee505ca273b133eab3133c53bb76ef8aa5a4d4",
+      "coverage": {
+        "valid_pixels": 42419,
+        "background_pixels": 42270,
+        "eligible_background_columns": 251,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 3.0358747302032953,
+          "background_rmse_dn": 3.803987629837445,
+          "background_column_residual_dn": 1.5455368390546707,
+          "native_contrast_abs_error_dn": 0.6557270139455795
+        },
+        "retrained": {
+          "valid_mae_dn": 5.307580404152298,
+          "background_rmse_dn": 10.339508295505334,
+          "background_column_residual_dn": 4.6613442763199435,
+          "native_contrast_abs_error_dn": 11.847881233053549
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_352",
+      "data_sha256": "cba436d32da2feb26bb77a688f7c1fbddcf387e94b9953ac8c55b1bcc278a398",
+      "coverage": {
+        "valid_pixels": 65270,
+        "background_pixels": 65115,
+        "eligible_background_columns": 305,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 8.3243883131373,
+          "background_rmse_dn": 11.139062924844268,
+          "background_column_residual_dn": 10.855641061127905,
+          "native_contrast_abs_error_dn": 4.470096478295146
+        },
+        "retrained": {
+          "valid_mae_dn": 3.775534104465952,
+          "background_rmse_dn": 8.225718527224059,
+          "background_column_residual_dn": 3.8899357801803065,
+          "native_contrast_abs_error_dn": 35.42594878172333
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_233",
+      "data_sha256": "20d8268a8528162ffaa3186cec236d2c27968b53b318ddcf09d92b894270e62f",
+      "coverage": {
+        "valid_pixels": 48780,
+        "background_pixels": 48622,
+        "eligible_background_columns": 271,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 9.252073542979003,
+          "background_rmse_dn": 11.632084795534057,
+          "background_column_residual_dn": 10.962391925761692,
+          "native_contrast_abs_error_dn": 1.6284475088119508
+        },
+        "retrained": {
+          "valid_mae_dn": 1.8184017573207214,
+          "background_rmse_dn": 2.9921585299329108,
+          "background_column_residual_dn": 1.1240255333605642,
+          "native_contrast_abs_error_dn": 5.868963648378849
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_190",
+      "data_sha256": "830f83c6ee9ffd0d48076c9b4db31a73a0a07b885e12904aa43f072703e986c8",
+      "coverage": {
+        "valid_pixels": 63840,
+        "background_pixels": 63689,
+        "eligible_background_columns": 304,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 8.679637236718467,
+          "background_rmse_dn": 10.732482186936144,
+          "background_column_residual_dn": 10.487321653806553,
+          "native_contrast_abs_error_dn": 2.7498202104694567
+        },
+        "retrained": {
+          "valid_mae_dn": 1.7325338705905007,
+          "background_rmse_dn": 2.151984763637647,
+          "background_column_residual_dn": 1.0754123864905245,
+          "native_contrast_abs_error_dn": 8.151596870559914
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_392",
+      "data_sha256": "aa799bf54b3c7ae183f47c746e689414f3f0134bd6adfcb41eca7b08b37f6e2a",
+      "coverage": {
+        "valid_pixels": 99300,
+        "background_pixels": 98944,
+        "eligible_background_columns": 331,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 4.204853681978113,
+          "background_rmse_dn": 5.6770798440873,
+          "background_column_residual_dn": 4.440699807711467,
+          "native_contrast_abs_error_dn": 0.0175111351584617
+        },
+        "retrained": {
+          "valid_mae_dn": 5.990983816535139,
+          "background_rmse_dn": 11.522165766658107,
+          "background_column_residual_dn": 1.7518139179129648,
+          "native_contrast_abs_error_dn": 20.377629562354873
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_281",
+      "data_sha256": "0225a74245da02660cff4f4aa72eb922d1e5478e79702def2412f0634d844d8b",
+      "coverage": {
+        "valid_pixels": 41496,
+        "background_pixels": 41327,
+        "eligible_background_columns": 273,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 2.7813410724606418,
+          "background_rmse_dn": 3.4706933270571443,
+          "background_column_residual_dn": 2.910164824197269,
+          "native_contrast_abs_error_dn": 0.4519677975852239
+        },
+        "retrained": {
+          "valid_mae_dn": 4.2543024631882895,
+          "background_rmse_dn": 6.784735184537466,
+          "background_column_residual_dn": 2.408758049300511,
+          "native_contrast_abs_error_dn": 10.254829158460286
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_358",
+      "data_sha256": "d00587af5faae0c14b9251d0a3abea295dbde0edc3337e1515fedbd357ea2420",
+      "coverage": {
+        "valid_pixels": 110224,
+        "background_pixels": 110006,
+        "eligible_background_columns": 332,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 2.263839717063778,
+          "background_rmse_dn": 2.986467418464647,
+          "background_column_residual_dn": 1.530296743369026,
+          "native_contrast_abs_error_dn": 0.010601313016007863
+        },
+        "retrained": {
+          "valid_mae_dn": 3.626320759051934,
+          "background_rmse_dn": 6.881721826314439,
+          "background_column_residual_dn": 1.7021731933935187,
+          "native_contrast_abs_error_dn": 25.24178480093796
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_163",
+      "data_sha256": "765ecd03ddde835074631f4cd36a256a1ee6f7b81c3a872514032c5c93b9a911",
+      "coverage": {
+        "valid_pixels": 51223,
+        "background_pixels": 51052,
+        "eligible_background_columns": 283,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 3.5319476865523334,
+          "background_rmse_dn": 4.46177882321023,
+          "background_column_residual_dn": 4.34503585064692,
+          "native_contrast_abs_error_dn": 2.108948767185211
+        },
+        "retrained": {
+          "valid_mae_dn": 1.8724928500467388,
+          "background_rmse_dn": 3.493759380914002,
+          "background_column_residual_dn": 2.767236140171003,
+          "native_contrast_abs_error_dn": 26.806315451860428
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_132",
+      "data_sha256": "424388b8656981094ec969dc625beb1bf8042fcdcf143faefe1385b06215a93d",
+      "coverage": {
+        "valid_pixels": 72160,
+        "background_pixels": 71940,
+        "eligible_background_columns": 328,
+        "native_components": 2,
+        "eligible_native_components": 2
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 9.719453886564834,
+          "background_rmse_dn": 12.203524333020242,
+          "background_column_residual_dn": 11.571724505606642,
+          "native_contrast_abs_error_dn": 9.120512716068358
+        },
+        "retrained": {
+          "valid_mae_dn": 9.974334703467191,
+          "background_rmse_dn": 13.523612734464932,
+          "background_column_residual_dn": 2.437320894209499,
+          "native_contrast_abs_error_dn": 44.998534013445564
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_405",
+      "data_sha256": "96b2046740f5e4c502de1ac84e85de85d3dfb4a007eef827511b2166e42f0254",
+      "coverage": {
+        "valid_pixels": 41322,
+        "background_pixels": 41193,
+        "eligible_background_columns": 213,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 10.838085747324032,
+          "background_rmse_dn": 13.419967540962412,
+          "background_column_residual_dn": 12.965727512335945,
+          "native_contrast_abs_error_dn": 1.9507145636263257
+        },
+        "retrained": {
+          "valid_mae_dn": 4.674131990840856,
+          "background_rmse_dn": 6.2659117008410545,
+          "background_column_residual_dn": 2.605802109322306,
+          "native_contrast_abs_error_dn": 15.085721464296828
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_159",
+      "data_sha256": "4056328de13dc11182dc365cff547a654ec7d028dc0d864492a2d739e786c6b7",
+      "coverage": {
+        "valid_pixels": 52923,
+        "background_pixels": 52808,
+        "eligible_background_columns": 299,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 3.1655628945840864,
+          "background_rmse_dn": 3.966302544853362,
+          "background_column_residual_dn": 1.0063606428405332,
+          "native_contrast_abs_error_dn": 0.45851060060354376
+        },
+        "retrained": {
+          "valid_mae_dn": 2.316206779934288,
+          "background_rmse_dn": 4.630370356366896,
+          "background_column_residual_dn": 1.7281323306309466,
+          "native_contrast_abs_error_dn": 9.071220600834259
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_12",
+      "data_sha256": "15cfdfa0e663f68b964fd9505134f915c3953f859ed1fe342c00c88f5270aaa3",
+      "coverage": {
+        "valid_pixels": 76002,
+        "background_pixels": 75804,
+        "eligible_background_columns": 318,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 5.040786964747885,
+          "background_rmse_dn": 6.322370905453449,
+          "background_column_residual_dn": 6.182794325272881,
+          "native_contrast_abs_error_dn": 3.3371595456131864
+        },
+        "retrained": {
+          "valid_mae_dn": 3.4817999105349577,
+          "background_rmse_dn": 4.772645058551599,
+          "background_column_residual_dn": 1.4577239869441125,
+          "native_contrast_abs_error_dn": 3.3679336437157223
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_367",
+      "data_sha256": "6d128289911eb279cd2a38530e44df44e95ce95a1851cd6bc3355a758d1ab28c",
+      "coverage": {
+        "valid_pixels": 75076,
+        "background_pixels": 74960,
+        "eligible_background_columns": 274,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 1.3600362554915808,
+          "background_rmse_dn": 1.7015133961436044,
+          "background_column_residual_dn": 1.183222673667933,
+          "native_contrast_abs_error_dn": 0.24238042473069094
+        },
+        "retrained": {
+          "valid_mae_dn": 1.9504916854043963,
+          "background_rmse_dn": 3.923377265577699,
+          "background_column_residual_dn": 1.767006089308528,
+          "native_contrast_abs_error_dn": 1.3895834354977858
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_172",
+      "data_sha256": "84a5652310a1a7b1510fb99a8dc95ab737bde578061ec46e899f3bfdd6fd9a11",
+      "coverage": {
+        "valid_pixels": 63648,
+        "background_pixels": 63411,
+        "eligible_background_columns": 312,
+        "native_components": 2,
+        "eligible_native_components": 2
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 4.587174247866735,
+          "background_rmse_dn": 5.688343350243993,
+          "background_column_residual_dn": 5.17161424000376,
+          "native_contrast_abs_error_dn": 2.121385268938656
+        },
+        "retrained": {
+          "valid_mae_dn": 2.1283867213433276,
+          "background_rmse_dn": 3.052689103297311,
+          "background_column_residual_dn": 0.8331196775184668,
+          "native_contrast_abs_error_dn": 34.090688175593435
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_401",
+      "data_sha256": "754907a9fea63f9d50733ba11d5e3aca326805edd38dbcfcbdbd281170be2751",
+      "coverage": {
+        "valid_pixels": 74036,
+        "background_pixels": 73775,
+        "eligible_background_columns": 332,
+        "native_components": 2,
+        "eligible_native_components": 2
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 4.088482094820038,
+          "background_rmse_dn": 5.179541611894986,
+          "background_column_residual_dn": 4.8578822030166435,
+          "native_contrast_abs_error_dn": 1.8075140642049983
+        },
+        "retrained": {
+          "valid_mae_dn": 2.5378937760624707,
+          "background_rmse_dn": 3.956454965294885,
+          "background_column_residual_dn": 1.2072733407726084,
+          "native_contrast_abs_error_dn": 16.601400665628415
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_138",
+      "data_sha256": "71428c73d050c4cbfd7887572684d7a108decac75c4a923fd7c114651c62c864",
+      "coverage": {
+        "valid_pixels": 51200,
+        "background_pixels": 50960,
+        "eligible_background_columns": 256,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 4.644163616001606,
+          "background_rmse_dn": 5.755840430091098,
+          "background_column_residual_dn": 4.419554231727207,
+          "native_contrast_abs_error_dn": 1.817783435376791
+        },
+        "retrained": {
+          "valid_mae_dn": 3.08577141600108,
+          "background_rmse_dn": 4.826685178020546,
+          "background_column_residual_dn": 2.0635696998977693,
+          "native_contrast_abs_error_dn": 23.31662730603513
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_104",
+      "data_sha256": "6bed5e5c03be7deae49b7dfb6a42f061d87ed9f34192b092a7eb3927195ece82",
+      "coverage": {
+        "valid_pixels": 162184,
+        "background_pixels": 161554,
+        "eligible_background_columns": 418,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 1.612203184510177,
+          "background_rmse_dn": 2.424389209689137,
+          "background_column_residual_dn": 1.2543769697696663,
+          "native_contrast_abs_error_dn": 0.08680636390778483
+        },
+        "retrained": {
+          "valid_mae_dn": 2.783218742978579,
+          "background_rmse_dn": 6.977809112004959,
+          "background_column_residual_dn": 1.7392589447700422,
+          "native_contrast_abs_error_dn": 16.847868310284
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_86",
+      "data_sha256": "65d39acbee4edb45e81d8bf6c648a425ebd8dad8a6c6d726a7e8a47cf9735b98",
+      "coverage": {
+        "valid_pixels": 63135,
+        "background_pixels": 62861,
+        "eligible_background_columns": 305,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 9.430990241752948,
+          "background_rmse_dn": 11.744363018047808,
+          "background_column_residual_dn": 11.354033757153008,
+          "native_contrast_abs_error_dn": 1.3989393642315502
+        },
+        "retrained": {
+          "valid_mae_dn": 3.6978194064441445,
+          "background_rmse_dn": 5.594356262376879,
+          "background_column_residual_dn": 1.7400140049388984,
+          "native_contrast_abs_error_dn": 6.736971767066601
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_160",
+      "data_sha256": "89ff838cf0a04ea6422655e64bb69cf6f67a1fe00e4700dde75b9d579a3f7336",
+      "coverage": {
+        "valid_pixels": 55539,
+        "background_pixels": 55400,
+        "eligible_background_columns": 297,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 3.7575568661052663,
+          "background_rmse_dn": 4.701447122101528,
+          "background_column_residual_dn": 3.709714461883131,
+          "native_contrast_abs_error_dn": 1.9563763532787561
+        },
+        "retrained": {
+          "valid_mae_dn": 3.7010688185127396,
+          "background_rmse_dn": 7.475157519820238,
+          "background_column_residual_dn": 6.235456755882856,
+          "native_contrast_abs_error_dn": 2.141295298933983
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_242",
+      "data_sha256": "3dd984965ed2ed0e7dd91ff101fbfc6e3a752047772faa7917ae9833692c0524",
+      "coverage": {
+        "valid_pixels": 75036,
+        "background_pixels": 74870,
+        "eligible_background_columns": 338,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 0.33603370888493794,
+          "background_rmse_dn": 0.42077728820980503,
+          "background_column_residual_dn": 0.2974976745982893,
+          "native_contrast_abs_error_dn": 0.048559449080910005
+        },
+        "retrained": {
+          "valid_mae_dn": 2.22086122382969,
+          "background_rmse_dn": 3.6114188566423735,
+          "background_column_residual_dn": 1.6890629106729222,
+          "native_contrast_abs_error_dn": 6.932339915739639
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_7",
+      "data_sha256": "02d1ecb81df9dfe0dfdce34013cb4f63fddc7ce63f3c785f3b2b217d00ab5eea",
+      "coverage": {
+        "valid_pixels": 68904,
+        "background_pixels": 68697,
+        "eligible_background_columns": 297,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 1.2670927069554425,
+          "background_rmse_dn": 1.5856928464240285,
+          "background_column_residual_dn": 0.3546300872957107,
+          "native_contrast_abs_error_dn": 0.16594539193130248
+        },
+        "retrained": {
+          "valid_mae_dn": 3.2156459588942856,
+          "background_rmse_dn": 5.974164612535525,
+          "background_column_residual_dn": 3.2312188335186356,
+          "native_contrast_abs_error_dn": 17.263450084693808
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_305",
+      "data_sha256": "30347c9297a7822b469ab4620f964dca7c3513d1d6d3dfeb95baa7c5b246d30d",
+      "coverage": {
+        "valid_pixels": 60600,
+        "background_pixels": 60449,
+        "eligible_background_columns": 303,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 3.036321649154519,
+          "background_rmse_dn": 3.7995169505792004,
+          "background_column_residual_dn": 0.6030691212458621,
+          "native_contrast_abs_error_dn": 0.07613743039277884
+        },
+        "retrained": {
+          "valid_mae_dn": 4.620388511894732,
+          "background_rmse_dn": 5.415338058291697,
+          "background_column_residual_dn": 3.3298196280235413,
+          "native_contrast_abs_error_dn": 12.011459791316437
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_243",
+      "data_sha256": "7f1053bfb9163b8de4257f892b5c93940110e030b2b7fb321f62847650c772ff",
+      "coverage": {
+        "valid_pixels": 72080,
+        "background_pixels": 71864,
+        "eligible_background_columns": 340,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 1.0924380010099344,
+          "background_rmse_dn": 1.3664091569076198,
+          "background_column_residual_dn": 0.9193612048123496,
+          "native_contrast_abs_error_dn": 0.04078987289808299
+        },
+        "retrained": {
+          "valid_mae_dn": 2.201790609772598,
+          "background_rmse_dn": 3.12744535436811,
+          "background_column_residual_dn": 1.433797084932284,
+          "native_contrast_abs_error_dn": 2.9608410937613563
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_399",
+      "data_sha256": "d29aa95d721688a0e7a32bc333a75925efd7a99d190ab0d70cfcd83eb2de9212",
+      "coverage": {
+        "valid_pixels": 64666,
+        "background_pixels": 64463,
+        "eligible_background_columns": 298,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 2.3483201526631943,
+          "background_rmse_dn": 2.939849028141412,
+          "background_column_residual_dn": 0.29883267900408056,
+          "native_contrast_abs_error_dn": 0.3512504702193315
+        },
+        "retrained": {
+          "valid_mae_dn": 3.0588650596117666,
+          "background_rmse_dn": 5.826649621209767,
+          "background_column_residual_dn": 3.345402470380773,
+          "native_contrast_abs_error_dn": 9.479652007408975
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_363",
+      "data_sha256": "70e027c4c0cf14e65f6fb5e64ad66ffc607f80f5183e57e56d8c56121c1992fa",
+      "coverage": {
+        "valid_pixels": 93330,
+        "background_pixels": 93173,
+        "eligible_background_columns": 306,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 8.170576586052801,
+          "background_rmse_dn": 10.735307806183569,
+          "background_column_residual_dn": 10.066398391183728,
+          "native_contrast_abs_error_dn": 1.5665369958713136
+        },
+        "retrained": {
+          "valid_mae_dn": 5.244771024784775,
+          "background_rmse_dn": 8.691243928443217,
+          "background_column_residual_dn": 2.2151378587885233,
+          "native_contrast_abs_error_dn": 3.6309155641958633
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_61",
+      "data_sha256": "f962f6e43a420231eacc62623baadd38dce93adcfa74130adf8b7450b72a3ccc",
+      "coverage": {
+        "valid_pixels": 108332,
+        "background_pixels": 108108,
+        "eligible_background_columns": 371,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 3.7562337134597907,
+          "background_rmse_dn": 4.7334343920670605,
+          "background_column_residual_dn": 4.323256868589438,
+          "native_contrast_abs_error_dn": 1.604601589822641
+        },
+        "retrained": {
+          "valid_mae_dn": 4.166289112057414,
+          "background_rmse_dn": 5.653277562854651,
+          "background_column_residual_dn": 1.3598844244599404,
+          "native_contrast_abs_error_dn": 4.492974076299898
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_129",
+      "data_sha256": "3e1c11de2a83588ae4fa6d3a20887fa0905ed9924b45698fbb580e624e9b78e1",
+      "coverage": {
+        "valid_pixels": 71107,
+        "background_pixels": 70893,
+        "eligible_background_columns": 337,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 2.7295583599394426,
+          "background_rmse_dn": 3.415298308196917,
+          "background_column_residual_dn": 2.2323908692241545,
+          "native_contrast_abs_error_dn": 0.8210937332894122
+        },
+        "retrained": {
+          "valid_mae_dn": 2.521087161444631,
+          "background_rmse_dn": 4.13977733713858,
+          "background_column_residual_dn": 2.0053162741017507,
+          "native_contrast_abs_error_dn": 46.31234346612633
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_330",
+      "data_sha256": "69a7df8746477738855ee74cf31d18fb947bdb2dc70908d0ab33a24836d5d887",
+      "coverage": {
+        "valid_pixels": 87462,
+        "background_pixels": 87311,
+        "eligible_background_columns": 339,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 5.4639877139992485,
+          "background_rmse_dn": 7.14620721233416,
+          "background_column_residual_dn": 6.7539735394370055,
+          "native_contrast_abs_error_dn": 3.4378854246179182
+        },
+        "retrained": {
+          "valid_mae_dn": 3.146114531563798,
+          "background_rmse_dn": 5.67392310955376,
+          "background_column_residual_dn": 2.5841234654154976,
+          "native_contrast_abs_error_dn": 9.356827008267564
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_134",
+      "data_sha256": "7d19c89028d35e4e2d82c2dde85023ee0582db5351d143520387630ac927bfd0",
+      "coverage": {
+        "valid_pixels": 67932,
+        "background_pixels": 67630,
+        "eligible_background_columns": 333,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 8.478582308099076,
+          "background_rmse_dn": 10.57760572868721,
+          "background_column_residual_dn": 10.44534431135805,
+          "native_contrast_abs_error_dn": 1.14655483340966
+        },
+        "retrained": {
+          "valid_mae_dn": 9.061794611877081,
+          "background_rmse_dn": 11.970283110595265,
+          "background_column_residual_dn": 2.530124124069238,
+          "native_contrast_abs_error_dn": 24.446787804015912
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_315",
+      "data_sha256": "456ed34bb902b45f0f119cc6082a9d43eee71aa321f10d8cf3a0a7afe815f9b7",
+      "coverage": {
+        "valid_pixels": 68586,
+        "background_pixels": 68417,
+        "eligible_background_columns": 322,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 3.078406634525849,
+          "background_rmse_dn": 3.8258414729538015,
+          "background_column_residual_dn": 3.7561794928192485,
+          "native_contrast_abs_error_dn": 2.364228279105961
+        },
+        "retrained": {
+          "valid_mae_dn": 4.567094021919613,
+          "background_rmse_dn": 8.122568351012816,
+          "background_column_residual_dn": 2.7978462318757056,
+          "native_contrast_abs_error_dn": 17.690091900115547
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_180",
+      "data_sha256": "5da2ace59d71361aa25f08b3b83b037831a2a2d89b7f493be1dd0694eb08dcb1",
+      "coverage": {
+        "valid_pixels": 60444,
+        "background_pixels": 60286,
+        "eligible_background_columns": 276,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 0.9850741833180681,
+          "background_rmse_dn": 1.2233761479804737,
+          "background_column_residual_dn": 0.47260138129654405,
+          "native_contrast_abs_error_dn": 0.04894700044622788
+        },
+        "retrained": {
+          "valid_mae_dn": 4.72138336117516,
+          "background_rmse_dn": 8.181921837387398,
+          "background_column_residual_dn": 3.305629909444384,
+          "native_contrast_abs_error_dn": 54.153412964481575
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_244",
+      "data_sha256": "635a56725db9ad9837d67611a0bfff426b96431493b014545604e56eac1a85f1",
+      "coverage": {
+        "valid_pixels": 79112,
+        "background_pixels": 78883,
+        "eligible_background_columns": 341,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 8.444164372197838,
+          "background_rmse_dn": 10.502965790920681,
+          "background_column_residual_dn": 10.491617337064483,
+          "native_contrast_abs_error_dn": 0.3938395716249943
+        },
+        "retrained": {
+          "valid_mae_dn": 2.2991113363057814,
+          "background_rmse_dn": 2.771411291981534,
+          "background_column_residual_dn": 1.5796543702390837,
+          "native_contrast_abs_error_dn": 1.1865177529398352
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_63",
+      "data_sha256": "b23d59cfd37cd8233cb75042ac27de9d9ea9795e246f9340a1f1798cfa70e673",
+      "coverage": {
+        "valid_pixels": 59946,
+        "background_pixels": 59636,
+        "eligible_background_columns": 291,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 9.742052514634478,
+          "background_rmse_dn": 12.137008215828544,
+          "background_column_residual_dn": 11.508971291735254,
+          "native_contrast_abs_error_dn": 0.39962647152283504
+        },
+        "retrained": {
+          "valid_mae_dn": 4.388639070003678,
+          "background_rmse_dn": 6.00045641170283,
+          "background_column_residual_dn": 1.4671597876243725,
+          "native_contrast_abs_error_dn": 24.541260678801805
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_391",
+      "data_sha256": "cbc86c97e5c36b589466321b626c9af85ed0ed51e7215f6bc7b34195c1d1daca",
+      "coverage": {
+        "valid_pixels": 113176,
+        "background_pixels": 113027,
+        "eligible_background_columns": 376,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 2.7603508143195246,
+          "background_rmse_dn": 3.5740278916558235,
+          "background_column_residual_dn": 2.7481863350459816,
+          "native_contrast_abs_error_dn": 0.9326614959576687
+        },
+        "retrained": {
+          "valid_mae_dn": 4.649764624763773,
+          "background_rmse_dn": 7.336242959216343,
+          "background_column_residual_dn": 2.0810223581846,
+          "native_contrast_abs_error_dn": 16.965136270752396
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_42",
+      "data_sha256": "b45d454ce3cfb9e048e1558e2deaa7e5d3c174999aacce740db7a175f04beb1e",
+      "coverage": {
+        "valid_pixels": 59584,
+        "background_pixels": 59413,
+        "eligible_background_columns": 304,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 7.767899545349999,
+          "background_rmse_dn": 9.57421010207162,
+          "background_column_residual_dn": 9.518802766787617,
+          "native_contrast_abs_error_dn": 1.6166331985965372
+        },
+        "retrained": {
+          "valid_mae_dn": 3.532115833291876,
+          "background_rmse_dn": 4.880613677911642,
+          "background_column_residual_dn": 2.1905390558193365,
+          "native_contrast_abs_error_dn": 8.995934261195362
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_404",
+      "data_sha256": "760684f859d860b6162d69855393c3e0885517bbcc023d60dbf16b1277268d43",
+      "coverage": {
+        "valid_pixels": 81540,
+        "background_pixels": 81331,
+        "eligible_background_columns": 302,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 3.3645679380544586,
+          "background_rmse_dn": 4.2946546662632175,
+          "background_column_residual_dn": 4.223048361419552,
+          "native_contrast_abs_error_dn": 0.19409176955620444
+        },
+        "retrained": {
+          "valid_mae_dn": 1.4669935442918447,
+          "background_rmse_dn": 4.158691945150318,
+          "background_column_residual_dn": 0.9915864380313679,
+          "native_contrast_abs_error_dn": 11.93559742718935
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_29",
+      "data_sha256": "9dab48878ff7c75ecc1f6fa76f656f5e5b23cfcf1fd1527ce2a0cf6c65a2110e",
+      "coverage": {
+        "valid_pixels": 84480,
+        "background_pixels": 83589,
+        "eligible_background_columns": 352,
+        "native_components": 4,
+        "eligible_native_components": 4
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 5.8293217415587355,
+          "background_rmse_dn": 7.202814625694357,
+          "background_column_residual_dn": 6.817738131216313,
+          "native_contrast_abs_error_dn": 2.234082362947103
+        },
+        "retrained": {
+          "valid_mae_dn": 2.2667753978190293,
+          "background_rmse_dn": 3.2553541615796706,
+          "background_column_residual_dn": 1.9352999045883426,
+          "native_contrast_abs_error_dn": 14.909648580096642
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_238",
+      "data_sha256": "76203ba5a451e99f725e3a3faf8e271fc4a9b57cf9535b68f4acd1caf1f44e61",
+      "coverage": {
+        "valid_pixels": 83898,
+        "background_pixels": 83767,
+        "eligible_background_columns": 354,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 7.054344068279954,
+          "background_rmse_dn": 8.815461734399058,
+          "background_column_residual_dn": 8.793014412726615,
+          "native_contrast_abs_error_dn": 0.5729451165957884
+        },
+        "retrained": {
+          "valid_mae_dn": 3.6743277014011846,
+          "background_rmse_dn": 5.778693656485258,
+          "background_column_residual_dn": 2.590275137021996,
+          "native_contrast_abs_error_dn": 17.962079437618904
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_285",
+      "data_sha256": "9de8130c5ff6588b30ec2344e8625e344741b0056aa3dac7886e5281ebd9daa2",
+      "coverage": {
+        "valid_pixels": 66243,
+        "background_pixels": 66076,
+        "eligible_background_columns": 311,
+        "native_components": 2,
+        "eligible_native_components": 2
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 1.1551390959783436,
+          "background_rmse_dn": 1.445073277936215,
+          "background_column_residual_dn": 1.0230808086507348,
+          "native_contrast_abs_error_dn": 0.783877311895291
+        },
+        "retrained": {
+          "valid_mae_dn": 2.1377242876908564,
+          "background_rmse_dn": 3.296493426715209,
+          "background_column_residual_dn": 1.785827932431131,
+          "native_contrast_abs_error_dn": 6.652759712189436
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_214",
+      "data_sha256": "a2d8ebbfb92096c57a6431253f0534514208320ee7f3aba4d47abb011549694d",
+      "coverage": {
+        "valid_pixels": 58200,
+        "background_pixels": 57838,
+        "eligible_background_columns": 300,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 6.293559692512007,
+          "background_rmse_dn": 7.765433498362328,
+          "background_column_residual_dn": 6.974058161972163,
+          "native_contrast_abs_error_dn": 0.2517258303901493
+        },
+        "retrained": {
+          "valid_mae_dn": 2.6277085621409193,
+          "background_rmse_dn": 3.7033070717255003,
+          "background_column_residual_dn": 0.9049476801260302,
+          "native_contrast_abs_error_dn": 14.003040740970063
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_93",
+      "data_sha256": "607c287bfdf214d6056e6bf8253b5e0100c0671ea5ef278c07bd5b148a37b2e1",
+      "coverage": {
+        "valid_pixels": 69486,
+        "background_pixels": 69269,
+        "eligible_background_columns": 313,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 4.976900530411416,
+          "background_rmse_dn": 6.256560784176728,
+          "background_column_residual_dn": 6.159997273678197,
+          "native_contrast_abs_error_dn": 0.4730748411800181
+        },
+        "retrained": {
+          "valid_mae_dn": 4.833120483651941,
+          "background_rmse_dn": 6.742343229455427,
+          "background_column_residual_dn": 1.7365815773184816,
+          "native_contrast_abs_error_dn": 14.64686871905412
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_253",
+      "data_sha256": "95fea6a093475410a50f9f53e72470fd2dd1236cbb72b230839343181caf11c6",
+      "coverage": {
+        "valid_pixels": 66220,
+        "background_pixels": 66101,
+        "eligible_background_columns": 308,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 2.390933967878631,
+          "background_rmse_dn": 2.9954552715894276,
+          "background_column_residual_dn": 0.20172286239289414,
+          "native_contrast_abs_error_dn": 0.19508234624351772
+        },
+        "retrained": {
+          "valid_mae_dn": 3.8481393180542076,
+          "background_rmse_dn": 8.579969983801883,
+          "background_column_residual_dn": 1.625086300643816,
+          "native_contrast_abs_error_dn": 23.030845428151743
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_402",
+      "data_sha256": "1deca8e3115a4f5403ffab218eca6f0b0b05c7ed7792944e5546661bafe7a0f1",
+      "coverage": {
+        "valid_pixels": 79100,
+        "background_pixels": 78974,
+        "eligible_background_columns": 350,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 6.710531506848471,
+          "background_rmse_dn": 8.54959534515331,
+          "background_column_residual_dn": 8.53401823806461,
+          "native_contrast_abs_error_dn": 3.4096497173110643
+        },
+        "retrained": {
+          "valid_mae_dn": 3.43095168608103,
+          "background_rmse_dn": 4.6381629678142255,
+          "background_column_residual_dn": 1.3967826605239164,
+          "native_contrast_abs_error_dn": 7.54565287878116
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_50",
+      "data_sha256": "313ee1b031cfa886985b1f3750edb29413c7852728b9e225bfaf3bb9581ac131",
+      "coverage": {
+        "valid_pixels": 61248,
+        "background_pixels": 61084,
+        "eligible_background_columns": 319,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 8.606173940445224,
+          "background_rmse_dn": 11.079372437186843,
+          "background_column_residual_dn": 11.035854140182009,
+          "native_contrast_abs_error_dn": 3.072128324872917
+        },
+        "retrained": {
+          "valid_mae_dn": 5.400525328855039,
+          "background_rmse_dn": 7.449366889682417,
+          "background_column_residual_dn": 3.164816222925248,
+          "native_contrast_abs_error_dn": 37.53803727030754
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_291",
+      "data_sha256": "5f9a91d5bc98e1feb8f9541c2e3a3f3a022efbbefa43f96f67c377c649ad175a",
+      "coverage": {
+        "valid_pixels": 70737,
+        "background_pixels": 70338,
+        "eligible_background_columns": 323,
+        "native_components": 2,
+        "eligible_native_components": 2
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 8.655304794764467,
+          "background_rmse_dn": 10.920882100699151,
+          "background_column_residual_dn": 10.813036606491746,
+          "native_contrast_abs_error_dn": 2.79726865227403
+        },
+        "retrained": {
+          "valid_mae_dn": 4.851025545576126,
+          "background_rmse_dn": 6.605249489950808,
+          "background_column_residual_dn": 1.9067290549422142,
+          "native_contrast_abs_error_dn": 32.16457289415969
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_128",
+      "data_sha256": "56e99130ff7508826f169c1a3581cf2a2794f5a00ef9fb583d208783028810a3",
+      "coverage": {
+        "valid_pixels": 72822,
+        "background_pixels": 72639,
+        "eligible_background_columns": 318,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 8.192471963954054,
+          "background_rmse_dn": 10.181132425867688,
+          "background_column_residual_dn": 10.13851360724881,
+          "native_contrast_abs_error_dn": 0.7521691955626011
+        },
+        "retrained": {
+          "valid_mae_dn": 2.6848691033258207,
+          "background_rmse_dn": 5.1447087005674605,
+          "background_column_residual_dn": 2.5159774189459494,
+          "native_contrast_abs_error_dn": 26.75626616925001
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_267",
+      "data_sha256": "0c50509782df629e13e0edb64dfc0356f9f2cf6363b88329f39222abf559ea07",
+      "coverage": {
+        "valid_pixels": 66360,
+        "background_pixels": 66107,
+        "eligible_background_columns": 316,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 6.836945755880454,
+          "background_rmse_dn": 8.47740579938635,
+          "background_column_residual_dn": 7.60245033056219,
+          "native_contrast_abs_error_dn": 0.4637913868734329
+        },
+        "retrained": {
+          "valid_mae_dn": 3.8353815371279896,
+          "background_rmse_dn": 6.144461018343206,
+          "background_column_residual_dn": 2.417624536590819,
+          "native_contrast_abs_error_dn": 0.3288826967279117
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_115",
+      "data_sha256": "5d358ae17e214351133c867a9f4bb0db44671c3fb6bac6ae9f5a61b264b44ad2",
+      "coverage": {
+        "valid_pixels": 55428,
+        "background_pixels": 55222,
+        "eligible_background_columns": 298,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 7.816071202056041,
+          "background_rmse_dn": 9.793961166232732,
+          "background_column_residual_dn": 9.581524194074271,
+          "native_contrast_abs_error_dn": 3.363928481805743
+        },
+        "retrained": {
+          "valid_mae_dn": 3.2303737555937486,
+          "background_rmse_dn": 4.155894739398997,
+          "background_column_residual_dn": 1.1727751172928946,
+          "native_contrast_abs_error_dn": 8.05022315318255
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_337",
+      "data_sha256": "f862a5ebede2e6f04a57fc2f5858ad2392dfec6eb106acc1e02338590614cf78",
+      "coverage": {
+        "valid_pixels": 49413,
+        "background_pixels": 49288,
+        "eligible_background_columns": 273,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 2.1710938086699185,
+          "background_rmse_dn": 2.7194924023694376,
+          "background_column_residual_dn": 1.2642337284650287,
+          "native_contrast_abs_error_dn": 1.1277471855282784
+        },
+        "retrained": {
+          "valid_mae_dn": 2.0882326569339194,
+          "background_rmse_dn": 3.03428703430376,
+          "background_column_residual_dn": 1.2826710601978182,
+          "native_contrast_abs_error_dn": 6.67161254833142
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_370",
+      "data_sha256": "dd755639aa1f81beda9e738a4451d9bffc07df8a65f2e2dc3e7732a5d74ac6cb",
+      "coverage": {
+        "valid_pixels": 65025,
+        "background_pixels": 64906,
+        "eligible_background_columns": 255,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 2.1711531597025253,
+          "background_rmse_dn": 2.80383854729084,
+          "background_column_residual_dn": 1.238789660355084,
+          "native_contrast_abs_error_dn": 0.03853563219308853
+        },
+        "retrained": {
+          "valid_mae_dn": 3.5816392134217656,
+          "background_rmse_dn": 5.919667064978358,
+          "background_column_residual_dn": 1.8135128429024305,
+          "native_contrast_abs_error_dn": 16.80946011096239
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_158",
+      "data_sha256": "e30ce5ab2cd998297d627979fe35d2d50be662f095fc9ce31ca6be7fc78ce6f2",
+      "coverage": {
+        "valid_pixels": 59251,
+        "background_pixels": 59085,
+        "eligible_background_columns": 307,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 6.451713963846374,
+          "background_rmse_dn": 8.189952786043456,
+          "background_column_residual_dn": 7.981066835964066,
+          "native_contrast_abs_error_dn": 1.1824809413935458
+        },
+        "retrained": {
+          "valid_mae_dn": 2.191119166442073,
+          "background_rmse_dn": 3.892311341259408,
+          "background_column_residual_dn": 1.4451123916817594,
+          "native_contrast_abs_error_dn": 14.340553539139883
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_114",
+      "data_sha256": "2acefc775922e7305ef36f87b23940171d010c008c65b9fd1420c5b4ec7b7f6c",
+      "coverage": {
+        "valid_pixels": 51506,
+        "background_pixels": 51381,
+        "eligible_background_columns": 283,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 4.286119918424118,
+          "background_rmse_dn": 5.3626173053101365,
+          "background_column_residual_dn": 5.210206371717621,
+          "native_contrast_abs_error_dn": 3.514639234123197
+        },
+        "retrained": {
+          "valid_mae_dn": 8.324539927046448,
+          "background_rmse_dn": 12.012006335520075,
+          "background_column_residual_dn": 2.2312723502125045,
+          "native_contrast_abs_error_dn": 89.03391336095021
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_388",
+      "data_sha256": "c65b536bb18bd1ff47e712ebea8eb139ee1e564eb93a6c2b91631ab3f8fc5faa",
+      "coverage": {
+        "valid_pixels": 69376,
+        "background_pixels": 69204,
+        "eligible_background_columns": 256,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 3.533662458599504,
+          "background_rmse_dn": 4.837410931993262,
+          "background_column_residual_dn": 4.532036733631863,
+          "native_contrast_abs_error_dn": 1.14740086398248
+        },
+        "retrained": {
+          "valid_mae_dn": 5.03072577981161,
+          "background_rmse_dn": 8.454943518432708,
+          "background_column_residual_dn": 2.5870529758985095,
+          "native_contrast_abs_error_dn": 19.49299303878998
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_170",
+      "data_sha256": "b72b4e457d8c435f9dd2ed3324f45dcd303da24fd4d524faf833516b77adfe75",
+      "coverage": {
+        "valid_pixels": 48950,
+        "background_pixels": 48735,
+        "eligible_background_columns": 275,
+        "native_components": 2,
+        "eligible_native_components": 2
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 4.268955784383115,
+          "background_rmse_dn": 5.342988096241366,
+          "background_column_residual_dn": 5.320414316460817,
+          "native_contrast_abs_error_dn": 1.6182098721082394
+        },
+        "retrained": {
+          "valid_mae_dn": 1.7472952242678106,
+          "background_rmse_dn": 2.2634860340647758,
+          "background_column_residual_dn": 0.7951083321728085,
+          "native_contrast_abs_error_dn": 17.509977433400657
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_354",
+      "data_sha256": "6fe293163e3e8636e27ad846bee8145923e30e2298bc87cac95f9b3ea76291be",
+      "coverage": {
+        "valid_pixels": 63536,
+        "background_pixels": 63369,
+        "eligible_background_columns": 304,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 3.7568401489045646,
+          "background_rmse_dn": 4.889238709812351,
+          "background_column_residual_dn": 3.609124296838721,
+          "native_contrast_abs_error_dn": 1.4459036586758418
+        },
+        "retrained": {
+          "valid_mae_dn": 3.9667805101421343,
+          "background_rmse_dn": 7.1378933507313365,
+          "background_column_residual_dn": 2.522301608337297,
+          "native_contrast_abs_error_dn": 14.198709746392874
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_36",
+      "data_sha256": "2871e1ac89ac95c5d65dc6da9fe2b1d1e244dd44789db9077a59d7d3f933aaa7",
+      "coverage": {
+        "valid_pixels": 81600,
+        "background_pixels": 81515,
+        "eligible_background_columns": 320,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 6.838759538654995,
+          "background_rmse_dn": 8.614437715315471,
+          "background_column_residual_dn": 8.442286727365738,
+          "native_contrast_abs_error_dn": 3.3189939707517624
+        },
+        "retrained": {
+          "valid_mae_dn": 6.007787276770978,
+          "background_rmse_dn": 8.773262377303816,
+          "background_column_residual_dn": 2.9361849760495082,
+          "native_contrast_abs_error_dn": 22.84260980784893
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_424",
+      "data_sha256": "549084ff69780c90876d586563725527cd81820c86002e6d7c0803885ff3be4d",
+      "coverage": {
+        "valid_pixels": 45612,
+        "background_pixels": 45337,
+        "eligible_background_columns": 252,
+        "native_components": 3,
+        "eligible_native_components": 3
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 7.070806582370845,
+          "background_rmse_dn": 8.811505415954292,
+          "background_column_residual_dn": 8.773507101272383,
+          "native_contrast_abs_error_dn": 4.247865023026619
+        },
+        "retrained": {
+          "valid_mae_dn": 3.4759704917091048,
+          "background_rmse_dn": 4.38574298689197,
+          "background_column_residual_dn": 1.8439064691483755,
+          "native_contrast_abs_error_dn": 14.96989844839392
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_336",
+      "data_sha256": "b698c15aa1c510fd73552979d06977e280c9bfc14d6e14116563f86e2125329a",
+      "coverage": {
+        "valid_pixels": 62700,
+        "background_pixels": 62527,
+        "eligible_background_columns": 300,
+        "native_components": 2,
+        "eligible_native_components": 2
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 8.316492064539611,
+          "background_rmse_dn": 10.611291131326618,
+          "background_column_residual_dn": 10.055732311184675,
+          "native_contrast_abs_error_dn": 2.313191636634821
+        },
+        "retrained": {
+          "valid_mae_dn": 3.0076301313829763,
+          "background_rmse_dn": 3.958748836144018,
+          "background_column_residual_dn": 2.0542902880953107,
+          "native_contrast_abs_error_dn": 21.29841775328598
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_393",
+      "data_sha256": "60cf3f22e632dfebfbb83eb39ae700b25801afa8c5693b13d7edce12317e1329",
+      "coverage": {
+        "valid_pixels": 97055,
+        "background_pixels": 96759,
+        "eligible_background_columns": 329,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 5.858942834755697,
+          "background_rmse_dn": 7.6660384534002075,
+          "background_column_residual_dn": 7.291387654725739,
+          "native_contrast_abs_error_dn": 1.9160805786294597
+        },
+        "retrained": {
+          "valid_mae_dn": 6.951621332539239,
+          "background_rmse_dn": 10.506077936270769,
+          "background_column_residual_dn": 4.32604028956863,
+          "native_contrast_abs_error_dn": 11.792720322807629
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_229",
+      "data_sha256": "a14e2f4790cbdcd18f0fc07224707d7eaf9edc6c1b58073a4c6e7a2ab1cbc821",
+      "coverage": {
+        "valid_pixels": 70818,
+        "background_pixels": 70631,
+        "eligible_background_columns": 319,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 3.0411682672998106,
+          "background_rmse_dn": 3.9070477813508746,
+          "background_column_residual_dn": 3.888410698604429,
+          "native_contrast_abs_error_dn": 0.2169734351525102
+        },
+        "retrained": {
+          "valid_mae_dn": 2.52388342933784,
+          "background_rmse_dn": 3.9111070158512593,
+          "background_column_residual_dn": 1.2597460949581447,
+          "native_contrast_abs_error_dn": 18.789759780929394
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_108",
+      "data_sha256": "e3f860f348a36d790c17d5ef763b8aa5a3ae66ace6fd9754a7f08859b225abf7",
+      "coverage": {
+        "valid_pixels": 70560,
+        "background_pixels": 70417,
+        "eligible_background_columns": 315,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 3.782006230479705,
+          "background_rmse_dn": 4.7100395514798326,
+          "background_column_residual_dn": 4.615867278674924,
+          "native_contrast_abs_error_dn": 1.822661048865744
+        },
+        "retrained": {
+          "valid_mae_dn": 5.171968850495253,
+          "background_rmse_dn": 8.368862059957753,
+          "background_column_residual_dn": 1.939187025432733,
+          "native_contrast_abs_error_dn": 113.89400155230291
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_105",
+      "data_sha256": "6fac655fa0b11543c2d353fa8fc8b926b3ca98beef3537a9ed3b24e3c2796200",
+      "coverage": {
+        "valid_pixels": 70735,
+        "background_pixels": 70498,
+        "eligible_background_columns": 329,
+        "native_components": 2,
+        "eligible_native_components": 2
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 8.520242647987748,
+          "background_rmse_dn": 10.538504036518841,
+          "background_column_residual_dn": 10.322728681171133,
+          "native_contrast_abs_error_dn": 1.3585151209822528
+        },
+        "retrained": {
+          "valid_mae_dn": 4.496986895680744,
+          "background_rmse_dn": 6.195060007466092,
+          "background_column_residual_dn": 1.6436822878159603,
+          "native_contrast_abs_error_dn": 24.58645246631478
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_406",
+      "data_sha256": "f60fdea41d0599c7d9c3d57943807f72991f5b8a4d0df1b1a28297a3f0bb13ef",
+      "coverage": {
+        "valid_pixels": 49284,
+        "background_pixels": 49063,
+        "eligible_background_columns": 222,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 7.531548783047167,
+          "background_rmse_dn": 9.320329764832183,
+          "background_column_residual_dn": 8.972090933922546,
+          "native_contrast_abs_error_dn": 3.4462303570471704
+        },
+        "retrained": {
+          "valid_mae_dn": 5.288698888207042,
+          "background_rmse_dn": 6.907932634482619,
+          "background_column_residual_dn": 3.3597214040624737,
+          "native_contrast_abs_error_dn": 27.871865237422753
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_2",
+      "data_sha256": "c810e2468fe5ee042147de79e3bbb12abd6fa92950436690e378e7acd0b26b36",
+      "coverage": {
+        "valid_pixels": 93960,
+        "background_pixels": 93553,
+        "eligible_background_columns": 348,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 5.4319767074679985,
+          "background_rmse_dn": 6.872747920613527,
+          "background_column_residual_dn": 6.125528093507216,
+          "native_contrast_abs_error_dn": 0.7745867443096943
+        },
+        "retrained": {
+          "valid_mae_dn": 3.8363501192121094,
+          "background_rmse_dn": 4.891670843220558,
+          "background_column_residual_dn": 1.4421051447537039,
+          "native_contrast_abs_error_dn": 33.304433510991174
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_324",
+      "data_sha256": "98875acc8a4abb297434e61cf6eb70f12e9da1329d12fdaea6c769b179c782c5",
+      "coverage": {
+        "valid_pixels": 49484,
+        "background_pixels": 49309,
+        "eligible_background_columns": 278,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 3.512684100822232,
+          "background_rmse_dn": 4.410045605622532,
+          "background_column_residual_dn": 2.83663176591828,
+          "native_contrast_abs_error_dn": 3.5816742780485322
+        },
+        "retrained": {
+          "valid_mae_dn": 1.5248213103007175,
+          "background_rmse_dn": 3.2530578231744536,
+          "background_column_residual_dn": 0.8160677432615114,
+          "native_contrast_abs_error_dn": 30.162155596273287
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_47",
+      "data_sha256": "11cbc22fad8cba9f02b85bee1a85b8b0d457241aec6f26a9d9005c2b992c3bfe",
+      "coverage": {
+        "valid_pixels": 60630,
+        "background_pixels": 60510,
+        "eligible_background_columns": 282,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 8.55666438322966,
+          "background_rmse_dn": 10.631652383791266,
+          "background_column_residual_dn": 10.182602660786793,
+          "native_contrast_abs_error_dn": 0.130958104506135
+        },
+        "retrained": {
+          "valid_mae_dn": 8.052471788610225,
+          "background_rmse_dn": 11.944764461750408,
+          "background_column_residual_dn": 2.256231361117502,
+          "native_contrast_abs_error_dn": 82.36341831460595
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_200",
+      "data_sha256": "c1f56ce6ef2a089a6c3d2d43bc37ffe8ef65c30473ab21e8c6c14fa1ca798962",
+      "coverage": {
+        "valid_pixels": 58996,
+        "background_pixels": 58864,
+        "eligible_background_columns": 301,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 3.472950716228095,
+          "background_rmse_dn": 4.357852860597721,
+          "background_column_residual_dn": 2.056423311185661,
+          "native_contrast_abs_error_dn": 2.049539549784227
+        },
+        "retrained": {
+          "valid_mae_dn": 1.9992560594319222,
+          "background_rmse_dn": 2.5980850544482,
+          "background_column_residual_dn": 0.7746283113990348,
+          "native_contrast_abs_error_dn": 6.827121813866226
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_187",
+      "data_sha256": "f4a09d318821e44603a092588494e6b9d66b8d28f22a13d1315f52a294feaee1",
+      "coverage": {
+        "valid_pixels": 60297,
+        "background_pixels": 60100,
+        "eligible_background_columns": 303,
+        "native_components": 2,
+        "eligible_native_components": 2
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 2.704392279042279,
+          "background_rmse_dn": 3.3924362005577713,
+          "background_column_residual_dn": 0.593920782936432,
+          "native_contrast_abs_error_dn": 1.0556339006870985
+        },
+        "retrained": {
+          "valid_mae_dn": 1.7171004294657406,
+          "background_rmse_dn": 2.793365684748504,
+          "background_column_residual_dn": 1.2276556197699842,
+          "native_contrast_abs_error_dn": 9.020442203260385
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_33",
+      "data_sha256": "cbe0a07d16501b2d1a9526feaec74403ae4a6cf329c809f1992cd7fab00f7062",
+      "coverage": {
+        "valid_pixels": 63118,
+        "background_pixels": 63006,
+        "eligible_background_columns": 302,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 2.6235313391041872,
+          "background_rmse_dn": 3.3253692656216987,
+          "background_column_residual_dn": 1.131903875137455,
+          "native_contrast_abs_error_dn": 1.8661079853773117
+        },
+        "retrained": {
+          "valid_mae_dn": 4.484986220450607,
+          "background_rmse_dn": 6.267853107077932,
+          "background_column_residual_dn": 1.4864448225456282,
+          "native_contrast_abs_error_dn": 14.077341735363007
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_72",
+      "data_sha256": "8e708ca491e467c7f1bd6d787d36168ba2b47ed41b759af2bba5665039f458e6",
+      "coverage": {
+        "valid_pixels": 77112,
+        "background_pixels": 76951,
+        "eligible_background_columns": 324,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 1.0696522843230654,
+          "background_rmse_dn": 1.340710843004893,
+          "background_column_residual_dn": 0.357018494413227,
+          "native_contrast_abs_error_dn": 0.15947646819628203
+        },
+        "retrained": {
+          "valid_mae_dn": 3.393408448987261,
+          "background_rmse_dn": 4.803013197009966,
+          "background_column_residual_dn": 1.3362807187317156,
+          "native_contrast_abs_error_dn": 0.5996984552878599
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_384",
+      "data_sha256": "de9c645d61cd37f4367667bc56e74a7b16acce84d1b8ca81615548e2cde94159",
+      "coverage": {
+        "valid_pixels": 114168,
+        "background_pixels": 113963,
+        "eligible_background_columns": 402,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 3.496996253722602,
+          "background_rmse_dn": 4.75181707266899,
+          "background_column_residual_dn": 4.16039635245461,
+          "native_contrast_abs_error_dn": 1.2300804172243391
+        },
+        "retrained": {
+          "valid_mae_dn": 2.81036480287153,
+          "background_rmse_dn": 6.615842156241456,
+          "background_column_residual_dn": 1.3794175484422746,
+          "native_contrast_abs_error_dn": 32.186226344002144
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_120",
+      "data_sha256": "20ecf895cfd72a1bd8cb57f06abbef1a82c8a52252243fbafd5e09ecf82ffaae",
+      "coverage": {
+        "valid_pixels": 62700,
+        "background_pixels": 62618,
+        "eligible_background_columns": 300,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 2.058398525551425,
+          "background_rmse_dn": 2.5368110056877433,
+          "background_column_residual_dn": 2.250614167346259,
+          "native_contrast_abs_error_dn": 1.3798457267694175
+        },
+        "retrained": {
+          "valid_mae_dn": 4.322561206712285,
+          "background_rmse_dn": 7.282081882604409,
+          "background_column_residual_dn": 1.8333381615817406,
+          "native_contrast_abs_error_dn": 43.067657437641174
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_322",
+      "data_sha256": "5df6283b37fc7a72cce9a0ba063baaaf41d53fcae7931d74f436d9e396629590",
+      "coverage": {
+        "valid_pixels": 66049,
+        "background_pixels": 65830,
+        "eligible_background_columns": 257,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 2.6661773377728992,
+          "background_rmse_dn": 3.45470133975404,
+          "background_column_residual_dn": 3.3477878965843777,
+          "native_contrast_abs_error_dn": 0.0620681470116744
+        },
+        "retrained": {
+          "valid_mae_dn": 4.726230728178535,
+          "background_rmse_dn": 8.440745529123944,
+          "background_column_residual_dn": 3.1562324024859976,
+          "native_contrast_abs_error_dn": 26.79677117974139
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_360",
+      "data_sha256": "96538145c143ca4a9437324fca6ae9a48b5fa48762498aca3bf5a1613b72262a",
+      "coverage": {
+        "valid_pixels": 106929,
+        "background_pixels": 106786,
+        "eligible_background_columns": 327,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 7.726673573335808,
+          "background_rmse_dn": 9.794521108085311,
+          "background_column_residual_dn": 9.265080634478718,
+          "native_contrast_abs_error_dn": 0.4387125612369607
+        },
+        "retrained": {
+          "valid_mae_dn": 3.930739414004247,
+          "background_rmse_dn": 6.237271402924238,
+          "background_column_residual_dn": 2.511777647841687,
+          "native_contrast_abs_error_dn": 49.64089787698217
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_192",
+      "data_sha256": "0921b31b7c81e6f463c7c55bd20e6689729e0dd4223656f2a963b6a8f4e4c746",
+      "coverage": {
+        "valid_pixels": 56914,
+        "background_pixels": 56796,
+        "eligible_background_columns": 286,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 6.23332915504482,
+          "background_rmse_dn": 7.924452578585011,
+          "background_column_residual_dn": 7.045197363208469,
+          "native_contrast_abs_error_dn": 0.5257282588585668
+        },
+        "retrained": {
+          "valid_mae_dn": 1.9053870305232683,
+          "background_rmse_dn": 3.193237459494212,
+          "background_column_residual_dn": 0.6312155300099936,
+          "native_contrast_abs_error_dn": 5.768900020010317
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_112",
+      "data_sha256": "81f24f31c1facda618a2b079d8b17a8a8a6eb6cc5fcc3c39329838eb13b3b829",
+      "coverage": {
+        "valid_pixels": 56322,
+        "background_pixels": 56137,
+        "eligible_background_columns": 298,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 6.221268023591942,
+          "background_rmse_dn": 7.989414426724612,
+          "background_column_residual_dn": 7.617312329083,
+          "native_contrast_abs_error_dn": 1.1759794637074936
+        },
+        "retrained": {
+          "valid_mae_dn": 2.0750471454479227,
+          "background_rmse_dn": 4.817829774991086,
+          "background_column_residual_dn": 2.810703605993068,
+          "native_contrast_abs_error_dn": 14.031068208708387
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_142",
+      "data_sha256": "dead7260b8f047fad0425f4d2851d284af9eb9f4613031c7a372518a12c278a9",
+      "coverage": {
+        "valid_pixels": 53768,
+        "background_pixels": 53525,
+        "eligible_background_columns": 286,
+        "native_components": 2,
+        "eligible_native_components": 2
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 7.867006390112893,
+          "background_rmse_dn": 10.248745584144471,
+          "background_column_residual_dn": 9.890695108153011,
+          "native_contrast_abs_error_dn": 8.511496154809153
+        },
+        "retrained": {
+          "valid_mae_dn": 3.3805572490428593,
+          "background_rmse_dn": 6.080154219144177,
+          "background_column_residual_dn": 2.1353492078848784,
+          "native_contrast_abs_error_dn": 11.773032594423789
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_403",
+      "data_sha256": "381ccb81c9467c54e3b0cb9231ca29f3acdd7b19d81ae28fe2d4212644ad8827",
+      "coverage": {
+        "valid_pixels": 66243,
+        "background_pixels": 66015,
+        "eligible_background_columns": 311,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 8.232279907896663,
+          "background_rmse_dn": 10.28242654920539,
+          "background_column_residual_dn": 10.204465767716501,
+          "native_contrast_abs_error_dn": 2.725988080362576
+        },
+        "retrained": {
+          "valid_mae_dn": 2.324858501885557,
+          "background_rmse_dn": 3.2834950035809833,
+          "background_column_residual_dn": 0.7702160688508741,
+          "native_contrast_abs_error_dn": 11.650159403526725
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_169",
+      "data_sha256": "f86fe6d6f15a567e4c9b91c05fd83d630039710ebf10b230770bd953266d4cce",
+      "coverage": {
+        "valid_pixels": 50374,
+        "background_pixels": 50197,
+        "eligible_background_columns": 283,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 5.038494495752988,
+          "background_rmse_dn": 6.290467815387882,
+          "background_column_residual_dn": 5.918877452637313,
+          "native_contrast_abs_error_dn": 0.19621464372663722
+        },
+        "retrained": {
+          "valid_mae_dn": 2.8699143531074047,
+          "background_rmse_dn": 4.876583021521316,
+          "background_column_residual_dn": 1.611374160592706,
+          "native_contrast_abs_error_dn": 8.205501098226716
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_223",
+      "data_sha256": "4ff5a80529a93062c002dedc19a1afc557f1c2e1713f10e5c41430206183ce72",
+      "coverage": {
+        "valid_pixels": 61908,
+        "background_pixels": 61586,
+        "eligible_background_columns": 308,
+        "native_components": 4,
+        "eligible_native_components": 4
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 7.8767191400391505,
+          "background_rmse_dn": 9.79116757844749,
+          "background_column_residual_dn": 9.347657931804312,
+          "native_contrast_abs_error_dn": 4.372369591746811
+        },
+        "retrained": {
+          "valid_mae_dn": 3.2383637925251425,
+          "background_rmse_dn": 4.368214593613424,
+          "background_column_residual_dn": 0.885253882970398,
+          "native_contrast_abs_error_dn": 36.44660372550152
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_213",
+      "data_sha256": "024e7ed5c154931f7313f11dd048ea9994888cb8a0ec75b58c7bfb170c09f0e7",
+      "coverage": {
+        "valid_pixels": 83700,
+        "background_pixels": 83490,
+        "eligible_background_columns": 300,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 4.49832976234002,
+          "background_rmse_dn": 5.619060761023225,
+          "background_column_residual_dn": 5.33365277958843,
+          "native_contrast_abs_error_dn": 2.4024136056098637
+        },
+        "retrained": {
+          "valid_mae_dn": 3.874403125229275,
+          "background_rmse_dn": 8.743896294986312,
+          "background_column_residual_dn": 1.8265706174955627,
+          "native_contrast_abs_error_dn": 23.81518588646462
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_161",
+      "data_sha256": "6b34c3d15c68f07d67e032d33f426e29739b407c0b3b77d7cc84b8e674f561b5",
+      "coverage": {
+        "valid_pixels": 38346,
+        "background_pixels": 38212,
+        "eligible_background_columns": 249,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 2.7022405999765544,
+          "background_rmse_dn": 3.408772125669301,
+          "background_column_residual_dn": 2.860689530158034,
+          "native_contrast_abs_error_dn": 1.7165758059575007
+        },
+        "retrained": {
+          "valid_mae_dn": 2.0367132734254927,
+          "background_rmse_dn": 3.468287594431355,
+          "background_column_residual_dn": 1.9079520523676092,
+          "native_contrast_abs_error_dn": 24.663764112270794
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_256",
+      "data_sha256": "e7409c85e1a1540c2035c13bfee8bf43cca74608ed6c2f97eeff1adea0f08419",
+      "coverage": {
+        "valid_pixels": 98397,
+        "background_pixels": 98277,
+        "eligible_background_columns": 377,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 7.7999213123823825,
+          "background_rmse_dn": 9.735033119699711,
+          "background_column_residual_dn": 9.545680019435617,
+          "native_contrast_abs_error_dn": 3.304854181002487
+        },
+        "retrained": {
+          "valid_mae_dn": 4.09822883363197,
+          "background_rmse_dn": 6.132916535757695,
+          "background_column_residual_dn": 1.8234353962988905,
+          "native_contrast_abs_error_dn": 4.185077351602641
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_141",
+      "data_sha256": "586fd71e0edfe9043ec5a32c9edaeb1ac6ff59e300c7d96f97f8babfc30c462f",
+      "coverage": {
+        "valid_pixels": 37513,
+        "background_pixels": 37402,
+        "eligible_background_columns": 233,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 2.868031925950287,
+          "background_rmse_dn": 3.5973212636923346,
+          "background_column_residual_dn": 1.6684040179192845,
+          "native_contrast_abs_error_dn": 1.0677759292034001
+        },
+        "retrained": {
+          "valid_mae_dn": 6.375537749031531,
+          "background_rmse_dn": 9.631631197733206,
+          "background_column_residual_dn": 3.0776140003067387,
+          "native_contrast_abs_error_dn": 0.617521062779885
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_78",
+      "data_sha256": "1539d9bab7c7f127f43fd3497eb42790a96233f62309084d5336a452174dcb26",
+      "coverage": {
+        "valid_pixels": 82320,
+        "background_pixels": 82118,
+        "eligible_background_columns": 336,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 4.789373339894064,
+          "background_rmse_dn": 5.928446801406223,
+          "background_column_residual_dn": 5.862977841490872,
+          "native_contrast_abs_error_dn": 0.19829058647155762
+        },
+        "retrained": {
+          "valid_mae_dn": 2.3856195458319616,
+          "background_rmse_dn": 3.227124735876545,
+          "background_column_residual_dn": 1.621513987276396,
+          "native_contrast_abs_error_dn": 12.878956530243158
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_296",
+      "data_sha256": "21a21cd503002db990c37479c44a6a8fe4202dc16ed0d9c82c38470d7b6968f6",
+      "coverage": {
+        "valid_pixels": 76800,
+        "background_pixels": 76618,
+        "eligible_background_columns": 320,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 4.601147681230214,
+          "background_rmse_dn": 5.837968070659461,
+          "background_column_residual_dn": 5.177793673527284,
+          "native_contrast_abs_error_dn": 3.7722964800502123
+        },
+        "retrained": {
+          "valid_mae_dn": 2.3507831844697646,
+          "background_rmse_dn": 4.338639618009862,
+          "background_column_residual_dn": 2.1837258230992367,
+          "native_contrast_abs_error_dn": 19.961015456881288
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_6",
+      "data_sha256": "86f88a8f3feaf90a2b4e763c0913be64039bbfbdc8f2857611a8da31c6d5f2a7",
+      "coverage": {
+        "valid_pixels": 67097,
+        "background_pixels": 66920,
+        "eligible_background_columns": 293,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 2.81872103989763,
+          "background_rmse_dn": 3.5200550746355868,
+          "background_column_residual_dn": 3.3693628724222506,
+          "native_contrast_abs_error_dn": 0.9805842919088583
+        },
+        "retrained": {
+          "valid_mae_dn": 4.523722720958651,
+          "background_rmse_dn": 5.802058751092434,
+          "background_column_residual_dn": 1.1253546129102756,
+          "native_contrast_abs_error_dn": 16.680871159382203
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_258",
+      "data_sha256": "a3bde930b7c43f7bdf51f02cbe07233a3ed83b5cd4c8677c0c059cd24738fe5a",
+      "coverage": {
+        "valid_pixels": 40572,
+        "background_pixels": 40464,
+        "eligible_background_columns": 252,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 6.372725671227207,
+          "background_rmse_dn": 7.979136984355599,
+          "background_column_residual_dn": 7.815803112747524,
+          "native_contrast_abs_error_dn": 0.49610850401222706
+        },
+        "retrained": {
+          "valid_mae_dn": 1.898620430621407,
+          "background_rmse_dn": 2.521036115906271,
+          "background_column_residual_dn": 1.673966382247679,
+          "native_contrast_abs_error_dn": 44.55427778325975
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_231",
+      "data_sha256": "970e36b8bedbca0a9caab2de2eef13e3dcc60ca366006c487584f255e12a19d8",
+      "coverage": {
+        "valid_pixels": 58976,
+        "background_pixels": 58784,
+        "eligible_background_columns": 304,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 6.598148250849276,
+          "background_rmse_dn": 8.138767258326219,
+          "background_column_residual_dn": 7.429368324702848,
+          "native_contrast_abs_error_dn": 0.8893494186922908
+        },
+        "retrained": {
+          "valid_mae_dn": 1.3386713421308019,
+          "background_rmse_dn": 1.9810877004147542,
+          "background_column_residual_dn": 0.47060062268336533,
+          "native_contrast_abs_error_dn": 8.882481823675334
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_52",
+      "data_sha256": "50b21d70cd220c5061c1b1539fde609c361bbbac06def2a30cf5b16cfcf1ef4c",
+      "coverage": {
+        "valid_pixels": 63210,
+        "background_pixels": 63067,
+        "eligible_background_columns": 301,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 6.578313105655228,
+          "background_rmse_dn": 8.230602854861488,
+          "background_column_residual_dn": 8.196078247084266,
+          "native_contrast_abs_error_dn": 2.106253888871935
+        },
+        "retrained": {
+          "valid_mae_dn": 5.553954606447024,
+          "background_rmse_dn": 8.726989255199525,
+          "background_column_residual_dn": 1.750926898339073,
+          "native_contrast_abs_error_dn": 15.344230586455929
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_183",
+      "data_sha256": "9507c5788a93a37629b8781cc281e7c905557a3ee4b98d1833f405f7af8d5815",
+      "coverage": {
+        "valid_pixels": 53625,
+        "background_pixels": 53490,
+        "eligible_background_columns": 275,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 5.003891502606285,
+          "background_rmse_dn": 6.27598186110558,
+          "background_column_residual_dn": 5.955492897267968,
+          "native_contrast_abs_error_dn": 0.24923315701576382
+        },
+        "retrained": {
+          "valid_mae_dn": 1.835206923818255,
+          "background_rmse_dn": 2.5143198733128287,
+          "background_column_residual_dn": 1.0456520206944475,
+          "native_contrast_abs_error_dn": 19.586835833839498
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_362",
+      "data_sha256": "7b27ffe3230bf6d967938df1175c28bb9e7a6d53cb8793436138d5206189a9de",
+      "coverage": {
+        "valid_pixels": 62400,
+        "background_pixels": 62196,
+        "eligible_background_columns": 325,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 2.4851123942503293,
+          "background_rmse_dn": 3.1678122197409415,
+          "background_column_residual_dn": 0.3903612509746527,
+          "native_contrast_abs_error_dn": 0.9331076129932295
+        },
+        "retrained": {
+          "valid_mae_dn": 6.090155414212271,
+          "background_rmse_dn": 8.678744193300432,
+          "background_column_residual_dn": 3.071075401160436,
+          "native_contrast_abs_error_dn": 19.35659075883979
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_102",
+      "data_sha256": "70860bb50457d85cb5d028e3da90d5a8bfe1e0421efeb458944ad5edf8ea74dd",
+      "coverage": {
+        "valid_pixels": 63140,
+        "background_pixels": 62828,
+        "eligible_background_columns": 308,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 5.949243007251969,
+          "background_rmse_dn": 7.347442616708276,
+          "background_column_residual_dn": 6.558074534213816,
+          "native_contrast_abs_error_dn": 0.521952598577454
+        },
+        "retrained": {
+          "valid_mae_dn": 3.165408646426198,
+          "background_rmse_dn": 4.956925406009194,
+          "background_column_residual_dn": 2.732490953322353,
+          "native_contrast_abs_error_dn": 9.127900303888415
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_88",
+      "data_sha256": "63e192cae0b65f9bde6da5eb62d29427be59813a2298c2d7eaaea2f0af264af2",
+      "coverage": {
+        "valid_pixels": 69651,
+        "background_pixels": 69303,
+        "eligible_background_columns": 327,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 1.8170030364516727,
+          "background_rmse_dn": 2.2758911852756207,
+          "background_column_residual_dn": 0.2639875200591174,
+          "native_contrast_abs_error_dn": 0.4435752744062079
+        },
+        "retrained": {
+          "valid_mae_dn": 4.334121351435573,
+          "background_rmse_dn": 7.896565775492701,
+          "background_column_residual_dn": 1.6271216930982964,
+          "native_contrast_abs_error_dn": 4.475725314890345
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_343",
+      "data_sha256": "2022635aeb7482286d8fc4eaa4e60c66392d359ba795410663ba801242d71ec2",
+      "coverage": {
+        "valid_pixels": 81266,
+        "background_pixels": 81154,
+        "eligible_background_columns": 358,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 5.648292679631836,
+          "background_rmse_dn": 7.074844803142596,
+          "background_column_residual_dn": 6.926981982122105,
+          "native_contrast_abs_error_dn": 3.1982852721756156
+        },
+        "retrained": {
+          "valid_mae_dn": 2.738819701540573,
+          "background_rmse_dn": 4.521961330698619,
+          "background_column_residual_dn": 2.4970493507124294,
+          "native_contrast_abs_error_dn": 15.065941803834656
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_341",
+      "data_sha256": "8e1b2d41261f8e1bca286521496853e824536c316f6db8c0e3a3bfda51e3611a",
+      "coverage": {
+        "valid_pixels": 61060,
+        "background_pixels": 60958,
+        "eligible_background_columns": 284,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 9.415974924158423,
+          "background_rmse_dn": 11.760127118550605,
+          "background_column_residual_dn": 11.063104294190639,
+          "native_contrast_abs_error_dn": 3.6179222031073137
+        },
+        "retrained": {
+          "valid_mae_dn": 2.9629036499882258,
+          "background_rmse_dn": 4.390345791435396,
+          "background_column_residual_dn": 2.1983403076512293,
+          "native_contrast_abs_error_dn": 6.522433436052366
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_118",
+      "data_sha256": "1d7edab6b0a2cfa868d5951040485999331b819e87476b6bc02145398f9d6da9",
+      "coverage": {
+        "valid_pixels": 58422,
+        "background_pixels": 58236,
+        "eligible_background_columns": 321,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 9.211900509906854,
+          "background_rmse_dn": 11.882102552629481,
+          "background_column_residual_dn": 11.022219140885888,
+          "native_contrast_abs_error_dn": 0.4816539467892622
+        },
+        "retrained": {
+          "valid_mae_dn": 7.148537846748217,
+          "background_rmse_dn": 11.14867391781166,
+          "background_column_residual_dn": 4.060930208505128,
+          "native_contrast_abs_error_dn": 31.41378908095519
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_165",
+      "data_sha256": "534b8a3c6703b44110bb51b0608fc3fe3fa3fb05d1a7dcf921d61e13b880bad5",
+      "coverage": {
+        "valid_pixels": 63900,
+        "background_pixels": 63763,
+        "eligible_background_columns": 300,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 8.431056145487677,
+          "background_rmse_dn": 10.694542216855766,
+          "background_column_residual_dn": 10.692222133114317,
+          "native_contrast_abs_error_dn": 4.931108448654413
+        },
+        "retrained": {
+          "valid_mae_dn": 2.6444490316922957,
+          "background_rmse_dn": 3.785796537690099,
+          "background_column_residual_dn": 1.4627363652698502,
+          "native_contrast_abs_error_dn": 20.32640488197406
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_280",
+      "data_sha256": "16ab5959b588033be58958ce36418c7bc4596e18fa3b02b051fb48a221853ce4",
+      "coverage": {
+        "valid_pixels": 70737,
+        "background_pixels": 70478,
+        "eligible_background_columns": 323,
+        "native_components": 2,
+        "eligible_native_components": 2
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 9.64640236185043,
+          "background_rmse_dn": 12.139336459075782,
+          "background_column_residual_dn": 11.98069352273019,
+          "native_contrast_abs_error_dn": 1.5811468445190335
+        },
+        "retrained": {
+          "valid_mae_dn": 3.459051374047887,
+          "background_rmse_dn": 4.611114264179597,
+          "background_column_residual_dn": 0.8963002575399348,
+          "native_contrast_abs_error_dn": 35.18159828243376
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_17",
+      "data_sha256": "bc6e3977d23c8f4a3070edeeec849df9ea1e5de2f99928be087d18dcf5e99d82",
+      "coverage": {
+        "valid_pixels": 98256,
+        "background_pixels": 98161,
+        "eligible_background_columns": 368,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 3.015449086297895,
+          "background_rmse_dn": 3.7772249105582927,
+          "background_column_residual_dn": 0.8973023530966001,
+          "native_contrast_abs_error_dn": 1.2852821722626686
+        },
+        "retrained": {
+          "valid_mae_dn": 3.920534520963244,
+          "background_rmse_dn": 5.724995495454033,
+          "background_column_residual_dn": 2.126302690416056,
+          "native_contrast_abs_error_dn": 15.525501027703285
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_290",
+      "data_sha256": "934c9092559b8f78be3dc415dd04fba261a61bb026669835fc43ca2eed107e20",
+      "coverage": {
+        "valid_pixels": 56169,
+        "background_pixels": 55791,
+        "eligible_background_columns": 237,
+        "native_components": 3,
+        "eligible_native_components": 3
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 3.803068818369782,
+          "background_rmse_dn": 4.7536447950078005,
+          "background_column_residual_dn": 3.462984230704818,
+          "native_contrast_abs_error_dn": 1.0655812420283082
+        },
+        "retrained": {
+          "valid_mae_dn": 5.346762300781611,
+          "background_rmse_dn": 6.837055966459738,
+          "background_column_residual_dn": 2.7823526448691025,
+          "native_contrast_abs_error_dn": 27.628164654222104
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_67",
+      "data_sha256": "94e35ab8afa0aaebf21a6b9e1b304d2463d54115054307379c392ee405d40171",
+      "coverage": {
+        "valid_pixels": 81920,
+        "background_pixels": 81807,
+        "eligible_background_columns": 320,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 2.1520474437998622,
+          "background_rmse_dn": 2.7086588715876503,
+          "background_column_residual_dn": 1.1589184385397,
+          "native_contrast_abs_error_dn": 1.3471859586066923
+        },
+        "retrained": {
+          "valid_mae_dn": 2.9817405765851452,
+          "background_rmse_dn": 4.088038920896702,
+          "background_column_residual_dn": 1.358047319736628,
+          "native_contrast_abs_error_dn": 16.544147312927706
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_382",
+      "data_sha256": "b0d1731f3b7584e5557fea13f762fb0d50eddf06853d35afcb2d218ff085d8c3",
+      "coverage": {
+        "valid_pixels": 114019,
+        "background_pixels": 113836,
+        "eligible_background_columns": 323,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 3.605575522798637,
+          "background_rmse_dn": 4.484306035156875,
+          "background_column_residual_dn": 3.3638556921236384,
+          "native_contrast_abs_error_dn": 1.0375526439278357
+        },
+        "retrained": {
+          "valid_mae_dn": 3.2432185215740814,
+          "background_rmse_dn": 4.983580733072395,
+          "background_column_residual_dn": 1.1426801936841937,
+          "native_contrast_abs_error_dn": 11.285470801015054
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_191",
+      "data_sha256": "4b1e160a2606486eb2d4d9a36454a59a04876f39aa82354e752cdc48750a2856",
+      "coverage": {
+        "valid_pixels": 69042,
+        "background_pixels": 68931,
+        "eligible_background_columns": 311,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 4.638114800715391,
+          "background_rmse_dn": 5.793375143852675,
+          "background_column_residual_dn": 5.015824271097087,
+          "native_contrast_abs_error_dn": 1.3155725684303503
+        },
+        "retrained": {
+          "valid_mae_dn": 2.6400229520650607,
+          "background_rmse_dn": 3.8168125757721154,
+          "background_column_residual_dn": 2.513309335888923,
+          "native_contrast_abs_error_dn": 8.073119584184427
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_166",
+      "data_sha256": "ec88b24aad1b4b91a5bdb8b62834882f1cd86cb0962c06a1c9b69e3394e884bf",
+      "coverage": {
+        "valid_pixels": 52128,
+        "background_pixels": 51946,
+        "eligible_background_columns": 288,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 0.8645487792316556,
+          "background_rmse_dn": 1.070974491719678,
+          "background_column_residual_dn": 1.0645391465379586,
+          "native_contrast_abs_error_dn": 0.19434170265282902
+        },
+        "retrained": {
+          "valid_mae_dn": 2.870030482254603,
+          "background_rmse_dn": 5.103367716054455,
+          "background_column_residual_dn": 2.2932039464691405,
+          "native_contrast_abs_error_dn": 11.758638045617513
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_8",
+      "data_sha256": "1038ceb7b7fc167541df846445498b959075e2c66b5780df478086456338caab",
+      "coverage": {
+        "valid_pixels": 60025,
+        "background_pixels": 59875,
+        "eligible_background_columns": 245,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 4.887648241825771,
+          "background_rmse_dn": 6.031106408749733,
+          "background_column_residual_dn": 5.847685408417271,
+          "native_contrast_abs_error_dn": 3.5494818445295095
+        },
+        "retrained": {
+          "valid_mae_dn": 3.447136466476332,
+          "background_rmse_dn": 4.699688538997349,
+          "background_column_residual_dn": 1.3421209180384064,
+          "native_contrast_abs_error_dn": 26.31763132289052
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_45",
+      "data_sha256": "d99e2de2d2533d9080747a88b4c8e1f1489da9292ed2d6c153054a98466786bf",
+      "coverage": {
+        "valid_pixels": 56322,
+        "background_pixels": 55960,
+        "eligible_background_columns": 298,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 2.154228634885468,
+          "background_rmse_dn": 2.667910871618585,
+          "background_column_residual_dn": 2.1448927517941256,
+          "native_contrast_abs_error_dn": 0.1672929527347393
+        },
+        "retrained": {
+          "valid_mae_dn": 7.557375980310933,
+          "background_rmse_dn": 10.434421917702972,
+          "background_column_residual_dn": 3.524594247953335,
+          "native_contrast_abs_error_dn": 19.520830852602714
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_415",
+      "data_sha256": "0cbc5ae8bb6da7facbfb5a1d7aa02cbed190601304686e973b767669112a4662",
+      "coverage": {
+        "valid_pixels": 60600,
+        "background_pixels": 60446,
+        "eligible_background_columns": 303,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 8.396078664254361,
+          "background_rmse_dn": 10.577853509584441,
+          "background_column_residual_dn": 10.007485610049683,
+          "native_contrast_abs_error_dn": 1.7520197436568288
+        },
+        "retrained": {
+          "valid_mae_dn": 4.694980347305674,
+          "background_rmse_dn": 6.89450810852974,
+          "background_column_residual_dn": 2.2377032738533456,
+          "native_contrast_abs_error_dn": 26.19340568958294
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_349",
+      "data_sha256": "77eb475bd338877f8150d666d51ce2898e6f43daa11f7bee635474c74d7f466d",
+      "coverage": {
+        "valid_pixels": 91455,
+        "background_pixels": 91222,
+        "eligible_background_columns": 335,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 6.320200473769133,
+          "background_rmse_dn": 7.736337910370697,
+          "background_column_residual_dn": 7.668799643439209,
+          "native_contrast_abs_error_dn": 4.671211021571507
+        },
+        "retrained": {
+          "valid_mae_dn": 2.2707681098794943,
+          "background_rmse_dn": 4.385614596060932,
+          "background_column_residual_dn": 2.550096553631782,
+          "native_contrast_abs_error_dn": 5.574458230603562
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_98",
+      "data_sha256": "ebce60f98ff2cc172c7b0486f57313b017768b6bef500c677ddb4c2b333527a2",
+      "coverage": {
+        "valid_pixels": 90209,
+        "background_pixels": 90053,
+        "eligible_background_columns": 343,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 3.0885206208404927,
+          "background_rmse_dn": 3.924460662804626,
+          "background_column_residual_dn": 3.913798320356236,
+          "native_contrast_abs_error_dn": 0.7673976624320293
+        },
+        "retrained": {
+          "valid_mae_dn": 3.340526409328673,
+          "background_rmse_dn": 5.388805928786333,
+          "background_column_residual_dn": 1.479578517068082,
+          "native_contrast_abs_error_dn": 13.72036761045456
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_127",
+      "data_sha256": "66e7135163451c716feaa3f0130b9af44686987a165d997449481826109c96e0",
+      "coverage": {
+        "valid_pixels": 75032,
+        "background_pixels": 74912,
+        "eligible_background_columns": 332,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 6.761691856816346,
+          "background_rmse_dn": 8.44854273573039,
+          "background_column_residual_dn": 8.102065061924828,
+          "native_contrast_abs_error_dn": 1.3358381563531498
+        },
+        "retrained": {
+          "valid_mae_dn": 5.1358320323723765,
+          "background_rmse_dn": 7.806235207879298,
+          "background_column_residual_dn": 2.832809178325645,
+          "native_contrast_abs_error_dn": 25.038923394999333
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_184",
+      "data_sha256": "fcfc82737897edc5dd5a3aa72991d606b36dd9c968218798f2253ed9b737a81d",
+      "coverage": {
+        "valid_pixels": 55290,
+        "background_pixels": 55130,
+        "eligible_background_columns": 285,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 7.7833256078070425,
+          "background_rmse_dn": 9.771331944068399,
+          "background_column_residual_dn": 9.329266139013503,
+          "native_contrast_abs_error_dn": 1.3726661307737231
+        },
+        "retrained": {
+          "valid_mae_dn": 2.8636359876255204,
+          "background_rmse_dn": 3.9882550323919874,
+          "background_column_residual_dn": 1.5256358269525343,
+          "native_contrast_abs_error_dn": 44.74021677626297
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_310",
+      "data_sha256": "355be636994910345c7e45b8f46a2b7464d77ec0bc0651aded2fc077a9fbf05f",
+      "coverage": {
+        "valid_pixels": 44180,
+        "background_pixels": 44050,
+        "eligible_background_columns": 235,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 6.525496217080267,
+          "background_rmse_dn": 8.282319437196636,
+          "background_column_residual_dn": 7.886281217075918,
+          "native_contrast_abs_error_dn": 2.8498916442577658
+        },
+        "retrained": {
+          "valid_mae_dn": 3.3508582462524195,
+          "background_rmse_dn": 4.156197059929518,
+          "background_column_residual_dn": 1.0909129296748723,
+          "native_contrast_abs_error_dn": 25.04092442874725
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_198",
+      "data_sha256": "d950c76a5bd138bd907a574e52a1396cf1365fc9458997a91521786a8af6bc7b",
+      "coverage": {
+        "valid_pixels": 58394,
+        "background_pixels": 58202,
+        "eligible_background_columns": 301,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 6.237394137777347,
+          "background_rmse_dn": 8.054971076324724,
+          "background_column_residual_dn": 7.671124069402932,
+          "native_contrast_abs_error_dn": 1.6106429924680428
+        },
+        "retrained": {
+          "valid_mae_dn": 2.6926457644753947,
+          "background_rmse_dn": 4.929640217415159,
+          "background_column_residual_dn": 2.8210802509269834,
+          "native_contrast_abs_error_dn": 13.429239557802
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_254",
+      "data_sha256": "84fa45fdbb0b8825cedc4daa7f995d0f181e3c0a9430f543fb8bde24c806249e",
+      "coverage": {
+        "valid_pixels": 67320,
+        "background_pixels": 67176,
+        "eligible_background_columns": 330,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 5.495404485588414,
+          "background_rmse_dn": 6.885114493296413,
+          "background_column_residual_dn": 6.330907854574756,
+          "native_contrast_abs_error_dn": 4.357447721064091
+        },
+        "retrained": {
+          "valid_mae_dn": 4.1773392500682265,
+          "background_rmse_dn": 7.820432307298361,
+          "background_column_residual_dn": 4.0392410089187765,
+          "native_contrast_abs_error_dn": 11.699815202504396
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_211",
+      "data_sha256": "725143ef89205ec571a6d50c8658b5633363fcfa4feffa3973d8613eed30769e",
+      "coverage": {
+        "valid_pixels": 81081,
+        "background_pixels": 80828,
+        "eligible_background_columns": 351,
+        "native_components": 2,
+        "eligible_native_components": 2
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 4.235402019405337,
+          "background_rmse_dn": 5.291156513269327,
+          "background_column_residual_dn": 5.039048225294692,
+          "native_contrast_abs_error_dn": 1.568268734695656
+        },
+        "retrained": {
+          "valid_mae_dn": 2.1059303896143082,
+          "background_rmse_dn": 2.7964336556563762,
+          "background_column_residual_dn": 1.2465177224286847,
+          "native_contrast_abs_error_dn": 21.678939714096487
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_103",
+      "data_sha256": "d5acf6ae2751b2532a96934873b757f27295fc7a2bf3bb56c47ec196659f8a69",
+      "coverage": {
+        "valid_pixels": 83720,
+        "background_pixels": 83239,
+        "eligible_background_columns": 364,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 2.970609866223279,
+          "background_rmse_dn": 3.709478691340163,
+          "background_column_residual_dn": 2.2315446204586293,
+          "native_contrast_abs_error_dn": 0.5784302479404605
+        },
+        "retrained": {
+          "valid_mae_dn": 4.383631386197445,
+          "background_rmse_dn": 5.952407813873022,
+          "background_column_residual_dn": 1.242997670685722,
+          "native_contrast_abs_error_dn": 8.137037889959865
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_232",
+      "data_sha256": "dde3d5555960b46f05b8e4211213878a21707f72e9186531c3ad2e3a0d455148",
+      "coverage": {
+        "valid_pixels": 44352,
+        "background_pixels": 44114,
+        "eligible_background_columns": 264,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 4.809734797325929,
+          "background_rmse_dn": 6.002105302040469,
+          "background_column_residual_dn": 4.96106651264338,
+          "native_contrast_abs_error_dn": 0.03254988838575379
+        },
+        "retrained": {
+          "valid_mae_dn": 2.188095622408094,
+          "background_rmse_dn": 4.0396621639325065,
+          "background_column_residual_dn": 2.1065444144787673,
+          "native_contrast_abs_error_dn": 8.498183671630134
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_218",
+      "data_sha256": "809cec724c280fa82e6b849135d159a1bf1db45caea70514be58212f3ad29781",
+      "coverage": {
+        "valid_pixels": 56848,
+        "background_pixels": 56632,
+        "eligible_background_columns": 304,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 2.258611786664958,
+          "background_rmse_dn": 2.8225989138026604,
+          "background_column_residual_dn": 2.5170886921212463,
+          "native_contrast_abs_error_dn": 0.954061350896598
+        },
+        "retrained": {
+          "valid_mae_dn": 2.5290188928353086,
+          "background_rmse_dn": 4.355472465418438,
+          "background_column_residual_dn": 1.7192697869792057,
+          "native_contrast_abs_error_dn": 0.019022651979227367
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_89",
+      "data_sha256": "c8f97b91f38b10d6727275fb81f0ac4b81952fe8aa8837f78eee27e9f83624ef",
+      "coverage": {
+        "valid_pixels": 59297,
+        "background_pixels": 59184,
+        "eligible_background_columns": 301,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 6.457284243687021,
+          "background_rmse_dn": 8.043656997145822,
+          "background_column_residual_dn": 7.13437006534092,
+          "native_contrast_abs_error_dn": 2.0358212100608006
+        },
+        "retrained": {
+          "valid_mae_dn": 3.6512045811736167,
+          "background_rmse_dn": 5.065330430072359,
+          "background_column_residual_dn": 1.343925550130344,
+          "native_contrast_abs_error_dn": 7.3053525276482105
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_201",
+      "data_sha256": "b05529840981f7077a2d791f4eee1924030df95a84c719f0a2d2c856a3f21a84",
+      "coverage": {
+        "valid_pixels": 75364,
+        "background_pixels": 75211,
+        "eligible_background_columns": 332,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 1.6707339859173373,
+          "background_rmse_dn": 2.095597536947721,
+          "background_column_residual_dn": 0.8213587782386483,
+          "native_contrast_abs_error_dn": 0.15732863545417786
+        },
+        "retrained": {
+          "valid_mae_dn": 2.139804479607479,
+          "background_rmse_dn": 3.6091563683869357,
+          "background_column_residual_dn": 1.132070997464064,
+          "native_contrast_abs_error_dn": 8.248968720436096
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_11",
+      "data_sha256": "935d7a9db516afb2ea204233f9fa705c28db48effddc3e4e1c3b22a98af39256",
+      "coverage": {
+        "valid_pixels": 78400,
+        "background_pixels": 78072,
+        "eligible_background_columns": 280,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 1.6818327298915319,
+          "background_rmse_dn": 2.1061697740002217,
+          "background_column_residual_dn": 0.43048677815897507,
+          "native_contrast_abs_error_dn": 0.3527675956722493
+        },
+        "retrained": {
+          "valid_mae_dn": 5.125220613920472,
+          "background_rmse_dn": 7.442501386205015,
+          "background_column_residual_dn": 2.2124177729873336,
+          "native_contrast_abs_error_dn": 33.79453939383649
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_168",
+      "data_sha256": "497e226ef1ecd9bb3feec523c129be4288509c7b6957e58b773cc5d03b75a79c",
+      "coverage": {
+        "valid_pixels": 41656,
+        "background_pixels": 41520,
+        "eligible_background_columns": 254,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 5.563208465425959,
+          "background_rmse_dn": 6.910019690610635,
+          "background_column_residual_dn": 5.995189835419636,
+          "native_contrast_abs_error_dn": 1.1131716652640273
+        },
+        "retrained": {
+          "valid_mae_dn": 2.4102768577698424,
+          "background_rmse_dn": 3.8841037643499248,
+          "background_column_residual_dn": 1.1751997895436672,
+          "native_contrast_abs_error_dn": 5.342257530206726
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_215",
+      "data_sha256": "84aef103a0a98cbab93231ab46c49ec1a964732e99cb58e1d46625ab877321a7",
+      "coverage": {
+        "valid_pixels": 56425,
+        "background_pixels": 56249,
+        "eligible_background_columns": 305,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 5.440242996712834,
+          "background_rmse_dn": 6.794323691460018,
+          "background_column_residual_dn": 6.39515703766968,
+          "native_contrast_abs_error_dn": 2.114113556196937
+        },
+        "retrained": {
+          "valid_mae_dn": 1.5713205530493461,
+          "background_rmse_dn": 2.882011658583244,
+          "background_column_residual_dn": 0.9759661648072183,
+          "native_contrast_abs_error_dn": 3.6366372023309976
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_383",
+      "data_sha256": "0a1424b0c9974e14e93e734999ab51bb68b34f03df1742f5cea74d3f06a372d5",
+      "coverage": {
+        "valid_pixels": 110080,
+        "background_pixels": 109879,
+        "eligible_background_columns": 344,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 5.79939400086377,
+          "background_rmse_dn": 7.358826560709979,
+          "background_column_residual_dn": 7.221139142332226,
+          "native_contrast_abs_error_dn": 0.40284650805203803
+        },
+        "retrained": {
+          "valid_mae_dn": 2.902474180914375,
+          "background_rmse_dn": 5.004709650037472,
+          "background_column_residual_dn": 1.5491482564839534,
+          "native_contrast_abs_error_dn": 7.7914005744716395
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_333",
+      "data_sha256": "91ecbfa813b366ce768ff995c9f4155ffac57eef1d2277fdcc52a66b1476390a",
+      "coverage": {
+        "valid_pixels": 40970,
+        "background_pixels": 40870,
+        "eligible_background_columns": 241,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 7.183931777153273,
+          "background_rmse_dn": 8.93437225896648,
+          "background_column_residual_dn": 8.905533940036786,
+          "native_contrast_abs_error_dn": 7.2597213461995125
+        },
+        "retrained": {
+          "valid_mae_dn": 2.517765190282303,
+          "background_rmse_dn": 3.6531885813143194,
+          "background_column_residual_dn": 1.3017529368658542,
+          "native_contrast_abs_error_dn": 30.373746847564522
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_245",
+      "data_sha256": "16e30c2ad35e517a14776584f556d8cffec00b7f9b0e71a6554266daa5e78708",
+      "coverage": {
+        "valid_pixels": 75999,
+        "background_pixels": 75839,
+        "eligible_background_columns": 329,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 8.517660077026596,
+          "background_rmse_dn": 10.703064007915843,
+          "background_column_residual_dn": 10.380142319108943,
+          "native_contrast_abs_error_dn": 3.962582303052345
+        },
+        "retrained": {
+          "valid_mae_dn": 2.4355948280504265,
+          "background_rmse_dn": 5.819097030342635,
+          "background_column_residual_dn": 3.7153301837204777,
+          "native_contrast_abs_error_dn": 6.333655226044357
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_55",
+      "data_sha256": "11f1dd3877d1898711a62727c8d1f916a2b819ddaac3b96aa4cb7d9a7cb813d9",
+      "coverage": {
+        "valid_pixels": 63440,
+        "background_pixels": 63308,
+        "eligible_background_columns": 305,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 7.374772686234113,
+          "background_rmse_dn": 9.18221779775137,
+          "background_column_residual_dn": 8.616743771182676,
+          "native_contrast_abs_error_dn": 7.796840823040559
+        },
+        "retrained": {
+          "valid_mae_dn": 2.494462947907281,
+          "background_rmse_dn": 3.502130770805127,
+          "background_column_residual_dn": 1.9008772236274898,
+          "native_contrast_abs_error_dn": 35.80468081281735
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_27",
+      "data_sha256": "612934090f44d8567dd7b4b32472ad56c6184600734b7a548d53de2a480f71bf",
+      "coverage": {
+        "valid_pixels": 85000,
+        "background_pixels": 84819,
+        "eligible_background_columns": 340,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 5.541793250262737,
+          "background_rmse_dn": 6.919083243137199,
+          "background_column_residual_dn": 6.129293631964061,
+          "native_contrast_abs_error_dn": 2.6357638968953068
+        },
+        "retrained": {
+          "valid_mae_dn": 1.6937607250213622,
+          "background_rmse_dn": 2.2890261626535775,
+          "background_column_residual_dn": 0.7124638503581873,
+          "native_contrast_abs_error_dn": 20.938832073339395
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_226",
+      "data_sha256": "e24f76243d63018c4b01f79d6755842f7cb8d786e9ba28bb2c007ffde66694f2",
+      "coverage": {
+        "valid_pixels": 55936,
+        "background_pixels": 55747,
+        "eligible_background_columns": 304,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 3.21984756160666,
+          "background_rmse_dn": 4.03199879206693,
+          "background_column_residual_dn": 1.6546450334606908,
+          "native_contrast_abs_error_dn": 0.7080525042755264
+        },
+        "retrained": {
+          "valid_mae_dn": 1.5086166912906118,
+          "background_rmse_dn": 2.6324382713077874,
+          "background_column_residual_dn": 1.6286306055711026,
+          "native_contrast_abs_error_dn": 22.99345863716943
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_116",
+      "data_sha256": "9ffd3c4a48bba8e882f871b5469590a51bf6954c335482b22a4406ccba366b35",
+      "coverage": {
+        "valid_pixels": 57036,
+        "background_pixels": 56904,
+        "eligible_background_columns": 291,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 1.0563516839982088,
+          "background_rmse_dn": 1.3223781443215503,
+          "background_column_residual_dn": 0.7588027189066319,
+          "native_contrast_abs_error_dn": 0.10288431208867294
+        },
+        "retrained": {
+          "valid_mae_dn": 7.8940729989577925,
+          "background_rmse_dn": 11.316227698751165,
+          "background_column_residual_dn": 4.970338697562813,
+          "native_contrast_abs_error_dn": 51.20004668659889
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_378",
+      "data_sha256": "88b83e96d20e6b3253dd7fe5acd8dd0fe5e904c2826278dbf5f63f1bf44547e2",
+      "coverage": {
+        "valid_pixels": 47961,
+        "background_pixels": 47815,
+        "eligible_background_columns": 219,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 4.940030311772329,
+          "background_rmse_dn": 6.414010318319471,
+          "background_column_residual_dn": 5.651326904980949,
+          "native_contrast_abs_error_dn": 0.6786137040365823
+        },
+        "retrained": {
+          "valid_mae_dn": 4.8332882671019375,
+          "background_rmse_dn": 6.543139017507148,
+          "background_column_residual_dn": 1.6300215256059878,
+          "native_contrast_abs_error_dn": 21.492640413343906
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_355",
+      "data_sha256": "279aa65b29005d4ac19c973bf87640683ac13fc60e5a6192bce1aa738224f4af",
+      "coverage": {
+        "valid_pixels": 65084,
+        "background_pixels": 64857,
+        "eligible_background_columns": 307,
+        "native_components": 2,
+        "eligible_native_components": 2
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 8.499795709882088,
+          "background_rmse_dn": 10.638331600252043,
+          "background_column_residual_dn": 9.855886075328067,
+          "native_contrast_abs_error_dn": 4.080697607170869
+        },
+        "retrained": {
+          "valid_mae_dn": 3.028577441855268,
+          "background_rmse_dn": 5.374388152920008,
+          "background_column_residual_dn": 2.3276062403701117,
+          "native_contrast_abs_error_dn": 13.540822025779242
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_302",
+      "data_sha256": "ed872e157cdc0b5ff706445126637744ffd695e61bd6ad8ff75fea21fd4ecea9",
+      "coverage": {
+        "valid_pixels": 70941,
+        "background_pixels": 70647,
+        "eligible_background_columns": 321,
+        "native_components": 2,
+        "eligible_native_components": 2
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 7.303907933272019,
+          "background_rmse_dn": 9.193189092570812,
+          "background_column_residual_dn": 8.65874444100999,
+          "native_contrast_abs_error_dn": 0.3826243193699307
+        },
+        "retrained": {
+          "valid_mae_dn": 2.6694108533996372,
+          "background_rmse_dn": 5.310159389394536,
+          "background_column_residual_dn": 2.8039788286085066,
+          "native_contrast_abs_error_dn": 1.3058188876583683
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_209",
+      "data_sha256": "e871d3692b9c6013f22a02e6384493ac74a50a51c0684c7de2c3813214d0c3f8",
+      "coverage": {
+        "valid_pixels": 101456,
+        "background_pixels": 101286,
+        "eligible_background_columns": 373,
+        "native_components": 2,
+        "eligible_native_components": 2
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 3.19459708427496,
+          "background_rmse_dn": 4.01016411785425,
+          "background_column_residual_dn": 2.460637553764123,
+          "native_contrast_abs_error_dn": 1.7114283257904341
+        },
+        "retrained": {
+          "valid_mae_dn": 2.3882861233231467,
+          "background_rmse_dn": 3.3909762784664905,
+          "background_column_residual_dn": 1.2966913724581974,
+          "native_contrast_abs_error_dn": 11.138612934603142
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_32",
+      "data_sha256": "8dbd55780a7a1efe3d73d37259a042a8b289b75311d4ab586fe4545d058c3add",
+      "coverage": {
+        "valid_pixels": 65100,
+        "background_pixels": 64971,
+        "eligible_background_columns": 300,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 4.464453612781272,
+          "background_rmse_dn": 5.60003164772656,
+          "background_column_residual_dn": 4.236175862031693,
+          "native_contrast_abs_error_dn": 1.4577504737923543
+        },
+        "retrained": {
+          "valid_mae_dn": 2.896426474710729,
+          "background_rmse_dn": 4.004773372024736,
+          "background_column_residual_dn": 1.636245061209461,
+          "native_contrast_abs_error_dn": 22.451012954115868
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_23",
+      "data_sha256": "5e72fea0e1615a8b9b5566de1e2c634f00131c29e1f2af75d3b83dde3dd40b42",
+      "coverage": {
+        "valid_pixels": 30000,
+        "background_pixels": 29854,
+        "eligible_background_columns": 200,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 2.8340148786529897,
+          "background_rmse_dn": 3.520788127003531,
+          "background_column_residual_dn": 2.852524543362526,
+          "native_contrast_abs_error_dn": 4.531140770763159
+        },
+        "retrained": {
+          "valid_mae_dn": 8.492039254650473,
+          "background_rmse_dn": 11.162544876537268,
+          "background_column_residual_dn": 2.7437627290163262,
+          "native_contrast_abs_error_dn": 36.071120822802186
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_261",
+      "data_sha256": "826e0c51a7a63cb57edbfa7705f64d99fb0172c596fcb8c8c0d42cf98b1fccde",
+      "coverage": {
+        "valid_pixels": 55449,
+        "background_pixels": 55246,
+        "eligible_background_columns": 303,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 9.31538068956513,
+          "background_rmse_dn": 11.44782397191811,
+          "background_column_residual_dn": 11.286895072114522,
+          "native_contrast_abs_error_dn": 2.102198824286461
+        },
+        "retrained": {
+          "valid_mae_dn": 2.801918262410317,
+          "background_rmse_dn": 3.9143647293704134,
+          "background_column_residual_dn": 1.7655842162092121,
+          "native_contrast_abs_error_dn": 27.009222090244293
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_182",
+      "data_sha256": "9ce314791baebc68f1b71ed7ecbb4579eb32f8d5da39ce30e9f902a8dec11871",
+      "coverage": {
+        "valid_pixels": 53095,
+        "background_pixels": 52942,
+        "eligible_background_columns": 287,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 2.472179753985633,
+          "background_rmse_dn": 3.114701442410334,
+          "background_column_residual_dn": 3.0266296657213467,
+          "native_contrast_abs_error_dn": 0.49872347254019517
+        },
+        "retrained": {
+          "valid_mae_dn": 1.5886065265203597,
+          "background_rmse_dn": 3.8422217147057203,
+          "background_column_residual_dn": 0.9642622461211399,
+          "native_contrast_abs_error_dn": 4.21620804300675
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_282",
+      "data_sha256": "5e8e4667739b7fea13f074e1d15f7b5ef6ea479ac56cb62482312ae3d7735988",
+      "coverage": {
+        "valid_pixels": 77880,
+        "background_pixels": 77737,
+        "eligible_background_columns": 330,
+        "native_components": 2,
+        "eligible_native_components": 2
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 2.3593675625468897,
+          "background_rmse_dn": 2.9588119005514906,
+          "background_column_residual_dn": 2.147926156840933,
+          "native_contrast_abs_error_dn": 2.3882787209004164
+        },
+        "retrained": {
+          "valid_mae_dn": 2.3580993487125115,
+          "background_rmse_dn": 3.9026038525413744,
+          "background_column_residual_dn": 1.1183096776014172,
+          "native_contrast_abs_error_dn": 14.940806547179818
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_409",
+      "data_sha256": "25f5ffc029167dc8a9861052fa5cedf4f4e692d1bab2d1f8d392153afafb8ab2",
+      "coverage": {
+        "valid_pixels": 67034,
+        "background_pixels": 66852,
+        "eligible_background_columns": 277,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 3.3993355848083984,
+          "background_rmse_dn": 4.271386683939672,
+          "background_column_residual_dn": 2.8200022896413004,
+          "native_contrast_abs_error_dn": 0.8448136695237323
+        },
+        "retrained": {
+          "valid_mae_dn": 3.1084344715775716,
+          "background_rmse_dn": 5.997912527131812,
+          "background_column_residual_dn": 3.4997102434681775,
+          "native_contrast_abs_error_dn": 10.64340606120161
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_260",
+      "data_sha256": "74e613b9961210194c9a2880ca7f3e567e771c811838f98a5e81ec95eef0259e",
+      "coverage": {
+        "valid_pixels": 59276,
+        "background_pixels": 59114,
+        "eligible_background_columns": 292,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 1.8944759468953172,
+          "background_rmse_dn": 2.388719009872771,
+          "background_column_residual_dn": 2.312581730083746,
+          "native_contrast_abs_error_dn": 0.0927683306591851
+        },
+        "retrained": {
+          "valid_mae_dn": 2.240552254294173,
+          "background_rmse_dn": 4.121580276924132,
+          "background_column_residual_dn": 2.2963094852057693,
+          "native_contrast_abs_error_dn": 4.548900176371847
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_194",
+      "data_sha256": "f7259f06d2a248cc326eb6625b4e7811f974c3c9d6cf8ea7db122ed53000e7f4",
+      "coverage": {
+        "valid_pixels": 57772,
+        "background_pixels": 57616,
+        "eligible_background_columns": 286,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 4.155666280033848,
+          "background_rmse_dn": 5.17230522321411,
+          "background_column_residual_dn": 4.534804649031765,
+          "native_contrast_abs_error_dn": 0.9451012576657127
+        },
+        "retrained": {
+          "valid_mae_dn": 0.9538317800478284,
+          "background_rmse_dn": 1.8053252602472727,
+          "background_column_residual_dn": 1.1775701857553358,
+          "native_contrast_abs_error_dn": 6.549102806283119
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_407",
+      "data_sha256": "b605305f2087a67f48d0d0e5370e0a24910d78a776f0d1ee22bea1f33ff0638c",
+      "coverage": {
+        "valid_pixels": 67962,
+        "background_pixels": 67775,
+        "eligible_background_columns": 282,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 9.29205755988213,
+          "background_rmse_dn": 11.502341573027591,
+          "background_column_residual_dn": 10.871272689673644,
+          "native_contrast_abs_error_dn": 1.53204529147063
+        },
+        "retrained": {
+          "valid_mae_dn": 2.9698990906892213,
+          "background_rmse_dn": 4.5493382171041565,
+          "background_column_residual_dn": 1.6242484172871035,
+          "native_contrast_abs_error_dn": 33.98219783657363
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_175",
+      "data_sha256": "a8a540ac0c289f7d43b418c0fd1eb475007da882d764683da24b1a95ff2bd968",
+      "coverage": {
+        "valid_pixels": 55632,
+        "background_pixels": 55378,
+        "eligible_background_columns": 304,
+        "native_components": 2,
+        "eligible_native_components": 2
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 7.399652930498593,
+          "background_rmse_dn": 9.40025674826287,
+          "background_column_residual_dn": 8.53957095987299,
+          "native_contrast_abs_error_dn": 1.2318945889379516
+        },
+        "retrained": {
+          "valid_mae_dn": 6.93218094318349,
+          "background_rmse_dn": 7.286896924267119,
+          "background_column_residual_dn": 1.0221498436300267,
+          "native_contrast_abs_error_dn": 34.72414360302212
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_278",
+      "data_sha256": "778d7cba05392624865ff2e5d0f1dee8c4c8d0b8049f40aa8bae87b034de9367",
+      "coverage": {
+        "valid_pixels": 65604,
+        "background_pixels": 65471,
+        "eligible_background_columns": 308,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 6.944280347604736,
+          "background_rmse_dn": 8.68401386558001,
+          "background_column_residual_dn": 7.798219586497631,
+          "native_contrast_abs_error_dn": 3.513658331199126
+        },
+        "retrained": {
+          "valid_mae_dn": 3.6739451514711345,
+          "background_rmse_dn": 5.302923426813674,
+          "background_column_residual_dn": 1.739069019687685,
+          "native_contrast_abs_error_dn": 13.35214060815898
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_26",
+      "data_sha256": "8ac9d840127d6e00e8fdc3bdbfa1deed7ae08b4203ea23b39cb6277853017fe8",
+      "coverage": {
+        "valid_pixels": 90045,
+        "background_pixels": 89816,
+        "eligible_background_columns": 345,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 3.4988921655678022,
+          "background_rmse_dn": 4.399579409052498,
+          "background_column_residual_dn": 4.3609974934532385,
+          "native_contrast_abs_error_dn": 0.28979746958142827
+        },
+        "retrained": {
+          "valid_mae_dn": 4.018417158465216,
+          "background_rmse_dn": 5.701322792312155,
+          "background_column_residual_dn": 1.8873660618854462,
+          "native_contrast_abs_error_dn": 3.9774244129657745
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_246",
+      "data_sha256": "31b6344d873cd5b3cd5b767fba7a2fb5e355b8208dcc9394deaa3e68bbd64387",
+      "coverage": {
+        "valid_pixels": 82000,
+        "background_pixels": 81808,
+        "eligible_background_columns": 328,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 2.375726321785279,
+          "background_rmse_dn": 2.9727766380720544,
+          "background_column_residual_dn": 0.3233903097338303,
+          "native_contrast_abs_error_dn": 0.05019071548154208
+        },
+        "retrained": {
+          "valid_mae_dn": 3.201063083627477,
+          "background_rmse_dn": 5.531196595704594,
+          "background_column_residual_dn": 3.76744294075599,
+          "native_contrast_abs_error_dn": 9.374393019398985
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_217",
+      "data_sha256": "c9336e112bfa5e1ccc51ef9fb9aa5660f753dfce181e951353ec2646f9bc51ec",
+      "coverage": {
+        "valid_pixels": 64170,
+        "background_pixels": 63929,
+        "eligible_background_columns": 310,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 5.961566055695996,
+          "background_rmse_dn": 7.6378277655931806,
+          "background_column_residual_dn": 6.664686333115943,
+          "native_contrast_abs_error_dn": 2.70799271017313
+        },
+        "retrained": {
+          "valid_mae_dn": 3.7392228215657672,
+          "background_rmse_dn": 8.327288537497468,
+          "background_column_residual_dn": 5.374067822890404,
+          "native_contrast_abs_error_dn": 44.58528662100434
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_311",
+      "data_sha256": "aa95c07c486b1da044855831ea8e7aab8d554cf8b8d34993757b38b6cc81de28",
+      "coverage": {
+        "valid_pixels": 55096,
+        "background_pixels": 54898,
+        "eligible_background_columns": 284,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 7.479774057282306,
+          "background_rmse_dn": 9.493203337459862,
+          "background_column_residual_dn": 9.348361769508728,
+          "native_contrast_abs_error_dn": 5.684469821197646
+        },
+        "retrained": {
+          "valid_mae_dn": 1.8252851569760578,
+          "background_rmse_dn": 4.219711367987477,
+          "background_column_residual_dn": 1.2230810843339734,
+          "native_contrast_abs_error_dn": 11.437547132372856
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_43",
+      "data_sha256": "5325462717d4cde4bd6cd53b6c4ce19a0a982cbc173c66ef8d1b8a02a7ee299d",
+      "coverage": {
+        "valid_pixels": 57424,
+        "background_pixels": 57303,
+        "eligible_background_columns": 296,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 6.820924159842104,
+          "background_rmse_dn": 8.611589954205906,
+          "background_column_residual_dn": 8.398692622475549,
+          "native_contrast_abs_error_dn": 1.9410562094969626
+        },
+        "retrained": {
+          "valid_mae_dn": 3.418376092883603,
+          "background_rmse_dn": 5.773118540717707,
+          "background_column_residual_dn": 2.87733640132498,
+          "native_contrast_abs_error_dn": 22.431663158230293
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_353",
+      "data_sha256": "ff3abf4577b0c3e47787e45d30a28ccc963ba42eda78bfa24a7980d48d0865b6",
+      "coverage": {
+        "valid_pixels": 104976,
+        "background_pixels": 104795,
+        "eligible_background_columns": 324,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 4.502811581511724,
+          "background_rmse_dn": 5.8257040046121356,
+          "background_column_residual_dn": 4.654330510574123,
+          "native_contrast_abs_error_dn": 0.003918718611984895
+        },
+        "retrained": {
+          "valid_mae_dn": 7.3899379159703615,
+          "background_rmse_dn": 9.615700860599437,
+          "background_column_residual_dn": 3.1629193981631203,
+          "native_contrast_abs_error_dn": 19.86259098560141
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_81",
+      "data_sha256": "268b7321cb9ec7bcbbdf0e5911116f9f01f5dcfc9b06159b17daffca90221430",
+      "coverage": {
+        "valid_pixels": 93624,
+        "background_pixels": 93474,
+        "eligible_background_columns": 332,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 1.4215788136300114,
+          "background_rmse_dn": 1.7808626635832,
+          "background_column_residual_dn": 1.2527701641848088,
+          "native_contrast_abs_error_dn": 0.011152609844099381
+        },
+        "retrained": {
+          "valid_mae_dn": 2.2093120910040724,
+          "background_rmse_dn": 2.782390479355034,
+          "background_column_residual_dn": 1.3072814832765158,
+          "native_contrast_abs_error_dn": 19.75909901423041
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_18",
+      "data_sha256": "7e188a0c8f188e36670b748081c222ca063bf72c9204ebd015381d76bde6c0e6",
+      "coverage": {
+        "valid_pixels": 111935,
+        "background_pixels": 111394,
+        "eligible_background_columns": 367,
+        "native_components": 2,
+        "eligible_native_components": 2
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 6.267834243263833,
+          "background_rmse_dn": 7.714574293281068,
+          "background_column_residual_dn": 7.17756884699234,
+          "native_contrast_abs_error_dn": 0.7823579591965355
+        },
+        "retrained": {
+          "valid_mae_dn": 1.716034765880419,
+          "background_rmse_dn": 2.5733381879238837,
+          "background_column_residual_dn": 1.0926919404091788,
+          "native_contrast_abs_error_dn": 8.724420679644272
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_318",
+      "data_sha256": "7764e40d84e3fca1e5bb259aadf260b3c47ca3636838f470853740c3163d4965",
+      "coverage": {
+        "valid_pixels": 58200,
+        "background_pixels": 57769,
+        "eligible_background_columns": 291,
+        "native_components": 4,
+        "eligible_native_components": 4
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 4.869069676592792,
+          "background_rmse_dn": 6.126208395868282,
+          "background_column_residual_dn": 5.879586983086317,
+          "native_contrast_abs_error_dn": 2.4270669323542102
+        },
+        "retrained": {
+          "valid_mae_dn": 2.6449393472413427,
+          "background_rmse_dn": 4.0945030577892965,
+          "background_column_residual_dn": 1.7263669246035767,
+          "native_contrast_abs_error_dn": 29.535007398622785
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_389",
+      "data_sha256": "c2dd24d66885b9751501dac84450365650205043acaa1140e4aa2d2645dee247",
+      "coverage": {
+        "valid_pixels": 104265,
+        "background_pixels": 104020,
+        "eligible_background_columns": 331,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 6.475587952510715,
+          "background_rmse_dn": 8.689506507991991,
+          "background_column_residual_dn": 7.8233366462379275,
+          "native_contrast_abs_error_dn": 0.6199101904352236
+        },
+        "retrained": {
+          "valid_mae_dn": 5.312912274012811,
+          "background_rmse_dn": 7.805943203527167,
+          "background_column_residual_dn": 2.1238210706687433,
+          "native_contrast_abs_error_dn": 24.782638449731504
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_171",
+      "data_sha256": "c6a6dde8dfb7232e918038fe1d4becb82e3d9dcbf26d878e5ef62607dd2c6a50",
+      "coverage": {
+        "valid_pixels": 66669,
+        "background_pixels": 66511,
+        "eligible_background_columns": 313,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 4.8200027824101275,
+          "background_rmse_dn": 6.049868642066584,
+          "background_column_residual_dn": 5.352338246884864,
+          "native_contrast_abs_error_dn": 0.529137203133756
+        },
+        "retrained": {
+          "valid_mae_dn": 3.842484121878594,
+          "background_rmse_dn": 6.098431281157686,
+          "background_column_residual_dn": 2.0909942827692634,
+          "native_contrast_abs_error_dn": 13.37832838128832
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_71",
+      "data_sha256": "136126a4b874a5023c18a7b46f612f46230c1b7fa231fe4c35b3f0186bcf327f",
+      "coverage": {
+        "valid_pixels": 81920,
+        "background_pixels": 81752,
+        "eligible_background_columns": 320,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 3.3282602119774864,
+          "background_rmse_dn": 4.192554491547702,
+          "background_column_residual_dn": 3.2557930645507076,
+          "native_contrast_abs_error_dn": 0.9626569140415925
+        },
+        "retrained": {
+          "valid_mae_dn": 4.3341080555601454,
+          "background_rmse_dn": 6.9094513265323725,
+          "background_column_residual_dn": 2.687340288292609,
+          "native_contrast_abs_error_dn": 6.403056171077948
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_92",
+      "data_sha256": "96f1fe41aa8be242a8de1556413c1db7017b5e3a786ebfa6ab62ebb3f5060673",
+      "coverage": {
+        "valid_pixels": 76956,
+        "background_pixels": 76709,
+        "eligible_background_columns": 363,
+        "native_components": 1,
+        "eligible_native_components": 1
+      },
+      "metrics": {
+        "input": {
+          "valid_mae_dn": 7.812572877350762,
+          "background_rmse_dn": 9.865502125765513,
+          "background_column_residual_dn": 9.29451609692946,
+          "native_contrast_abs_error_dn": 0.47236239071935415
+        },
+        "retrained": {
+          "valid_mae_dn": 5.267280898002901,
+          "background_rmse_dn": 7.480525951849361,
+          "background_column_residual_dn": 1.850597844796893,
+          "native_contrast_abs_error_dn": 9.407281004823744
+        }
+      }
+    }
+  ],
+  "all_images": {
+    "input": {
+      "valid_mae_dn": {
+        "n_images": 213,
+        "mean": 5.110544094004814,
+        "median": 4.976900530411416
+      },
+      "background_rmse_dn": {
+        "n_images": 213,
+        "mean": 6.435796697794778,
+        "median": 6.27598186110558
+      },
+      "background_column_residual_dn": {
+        "n_images": 213,
+        "mean": 5.751167534029702,
+        "median": 5.918877452637313
+      },
+      "native_contrast_abs_error_dn": {
+        "n_images": 213,
+        "mean": 1.789405359072782,
+        "median": 1.3585151209822528
+      }
+    },
+    "retrained": {
+      "valid_mae_dn": {
+        "n_images": 213,
+        "mean": 3.555755088171465,
+        "median": 3.146114531563798
+      },
+      "background_rmse_dn": {
+        "n_images": 213,
+        "mean": 5.5272734919291775,
+        "median": 4.983580733072395
+      },
+      "background_column_residual_dn": {
+        "n_images": 213,
+        "mean": 1.9502219211909935,
+        "median": 1.750926898339073
+      },
+      "native_contrast_abs_error_dn": {
+        "n_images": 213,
+        "mean": 19.338566337420968,
+        "median": 15.232832418246703
+      }
+    }
+  },
+  "change_from_input": {
+    "valid_mae_dn": {
+      "n_images": 213,
+      "mean_delta": -1.5547890058333487,
+      "improved_image_fraction": 0.6948356807511737
+    },
+    "background_rmse_dn": {
+      "n_images": 213,
+      "mean_delta": -0.9085232058656005,
+      "improved_image_fraction": 0.568075117370892
+    },
+    "background_column_residual_dn": {
+      "n_images": 213,
+      "mean_delta": -3.8009456128387065,
+      "improved_image_fraction": 0.8169014084507042
+    },
+    "native_contrast_abs_error_dn": {
+      "n_images": 213,
+      "mean_delta": 17.549160978348183,
+      "improved_image_fraction": 0.014084507042253521
+    }
+  }
+}

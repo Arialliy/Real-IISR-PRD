@@ -1,0 +1,360 @@
+{
+  "dataset": "NUAA-SIRST",
+  "split": "train",
+  "data_seed": 0,
+  "decode_seed_per_call": 0,
+  "scope": "frozen original SR weights; same synthetic noisy-minus branch; only thermal map mean and sample standard deviation reduction domain changes",
+  "unchanged": "same sigmoid (alpha=3, eps=1e-5) at all pixels including pad; original input convolution, edges, AFF, attention, CAC and decoder; fixed float RGB mean output",
+  "source_revision": "70355f7e9d6b849272d429d12e854f5890b89ae2",
+  "checkpoint_sha256": "fe1c2600ec6aeb18bfa674f7726a1dcd0aec45d9fbba25c7f1b9fe266b3ef9a9",
+  "training_manifest_sha256": "192c73934cd78efe8d283024add8c43d03ccbaaea89d4072a06e35d7a64faaa0",
+  "representation_trace_sha256": "8cd418703763ee97385be035dc9d44cfed62a836b0b44c3004e2e11f36eb7838",
+  "samples": [
+    {
+      "sample_id": "NUAA-SIRST/Misc_119",
+      "crop_xywh": [
+        0,
+        0,
+        296,
+        197
+      ],
+      "noise_seed": 4901891141747904430,
+      "valid_fraction": 0.222442626953125,
+      "mean_fill_dn": 123.70919421315193,
+      "all_valid_heatmap_max_abs_error": 0.0,
+      "modes": {
+        "original": {
+          "valid_heatmap_mae_between_fills": 0.3320198655128479,
+          "valid_output_mae_between_fills_dn": 16.562952041625977,
+          "interior_output_mae_between_fills_dn": 15.099210739135742,
+          "repeat_zero_fill_output_max_abs_dn": 0.0,
+          "zero_fill_bg_rmse_dn": 41.370704650878906,
+          "valid_mean_fill_bg_rmse_dn": 31.45313835144043
+        },
+        "valid_pixels": {
+          "valid_heatmap_mae_between_fills": 0.0,
+          "valid_output_mae_between_fills_dn": 17.462661743164062,
+          "interior_output_mae_between_fills_dn": 15.812789916992188,
+          "repeat_zero_fill_output_max_abs_dn": 0.0,
+          "zero_fill_bg_rmse_dn": 41.34275436401367,
+          "valid_mean_fill_bg_rmse_dn": 31.089855194091797
+        }
+      },
+      "original_trace_max_metric_difference_dn": 0.0
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_64",
+      "crop_xywh": [
+        0,
+        0,
+        307,
+        213
+      ],
+      "noise_seed": 6686420831846558049,
+      "valid_fraction": 0.24944686889648438,
+      "mean_fill_dn": 38.901993334293365,
+      "all_valid_heatmap_max_abs_error": 0.0,
+      "modes": {
+        "original": {
+          "valid_heatmap_mae_between_fills": 0.45075178146362305,
+          "valid_output_mae_between_fills_dn": 9.81750202178955,
+          "interior_output_mae_between_fills_dn": 9.111056327819824,
+          "repeat_zero_fill_output_max_abs_dn": 0.0,
+          "zero_fill_bg_rmse_dn": 14.279268264770508,
+          "valid_mean_fill_bg_rmse_dn": 18.19379997253418
+        },
+        "valid_pixels": {
+          "valid_heatmap_mae_between_fills": 0.0,
+          "valid_output_mae_between_fills_dn": 9.585535049438477,
+          "interior_output_mae_between_fills_dn": 8.866816520690918,
+          "repeat_zero_fill_output_max_abs_dn": 0.0,
+          "zero_fill_bg_rmse_dn": 14.24738883972168,
+          "valid_mean_fill_bg_rmse_dn": 18.18014907836914
+        }
+      },
+      "original_trace_max_metric_difference_dn": 0.0
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_90",
+      "crop_xywh": [
+        0,
+        0,
+        304,
+        212
+      ],
+      "noise_seed": 966722008328678304,
+      "valid_fraction": 0.245849609375,
+      "mean_fill_dn": 55.028506591916084,
+      "all_valid_heatmap_max_abs_error": 0.0,
+      "modes": {
+        "original": {
+          "valid_heatmap_mae_between_fills": 0.39521828293800354,
+          "valid_output_mae_between_fills_dn": 8.263067245483398,
+          "interior_output_mae_between_fills_dn": 6.924846172332764,
+          "repeat_zero_fill_output_max_abs_dn": 0.0,
+          "zero_fill_bg_rmse_dn": 23.24205207824707,
+          "valid_mean_fill_bg_rmse_dn": 26.942279815673828
+        },
+        "valid_pixels": {
+          "valid_heatmap_mae_between_fills": 0.0,
+          "valid_output_mae_between_fills_dn": 8.352232933044434,
+          "interior_output_mae_between_fills_dn": 7.077653884887695,
+          "repeat_zero_fill_output_max_abs_dn": 0.0,
+          "zero_fill_bg_rmse_dn": 23.24094009399414,
+          "valid_mean_fill_bg_rmse_dn": 26.83464241027832
+        }
+      },
+      "original_trace_max_metric_difference_dn": 0.0
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_364",
+      "crop_xywh": [
+        0,
+        0,
+        280,
+        280
+      ],
+      "noise_seed": 7636957400594771569,
+      "valid_fraction": 0.299072265625,
+      "mean_fill_dn": 174.4183623790741,
+      "all_valid_heatmap_max_abs_error": 0.0,
+      "modes": {
+        "original": {
+          "valid_heatmap_mae_between_fills": 0.5425212383270264,
+          "valid_output_mae_between_fills_dn": 18.8734188079834,
+          "interior_output_mae_between_fills_dn": 15.591761589050293,
+          "repeat_zero_fill_output_max_abs_dn": 0.0,
+          "zero_fill_bg_rmse_dn": 28.162750244140625,
+          "valid_mean_fill_bg_rmse_dn": 9.775662422180176
+        },
+        "valid_pixels": {
+          "valid_heatmap_mae_between_fills": 0.0,
+          "valid_output_mae_between_fills_dn": 19.053340911865234,
+          "interior_output_mae_between_fills_dn": 15.705732345581055,
+          "repeat_zero_fill_output_max_abs_dn": 0.0,
+          "zero_fill_bg_rmse_dn": 28.304954528808594,
+          "valid_mean_fill_bg_rmse_dn": 9.799625396728516
+        }
+      },
+      "original_trace_max_metric_difference_dn": 0.0
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_250",
+      "crop_xywh": [
+        0,
+        0,
+        262,
+        179
+      ],
+      "noise_seed": 6738915983590878008,
+      "valid_fraction": 0.17890167236328125,
+      "mean_fill_dn": 29.52868290245533,
+      "all_valid_heatmap_max_abs_error": 0.0,
+      "modes": {
+        "original": {
+          "valid_heatmap_mae_between_fills": 0.4530836045742035,
+          "valid_output_mae_between_fills_dn": 12.395867347717285,
+          "interior_output_mae_between_fills_dn": 12.373863220214844,
+          "repeat_zero_fill_output_max_abs_dn": 0.0,
+          "zero_fill_bg_rmse_dn": 14.607108116149902,
+          "valid_mean_fill_bg_rmse_dn": 10.884255409240723
+        },
+        "valid_pixels": {
+          "valid_heatmap_mae_between_fills": 0.0,
+          "valid_output_mae_between_fills_dn": 13.378393173217773,
+          "interior_output_mae_between_fills_dn": 13.362337112426758,
+          "repeat_zero_fill_output_max_abs_dn": 0.0,
+          "zero_fill_bg_rmse_dn": 15.718523025512695,
+          "valid_mean_fill_bg_rmse_dn": 10.610050201416016
+        }
+      },
+      "original_trace_max_metric_difference_dn": 0.0
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_351",
+      "crop_xywh": [
+        0,
+        0,
+        305,
+        205
+      ],
+      "noise_seed": 3765703286782428876,
+      "valid_fraction": 0.23851394653320312,
+      "mean_fill_dn": 106.17978483438492,
+      "all_valid_heatmap_max_abs_error": 0.0,
+      "modes": {
+        "original": {
+          "valid_heatmap_mae_between_fills": 0.6630996465682983,
+          "valid_output_mae_between_fills_dn": 12.93777084350586,
+          "interior_output_mae_between_fills_dn": 12.059738159179688,
+          "repeat_zero_fill_output_max_abs_dn": 0.0,
+          "zero_fill_bg_rmse_dn": 16.217504501342773,
+          "valid_mean_fill_bg_rmse_dn": 12.159626960754395
+        },
+        "valid_pixels": {
+          "valid_heatmap_mae_between_fills": 0.0,
+          "valid_output_mae_between_fills_dn": 13.17125129699707,
+          "interior_output_mae_between_fills_dn": 12.33704662322998,
+          "repeat_zero_fill_output_max_abs_dn": 0.0,
+          "zero_fill_bg_rmse_dn": 16.190196990966797,
+          "valid_mean_fill_bg_rmse_dn": 12.259852409362793
+        }
+      },
+      "original_trace_max_metric_difference_dn": 0.0
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_39",
+      "crop_xywh": [
+        0,
+        0,
+        256,
+        171
+      ],
+      "noise_seed": 276192657711659862,
+      "valid_fraction": 0.1669921875,
+      "mean_fill_dn": 100.8622969686985,
+      "all_valid_heatmap_max_abs_error": 0.0,
+      "modes": {
+        "original": {
+          "valid_heatmap_mae_between_fills": 0.6052122712135315,
+          "valid_output_mae_between_fills_dn": 21.575441360473633,
+          "interior_output_mae_between_fills_dn": 20.52107810974121,
+          "repeat_zero_fill_output_max_abs_dn": 0.0,
+          "zero_fill_bg_rmse_dn": 22.07736587524414,
+          "valid_mean_fill_bg_rmse_dn": 16.528026580810547
+        },
+        "valid_pixels": {
+          "valid_heatmap_mae_between_fills": 0.0,
+          "valid_output_mae_between_fills_dn": 21.687843322753906,
+          "interior_output_mae_between_fills_dn": 20.70338249206543,
+          "repeat_zero_fill_output_max_abs_dn": 0.0,
+          "zero_fill_bg_rmse_dn": 21.851577758789062,
+          "valid_mean_fill_bg_rmse_dn": 16.01637077331543
+        }
+      },
+      "original_trace_max_metric_difference_dn": 0.0
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_313",
+      "crop_xywh": [
+        0,
+        0,
+        324,
+        226
+      ],
+      "noise_seed": 8756189503877027059,
+      "valid_fraction": 0.279327392578125,
+      "mean_fill_dn": 103.90298500657082,
+      "all_valid_heatmap_max_abs_error": 0.0,
+      "modes": {
+        "original": {
+          "valid_heatmap_mae_between_fills": 0.5165070295333862,
+          "valid_output_mae_between_fills_dn": 7.298665523529053,
+          "interior_output_mae_between_fills_dn": 4.690593242645264,
+          "repeat_zero_fill_output_max_abs_dn": 0.0,
+          "zero_fill_bg_rmse_dn": 18.958829879760742,
+          "valid_mean_fill_bg_rmse_dn": 12.277488708496094
+        },
+        "valid_pixels": {
+          "valid_heatmap_mae_between_fills": 0.0,
+          "valid_output_mae_between_fills_dn": 7.489030361175537,
+          "interior_output_mae_between_fills_dn": 4.949153423309326,
+          "repeat_zero_fill_output_max_abs_dn": 0.0,
+          "zero_fill_bg_rmse_dn": 18.819900512695312,
+          "valid_mean_fill_bg_rmse_dn": 12.062716484069824
+        }
+      },
+      "original_trace_max_metric_difference_dn": 0.0
+    }
+  ],
+  "descriptive_by_image": {
+    "original": {
+      "valid_heatmap_mae_between_fills": {
+        "n": 8,
+        "mean": 0.49480171501636505,
+        "median": 0.48479531705379486,
+        "min": 0.3320198655128479,
+        "max": 0.6630996465682983
+      },
+      "valid_output_mae_between_fills_dn": {
+        "n": 8,
+        "mean": 13.46558564901352,
+        "median": 12.666819095611572,
+        "min": 7.298665523529053,
+        "max": 21.575441360473633
+      },
+      "interior_output_mae_between_fills_dn": {
+        "n": 8,
+        "mean": 12.046518445014954,
+        "median": 12.216800689697266,
+        "min": 4.690593242645264,
+        "max": 20.52107810974121
+      },
+      "repeat_zero_fill_output_max_abs_dn": {
+        "n": 8,
+        "mean": 0.0,
+        "median": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "zero_fill_bg_rmse_dn": {
+        "n": 8,
+        "mean": 22.364447951316833,
+        "median": 20.51809787750244,
+        "min": 14.279268264770508,
+        "max": 41.370704650878906
+      },
+      "valid_mean_fill_bg_rmse_dn": {
+        "n": 8,
+        "mean": 17.276784777641296,
+        "median": 14.40275764465332,
+        "min": 9.775662422180176,
+        "max": 31.45313835144043
+      }
+    },
+    "valid_pixels": {
+      "valid_heatmap_mae_between_fills": {
+        "n": 8,
+        "mean": 0.0,
+        "median": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "valid_output_mae_between_fills_dn": {
+        "n": 8,
+        "mean": 13.772536098957062,
+        "median": 13.274822235107422,
+        "min": 7.489030361175537,
+        "max": 21.687843322753906
+      },
+      "interior_output_mae_between_fills_dn": {
+        "n": 8,
+        "mean": 12.351864039897919,
+        "median": 12.84969186782837,
+        "min": 4.949153423309326,
+        "max": 20.70338249206543
+      },
+      "repeat_zero_fill_output_max_abs_dn": {
+        "n": 8,
+        "mean": 0.0,
+        "median": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "zero_fill_bg_rmse_dn": {
+        "n": 8,
+        "mean": 22.464529514312744,
+        "median": 20.335739135742188,
+        "min": 14.24738883972168,
+        "max": 41.34275436401367
+      },
+      "valid_mean_fill_bg_rmse_dn": {
+        "n": 8,
+        "mean": 17.10665774345398,
+        "median": 14.138111591339111,
+        "min": 9.799625396728516,
+        "max": 31.089855194091797
+      }
+    }
+  }
+}

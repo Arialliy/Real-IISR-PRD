@@ -1,0 +1,158 @@
+{
+  "split": "train",
+  "checkpoint_sha256": "fe1c2600ec6aeb18bfa674f7726a1dcd0aec45d9fbba25c7f1b9fe266b3ef9a9",
+  "sampler": "deterministic argmax",
+  "precision": "fp16",
+  "image_branch": "noisy_minus",
+  "data_seed": 0,
+  "samples": [
+    {
+      "token_counts": [
+        1,
+        4,
+        9,
+        16,
+        36,
+        81,
+        169,
+        324,
+        576,
+        1024
+      ],
+      "mismatch_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "valid_rgb_mae_dn": 0.0,
+      "max_rgb_abs_dn": 0.0,
+      "max_logit_difference": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "loss_scale": 1024.0,
+      "image_only_l1": 0.09164120256900787,
+      "param_grad_norms": {
+        "blocks.23.attn.proj.bias": 0.007515162229537964,
+        "head.bias": 0.005813582334667444,
+        "cb_cond.4.bias": 0.0004494277818594128
+      },
+      "logit_grad_norms": [
+        2.1008760086260736e-05,
+        0.0017119748517870903,
+        0.0012086777715012431,
+        0.0024488915223628283,
+        0.0026528288144618273,
+        0.0011371987638995051,
+        0.0006477977731265128,
+        0.0005641757743433118,
+        0.0003249934525229037,
+        0.0002567979972809553
+      ],
+      "st_minus_hard_max_abs_dn": 0.0,
+      "peak_gpu_gib": 10.380812168121338,
+      "sample_id": "NUAA-SIRST/Misc_119"
+    },
+    {
+      "token_counts": [
+        1,
+        4,
+        9,
+        16,
+        36,
+        81,
+        169,
+        324,
+        576,
+        1024
+      ],
+      "mismatch_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "valid_rgb_mae_dn": 0.0,
+      "max_rgb_abs_dn": 0.0,
+      "max_logit_difference": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "peak_gpu_gib": 6.866137504577637,
+      "sample_id": "NUAA-SIRST/Misc_64"
+    },
+    {
+      "token_counts": [
+        1,
+        4,
+        9,
+        16,
+        36,
+        81,
+        169,
+        324,
+        576,
+        1024
+      ],
+      "mismatch_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "valid_rgb_mae_dn": 0.0,
+      "max_rgb_abs_dn": 0.0,
+      "max_logit_difference": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "peak_gpu_gib": 6.866503715515137,
+      "sample_id": "NUAA-SIRST/Misc_90"
+    }
+  ],
+  "s1_checkpoint_sha256": "66d6605c0f6ac08b26f016824f314277d974a695d4476f6f12533152a314ef39",
+  "exact_hard_parity": true
+}

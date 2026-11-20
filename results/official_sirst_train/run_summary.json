@@ -1,0 +1,1961 @@
+{
+  "stage": "Official published inference pipeline on unmodified local originals",
+  "returncode": 0,
+  "upstream_entry": "vendor/Real-IISR/test.py",
+  "upstream_commit": "70355f7e9d6b849272d429d12e854f5890b89ae2",
+  "test_py_sha256": "35d99e959624b09c45c54c7dc72c6cd0a7e5c2b83e633a8dd9a839d0ec234d49",
+  "upstream_tree_clean_after": true,
+  "checkpoint": "checkpoints/Real-IISR.pth",
+  "checkpoint_sha256": "fe1c2600ec6aeb18bfa674f7726a1dcd0aec45d9fbba25c7f1b9fe266b3ef9a9",
+  "list_file": "datasets/NUAA-SIRST/img_idx/train_NUAA-SIRST.txt",
+  "list_sha256": "324e5dadcb6cc9fc2a99a5f5dedd06ad4de77b2ed826e4ceffda8b6a784da0b4",
+  "original_images": 213,
+  "output_pngs": 213,
+  "output_width_height": [
+    512,
+    512
+  ],
+  "output_mode": "RGB",
+  "sampling_order": "Zero-padded names maintain the bundled train manifest order under the official sorted glob.",
+  "preprocessing": "Unaltered training originals. Official TestDataset converts input to RGB and resizes to 512x512; HR and LR entries both link to the same original to satisfy its directory layout. No added synthetic noise. HR tensor is not passed to prediction.",
+  "postprocessing": "Official 8-bit conversion followed by original AdaIN color fix against resized LR and final PNG save.",
+  "evaluation": "Inference replay on original training images; no separate clean denoising reference, no denoising score.",
+  "training_steps": 0,
+  "test_images_used": 0,
+  "cli": "bash results/official_sirst_train/run.sh",
+  "options": {
+    "var_test_path": "/project/checkpoints/Real-IISR.pth",
+    "seed": 0
+  },
+  "official_batch_size": 4,
+  "env": {
+    "docker_image": "deeppro-official-eval:20261009",
+    "image_digest": "sha256:eb956873870d737f2b68dff0724b8f6f56f778829d119b0938d29b7abeaa2f92",
+    "torch": "2.7.0+cu128",
+    "numpy": "1.26.4",
+    "pyiqa": "0.1.12",
+    "transformers": "4.37.2",
+    "accelerate": "1.0.1",
+    "huggingface_hub": "0.25.0",
+    "compatibility": "NumPy 1.26.4 loaded from the project-local environment for imgaug, torch CUDA 12.8 for the RTX 5090; upstream unchanged."
+  },
+  "outputs": [
+    {
+      "id": "Misc_119",
+      "original_width_height": [
+        296,
+        197
+      ],
+      "output_file": "testset/VARPrediction/0001_Misc_119.png",
+      "output_sha256": "cff35a5fd564ce489d7258d86738fe51b0c2fcaea5d29b10e159e1e03c32e01c"
+    },
+    {
+      "id": "Misc_64",
+      "original_width_height": [
+        307,
+        213
+      ],
+      "output_file": "testset/VARPrediction/0002_Misc_64.png",
+      "output_sha256": "df0cd48ffed4ad19f07cd0d3e26c70ddd11f0eacc5a19fad2a37353ad7006f65"
+    },
+    {
+      "id": "Misc_90",
+      "original_width_height": [
+        304,
+        212
+      ],
+      "output_file": "testset/VARPrediction/0003_Misc_90.png",
+      "output_sha256": "cf6301cfec508823ca1a2178e8038327729847655dcd791e7bb9ede62d90c091"
+    },
+    {
+      "id": "Misc_364",
+      "original_width_height": [
+        280,
+        280
+      ],
+      "output_file": "testset/VARPrediction/0004_Misc_364.png",
+      "output_sha256": "2b61c6054070cbd497e82f010cb3b3c1430da376fde2f20495f5148ba76f79c6"
+    },
+    {
+      "id": "Misc_250",
+      "original_width_height": [
+        262,
+        179
+      ],
+      "output_file": "testset/VARPrediction/0005_Misc_250.png",
+      "output_sha256": "4a457a3211b713434b65efc9b059cbf216a6702b90b0f68c30f8bb500c0d8426"
+    },
+    {
+      "id": "Misc_351",
+      "original_width_height": [
+        305,
+        205
+      ],
+      "output_file": "testset/VARPrediction/0006_Misc_351.png",
+      "output_sha256": "841e47fe3f150b25beb1bae10b9264179d3904b6d740d09e6cc3e2c30e4851db"
+    },
+    {
+      "id": "Misc_39",
+      "original_width_height": [
+        256,
+        171
+      ],
+      "output_file": "testset/VARPrediction/0007_Misc_39.png",
+      "output_sha256": "5cad7aa359b596399bef8c3c0ddaf4fd8ccba0f2a8f346f98ca5bac25fe50699"
+    },
+    {
+      "id": "Misc_313",
+      "original_width_height": [
+        324,
+        226
+      ],
+      "output_file": "testset/VARPrediction/0008_Misc_313.png",
+      "output_sha256": "c31f9269f947d4c144644c5ced1dfc3fbbc8336eb225841ad5a7ce7d7ac25b0a"
+    },
+    {
+      "id": "Misc_179",
+      "original_width_height": [
+        270,
+        177
+      ],
+      "output_file": "testset/VARPrediction/0009_Misc_179.png",
+      "output_sha256": "8e8e69818e847adf0b29495055de3ce383e180df2e65c2a8de174138ea5bfc4f"
+    },
+    {
+      "id": "Misc_344",
+      "original_width_height": [
+        342,
+        228
+      ],
+      "output_file": "testset/VARPrediction/0010_Misc_344.png",
+      "output_sha256": "0ed1fa6997196906310445cf82beb22d7cd230d30a6572e1cbedbb59e7e0f8ce"
+    },
+    {
+      "id": "Misc_421",
+      "original_width_height": [
+        334,
+        225
+      ],
+      "output_file": "testset/VARPrediction/0011_Misc_421.png",
+      "output_sha256": "ed9d030395efafa7d133f643998a74128bbc1bfa209e7ec1b0eaf08a88b643ad"
+    },
+    {
+      "id": "Misc_398",
+      "original_width_height": [
+        281,
+        284
+      ],
+      "output_file": "testset/VARPrediction/0012_Misc_398.png",
+      "output_sha256": "4280d124c5d5578b4ec5c46c1cfd1cf4acdbea3cac3778027bc3d188941a0938"
+    },
+    {
+      "id": "Misc_417",
+      "original_width_height": [
+        335,
+        220
+      ],
+      "output_file": "testset/VARPrediction/0013_Misc_417.png",
+      "output_sha256": "cebe3e09a4c6e274bb2119ba6540e492359f5195d6cf961c760d796e9835b885"
+    },
+    {
+      "id": "Misc_95",
+      "original_width_height": [
+        283,
+        185
+      ],
+      "output_file": "testset/VARPrediction/0014_Misc_95.png",
+      "output_sha256": "24d39f714ebf0de63d6d01082409492a251da5e63cf87a4f88e819af19988dea"
+    },
+    {
+      "id": "Misc_339",
+      "original_width_height": [
+        307,
+        228
+      ],
+      "output_file": "testset/VARPrediction/0015_Misc_339.png",
+      "output_sha256": "988df535e0afec92b0154d9ec3d6d2e15b32441bfd016abac55543f9f98f4c27"
+    },
+    {
+      "id": "Misc_426",
+      "original_width_height": [
+        270,
+        186
+      ],
+      "output_file": "testset/VARPrediction/0016_Misc_426.png",
+      "output_sha256": "a0159a3e208e8f7cb5edde38ae6698d5f7e7948cd1e5ca649846909eb3e0311c"
+    },
+    {
+      "id": "Misc_269",
+      "original_width_height": [
+        314,
+        200
+      ],
+      "output_file": "testset/VARPrediction/0017_Misc_269.png",
+      "output_sha256": "feb68a1394adb991c28a993abcf184bef7b3d409c87ba1dea15cc446a0b3d734"
+    },
+    {
+      "id": "Misc_316",
+      "original_width_height": [
+        252,
+        181
+      ],
+      "output_file": "testset/VARPrediction/0018_Misc_316.png",
+      "output_sha256": "cec407e58ddd19e9723615a35499d4bc4477d96c533a2cce9a894efe9cc246da"
+    },
+    {
+      "id": "Misc_419",
+      "original_width_height": [
+        315,
+        234
+      ],
+      "output_file": "testset/VARPrediction/0019_Misc_419.png",
+      "output_sha256": "162c29c7d89c77633969aa26ad40ec45b63f59d3f2d6ec2be48090e1916fc15d"
+    },
+    {
+      "id": "Misc_144",
+      "original_width_height": [
+        304,
+        194
+      ],
+      "output_file": "testset/VARPrediction/0020_Misc_144.png",
+      "output_sha256": "a02f7554a5ab3315bac4523a0e4601663adb20173bdd63e757fed3fc1a666a69"
+    },
+    {
+      "id": "Misc_149",
+      "original_width_height": [
+        297,
+        187
+      ],
+      "output_file": "testset/VARPrediction/0021_Misc_149.png",
+      "output_sha256": "9c5d0b0f009d7dc663f277c8fc99a4f475604a1a4b8321a82845eb170ac45dd9"
+    },
+    {
+      "id": "Misc_146",
+      "original_width_height": [
+        283,
+        232
+      ],
+      "output_file": "testset/VARPrediction/0022_Misc_146.png",
+      "output_sha256": "5fe0de33bbe8e4c2a9a8ec2c0bf8eae7625ac49c204d7baf9b2e77bc4471cca9"
+    },
+    {
+      "id": "Misc_31",
+      "original_width_height": [
+        320,
+        240
+      ],
+      "output_file": "testset/VARPrediction/0023_Misc_31.png",
+      "output_sha256": "69d4847542d73d741ccd09e689c9be1d7df34e77121d44bd0fb4f25eb76354df"
+    },
+    {
+      "id": "Misc_58",
+      "original_width_height": [
+        330,
+        252
+      ],
+      "output_file": "testset/VARPrediction/0024_Misc_58.png",
+      "output_sha256": "6735d7c4f6eeec5c8e98bc757c3651b708d85a8cbd4db36540a7d044527f2c6c"
+    },
+    {
+      "id": "Misc_4",
+      "original_width_height": [
+        348,
+        278
+      ],
+      "output_file": "testset/VARPrediction/0025_Misc_4.png",
+      "output_sha256": "3380d52189d28e9a67052436cdebfc99850c09cb7192c8e5869809fd76820fb6"
+    },
+    {
+      "id": "Misc_264",
+      "original_width_height": [
+        254,
+        172
+      ],
+      "output_file": "testset/VARPrediction/0026_Misc_264.png",
+      "output_sha256": "d44c342f4960d2a13767d17774fc1c4e09d2c243a7025a78d11111496d3ea977"
+    },
+    {
+      "id": "Misc_283",
+      "original_width_height": [
+        298,
+        202
+      ],
+      "output_file": "testset/VARPrediction/0027_Misc_283.png",
+      "output_sha256": "51dd6af6e96d05b86415c17d778becdb0aa6d718507db65b1d45b9c82ea9c2dd"
+    },
+    {
+      "id": "Misc_284",
+      "original_width_height": [
+        323,
+        204
+      ],
+      "output_file": "testset/VARPrediction/0028_Misc_284.png",
+      "output_sha256": "5ccd117ebe812bdb83397d260b4975c75e82bd9fbcc3711b58d64819f6081726"
+    },
+    {
+      "id": "Misc_150",
+      "original_width_height": [
+        315,
+        206
+      ],
+      "output_file": "testset/VARPrediction/0029_Misc_150.png",
+      "output_sha256": "83bf50292cbbcc6104b040d23e5718aab1a9fa264735445ca87b4cefba520774"
+    },
+    {
+      "id": "Misc_220",
+      "original_width_height": [
+        298,
+        215
+      ],
+      "output_file": "testset/VARPrediction/0030_Misc_220.png",
+      "output_sha256": "f03188bd822d55cd3a8ae4881e100d83c36b930454afa21972d3f6397ac1f921"
+    },
+    {
+      "id": "Misc_133",
+      "original_width_height": [
+        362,
+        209
+      ],
+      "output_file": "testset/VARPrediction/0031_Misc_133.png",
+      "output_sha256": "e883703c685b89530defaeb686a4121bbdd8268112dac66db8b683ecbce9e94f"
+    },
+    {
+      "id": "Misc_77",
+      "original_width_height": [
+        275,
+        186
+      ],
+      "output_file": "testset/VARPrediction/0032_Misc_77.png",
+      "output_sha256": "2531583685b794e6ffb58e48ec9b79265d43aa02142389e945afb5cd50644cb0"
+    },
+    {
+      "id": "Misc_70",
+      "original_width_height": [
+        338,
+        251
+      ],
+      "output_file": "testset/VARPrediction/0033_Misc_70.png",
+      "output_sha256": "f98c14b4f330eb52304f1beb113fc2daeea86c4658292b0833c621e4563512e0"
+    },
+    {
+      "id": "Misc_425",
+      "original_width_height": [
+        321,
+        182
+      ],
+      "output_file": "testset/VARPrediction/0034_Misc_425.png",
+      "output_sha256": "8f93d01ac40ae3a20449bd41a315e140a69c7acc6e1948ab1520bcb5d60a2c3a"
+    },
+    {
+      "id": "Misc_195",
+      "original_width_height": [
+        307,
+        199
+      ],
+      "output_file": "testset/VARPrediction/0035_Misc_195.png",
+      "output_sha256": "1db81d485a6a6370992b57c1d09ab97870ecaa48404d3d49eaf58b4c4841d721"
+    },
+    {
+      "id": "Misc_304",
+      "original_width_height": [
+        210,
+        210
+      ],
+      "output_file": "testset/VARPrediction/0036_Misc_304.png",
+      "output_sha256": "8d2e0332e638c5194ab3fb4c544395ede29b484103487623d990d785921cef72"
+    },
+    {
+      "id": "Misc_329",
+      "original_width_height": [
+        248,
+        210
+      ],
+      "output_file": "testset/VARPrediction/0037_Misc_329.png",
+      "output_sha256": "b73bd76b0c61d9ba1aff43bfe0855017790290736b77d6766b697a2b9be8003c"
+    },
+    {
+      "id": "Misc_65",
+      "original_width_height": [
+        396,
+        271
+      ],
+      "output_file": "testset/VARPrediction/0038_Misc_65.png",
+      "output_sha256": "b206b9e4b875866a141e9c433abdd8024f031867da90572b9c0e1453d29e17ad"
+    },
+    {
+      "id": "Misc_167",
+      "original_width_height": [
+        282,
+        184
+      ],
+      "output_file": "testset/VARPrediction/0039_Misc_167.png",
+      "output_sha256": "67d3e21391240fb99e15a6fddc823c27b4ee182b542e8e3696ed703572ca0210"
+    },
+    {
+      "id": "Misc_174",
+      "original_width_height": [
+        285,
+        186
+      ],
+      "output_file": "testset/VARPrediction/0040_Misc_174.png",
+      "output_sha256": "49e5a38a32acdfd9ad9ab9c36a3d2729a52430388d04494f6861819c673b00a7"
+    },
+    {
+      "id": "Misc_202",
+      "original_width_height": [
+        341,
+        210
+      ],
+      "output_file": "testset/VARPrediction/0041_Misc_202.png",
+      "output_sha256": "f35896fd2011f05ff03b75ade9662f65693c8befb817c813972a0638f6af3373"
+    },
+    {
+      "id": "Misc_157",
+      "original_width_height": [
+        316,
+        196
+      ],
+      "output_file": "testset/VARPrediction/0042_Misc_157.png",
+      "output_sha256": "9c4613764fe29689fa6b8d4bae7397d3cbe5d14e1625b3118c676df8aa0e09c8"
+    },
+    {
+      "id": "Misc_96",
+      "original_width_height": [
+        291,
+        215
+      ],
+      "output_file": "testset/VARPrediction/0043_Misc_96.png",
+      "output_sha256": "7bcd057bf6c816228c074833dab9987d53e93e22f24e74a84221cb31d2b8d8b1"
+    },
+    {
+      "id": "Misc_320",
+      "original_width_height": [
+        266,
+        166
+      ],
+      "output_file": "testset/VARPrediction/0044_Misc_320.png",
+      "output_sha256": "6d61c5bd1af21d163489f98ba0bd88c3689fe457d2eefda8542494bba42bb853"
+    },
+    {
+      "id": "Misc_369",
+      "original_width_height": [
+        210,
+        210
+      ],
+      "output_file": "testset/VARPrediction/0045_Misc_369.png",
+      "output_sha256": "509c7eb31067875fcd467104b0c3f63af013f0b494596e7aea9fb8962cd1484a"
+    },
+    {
+      "id": "Misc_109",
+      "original_width_height": [
+        378,
+        239
+      ],
+      "output_file": "testset/VARPrediction/0046_Misc_109.png",
+      "output_sha256": "57382285bb496eefd01db83d15f17ce22bc7c76e5b1d570c5a44ffc228e710f7"
+    },
+    {
+      "id": "Misc_16",
+      "original_width_height": [
+        284,
+        208
+      ],
+      "output_file": "testset/VARPrediction/0047_Misc_16.png",
+      "output_sha256": "2817035b8467a781aaaf653335c4a218acd593e5771e3148fac4778a2871cc10"
+    },
+    {
+      "id": "Misc_40",
+      "original_width_height": [
+        135,
+        96
+      ],
+      "output_file": "testset/VARPrediction/0048_Misc_40.png",
+      "output_sha256": "b31e85309204afbc428e2575ef8f4261caf4edb345dd348060d18e414cb2434c"
+    },
+    {
+      "id": "Misc_295",
+      "original_width_height": [
+        320,
+        240
+      ],
+      "output_file": "testset/VARPrediction/0049_Misc_295.png",
+      "output_sha256": "bccea984e51fcf1711338a79ed61cf074f5b87d8a5e6161227c9a4e64a0bd6d8"
+    },
+    {
+      "id": "Misc_147",
+      "original_width_height": [
+        298,
+        186
+      ],
+      "output_file": "testset/VARPrediction/0050_Misc_147.png",
+      "output_sha256": "10167500c6a7ed6b49a21ccbbc8faf99d5aa7fab93841bb1599379ab77337030"
+    },
+    {
+      "id": "Misc_247",
+      "original_width_height": [
+        299,
+        185
+      ],
+      "output_file": "testset/VARPrediction/0051_Misc_247.png",
+      "output_sha256": "301d47efbebf5ee776a6c85430cbe5883f5396a83908e3d3aab060043ad6e37e"
+    },
+    {
+      "id": "Misc_423",
+      "original_width_height": [
+        280,
+        182
+      ],
+      "output_file": "testset/VARPrediction/0052_Misc_423.png",
+      "output_sha256": "3b4c914024df4587fd72859178a7338064a04af197790f0702b4b346208712a7"
+    },
+    {
+      "id": "Misc_152",
+      "original_width_height": [
+        302,
+        202
+      ],
+      "output_file": "testset/VARPrediction/0053_Misc_152.png",
+      "output_sha256": "f3f00855196fa7ecdbaac811c4fb3803c5965b21b1e95bb38737d53724d8f798"
+    },
+    {
+      "id": "Misc_100",
+      "original_width_height": [
+        332,
+        213
+      ],
+      "output_file": "testset/VARPrediction/0054_Misc_100.png",
+      "output_sha256": "e900f08b4341f321d7b8c5308c990df12c3c622bd52c06f22da572d46d3bf83d"
+    },
+    {
+      "id": "Misc_263",
+      "original_width_height": [
+        251,
+        169
+      ],
+      "output_file": "testset/VARPrediction/0055_Misc_263.png",
+      "output_sha256": "6ebbe7d16f6628e9fbe9a6f6b8cb4788da5abf6185cadc58fecccf0bcb74ca8e"
+    },
+    {
+      "id": "Misc_352",
+      "original_width_height": [
+        305,
+        214
+      ],
+      "output_file": "testset/VARPrediction/0056_Misc_352.png",
+      "output_sha256": "af3e58315990d149a595789334498633ab7f3b764cdff6e496bed2e01a9dd89a"
+    },
+    {
+      "id": "Misc_233",
+      "original_width_height": [
+        271,
+        180
+      ],
+      "output_file": "testset/VARPrediction/0057_Misc_233.png",
+      "output_sha256": "44b59eae3a7d3a0b421c0462e9a91407d3a1418f82e27d85f9c28330ba97b6c9"
+    },
+    {
+      "id": "Misc_190",
+      "original_width_height": [
+        304,
+        210
+      ],
+      "output_file": "testset/VARPrediction/0058_Misc_190.png",
+      "output_sha256": "113e273c0efdcc7a894143e604426d93571235c0fb3313e30a8a4dd38d857cd4"
+    },
+    {
+      "id": "Misc_392",
+      "original_width_height": [
+        331,
+        300
+      ],
+      "output_file": "testset/VARPrediction/0059_Misc_392.png",
+      "output_sha256": "e41102d3930241445a82eabc0f704d160d4ca71e4b161b7c4ceb963fe914a3f3"
+    },
+    {
+      "id": "Misc_281",
+      "original_width_height": [
+        273,
+        152
+      ],
+      "output_file": "testset/VARPrediction/0060_Misc_281.png",
+      "output_sha256": "25f23e5f3630d0f250f0521fc598a148607ca5ed704150fa1d4a1e67af7679ca"
+    },
+    {
+      "id": "Misc_358",
+      "original_width_height": [
+        332,
+        332
+      ],
+      "output_file": "testset/VARPrediction/0061_Misc_358.png",
+      "output_sha256": "7a0db62e87f63b74f83689672ef4608a32e192bbbe715302598a07be65665a31"
+    },
+    {
+      "id": "Misc_163",
+      "original_width_height": [
+        283,
+        181
+      ],
+      "output_file": "testset/VARPrediction/0062_Misc_163.png",
+      "output_sha256": "b83436e94ea04c0dfb0a8e6f2312c64b2054e3b170956cbd13b95b110b6b1820"
+    },
+    {
+      "id": "Misc_132",
+      "original_width_height": [
+        328,
+        220
+      ],
+      "output_file": "testset/VARPrediction/0063_Misc_132.png",
+      "output_sha256": "7b7e4a7107a86af643b83420a6bc2546f770e8dbccac1a9d566fd025b389c989"
+    },
+    {
+      "id": "Misc_405",
+      "original_width_height": [
+        213,
+        194
+      ],
+      "output_file": "testset/VARPrediction/0064_Misc_405.png",
+      "output_sha256": "e3716b08d9f88fd9367dbb5dd7f9e2f837f5f63faf84b55debb1aef87d4d364e"
+    },
+    {
+      "id": "Misc_159",
+      "original_width_height": [
+        299,
+        177
+      ],
+      "output_file": "testset/VARPrediction/0065_Misc_159.png",
+      "output_sha256": "aff40e435109286415b332eeeeb89e8bbdb80b9d42155ed8e2a073f234f32c8a"
+    },
+    {
+      "id": "Misc_12",
+      "original_width_height": [
+        318,
+        239
+      ],
+      "output_file": "testset/VARPrediction/0066_Misc_12.png",
+      "output_sha256": "be87c5e1a5e41bfabaa2c751b2137ec116b68d5e61fa1530540b400ffae19b1e"
+    },
+    {
+      "id": "Misc_367",
+      "original_width_height": [
+        274,
+        274
+      ],
+      "output_file": "testset/VARPrediction/0067_Misc_367.png",
+      "output_sha256": "c16f39770f282b22ecd9ed5e29e4adf5ea2b969653c8a8045705a186b782263f"
+    },
+    {
+      "id": "Misc_172",
+      "original_width_height": [
+        312,
+        204
+      ],
+      "output_file": "testset/VARPrediction/0068_Misc_172.png",
+      "output_sha256": "0406894a3c66e6ebe47c19016138ea32aa4cde64cdf7f91cb50729f11f011d3c"
+    },
+    {
+      "id": "Misc_401",
+      "original_width_height": [
+        332,
+        223
+      ],
+      "output_file": "testset/VARPrediction/0069_Misc_401.png",
+      "output_sha256": "32c67c9df468d258bbed6424ee738fcb1b7bf4714cc58443405d7f93f8a678c6"
+    },
+    {
+      "id": "Misc_138",
+      "original_width_height": [
+        256,
+        200
+      ],
+      "output_file": "testset/VARPrediction/0070_Misc_138.png",
+      "output_sha256": "ffa19687b20883ce9e72f0f21eaea4e9632b4aa4cde5b65793c12dcb2444d1b8"
+    },
+    {
+      "id": "Misc_104",
+      "original_width_height": [
+        418,
+        388
+      ],
+      "output_file": "testset/VARPrediction/0071_Misc_104.png",
+      "output_sha256": "901d6f6cf442a3e56d6af8d0138972da3d664d5c25ed77038d7630d5fa63829a"
+    },
+    {
+      "id": "Misc_86",
+      "original_width_height": [
+        305,
+        207
+      ],
+      "output_file": "testset/VARPrediction/0072_Misc_86.png",
+      "output_sha256": "8604788ae70ec5b942f09bcc24c9300fe18c91acd0942a24d058ea4ff6277565"
+    },
+    {
+      "id": "Misc_160",
+      "original_width_height": [
+        297,
+        187
+      ],
+      "output_file": "testset/VARPrediction/0073_Misc_160.png",
+      "output_sha256": "e58ccd3d5e3e4cdac762f98e77a78ebfc56d8ebcc33151f7c425d2e5b65f53c3"
+    },
+    {
+      "id": "Misc_242",
+      "original_width_height": [
+        338,
+        222
+      ],
+      "output_file": "testset/VARPrediction/0074_Misc_242.png",
+      "output_sha256": "43fc47dec9362cfcc95750968baf0c9e58a6dbcca4a2c349d3ba688ff5a17305"
+    },
+    {
+      "id": "Misc_7",
+      "original_width_height": [
+        297,
+        232
+      ],
+      "output_file": "testset/VARPrediction/0075_Misc_7.png",
+      "output_sha256": "948fb3005c3efdc1640688d338df0d234d1e1b1ab72f026db4d1756c5fb991b4"
+    },
+    {
+      "id": "Misc_305",
+      "original_width_height": [
+        303,
+        200
+      ],
+      "output_file": "testset/VARPrediction/0076_Misc_305.png",
+      "output_sha256": "d7441bc706366e889b4ab5d502271cba6910c19ad8d1c06ee85a0c1c3e841caf"
+    },
+    {
+      "id": "Misc_243",
+      "original_width_height": [
+        340,
+        212
+      ],
+      "output_file": "testset/VARPrediction/0077_Misc_243.png",
+      "output_sha256": "1f33bb8131c7a27cdc9715c3f2b155ec5adec7a336bea6e6dbc1e9ab4a3764a2"
+    },
+    {
+      "id": "Misc_399",
+      "original_width_height": [
+        298,
+        217
+      ],
+      "output_file": "testset/VARPrediction/0078_Misc_399.png",
+      "output_sha256": "42c62753929ed34fd6e641c127ee728dd6530932062b2f4ca8beb919243c7159"
+    },
+    {
+      "id": "Misc_363",
+      "original_width_height": [
+        306,
+        305
+      ],
+      "output_file": "testset/VARPrediction/0079_Misc_363.png",
+      "output_sha256": "69a16bdc44f58a9eb7cbae1d6a420645c5ebbbf555b5f3754f01ba0c5e48f4d4"
+    },
+    {
+      "id": "Misc_61",
+      "original_width_height": [
+        371,
+        292
+      ],
+      "output_file": "testset/VARPrediction/0080_Misc_61.png",
+      "output_sha256": "f045e49c30ce5787d0efc5cb33217bc3e6c4b425a75e1436fb89c449702a5f8a"
+    },
+    {
+      "id": "Misc_129",
+      "original_width_height": [
+        337,
+        211
+      ],
+      "output_file": "testset/VARPrediction/0081_Misc_129.png",
+      "output_sha256": "26af1926daad12e8d4df77c5b783d81a30afb395270b4e6f214aeb9ae8d4d0ea"
+    },
+    {
+      "id": "Misc_330",
+      "original_width_height": [
+        339,
+        258
+      ],
+      "output_file": "testset/VARPrediction/0082_Misc_330.png",
+      "output_sha256": "c6828b868c9e76927d175825ee6611d6e442e304806eeaba67315585d17ba2f8"
+    },
+    {
+      "id": "Misc_134",
+      "original_width_height": [
+        333,
+        204
+      ],
+      "output_file": "testset/VARPrediction/0083_Misc_134.png",
+      "output_sha256": "8c3519efb363a255b1f702f9644f7242de0fb977a686bfdfc1daccae9b785c08"
+    },
+    {
+      "id": "Misc_315",
+      "original_width_height": [
+        322,
+        213
+      ],
+      "output_file": "testset/VARPrediction/0084_Misc_315.png",
+      "output_sha256": "6b8bda1ad2de7f6fcbae30d8c23501f67b954ca13ec83bae182d81e81c14d843"
+    },
+    {
+      "id": "Misc_180",
+      "original_width_height": [
+        276,
+        219
+      ],
+      "output_file": "testset/VARPrediction/0085_Misc_180.png",
+      "output_sha256": "a936a3eb033331c93f9bd9548f85c4865cb920ca619079cd090685f9ca9fc3d6"
+    },
+    {
+      "id": "Misc_244",
+      "original_width_height": [
+        341,
+        232
+      ],
+      "output_file": "testset/VARPrediction/0086_Misc_244.png",
+      "output_sha256": "745b96bb6c6e2d0901d5269d5fb9b4c8873fae646c2851fc7697c93ff4397694"
+    },
+    {
+      "id": "Misc_63",
+      "original_width_height": [
+        291,
+        206
+      ],
+      "output_file": "testset/VARPrediction/0087_Misc_63.png",
+      "output_sha256": "4a0db9d0adc3a8b018f31f1d47dcb4ef8f7428ddcd70941705f56eab9fd5a606"
+    },
+    {
+      "id": "Misc_391",
+      "original_width_height": [
+        376,
+        301
+      ],
+      "output_file": "testset/VARPrediction/0088_Misc_391.png",
+      "output_sha256": "594fd93e24deebe9ff40f940f9e0afe342fa734f63ad634d9964b11b769516e6"
+    },
+    {
+      "id": "Misc_42",
+      "original_width_height": [
+        304,
+        196
+      ],
+      "output_file": "testset/VARPrediction/0089_Misc_42.png",
+      "output_sha256": "13f9c8fe8ba74fb91a4418b64829e74b110bdcd5dfe0ff3ff1022f9fc9fee684"
+    },
+    {
+      "id": "Misc_404",
+      "original_width_height": [
+        302,
+        270
+      ],
+      "output_file": "testset/VARPrediction/0090_Misc_404.png",
+      "output_sha256": "a0a278eb7e3495fabdfd5c2cb9c9e22a7e0a304ac546a45016c758a75dcd535b"
+    },
+    {
+      "id": "Misc_29",
+      "original_width_height": [
+        352,
+        240
+      ],
+      "output_file": "testset/VARPrediction/0091_Misc_29.png",
+      "output_sha256": "67282d3b40d8a449fd92578c657ae84821c2550133bdcfeb1e6745bce159fe6b"
+    },
+    {
+      "id": "Misc_238",
+      "original_width_height": [
+        354,
+        237
+      ],
+      "output_file": "testset/VARPrediction/0092_Misc_238.png",
+      "output_sha256": "c82c00fd1998537eb76411610a0d9d4bf506845ec92287e4b93262258d0eb18c"
+    },
+    {
+      "id": "Misc_285",
+      "original_width_height": [
+        311,
+        213
+      ],
+      "output_file": "testset/VARPrediction/0093_Misc_285.png",
+      "output_sha256": "e3eafbef85370aa3c2d4a85d029639d782bd2e293f7f90959f777c4bf323547d"
+    },
+    {
+      "id": "Misc_214",
+      "original_width_height": [
+        300,
+        194
+      ],
+      "output_file": "testset/VARPrediction/0094_Misc_214.png",
+      "output_sha256": "e3181d5f6a1f06993a95db6d11b5cba98de3a3bbf17f4b4adc82bbefd47b5941"
+    },
+    {
+      "id": "Misc_93",
+      "original_width_height": [
+        313,
+        222
+      ],
+      "output_file": "testset/VARPrediction/0095_Misc_93.png",
+      "output_sha256": "1fb64365cd8ef0fc9590ec1abebf253598b87d3f30f4089166938249686f94f6"
+    },
+    {
+      "id": "Misc_253",
+      "original_width_height": [
+        308,
+        215
+      ],
+      "output_file": "testset/VARPrediction/0096_Misc_253.png",
+      "output_sha256": "b5e7892217846a4613b712b44e9f3ae77d6a699481a5d4f2e3838e0ad1c647c8"
+    },
+    {
+      "id": "Misc_402",
+      "original_width_height": [
+        350,
+        226
+      ],
+      "output_file": "testset/VARPrediction/0097_Misc_402.png",
+      "output_sha256": "eee2455d1de9195a34e09294d71434d133e7e6e209c3bee312fb72ca68c365dc"
+    },
+    {
+      "id": "Misc_50",
+      "original_width_height": [
+        319,
+        192
+      ],
+      "output_file": "testset/VARPrediction/0098_Misc_50.png",
+      "output_sha256": "76281c08ac9f05458ca2c0fec49237bb3b5092e7f016f168ed104667c030a763"
+    },
+    {
+      "id": "Misc_291",
+      "original_width_height": [
+        323,
+        219
+      ],
+      "output_file": "testset/VARPrediction/0099_Misc_291.png",
+      "output_sha256": "98ef7cc9289b5c2b78bfffb13d81c8eeac33d88aff4f197a5e09284a5190bef3"
+    },
+    {
+      "id": "Misc_128",
+      "original_width_height": [
+        318,
+        229
+      ],
+      "output_file": "testset/VARPrediction/0100_Misc_128.png",
+      "output_sha256": "13d4f3706724599e48b5487925d827f0facf31cb33f2e8b7178822a91e3829d7"
+    },
+    {
+      "id": "Misc_267",
+      "original_width_height": [
+        316,
+        210
+      ],
+      "output_file": "testset/VARPrediction/0101_Misc_267.png",
+      "output_sha256": "f86e3b8f6b5ce989ee2407c9a558cc991e10713e57dea50aa3d767b3446c74f2"
+    },
+    {
+      "id": "Misc_115",
+      "original_width_height": [
+        298,
+        186
+      ],
+      "output_file": "testset/VARPrediction/0102_Misc_115.png",
+      "output_sha256": "ab3c8b64dd69514632a0eb77717128bded9cc1eccd0c11607b5b109953ea66f9"
+    },
+    {
+      "id": "Misc_337",
+      "original_width_height": [
+        273,
+        181
+      ],
+      "output_file": "testset/VARPrediction/0103_Misc_337.png",
+      "output_sha256": "4cd90f9f92179bdb7370ed1ef08ccc52ac3a1b71e8cad574cae98340918cee97"
+    },
+    {
+      "id": "Misc_370",
+      "original_width_height": [
+        255,
+        255
+      ],
+      "output_file": "testset/VARPrediction/0104_Misc_370.png",
+      "output_sha256": "1f018d1395876fb57762a312be9b5cbb948feaae575ba1777614102634b0d2a9"
+    },
+    {
+      "id": "Misc_158",
+      "original_width_height": [
+        307,
+        193
+      ],
+      "output_file": "testset/VARPrediction/0105_Misc_158.png",
+      "output_sha256": "29e059cd06d709eb9f5d612df49cbdfd88e020f905376bee4ed9d1a469e944fc"
+    },
+    {
+      "id": "Misc_114",
+      "original_width_height": [
+        283,
+        182
+      ],
+      "output_file": "testset/VARPrediction/0106_Misc_114.png",
+      "output_sha256": "8e2030beee5013ed5f10aa19a0ee6547cfdafd53205780efc836e8c7550a185f"
+    },
+    {
+      "id": "Misc_388",
+      "original_width_height": [
+        256,
+        271
+      ],
+      "output_file": "testset/VARPrediction/0107_Misc_388.png",
+      "output_sha256": "7c9f58a857f6082b227f9c46f1c0e25d8e6da45a149ba998fa9684c40b5fa25c"
+    },
+    {
+      "id": "Misc_170",
+      "original_width_height": [
+        275,
+        178
+      ],
+      "output_file": "testset/VARPrediction/0108_Misc_170.png",
+      "output_sha256": "86ac57352cb09036930288d759385d1d3282299afe291b0b3151ed3009c723d8"
+    },
+    {
+      "id": "Misc_354",
+      "original_width_height": [
+        304,
+        209
+      ],
+      "output_file": "testset/VARPrediction/0109_Misc_354.png",
+      "output_sha256": "280b6a12742830eb66fefb57098e8c2bfc29e79b98e4668f43f40f0b7f21070e"
+    },
+    {
+      "id": "Misc_36",
+      "original_width_height": [
+        320,
+        255
+      ],
+      "output_file": "testset/VARPrediction/0110_Misc_36.png",
+      "output_sha256": "6b719ead83f1704d26889318108617214f01225b86ffb1f2b06c22f0a72f0a22"
+    },
+    {
+      "id": "Misc_424",
+      "original_width_height": [
+        252,
+        181
+      ],
+      "output_file": "testset/VARPrediction/0111_Misc_424.png",
+      "output_sha256": "939f252c64bc9cac07663584b2c29fabd1b3704adf8c8586fc2a0ef31ac8c53c"
+    },
+    {
+      "id": "Misc_336",
+      "original_width_height": [
+        300,
+        209
+      ],
+      "output_file": "testset/VARPrediction/0112_Misc_336.png",
+      "output_sha256": "94e86e1ead0ed8e87b5a97a3804f7e3d563923dc8949d7680ef411ac08e257e6"
+    },
+    {
+      "id": "Misc_393",
+      "original_width_height": [
+        329,
+        295
+      ],
+      "output_file": "testset/VARPrediction/0113_Misc_393.png",
+      "output_sha256": "dc97fe1f0fbfe2de1a99630aac62fe0aaf1f2bcf4a20598e17192d23b92a237d"
+    },
+    {
+      "id": "Misc_229",
+      "original_width_height": [
+        319,
+        222
+      ],
+      "output_file": "testset/VARPrediction/0114_Misc_229.png",
+      "output_sha256": "6df92eedfdb424b26aae750f9c2a95bcd2e7b10575724689ca8ee20d470e9120"
+    },
+    {
+      "id": "Misc_108",
+      "original_width_height": [
+        315,
+        224
+      ],
+      "output_file": "testset/VARPrediction/0115_Misc_108.png",
+      "output_sha256": "22b22c30c50f4d556355642de765b7355f5eaaecac0dac76842c211cf69aad0b"
+    },
+    {
+      "id": "Misc_105",
+      "original_width_height": [
+        329,
+        215
+      ],
+      "output_file": "testset/VARPrediction/0116_Misc_105.png",
+      "output_sha256": "b5c9d66b31559bafd56d15a2dc538137367c7fa69a67e7fac6d2180b62135e47"
+    },
+    {
+      "id": "Misc_406",
+      "original_width_height": [
+        222,
+        222
+      ],
+      "output_file": "testset/VARPrediction/0117_Misc_406.png",
+      "output_sha256": "c9bb667d0920a853836f9273e21a80922b41de77361eb77771c8599c86aa79c3"
+    },
+    {
+      "id": "Misc_2",
+      "original_width_height": [
+        348,
+        270
+      ],
+      "output_file": "testset/VARPrediction/0118_Misc_2.png",
+      "output_sha256": "b90bd3be5861fecc9d8c823bd16b523c55e3bde88709b8a6a0124cc4e346702e"
+    },
+    {
+      "id": "Misc_324",
+      "original_width_height": [
+        278,
+        178
+      ],
+      "output_file": "testset/VARPrediction/0119_Misc_324.png",
+      "output_sha256": "b09a2ab9b8952c89114d21ed8c9ce49063eb78dfc67dbc0829bf3eddcaaa1ad3"
+    },
+    {
+      "id": "Misc_47",
+      "original_width_height": [
+        282,
+        215
+      ],
+      "output_file": "testset/VARPrediction/0120_Misc_47.png",
+      "output_sha256": "ac0c2d5592c9afcb943b5c36064e8567a3cd2316762b840aa2e90f31b45cac74"
+    },
+    {
+      "id": "Misc_200",
+      "original_width_height": [
+        301,
+        196
+      ],
+      "output_file": "testset/VARPrediction/0121_Misc_200.png",
+      "output_sha256": "345c4d3a54f3d677e84558476aff9aa7fd8ab2870c26a4ee6f66084c4879641e"
+    },
+    {
+      "id": "Misc_187",
+      "original_width_height": [
+        303,
+        199
+      ],
+      "output_file": "testset/VARPrediction/0122_Misc_187.png",
+      "output_sha256": "f530636e3208fab61e5d173b3eeeb9847273800fd4583b2d97093c38b264f8d5"
+    },
+    {
+      "id": "Misc_33",
+      "original_width_height": [
+        302,
+        209
+      ],
+      "output_file": "testset/VARPrediction/0123_Misc_33.png",
+      "output_sha256": "a8b8b99b6842dc4e1a3e4a317e87cfbc7c21f415da1d024e0ec8f099733b4aa6"
+    },
+    {
+      "id": "Misc_72",
+      "original_width_height": [
+        324,
+        238
+      ],
+      "output_file": "testset/VARPrediction/0124_Misc_72.png",
+      "output_sha256": "19edf64983ab16fe9afbb9e81ddf93f401914fe509cfac98b524b576eeeb7255"
+    },
+    {
+      "id": "Misc_384",
+      "original_width_height": [
+        402,
+        284
+      ],
+      "output_file": "testset/VARPrediction/0125_Misc_384.png",
+      "output_sha256": "fcc0236f4dc5032f18c44b8d78267db48125dc3fe274a93fb409e2b983464bcd"
+    },
+    {
+      "id": "Misc_120",
+      "original_width_height": [
+        300,
+        209
+      ],
+      "output_file": "testset/VARPrediction/0126_Misc_120.png",
+      "output_sha256": "ea2e352f8ea59d1db7028b35a12ca56ed8671e9255a36d6a33b016a985bb8a99"
+    },
+    {
+      "id": "Misc_322",
+      "original_width_height": [
+        257,
+        257
+      ],
+      "output_file": "testset/VARPrediction/0127_Misc_322.png",
+      "output_sha256": "3a5e122057cfdda2c67e7d5d049232f682f74d8e124c238bd77a6fe8231803f1"
+    },
+    {
+      "id": "Misc_360",
+      "original_width_height": [
+        327,
+        327
+      ],
+      "output_file": "testset/VARPrediction/0128_Misc_360.png",
+      "output_sha256": "21c0b9f25116fb4278e8390b5c38a7d5486e5b0649daf6e4d35e8f17ace3342f"
+    },
+    {
+      "id": "Misc_192",
+      "original_width_height": [
+        286,
+        199
+      ],
+      "output_file": "testset/VARPrediction/0129_Misc_192.png",
+      "output_sha256": "3f6d4aeefeea8da162c2418fb0c97c7598fc95889e31c6d9275d5ca586650284"
+    },
+    {
+      "id": "Misc_112",
+      "original_width_height": [
+        298,
+        189
+      ],
+      "output_file": "testset/VARPrediction/0130_Misc_112.png",
+      "output_sha256": "4f6c4b8bed2d5defc5a7bcf586b49d6df7eafcb326f68e1d6f428f8b2b66a2a4"
+    },
+    {
+      "id": "Misc_142",
+      "original_width_height": [
+        286,
+        188
+      ],
+      "output_file": "testset/VARPrediction/0131_Misc_142.png",
+      "output_sha256": "5b04d76607a8c8161b9b9a6df0028198becdab5b9f8641e61690c2233a64a3a4"
+    },
+    {
+      "id": "Misc_403",
+      "original_width_height": [
+        311,
+        213
+      ],
+      "output_file": "testset/VARPrediction/0132_Misc_403.png",
+      "output_sha256": "c8cbfe2c2f8dceaf3e0461421b8f34c17a02e6cba2fddf4cc7bdc871d1feb438"
+    },
+    {
+      "id": "Misc_169",
+      "original_width_height": [
+        283,
+        178
+      ],
+      "output_file": "testset/VARPrediction/0133_Misc_169.png",
+      "output_sha256": "a90fb984d6c3d78497940b82180f651a6dfb05ef714e4a5e22190e379071bd1e"
+    },
+    {
+      "id": "Misc_223",
+      "original_width_height": [
+        308,
+        201
+      ],
+      "output_file": "testset/VARPrediction/0134_Misc_223.png",
+      "output_sha256": "dd9a458c80bfa616aa801052aec828c10c799089c48704b00d21e999dc4038e6"
+    },
+    {
+      "id": "Misc_213",
+      "original_width_height": [
+        300,
+        279
+      ],
+      "output_file": "testset/VARPrediction/0135_Misc_213.png",
+      "output_sha256": "232c12de7133d16816579d80032c01d5c64c22a63b7e8456b40faec1952ec156"
+    },
+    {
+      "id": "Misc_161",
+      "original_width_height": [
+        249,
+        154
+      ],
+      "output_file": "testset/VARPrediction/0136_Misc_161.png",
+      "output_sha256": "201cd5a95a00c34ebe8cc61872895362f14151afe41fbb6ede40cc5443b74fc8"
+    },
+    {
+      "id": "Misc_256",
+      "original_width_height": [
+        377,
+        261
+      ],
+      "output_file": "testset/VARPrediction/0137_Misc_256.png",
+      "output_sha256": "143453e18be18ddc81c3060ec3c8f52a7422d45d067a05e6f7fdf01f8bc7e86e"
+    },
+    {
+      "id": "Misc_141",
+      "original_width_height": [
+        233,
+        161
+      ],
+      "output_file": "testset/VARPrediction/0138_Misc_141.png",
+      "output_sha256": "b8489ee46e7ac38404817c8e73fe328f372fda49981cebf20f3741af950b395c"
+    },
+    {
+      "id": "Misc_78",
+      "original_width_height": [
+        336,
+        245
+      ],
+      "output_file": "testset/VARPrediction/0139_Misc_78.png",
+      "output_sha256": "0755fc144d2fea3d2b3450ba9de094275d7087c690bb0aab54b92c072a69144d"
+    },
+    {
+      "id": "Misc_296",
+      "original_width_height": [
+        320,
+        240
+      ],
+      "output_file": "testset/VARPrediction/0140_Misc_296.png",
+      "output_sha256": "dc576b4d09aceeaf6a8cc34e2e8d9ebeb6704d32dadc4353d025bd621a27957d"
+    },
+    {
+      "id": "Misc_6",
+      "original_width_height": [
+        293,
+        229
+      ],
+      "output_file": "testset/VARPrediction/0141_Misc_6.png",
+      "output_sha256": "1805d9d21989bce1a4268d5cf9a7eb84a1c82e1341f168d4660914b221c6eda0"
+    },
+    {
+      "id": "Misc_258",
+      "original_width_height": [
+        252,
+        161
+      ],
+      "output_file": "testset/VARPrediction/0142_Misc_258.png",
+      "output_sha256": "33b458e64c8b449ab5ddab5a716ce41eae271043b6812fcbbbbfea1ecdd84b9c"
+    },
+    {
+      "id": "Misc_231",
+      "original_width_height": [
+        304,
+        194
+      ],
+      "output_file": "testset/VARPrediction/0143_Misc_231.png",
+      "output_sha256": "bcad8ae7bbb28de6876a03e00f4e778a85345a06e5c1220225de95b1eb6bde82"
+    },
+    {
+      "id": "Misc_52",
+      "original_width_height": [
+        301,
+        210
+      ],
+      "output_file": "testset/VARPrediction/0144_Misc_52.png",
+      "output_sha256": "843b1fd55b4f9798b2fe08990bd9fb6449467ca37fc7196f97270e4da4bff0f8"
+    },
+    {
+      "id": "Misc_183",
+      "original_width_height": [
+        275,
+        195
+      ],
+      "output_file": "testset/VARPrediction/0145_Misc_183.png",
+      "output_sha256": "5bab9051ca0b57a950883b064cbe84c5f32fa890f796152a6f0f49c440fe4de0"
+    },
+    {
+      "id": "Misc_362",
+      "original_width_height": [
+        325,
+        192
+      ],
+      "output_file": "testset/VARPrediction/0146_Misc_362.png",
+      "output_sha256": "b06f989cdb38b6cb360e94410dba5463c1acad45b06c15ec1cfdfb0d94007a0f"
+    },
+    {
+      "id": "Misc_102",
+      "original_width_height": [
+        308,
+        205
+      ],
+      "output_file": "testset/VARPrediction/0147_Misc_102.png",
+      "output_sha256": "399f8f09530ebd171ec6d1110a02b34c3f88abb04a1aa66f3967d29748116b93"
+    },
+    {
+      "id": "Misc_88",
+      "original_width_height": [
+        327,
+        213
+      ],
+      "output_file": "testset/VARPrediction/0148_Misc_88.png",
+      "output_sha256": "efea53543e8928e33390b6a5ae1110f61458312820a0c76a33bfb8606e6097da"
+    },
+    {
+      "id": "Misc_343",
+      "original_width_height": [
+        358,
+        227
+      ],
+      "output_file": "testset/VARPrediction/0149_Misc_343.png",
+      "output_sha256": "0dfbea469dc36d8dc7e07b8969054d7df0538a54d087951380a2a952e29422c4"
+    },
+    {
+      "id": "Misc_341",
+      "original_width_height": [
+        284,
+        215
+      ],
+      "output_file": "testset/VARPrediction/0150_Misc_341.png",
+      "output_sha256": "d31509d228de2f841735357bd2daa5b08af0678cb7d4ffb73166bd50b6436525"
+    },
+    {
+      "id": "Misc_118",
+      "original_width_height": [
+        321,
+        182
+      ],
+      "output_file": "testset/VARPrediction/0151_Misc_118.png",
+      "output_sha256": "a36e5c988f8fbb7b2a5ca787e483ea5941a022fac52fa996b7e724b21e085e45"
+    },
+    {
+      "id": "Misc_165",
+      "original_width_height": [
+        300,
+        213
+      ],
+      "output_file": "testset/VARPrediction/0152_Misc_165.png",
+      "output_sha256": "132eec844b47aa8f58960002d6bc59bd8557d36bfcf7c8c6103064a44af43bc6"
+    },
+    {
+      "id": "Misc_280",
+      "original_width_height": [
+        323,
+        219
+      ],
+      "output_file": "testset/VARPrediction/0153_Misc_280.png",
+      "output_sha256": "655d90d16e8c13fdc12bfe958cdafbed1aac3ec817e8d2d450cadde8b0812bec"
+    },
+    {
+      "id": "Misc_17",
+      "original_width_height": [
+        368,
+        267
+      ],
+      "output_file": "testset/VARPrediction/0154_Misc_17.png",
+      "output_sha256": "9046d4b38b677ea5d8b10ccedfa64ba6c34ff40b1e0d6c003a9315b3a3c04a8e"
+    },
+    {
+      "id": "Misc_290",
+      "original_width_height": [
+        237,
+        237
+      ],
+      "output_file": "testset/VARPrediction/0155_Misc_290.png",
+      "output_sha256": "283ba02a5a3ab1d9babf206ef5f07632160a8b1468e06e52fb925bf375930b7d"
+    },
+    {
+      "id": "Misc_67",
+      "original_width_height": [
+        320,
+        256
+      ],
+      "output_file": "testset/VARPrediction/0156_Misc_67.png",
+      "output_sha256": "af728ea1020683c1c97d8592601cf15ac6886b96ececa8c999d314bba7909524"
+    },
+    {
+      "id": "Misc_382",
+      "original_width_height": [
+        323,
+        353
+      ],
+      "output_file": "testset/VARPrediction/0157_Misc_382.png",
+      "output_sha256": "65f4a107ee7f3cd66b5952a686d7038f27b00bbba3a870d4e3fe1bb4f572a956"
+    },
+    {
+      "id": "Misc_191",
+      "original_width_height": [
+        311,
+        222
+      ],
+      "output_file": "testset/VARPrediction/0158_Misc_191.png",
+      "output_sha256": "fcd633fb34a4962f24aac7cf87b039014a03701d669bd99275322505f4594080"
+    },
+    {
+      "id": "Misc_166",
+      "original_width_height": [
+        288,
+        181
+      ],
+      "output_file": "testset/VARPrediction/0159_Misc_166.png",
+      "output_sha256": "b1d4be0f82981b991580491dd309a9efb6240bd5e359c62a5b750f7b4a2806cc"
+    },
+    {
+      "id": "Misc_8",
+      "original_width_height": [
+        245,
+        245
+      ],
+      "output_file": "testset/VARPrediction/0160_Misc_8.png",
+      "output_sha256": "11f501f47610f5bdecb4817f36d212eeea7d6de247a2724af0826a4bcb996f79"
+    },
+    {
+      "id": "Misc_45",
+      "original_width_height": [
+        298,
+        189
+      ],
+      "output_file": "testset/VARPrediction/0161_Misc_45.png",
+      "output_sha256": "ddf806140b08ad51b2f082c92b126357c700c63109ee46e693aee0ae3887bbf4"
+    },
+    {
+      "id": "Misc_415",
+      "original_width_height": [
+        303,
+        200
+      ],
+      "output_file": "testset/VARPrediction/0162_Misc_415.png",
+      "output_sha256": "14ef1a83023403d1c3411da7120a72b242ce90352c2045f7b1f5a9afefdd97d6"
+    },
+    {
+      "id": "Misc_349",
+      "original_width_height": [
+        335,
+        273
+      ],
+      "output_file": "testset/VARPrediction/0163_Misc_349.png",
+      "output_sha256": "6a1f26524b81ed5ef2d4becf55b7a552a1c8a7c9757bc1e4c05269d51c69e48d"
+    },
+    {
+      "id": "Misc_98",
+      "original_width_height": [
+        343,
+        263
+      ],
+      "output_file": "testset/VARPrediction/0164_Misc_98.png",
+      "output_sha256": "afc1d7d2a3500bd46c6d0ad1b1c7468557a84368e7dca82f6a55f31f0bf6b27d"
+    },
+    {
+      "id": "Misc_127",
+      "original_width_height": [
+        332,
+        226
+      ],
+      "output_file": "testset/VARPrediction/0165_Misc_127.png",
+      "output_sha256": "2b17ac49692d0b0f381f06e14f7e7ba86114276ba1af03e2345b8d1c0fd73315"
+    },
+    {
+      "id": "Misc_184",
+      "original_width_height": [
+        285,
+        194
+      ],
+      "output_file": "testset/VARPrediction/0166_Misc_184.png",
+      "output_sha256": "15e4574ebac906496537daebbb21434be3007cfc0e51d965671752dbf5b95f2d"
+    },
+    {
+      "id": "Misc_310",
+      "original_width_height": [
+        235,
+        188
+      ],
+      "output_file": "testset/VARPrediction/0167_Misc_310.png",
+      "output_sha256": "03b7a47820263ed04cc76bd0bdce753603e3ca0e79fbff0508768d4a3d1721c2"
+    },
+    {
+      "id": "Misc_198",
+      "original_width_height": [
+        301,
+        194
+      ],
+      "output_file": "testset/VARPrediction/0168_Misc_198.png",
+      "output_sha256": "44262ec887e616a6ae7ec3806b4fe40e5a553259a3a4a239ca1f7938a7c0fdcf"
+    },
+    {
+      "id": "Misc_254",
+      "original_width_height": [
+        330,
+        204
+      ],
+      "output_file": "testset/VARPrediction/0169_Misc_254.png",
+      "output_sha256": "f7a7a726232caac50a975495e9fa339e0dc139ef7f5f3df08853290c24f7495c"
+    },
+    {
+      "id": "Misc_211",
+      "original_width_height": [
+        351,
+        231
+      ],
+      "output_file": "testset/VARPrediction/0170_Misc_211.png",
+      "output_sha256": "83506058745097553031224899e7ffa0b5fd1f10c86b60e5ad64ce6448cc0453"
+    },
+    {
+      "id": "Misc_103",
+      "original_width_height": [
+        364,
+        230
+      ],
+      "output_file": "testset/VARPrediction/0171_Misc_103.png",
+      "output_sha256": "038f2270ea3b9d94a11219d8f3f3db144bead47ed864c3120d54bf09f37fcc40"
+    },
+    {
+      "id": "Misc_232",
+      "original_width_height": [
+        264,
+        168
+      ],
+      "output_file": "testset/VARPrediction/0172_Misc_232.png",
+      "output_sha256": "c7a597b2b3094228bb89afe770149c3aa2f1c531d5716e6ff05c80dde0de39bb"
+    },
+    {
+      "id": "Misc_218",
+      "original_width_height": [
+        304,
+        187
+      ],
+      "output_file": "testset/VARPrediction/0173_Misc_218.png",
+      "output_sha256": "7bafb2a78f7b75305b7228401393c2619ba8b2cd61a101eb6c2ca8246f563360"
+    },
+    {
+      "id": "Misc_89",
+      "original_width_height": [
+        301,
+        197
+      ],
+      "output_file": "testset/VARPrediction/0174_Misc_89.png",
+      "output_sha256": "9ba3117042b0808994d623f88326b974619864c4beeaf57232a63be59cfd5146"
+    },
+    {
+      "id": "Misc_201",
+      "original_width_height": [
+        332,
+        227
+      ],
+      "output_file": "testset/VARPrediction/0175_Misc_201.png",
+      "output_sha256": "5167974909e053b06fef86552fb99efbe79e39d25cbdb61b4c8151d9e557d282"
+    },
+    {
+      "id": "Misc_11",
+      "original_width_height": [
+        280,
+        280
+      ],
+      "output_file": "testset/VARPrediction/0176_Misc_11.png",
+      "output_sha256": "7e364d5cb780f74e82aaa81fcd953e6dbbe6403b357e992ce38778c16133d43b"
+    },
+    {
+      "id": "Misc_168",
+      "original_width_height": [
+        254,
+        164
+      ],
+      "output_file": "testset/VARPrediction/0177_Misc_168.png",
+      "output_sha256": "566f85ee6095bbdcb536ae4fe2e2b5be95c94d10854c4e2f997d0c2bc14670b3"
+    },
+    {
+      "id": "Misc_215",
+      "original_width_height": [
+        305,
+        185
+      ],
+      "output_file": "testset/VARPrediction/0178_Misc_215.png",
+      "output_sha256": "7c58997987bf5076ffc07ac4a09af77f5ffcb36e5d46deb8ccceff13dd68dd64"
+    },
+    {
+      "id": "Misc_383",
+      "original_width_height": [
+        344,
+        320
+      ],
+      "output_file": "testset/VARPrediction/0179_Misc_383.png",
+      "output_sha256": "7ea7a4118eebf2ca53659ad80830434a46ac938ee82318d26e5a4b8e7627a184"
+    },
+    {
+      "id": "Misc_333",
+      "original_width_height": [
+        241,
+        170
+      ],
+      "output_file": "testset/VARPrediction/0180_Misc_333.png",
+      "output_sha256": "222db0595e245f84e0746cf7fe674a007b4d71f0e985f8042a21cf6904ee3d7f"
+    },
+    {
+      "id": "Misc_245",
+      "original_width_height": [
+        329,
+        231
+      ],
+      "output_file": "testset/VARPrediction/0181_Misc_245.png",
+      "output_sha256": "27d55d3d9ce163921eb0747814b4d5fcfc711fc3490e0a4aa8a24e006ddcc8bc"
+    },
+    {
+      "id": "Misc_55",
+      "original_width_height": [
+        305,
+        208
+      ],
+      "output_file": "testset/VARPrediction/0182_Misc_55.png",
+      "output_sha256": "7f8e656fde758d015fe21ee5afc05229f335f5036855f50de07490c9b7a6d494"
+    },
+    {
+      "id": "Misc_27",
+      "original_width_height": [
+        340,
+        250
+      ],
+      "output_file": "testset/VARPrediction/0183_Misc_27.png",
+      "output_sha256": "c1826a6dc7731ebe06d5f2a83999fdd000be71094d782df346d6de168d5d5a01"
+    },
+    {
+      "id": "Misc_226",
+      "original_width_height": [
+        304,
+        184
+      ],
+      "output_file": "testset/VARPrediction/0184_Misc_226.png",
+      "output_sha256": "96788f33c852caf8bf941c9f20bca57bed09079a8071656062e5f49c1c82ec88"
+    },
+    {
+      "id": "Misc_116",
+      "original_width_height": [
+        291,
+        196
+      ],
+      "output_file": "testset/VARPrediction/0185_Misc_116.png",
+      "output_sha256": "97568c244e845e23694435a56d4a587a2c8a491908cdb5b919763f7732cf238a"
+    },
+    {
+      "id": "Misc_378",
+      "original_width_height": [
+        219,
+        219
+      ],
+      "output_file": "testset/VARPrediction/0186_Misc_378.png",
+      "output_sha256": "9b26bd5d6c1291764ba41885e9a3e96bfc6fcd053902aea448ca603f003f8ed1"
+    },
+    {
+      "id": "Misc_355",
+      "original_width_height": [
+        307,
+        212
+      ],
+      "output_file": "testset/VARPrediction/0187_Misc_355.png",
+      "output_sha256": "0c79603f52f23462ba9342d8c2f223e7ca277aa47b41f83df4ab01567c7e2fe6"
+    },
+    {
+      "id": "Misc_302",
+      "original_width_height": [
+        321,
+        221
+      ],
+      "output_file": "testset/VARPrediction/0188_Misc_302.png",
+      "output_sha256": "ddb616115c73c8e646a0bea2bde41bbb5a19884644546f2e51318fc789123405"
+    },
+    {
+      "id": "Misc_209",
+      "original_width_height": [
+        373,
+        272
+      ],
+      "output_file": "testset/VARPrediction/0189_Misc_209.png",
+      "output_sha256": "dc3064135647a562640ac04bf74c5198459d80112be3b175d6ab5caa5734cba5"
+    },
+    {
+      "id": "Misc_32",
+      "original_width_height": [
+        300,
+        217
+      ],
+      "output_file": "testset/VARPrediction/0190_Misc_32.png",
+      "output_sha256": "254d7e996a37a486a771475cfe14b9402d7855b843ea46313845befb54fc3ac4"
+    },
+    {
+      "id": "Misc_23",
+      "original_width_height": [
+        200,
+        150
+      ],
+      "output_file": "testset/VARPrediction/0191_Misc_23.png",
+      "output_sha256": "c2d732487e211131ac9f3067e9aea41811a89e68f4378a94232cd6f8a23d36e3"
+    },
+    {
+      "id": "Misc_261",
+      "original_width_height": [
+        303,
+        183
+      ],
+      "output_file": "testset/VARPrediction/0192_Misc_261.png",
+      "output_sha256": "11743d241c53918af8eaba4f9f5fe97865d792df5b889025d41a8e7160c2534a"
+    },
+    {
+      "id": "Misc_182",
+      "original_width_height": [
+        287,
+        185
+      ],
+      "output_file": "testset/VARPrediction/0193_Misc_182.png",
+      "output_sha256": "ebe54dcfb722015d03410977032725598950c3c8fb555a245a7f9bb8b4ef75c5"
+    },
+    {
+      "id": "Misc_282",
+      "original_width_height": [
+        330,
+        236
+      ],
+      "output_file": "testset/VARPrediction/0194_Misc_282.png",
+      "output_sha256": "09ffc61ed75bdb15f129d55578b3b995f9f15a6ca2dc5a613a35cfc5fc20380e"
+    },
+    {
+      "id": "Misc_409",
+      "original_width_height": [
+        277,
+        242
+      ],
+      "output_file": "testset/VARPrediction/0195_Misc_409.png",
+      "output_sha256": "f41bf0cc99ff0733e372166c86dd4cf77572ad9ce56227f458eb5eff949c4f42"
+    },
+    {
+      "id": "Misc_260",
+      "original_width_height": [
+        292,
+        203
+      ],
+      "output_file": "testset/VARPrediction/0196_Misc_260.png",
+      "output_sha256": "dc22f7516f62b736aecb33c44499e30286894fca7d6044f0962cecc85489c612"
+    },
+    {
+      "id": "Misc_194",
+      "original_width_height": [
+        286,
+        202
+      ],
+      "output_file": "testset/VARPrediction/0197_Misc_194.png",
+      "output_sha256": "31c650bf62342de9e34da155472d79b76d9a60b11c335ccc4b6de9483c463c42"
+    },
+    {
+      "id": "Misc_407",
+      "original_width_height": [
+        282,
+        241
+      ],
+      "output_file": "testset/VARPrediction/0198_Misc_407.png",
+      "output_sha256": "ca4a52854d49eafeea71bf23249251c23f89c8cae219abdd46234bc3cf6107f8"
+    },
+    {
+      "id": "Misc_175",
+      "original_width_height": [
+        304,
+        183
+      ],
+      "output_file": "testset/VARPrediction/0199_Misc_175.png",
+      "output_sha256": "08cedb45b62498472ef624cabafe8db55162f6b0d2bee1ca0bf46e6733cbf04c"
+    },
+    {
+      "id": "Misc_278",
+      "original_width_height": [
+        308,
+        213
+      ],
+      "output_file": "testset/VARPrediction/0200_Misc_278.png",
+      "output_sha256": "697ff9bfbbf1390b1c053335b575d717fa62852d1e53dd7e1fbf60b528fd882c"
+    },
+    {
+      "id": "Misc_26",
+      "original_width_height": [
+        345,
+        261
+      ],
+      "output_file": "testset/VARPrediction/0201_Misc_26.png",
+      "output_sha256": "119014a2e0e0472890b893e1f65a9e60c3595e01207b270a5a1bda67014bc7c7"
+    },
+    {
+      "id": "Misc_246",
+      "original_width_height": [
+        328,
+        250
+      ],
+      "output_file": "testset/VARPrediction/0202_Misc_246.png",
+      "output_sha256": "73411cd70f56aaf07c7956e2f4efd2a405a22284e96031491b001b771e81d8ee"
+    },
+    {
+      "id": "Misc_217",
+      "original_width_height": [
+        310,
+        207
+      ],
+      "output_file": "testset/VARPrediction/0203_Misc_217.png",
+      "output_sha256": "19cdf9be6925af8111c00e29aa9920c0859fd794ccb66f4bda2c8c6f80ff394e"
+    },
+    {
+      "id": "Misc_311",
+      "original_width_height": [
+        284,
+        194
+      ],
+      "output_file": "testset/VARPrediction/0204_Misc_311.png",
+      "output_sha256": "958c33c7047252b1adc301fd8450bf13aa106d45e78cabb71c0d37dd0394fbba"
+    },
+    {
+      "id": "Misc_43",
+      "original_width_height": [
+        296,
+        194
+      ],
+      "output_file": "testset/VARPrediction/0205_Misc_43.png",
+      "output_sha256": "de5b02b83744ea8a9437d6baccff1e6fc58026310a80dc703a1aa275552761e2"
+    },
+    {
+      "id": "Misc_353",
+      "original_width_height": [
+        324,
+        324
+      ],
+      "output_file": "testset/VARPrediction/0206_Misc_353.png",
+      "output_sha256": "a5de7b1aff77ac30efa880a1719c1c07d99c2c384bf709f1e239dd8c2014d2f0"
+    },
+    {
+      "id": "Misc_81",
+      "original_width_height": [
+        332,
+        282
+      ],
+      "output_file": "testset/VARPrediction/0207_Misc_81.png",
+      "output_sha256": "4c378b27fc6d4d479cc907f2750cbbf7d00a21466245b868597e0cd11b2d6e3f"
+    },
+    {
+      "id": "Misc_18",
+      "original_width_height": [
+        367,
+        305
+      ],
+      "output_file": "testset/VARPrediction/0208_Misc_18.png",
+      "output_sha256": "33f0d48b8310990b2eb04bfffc74ebaf03649347f302055f24161f5229367264"
+    },
+    {
+      "id": "Misc_318",
+      "original_width_height": [
+        291,
+        200
+      ],
+      "output_file": "testset/VARPrediction/0209_Misc_318.png",
+      "output_sha256": "46f806755dc4236950c65b7213c5d3aacbf180d1fe0590bd8639ca6222b86f8d"
+    },
+    {
+      "id": "Misc_389",
+      "original_width_height": [
+        331,
+        315
+      ],
+      "output_file": "testset/VARPrediction/0210_Misc_389.png",
+      "output_sha256": "e685a5bde9e4342c49c27ad5871cd7e88eef0cbf70ef9ac366f5f2665d4cdee7"
+    },
+    {
+      "id": "Misc_171",
+      "original_width_height": [
+        313,
+        213
+      ],
+      "output_file": "testset/VARPrediction/0211_Misc_171.png",
+      "output_sha256": "c6eb444072937df582637b1d590e45ab439c5b0577d3c0c908556a772d0418ad"
+    },
+    {
+      "id": "Misc_71",
+      "original_width_height": [
+        320,
+        256
+      ],
+      "output_file": "testset/VARPrediction/0212_Misc_71.png",
+      "output_sha256": "b5b21f28fb6def5b85e532c3218e9202472e446f50155db90381520d5c3a9808"
+    },
+    {
+      "id": "Misc_92",
+      "original_width_height": [
+        363,
+        212
+      ],
+      "output_file": "testset/VARPrediction/0213_Misc_92.png",
+      "output_sha256": "0e782ec83bb1f764f0f0e99fb0377898e00355944b095ebdb2a73ae2b500459f"
+    }
+  ]
+}

@@ -1,0 +1,531 @@
+{
+  "selection": "first eight IDs in bundled training-list order",
+  "split": "train",
+  "training_manifest_sha256": "192c73934cd78efe8d283024add8c43d03ccbaaea89d4072a06e35d7a64faaa0",
+  "data_seed": 0,
+  "epoch": 0,
+  "draw_id": 0,
+  "branch": "noisy_minus",
+  "padding_dn": 0,
+  "source_revision": "70355f7e9d6b849272d429d12e854f5890b89ae2",
+  "base_checkpoint_sha256": "fe1c2600ec6aeb18bfa674f7726a1dcd0aec45d9fbba25c7f1b9fe266b3ef9a9",
+  "s1_checkpoint_sha256": "66d6605c0f6ac08b26f016824f314277d974a695d4476f6f12533152a314ef39",
+  "s2_checkpoint_sha256": "40e8b180968de648dabc16c6a7329cd58a4ed2d0190b1de93efe0efa5c5c1491",
+  "s2_steps": 16,
+  "formal_trace_sha256": "fe53b84828ddd14fe41f2a699de16bc377bd0ae4dc6e565a00876f4ffd595a50",
+  "patch_nums": [
+    1,
+    2,
+    3,
+    4,
+    6,
+    9,
+    13,
+    18,
+    24,
+    32
+  ],
+  "token_counts_by_scale": [
+    1,
+    4,
+    9,
+    16,
+    36,
+    81,
+    169,
+    324,
+    576,
+    1024
+  ],
+  "routes": {
+    "noisy_input": {
+      "uses_reference_to_generate_output": false,
+      "source": "uncorrected input"
+    },
+    "pred_tokens_noisy_h": {
+      "uses_reference_to_generate_output": false,
+      "source": "official cached AR hard prediction from the noisy image"
+    },
+    "noisy_tokens_noisy_h": {
+      "uses_reference_to_generate_output": false,
+      "source": "quantize the noisy image using the frozen VQ encoder and global base codebook"
+    },
+    "ref_tokens_noisy_h": {
+      "uses_reference_to_generate_output": true,
+      "source": "quantize the pre-corruption reference using the same VQ encoder and global base codebook"
+    }
+  },
+  "shared_decode": "all three token routes use the identical noisy h captured from the upstream cached call, the global CAC and the same decoder",
+  "hard_prediction": "upstream cached cfg=1 top_k=1 top_p=0.75, g_seed=0 reset for each image",
+  "precision": "FP32 noisy/reference VQ tokenization; FP16 CUDA autocast for hard prediction and final VQ decodes; FP32 RGB mean and FP64 metrics",
+  "evaluation_reference": "pre-corruption reference_minus, used for scoring all four routes",
+  "aggregation": "mean and median of per-image scores in grayscale DN",
+  "samples": [
+    {
+      "sample_id": "NUAA-SIRST/Misc_119",
+      "data_sha256": "4ee815cc3975a668d94ed8a2d69e50fde871c5d77e407811622fd5fd091db89a",
+      "used_for_s1_update": true,
+      "used_for_s2_update": false,
+      "valid_pixels": 58312,
+      "background_pixels": 58065,
+      "metrics": {
+        "noisy_input": {
+          "valid_mae_dn": 2.838468339492815,
+          "background_rmse_dn": 3.718635375593928
+        },
+        "pred_tokens_noisy_h": {
+          "valid_mae_dn": 27.2686661554566,
+          "background_rmse_dn": 48.291876244448694
+        },
+        "noisy_tokens_noisy_h": {
+          "valid_mae_dn": 9.525466599439829,
+          "background_rmse_dn": 11.861713234418557
+        },
+        "ref_tokens_noisy_h": {
+          "valid_mae_dn": 7.617944363501581,
+          "background_rmse_dn": 10.07010652677805
+        }
+      },
+      "different_from_reference_token_counts_by_scale": {
+        "noisy_encoded": [
+          0,
+          0,
+          4,
+          6,
+          24,
+          61,
+          149,
+          275,
+          523,
+          979
+        ],
+        "freely_predicted": [
+          0,
+          4,
+          6,
+          14,
+          31,
+          71,
+          161,
+          294,
+          546,
+          1020
+        ]
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_64",
+      "data_sha256": "7d26b1825e65b0a9e4bf5ddbc2b3ab1f4b5a08a00f3eabe05d714d974da0c7f6",
+      "used_for_s1_update": true,
+      "used_for_s2_update": true,
+      "valid_pixels": 65391,
+      "background_pixels": 65152,
+      "metrics": {
+        "noisy_input": {
+          "valid_mae_dn": 8.221304420078722,
+          "background_rmse_dn": 10.413461683438047
+        },
+        "pred_tokens_noisy_h": {
+          "valid_mae_dn": 7.889393956479843,
+          "background_rmse_dn": 11.081735750971363
+        },
+        "noisy_tokens_noisy_h": {
+          "valid_mae_dn": 9.19835918104005,
+          "background_rmse_dn": 10.874853301360108
+        },
+        "ref_tokens_noisy_h": {
+          "valid_mae_dn": 5.196909449739312,
+          "background_rmse_dn": 5.68806718229028
+        }
+      },
+      "different_from_reference_token_counts_by_scale": {
+        "noisy_encoded": [
+          0,
+          2,
+          9,
+          15,
+          31,
+          76,
+          148,
+          299,
+          537,
+          986
+        ],
+        "freely_predicted": [
+          0,
+          0,
+          9,
+          10,
+          32,
+          76,
+          156,
+          308,
+          546,
+          1012
+        ]
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_90",
+      "data_sha256": "c96302b3cca80f14e513209c515f2262916ce576c4b81ca46eecb9cd2762fa00",
+      "used_for_s1_update": true,
+      "used_for_s2_update": false,
+      "valid_pixels": 64448,
+      "background_pixels": 64001,
+      "metrics": {
+        "noisy_input": {
+          "valid_mae_dn": 6.443473612091171,
+          "background_rmse_dn": 8.060047069008762
+        },
+        "pred_tokens_noisy_h": {
+          "valid_mae_dn": 22.11778492311061,
+          "background_rmse_dn": 27.8033943757679
+        },
+        "noisy_tokens_noisy_h": {
+          "valid_mae_dn": 7.475695479691067,
+          "background_rmse_dn": 9.538349141313795
+        },
+        "ref_tokens_noisy_h": {
+          "valid_mae_dn": 5.0397127505597386,
+          "background_rmse_dn": 7.243523089380386
+        }
+      },
+      "different_from_reference_token_counts_by_scale": {
+        "noisy_encoded": [
+          0,
+          2,
+          7,
+          11,
+          27,
+          63,
+          149,
+          300,
+          536,
+          984
+        ],
+        "freely_predicted": [
+          0,
+          4,
+          8,
+          12,
+          31,
+          71,
+          156,
+          301,
+          551,
+          1020
+        ]
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_364",
+      "data_sha256": "d7c7080fb61710781aa7c2fd9aa056d7e71f36cdfc4c0e61517258030ab94523",
+      "used_for_s1_update": true,
+      "used_for_s2_update": true,
+      "valid_pixels": 78400,
+      "background_pixels": 78206,
+      "metrics": {
+        "noisy_input": {
+          "valid_mae_dn": 5.828946185982501,
+          "background_rmse_dn": 7.251400467442815
+        },
+        "pred_tokens_noisy_h": {
+          "valid_mae_dn": 42.037846895460305,
+          "background_rmse_dn": 54.61709591723893
+        },
+        "noisy_tokens_noisy_h": {
+          "valid_mae_dn": 5.639133161040289,
+          "background_rmse_dn": 7.051422582363864
+        },
+        "ref_tokens_noisy_h": {
+          "valid_mae_dn": 2.9106346625568613,
+          "background_rmse_dn": 3.647526098742337
+        }
+      },
+      "different_from_reference_token_counts_by_scale": {
+        "noisy_encoded": [
+          0,
+          1,
+          5,
+          14,
+          28,
+          65,
+          144,
+          297,
+          538,
+          997
+        ],
+        "freely_predicted": [
+          1,
+          4,
+          5,
+          15,
+          34,
+          75,
+          166,
+          314,
+          570,
+          1024
+        ]
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_250",
+      "data_sha256": "7bd5017e5ba6c9b65d87583ddcd9b016f38687bffd9480a3a5bdae41c08a097b",
+      "used_for_s1_update": true,
+      "used_for_s2_update": false,
+      "valid_pixels": 46898,
+      "background_pixels": 46418,
+      "metrics": {
+        "noisy_input": {
+          "valid_mae_dn": 9.262002768663873,
+          "background_rmse_dn": 11.602154731878196
+        },
+        "pred_tokens_noisy_h": {
+          "valid_mae_dn": 14.386551313551216,
+          "background_rmse_dn": 16.225283962295315
+        },
+        "noisy_tokens_noisy_h": {
+          "valid_mae_dn": 8.313877722447616,
+          "background_rmse_dn": 10.020532586921401
+        },
+        "ref_tokens_noisy_h": {
+          "valid_mae_dn": 4.513098958895914,
+          "background_rmse_dn": 4.871337803577937
+        }
+      },
+      "different_from_reference_token_counts_by_scale": {
+        "noisy_encoded": [
+          0,
+          0,
+          7,
+          13,
+          33,
+          70,
+          146,
+          298,
+          514,
+          981
+        ],
+        "freely_predicted": [
+          0,
+          0,
+          9,
+          11,
+          29,
+          66,
+          154,
+          307,
+          532,
+          1013
+        ]
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_351",
+      "data_sha256": "f717f9d244a20fb5f8ff3aead4ebbc263e6732941ab22ed1c0f8a8957e7ae16d",
+      "used_for_s1_update": true,
+      "used_for_s2_update": false,
+      "valid_pixels": 62525,
+      "background_pixels": 62361,
+      "metrics": {
+        "noisy_input": {
+          "valid_mae_dn": 6.525742639679281,
+          "background_rmse_dn": 8.264183483123054
+        },
+        "pred_tokens_noisy_h": {
+          "valid_mae_dn": 9.575512686942288,
+          "background_rmse_dn": 12.497518053842235
+        },
+        "noisy_tokens_noisy_h": {
+          "valid_mae_dn": 6.383043180922659,
+          "background_rmse_dn": 7.807005273266057
+        },
+        "ref_tokens_noisy_h": {
+          "valid_mae_dn": 4.4350545236083425,
+          "background_rmse_dn": 5.229731252297475
+        }
+      },
+      "different_from_reference_token_counts_by_scale": {
+        "noisy_encoded": [
+          0,
+          3,
+          8,
+          13,
+          34,
+          72,
+          157,
+          300,
+          538,
+          993
+        ],
+        "freely_predicted": [
+          0,
+          3,
+          6,
+          14,
+          34,
+          72,
+          153,
+          302,
+          558,
+          1012
+        ]
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_39",
+      "data_sha256": "20f311b332c02df6c2db0f5e7eacf3ebd8a9e5539b50ada719a2a6ae51c2d12e",
+      "used_for_s1_update": true,
+      "used_for_s2_update": false,
+      "valid_pixels": 43776,
+      "background_pixels": 43626,
+      "metrics": {
+        "noisy_input": {
+          "valid_mae_dn": 0.8004532241223691,
+          "background_rmse_dn": 1.0064213496165597
+        },
+        "pred_tokens_noisy_h": {
+          "valid_mae_dn": 12.575904975579327,
+          "background_rmse_dn": 18.110127339665464
+        },
+        "noisy_tokens_noisy_h": {
+          "valid_mae_dn": 6.70832471144406,
+          "background_rmse_dn": 8.189414513413364
+        },
+        "ref_tokens_noisy_h": {
+          "valid_mae_dn": 7.587637611192022,
+          "background_rmse_dn": 9.067220311765288
+        }
+      },
+      "different_from_reference_token_counts_by_scale": {
+        "noisy_encoded": [
+          0,
+          0,
+          0,
+          1,
+          7,
+          21,
+          68,
+          167,
+          388,
+          819
+        ],
+        "freely_predicted": [
+          0,
+          3,
+          6,
+          11,
+          30,
+          71,
+          150,
+          307,
+          549,
+          1011
+        ]
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_313",
+      "data_sha256": "985586cbdbf7e55e5990aa4ff44658bdb69fca5df3db774e6947d8d99175dae2",
+      "used_for_s1_update": true,
+      "used_for_s2_update": false,
+      "valid_pixels": 73224,
+      "background_pixels": 72713,
+      "metrics": {
+        "noisy_input": {
+          "valid_mae_dn": 2.1233628496285912,
+          "background_rmse_dn": 2.630554480885898
+        },
+        "pred_tokens_noisy_h": {
+          "valid_mae_dn": 13.310773357707605,
+          "background_rmse_dn": 19.859558295967116
+        },
+        "noisy_tokens_noisy_h": {
+          "valid_mae_dn": 6.92342816489089,
+          "background_rmse_dn": 8.449625335520924
+        },
+        "ref_tokens_noisy_h": {
+          "valid_mae_dn": 6.179021367948516,
+          "background_rmse_dn": 7.569295725444212
+        }
+      },
+      "different_from_reference_token_counts_by_scale": {
+        "noisy_encoded": [
+          0,
+          0,
+          2,
+          5,
+          14,
+          44,
+          109,
+          245,
+          481,
+          933
+        ],
+        "freely_predicted": [
+          0,
+          1,
+          6,
+          15,
+          31,
+          78,
+          154,
+          307,
+          566,
+          1018
+        ]
+      }
+    }
+  ],
+  "by_image": {
+    "noisy_input": {
+      "valid_mae_dn": {
+        "n_images": 8,
+        "mean": 5.255469254967416,
+        "median": 6.136209899036835
+      },
+      "background_rmse_dn": {
+        "n_images": 8,
+        "mean": 6.618357330123407,
+        "median": 7.655723768225789
+      }
+    },
+    "pred_tokens_noisy_h": {
+      "valid_mae_dn": {
+        "n_images": 8,
+        "mean": 18.645304283035976,
+        "median": 13.84866233562941
+      },
+      "background_rmse_dn": {
+        "n_images": 8,
+        "mean": 26.060823742524626,
+        "median": 18.98484281781629
+      }
+    },
+    "noisy_tokens_noisy_h": {
+      "valid_mae_dn": {
+        "n_images": 8,
+        "mean": 7.520916025114557,
+        "median": 7.1995618222909785
+      },
+      "background_rmse_dn": {
+        "n_images": 8,
+        "mean": 9.224114496072259,
+        "median": 8.99398723841736
+      }
+    },
+    "ref_tokens_noisy_h": {
+      "valid_mae_dn": {
+        "n_images": 8,
+        "mean": 5.435001711000286,
+        "median": 5.118311100149525
+      },
+      "background_rmse_dn": {
+        "n_images": 8,
+        "mean": 6.673350998784495,
+        "median": 6.465795135835333
+      }
+    }
+  }
+}

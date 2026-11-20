@@ -1,0 +1,24 @@
+Measured 32/213
+Measured 64/213
+Measured 96/213
+Measured 128/213
+Measured 160/213
+Measured 192/213
+{
+  "images": 213,
+  "native_components": 270,
+  "usable_contrast_rows": 270,
+  "exact_inputs": 213,
+  "exact_repostprocessed_images": 213,
+  "exact_historical_png_bytes": 0,
+  "exact_historical_pixels": 0,
+  "mean_per_image_replay_vs_historical_rgb_mae_dn": 1.5253990364373198,
+  "largest_replay_vs_historical_rgb_abs_dn": 235,
+  "mean_per_image_float_to_final_gray_mae_dn": 9.442446127463954,
+  "mean_per_image_input_to_float_gray_mae_dn": 12.610768448019252,
+  "mean_rgb_quantization_abs_dn": 0.2499770459154962,
+  "split": "NUAA-SIRST/train",
+  "checkpoint_sha256": "fe1c2600ec6aeb18bfa674f7726a1dcd0aec45d9fbba25c7f1b9fe266b3ef9a9",
+  "source_entry_sha256": "35d99e959624b09c45c54c7dc72c6cd0a7e5c2b83e633a8dd9a839d0ec234d49",
+  "original_summary_sha256": "032a2672c55322a24c66d2f6804fbe8a581b30f2829f07a15297540e7b102b3c"
+}

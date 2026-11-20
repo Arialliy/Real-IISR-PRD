@@ -1,0 +1,160 @@
+{
+  "population": "paired author-distributed example PNGs enumerated by upstream test.py",
+  "weights": "released Real-IISR.pth",
+  "training_updates": 0,
+  "n_pairs": 7,
+  "scope": "official executable smoke check; not the paper's full FLIR-IISR test split",
+  "metrics": "RGB 8-bit, full-frame MSE PSNR, Gaussian 11x11 sigma=1.5 SSIM; per-image arithmetic mean",
+  "averages": {
+    "bicubic": {
+      "psnr_db": 27.285895871550085,
+      "ssim": 0.8558243416096366
+    },
+    "released_model": {
+      "psnr_db": 25.798793814296452,
+      "ssim": 0.8355382590915444
+    }
+  },
+  "per_image": [
+    {
+      "file": "000009_0.png",
+      "lr_size": [
+        128,
+        128
+      ],
+      "hr_size": [
+        512,
+        512
+      ],
+      "output_sha256": "b8f4e7bb70fe1e14d918861695b55fda71d5f5be105bd2f5130ab57f087b86cb",
+      "bicubic": {
+        "psnr_db": 29.23405003053789,
+        "ssim": 0.8886683361394544
+      },
+      "released_model": {
+        "psnr_db": 28.23467055003003,
+        "ssim": 0.879254941893433
+      }
+    },
+    {
+      "file": "000134_0.png",
+      "lr_size": [
+        128,
+        128
+      ],
+      "hr_size": [
+        512,
+        512
+      ],
+      "output_sha256": "85d4b6276e4016415615efe133c73e6b90e6e341a8ed3665b5493341ed4f9332",
+      "bicubic": {
+        "psnr_db": 16.73626616422021,
+        "ssim": 0.7328786973096294
+      },
+      "released_model": {
+        "psnr_db": 17.178614668929555,
+        "ssim": 0.7447329980525751
+      }
+    },
+    {
+      "file": "000191_1.png",
+      "lr_size": [
+        128,
+        128
+      ],
+      "hr_size": [
+        512,
+        512
+      ],
+      "output_sha256": "4edc4628afab9e2542ae377b27ac62a5a687b90fb8695613a7e8ffb85c5e7521",
+      "bicubic": {
+        "psnr_db": 27.334745026574808,
+        "ssim": 0.8632431261227138
+      },
+      "released_model": {
+        "psnr_db": 25.782986847541952,
+        "ssim": 0.8664822818670421
+      }
+    },
+    {
+      "file": "000822_0.png",
+      "lr_size": [
+        128,
+        128
+      ],
+      "hr_size": [
+        512,
+        512
+      ],
+      "output_sha256": "4be770df97e8950317cd354a99e6f5c1828a884585fb78374fdc752ea1c33be1",
+      "bicubic": {
+        "psnr_db": 25.616722276985357,
+        "ssim": 0.8503175646101004
+      },
+      "released_model": {
+        "psnr_db": 26.172655391806416,
+        "ssim": 0.8485098131373219
+      }
+    },
+    {
+      "file": "000858_1.png",
+      "lr_size": [
+        128,
+        128
+      ],
+      "hr_size": [
+        512,
+        512
+      ],
+      "output_sha256": "657578fe353a1ac180d265921d46acbd82845095a69c1434a74088e805ca3449",
+      "bicubic": {
+        "psnr_db": 31.7549397317067,
+        "ssim": 0.8978279204333961
+      },
+      "released_model": {
+        "psnr_db": 28.737546109783718,
+        "ssim": 0.8443474901841914
+      }
+    },
+    {
+      "file": "001135_1.png",
+      "lr_size": [
+        128,
+        128
+      ],
+      "hr_size": [
+        512,
+        512
+      ],
+      "output_sha256": "0047fb0091424436134c635974227c806613f4d83a35281ba02affb0743a53a7",
+      "bicubic": {
+        "psnr_db": 28.860966044027183,
+        "ssim": 0.8777386613023915
+      },
+      "released_model": {
+        "psnr_db": 27.06319278728531,
+        "ssim": 0.8588976744700451
+      }
+    },
+    {
+      "file": "001160_1.png",
+      "lr_size": [
+        128,
+        128
+      ],
+      "hr_size": [
+        512,
+        512
+      ],
+      "output_sha256": "e06ea300b9bbbdef6895e0f0f5d0019571afb1c32b170cad787a66dc17c5cfa1",
+      "bicubic": {
+        "psnr_db": 31.46358182679847,
+        "ssim": 0.8800960853497711
+      },
+      "released_model": {
+        "psnr_db": 27.421890344698173,
+        "ssim": 0.8065426140362028
+      }
+    }
+  ]
+}

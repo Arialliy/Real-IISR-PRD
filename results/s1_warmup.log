@@ -1,0 +1,42 @@
+/opt/conda/lib/python3.11/site-packages/torch/functional.py:554: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at /pytorch/aten/src/ATen/native/TensorShape.cpp:4314.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+    [VAR config ] embed_dim=1536, num_heads=24, depth=24, mlp_ratio=4.0
+    [drop ratios ] drop_rate=0.0, attn_drop_rate=0.0, drop_path_rate=0.1 (tensor([0.0000, 0.0043, 0.0087, 0.0130, 0.0174, 0.0217, 0.0261, 0.0304, 0.0348,
+        0.0391, 0.0435, 0.0478, 0.0522, 0.0565, 0.0609, 0.0652, 0.0696, 0.0739,
+        0.0783, 0.0826, 0.0870, 0.0913, 0.0957, 0.1000]))
+
+torch.Size([1, 1, 4288, 4288])
+[init_weights] Real_IISR with init_std=0.0147314
+/opt/conda/lib/python3.11/site-packages/torch/nn/init.py:51: UserWarning: Specified kernel cache directory could not be created! This disables kernel caching. Specified directory is //.cache/torch/kernels. This warning will appear only once per process. (Triggered internally at /pytorch/aten/src/ATen/native/cuda/jit_utils.cpp:1491.)
+  tensor.erfinv_()
+S1 fixed schedule: 213 pairs, 53,588,545 trainable parameters
+/project/vendor/Real-IISR/models/var.py:344: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(enabled=False):
+/opt/conda/lib/python3.11/site-packages/torch/_dynamo/eval_frame.py:838: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+First backward: {'vae.quantize.U': 0.0006816155510023236, 'vae.quantize.V': 0.0003231134614907205, 'vae.quantize.lora_gate': 0.0005325332749634981, 'blocks.23.attn.scale_mul_1H11': 0.024772461503744125, 'blocks.23.attn.q_bias': 0.005296485498547554, 'blocks.23.attn.v_bias': 0.01906956173479557, 'blocks.23.attn.mat_qkv.weight': 0.35374537110328674, 'blocks.23.attn.proj.weight': 0.12717783451080322, 'blocks.23.attn.proj.bias': 0.008857916109263897, 'blocks.23.ffn.fc1.weight': 0.10999208688735962, 'blocks.23.ffn.fc1.bias': 0.007796002086251974, 'blocks.23.ffn.fc2.weight': 0.07093982398509979, 'blocks.23.ffn.fc2.bias': 0.00667303241789341, 'blocks.23.ada_lin.1.weight': 0.020501920953392982, 'blocks.23.ada_lin.1.bias': 0.0384044349193573, 'head_nm.ada_lin.1.weight': 0.0032532550394535065, 'head_nm.ada_lin.1.bias': 0.006094041280448437, 'head.weight': 1.9591602087020874, 'head.bias': 0.010814364068210125, 'cb_cond.2.weight': 3.4621240047272295e-05, 'cb_cond.2.bias': 1.3416703268376295e-06, 'cb_cond.4.weight': 0.00020129191398154944, 'cb_cond.4.bias': 2.746689688137849e-06}
+CAC starting peak and gate: 0.12526538968086243 0.11548758298158646 [-0.08648308366537094]
+step 1/213 CE=5.1350 MSE=0.00438 grad=9.672 elapsed=1.3s peak=10.64 GiB
+step 10/213 CE=5.0558 MSE=0.00672 grad=7.543 elapsed=5.0s peak=11.04 GiB
+step 20/213 CE=3.9353 MSE=0.00211 grad=8.764 elapsed=9.1s peak=11.04 GiB
+step 30/213 CE=4.7523 MSE=0.01223 grad=8.455 elapsed=15.3s peak=11.04 GiB
+step 40/213 CE=3.7071 MSE=0.03789 grad=10.87 elapsed=19.4s peak=11.04 GiB
+step 50/213 CE=3.5549 MSE=0.00655 grad=10.51 elapsed=23.6s peak=11.04 GiB
+step 60/213 CE=3.7747 MSE=0.00110 grad=8.671 elapsed=27.7s peak=11.04 GiB
+step 70/213 CE=4.2358 MSE=0.00720 grad=9.672 elapsed=31.9s peak=11.04 GiB
+step 80/213 CE=3.9516 MSE=0.03922 grad=8.565 elapsed=36.0s peak=11.04 GiB
+step 90/213 CE=3.8487 MSE=0.00143 grad=9.308 elapsed=40.1s peak=11.04 GiB
+step 100/213 CE=3.5052 MSE=0.01339 grad=10.52 elapsed=44.3s peak=11.04 GiB
+step 110/213 CE=3.7672 MSE=0.00707 grad=10.38 elapsed=48.5s peak=11.04 GiB
+step 120/213 CE=5.2830 MSE=0.00173 grad=6.925 elapsed=52.7s peak=11.04 GiB
+step 130/213 CE=4.3296 MSE=0.02529 grad=9.028 elapsed=56.8s peak=11.04 GiB
+step 140/213 CE=4.7674 MSE=0.00177 grad=9.168 elapsed=61.0s peak=11.04 GiB
+step 150/213 CE=5.0946 MSE=0.00275 grad=6.991 elapsed=65.1s peak=11.04 GiB
+step 160/213 CE=4.4781 MSE=0.00879 grad=8.261 elapsed=69.3s peak=11.04 GiB
+step 170/213 CE=5.3734 MSE=0.02213 grad=8.065 elapsed=73.4s peak=11.04 GiB
+step 180/213 CE=4.7998 MSE=0.00895 grad=7.974 elapsed=77.6s peak=11.04 GiB
+step 190/213 CE=3.6035 MSE=0.01313 grad=8.927 elapsed=81.7s peak=11.04 GiB
+step 200/213 CE=4.0698 MSE=0.00769 grad=8.223 elapsed=85.9s peak=11.04 GiB
+step 210/213 CE=3.6391 MSE=0.01709 grad=11.93 elapsed=90.0s peak=11.04 GiB
+step 213/213 CE=4.8744 MSE=0.00445 grad=7.532 elapsed=91.3s peak=11.04 GiB
+Saved /project/checkpoints/s1_warmup.pt and /project/results/s1_warmup.json

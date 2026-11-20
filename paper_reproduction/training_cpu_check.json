@@ -1,0 +1,15 @@
+{
+  "backend": "cpu",
+  "data": "one synthetic HR/LR fixture; zero FLIR study images",
+  "optimizer_updates": 0,
+  "branch0_label": 0,
+  "branch1_label": 1,
+  "crop": 512,
+  "low_resolution_pixels": 128,
+  "bicubic_input_exact_for_both_branches": true,
+  "target_exact_for_both_branches": true,
+  "thermal_order_identity": 0.0,
+  "thermal_order_reversed": 153.8437042236328,
+  "train_step_sha256": "cba2412ae2356ffc0ad3fa25dea5f05f530ef239d79c16455c26d389d416674d",
+  "upstream_trainer": "VARTrainer.train_step"
+}

@@ -1,0 +1,343 @@
+{
+  "commits_endpoint": "https://huggingface.co/api/datasets/yuanzsz/FLIR-IISR/commits/main",
+  "method": "All seven distinct published ZIP revisions, HTTP byte range central directory (no inference from sorting or label digits).",
+  "archives": [
+    {
+      "revision": "2d70d1325c5bd12f99774e7c9d826a50cb79d1bc",
+      "size": 1052929565,
+      "entry_count": 4377,
+      "parent_count": {
+        "FLIR-IISR": 2,
+        "FLIR-IISR/HR": 1457,
+        "FLIR-IISR/LR": 1457,
+        "FLIR-IISR/LR_4x": 1457
+      },
+      "nonimages": [
+        "FLIR-IISR/degradation.json",
+        "FLIR-IISR/scene.json"
+      ],
+      "comment": "b''",
+      "annotations": {
+        "FLIR-IISR/degradation.json": {
+          "top_level_records": 3,
+          "all_distinct_nonimage_nonnumeric_keys": [
+            "_comment",
+            "data",
+            "degradation_label",
+            "labels"
+          ],
+          "membership_terms_in_any_key_or_string_value": []
+        },
+        "FLIR-IISR/scene.json": {
+          "top_level_records": 3,
+          "all_distinct_nonimage_nonnumeric_keys": [
+            "_comment",
+            "data",
+            "labels",
+            "scene_label"
+          ],
+          "membership_terms_in_any_key_or_string_value": []
+        }
+      }
+    },
+    {
+      "revision": "df7a947f0f42efc948c2236fffe10e8183333af0",
+      "size": 603986204,
+      "entry_count": 2919,
+      "parent_count": {
+        "FLIR-IISR": 2,
+        "FLIR-IISR/HR": 1457,
+        "FLIR-IISR/LR_4x": 1457
+      },
+      "nonimages": [
+        "FLIR-IISR/degradation.json",
+        "FLIR-IISR/scene.json"
+      ],
+      "comment": "b''",
+      "annotations": {
+        "FLIR-IISR/degradation.json": {
+          "top_level_records": 3,
+          "all_distinct_nonimage_nonnumeric_keys": [
+            "_comment",
+            "data",
+            "degradation_label",
+            "labels"
+          ],
+          "membership_terms_in_any_key_or_string_value": []
+        },
+        "FLIR-IISR/scene.json": {
+          "top_level_records": 3,
+          "all_distinct_nonimage_nonnumeric_keys": [
+            "_comment",
+            "data",
+            "labels",
+            "scene_label"
+          ],
+          "membership_terms_in_any_key_or_string_value": []
+        }
+      }
+    },
+    {
+      "revision": "669fa390171729406cbbb7d01aaf00611d025964",
+      "size": 603986212,
+      "entry_count": 2919,
+      "parent_count": {
+        "FLIR-IISR": 2,
+        "FLIR-IISR/HR": 1457,
+        "FLIR-IISR/LR_4x": 1457
+      },
+      "nonimages": [
+        "FLIR-IISR/degradation.json",
+        "FLIR-IISR/scene.json"
+      ],
+      "comment": "b''",
+      "annotations": {
+        "FLIR-IISR/degradation.json": {
+          "top_level_records": 3,
+          "all_distinct_nonimage_nonnumeric_keys": [
+            "_comment",
+            "data",
+            "degradation_label",
+            "labels"
+          ],
+          "membership_terms_in_any_key_or_string_value": []
+        },
+        "FLIR-IISR/scene.json": {
+          "top_level_records": 3,
+          "all_distinct_nonimage_nonnumeric_keys": [
+            "_comment",
+            "data",
+            "labels",
+            "scene_label"
+          ],
+          "membership_terms_in_any_key_or_string_value": []
+        }
+      }
+    },
+    {
+      "revision": "43f9d82f3a0b31dac2fd4da4904c6e37f15434e4",
+      "size": 603986220,
+      "entry_count": 2919,
+      "parent_count": {
+        "FLIR-IISR": 2,
+        "FLIR-IISR/HR": 1457,
+        "FLIR-IISR/LR_4x": 1457
+      },
+      "nonimages": [
+        "FLIR-IISR/degradation.json",
+        "FLIR-IISR/scene.json"
+      ],
+      "comment": "b''",
+      "annotations": {
+        "FLIR-IISR/degradation.json": {
+          "top_level_records": 3,
+          "all_distinct_nonimage_nonnumeric_keys": [
+            "_comment",
+            "data",
+            "degradation_label",
+            "labels"
+          ],
+          "membership_terms_in_any_key_or_string_value": []
+        },
+        "FLIR-IISR/scene.json": {
+          "top_level_records": 3,
+          "all_distinct_nonimage_nonnumeric_keys": [
+            "_comment",
+            "data",
+            "labels",
+            "scene_label"
+          ],
+          "membership_terms_in_any_key_or_string_value": []
+        }
+      }
+    },
+    {
+      "revision": "0b74f72a55a8d24d6e1e59255afd17e8e308f0ed",
+      "size": 1005896689,
+      "entry_count": 2919,
+      "parent_count": {
+        "FLIR-IISR": 2,
+        "FLIR-IISR/HR": 1457,
+        "FLIR-IISR/LR": 1457
+      },
+      "nonimages": [
+        "FLIR-IISR/degradation.json",
+        "FLIR-IISR/scene.json"
+      ],
+      "comment": "b''",
+      "annotations": {
+        "FLIR-IISR/degradation.json": {
+          "top_level_records": 3,
+          "all_distinct_nonimage_nonnumeric_keys": [
+            "_comment",
+            "data",
+            "degradation_label",
+            "labels"
+          ],
+          "membership_terms_in_any_key_or_string_value": []
+        },
+        "FLIR-IISR/scene.json": {
+          "top_level_records": 3,
+          "all_distinct_nonimage_nonnumeric_keys": [
+            "_comment",
+            "data",
+            "labels",
+            "scene_label"
+          ],
+          "membership_terms_in_any_key_or_string_value": []
+        }
+      }
+    },
+    {
+      "revision": "91c680427102cd1e79109296ad4b49727db7fdb1",
+      "size": 1005896682,
+      "entry_count": 2919,
+      "parent_count": {
+        "FLIR-IISR": 2,
+        "FLIR-IISR/HR": 1457,
+        "FLIR-IISR/LR": 1457
+      },
+      "nonimages": [
+        "FLIR-IISR/degradation.json",
+        "FLIR-IISR/scene.json"
+      ],
+      "comment": "b''",
+      "annotations": {
+        "FLIR-IISR/degradation.json": {
+          "top_level_records": 3,
+          "all_distinct_nonimage_nonnumeric_keys": [
+            "_comment",
+            "data",
+            "degradation_label",
+            "labels"
+          ],
+          "membership_terms_in_any_key_or_string_value": []
+        },
+        "FLIR-IISR/scene.json": {
+          "top_level_records": 3,
+          "all_distinct_nonimage_nonnumeric_keys": [
+            "_comment",
+            "data",
+            "labels",
+            "scene_label"
+          ],
+          "membership_terms_in_any_key_or_string_value": []
+        }
+      }
+    },
+    {
+      "revision": "0a8196c9a3861664de6e7928ad066f90ef60ca32",
+      "size": 1005895980,
+      "entry_count": 2919,
+      "parent_count": {
+        "FLIR-IISR/HR": 1457,
+        "FLIR-IISR": 2,
+        "FLIR-IISR/LR": 1457
+      },
+      "nonimages": [
+        "FLIR-IISR/HR.json",
+        "FLIR-IISR/LR.json"
+      ],
+      "comment": "b''",
+      "annotations": {
+        "FLIR-IISR/HR.json": {
+          "top_level_records": 1457,
+          "all_distinct_nonimage_nonnumeric_keys": [
+            "scene_label"
+          ],
+          "membership_terms_in_any_key_or_string_value": []
+        },
+        "FLIR-IISR/LR.json": {
+          "top_level_records": 1457,
+          "all_distinct_nonimage_nonnumeric_keys": [
+            "degradation_label"
+          ],
+          "membership_terms_in_any_key_or_string_value": []
+        }
+      }
+    }
+  ],
+  "github": {
+    "revision": "70355f7e9d6b849272d429d12e854f5890b89ae2",
+    "branch_count": 1,
+    "tag_count": 0,
+    "release_count": 0,
+    "local_unshallowed_commits": 58,
+    "issues": [
+      {
+        "url": "https://github.com/JZD151/Real-IISR/issues/4",
+        "comments": 1,
+        "author_association_of_comment": "NONE",
+        "split_provided": false
+      },
+      {
+        "url": "https://github.com/JZD151/Real-IISR/issues/8",
+        "comments": 0,
+        "split_provided": false
+      },
+      {
+        "url": "https://github.com/JZD151/Real-IISR/issues/5",
+        "maintainer_reply": "Explains using LR before 4x degradation, no sample-level train/test rule."
+      }
+    ]
+  },
+  "published_mirrors": {
+    "baidu": {
+      "url": "https://pan.baidu.com/s/1oysR3x-BCCLrd992Wq6Upw?pwd=FLIR",
+      "public_directory": "/FLIR-IISR",
+      "files": {
+        "FLIR-IISR.zip": 1052929565,
+        "Real-IISR.pth": 14246400682
+      },
+      "verified_zip_payload": false
+    },
+    "google_drive": {
+      "url": "https://drive.google.com/file/d/160kKxHLxzZWXKILFLncoWRhB33SriWCP/view",
+      "zip_bytes": 1052929565,
+      "matching_pinned_hf_tail_bytes": 700000,
+      "tail_sha256": "a0e8e979d20ea1e49c28a11ca9163c07f8da65c64eb3e065cd2c47af162937d9"
+    }
+  },
+  "hf_refs": {
+    "main": "db77fe45d0b103cfc1f435d550446045041b3043",
+    "other_published_branches_or_tags": []
+  },
+  "paper_author_arxiv_source": {
+    "url": "https://arxiv.org/src/2603.04745v1",
+    "archive_files": [
+      "00README.json",
+      "cvpr.sty",
+      "figures",
+      "figures/AbDIF.pdf",
+      "figures/Teaser.pdf",
+      "figures/AbTSGCAC.pdf",
+      "figures/Pipeline.pdf",
+      "figures/AbTSGCACTOC.pdf",
+      "figures/dataset.pdf",
+      "figures/AbTOC.pdf",
+      "figures/Vcompare1-4.pdf",
+      "figures/Efficiency.pdf",
+      "ieeenat_fullname.bst",
+      "main.bib",
+      "main.tex",
+      "preamble.tex",
+      "sec",
+      "sec/0_abstract.tex",
+      "sec/1_intro.tex",
+      "sec/2_related_works.tex",
+      "sec/3_method.tex",
+      "sec/4_experiments.tex",
+      "sec/5_conclusion.tex"
+    ],
+    "matching_tex": {
+      "sec/3_method.tex": {
+        "passages": 1,
+        "published_image_filenames_in_tex": []
+      },
+      "sec/4_experiments.tex": {
+        "passages": 6,
+        "published_image_filenames_in_tex": []
+      }
+    }
+  }
+}

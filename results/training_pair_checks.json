@@ -1,0 +1,58 @@
+{
+  "dataset": "NUAA-SIRST",
+  "split": "train",
+  "seed": 0,
+  "manifest_sha256": "192c73934cd78efe8d283024add8c43d03ccbaaea89d4072a06e35d7a64faaa0",
+  "image_count": 213,
+  "pair_valid_count": 213,
+  "invalid_pair_ids": [],
+  "controls": {
+    "noisy_pair_max_abs_error_01": {
+      "n": 213,
+      "mean": 5.334335873384431e-09,
+      "max": 2.9802322387695312e-08
+    },
+    "identity_background_rmse_dn": {
+      "n": 213,
+      "mean": 6.435796679776411,
+      "max": 13.419967889785767
+    },
+    "thermal_map_padding_mae_on_valid_pixels": {
+      "n": 213,
+      "mean": 0.4725558860620982,
+      "max": 0.6836246252059937
+    },
+    "identity_P": {
+      "n": 213,
+      "mean": 2.9980896388006176e-13,
+      "max": 9.800816408445101e-12
+    },
+    "erased_P": {
+      "n": 213,
+      "mean": 2.5485930011484205e-06,
+      "max": 2.9168730179662816e-05
+    },
+    "identity_C": {
+      "n": 213,
+      "mean": 6.303914766092443e-08,
+      "max": 2.2798776626586914e-06
+    },
+    "erased_C": {
+      "n": 213,
+      "mean": 0.26350237387166897,
+      "max": 0.5511170625686646
+    }
+  },
+  "padding_comparison": "zero DN versus per-image mean DN; thermal feature only",
+  "scale": "DN values on a 0–255 scale; P, C and thermal features dimensionless",
+  "analytic_loss_and_output_gradient_checks": {
+    "P": {
+      "analytic_loss": 0.0004901960784313725,
+      "measured_loss": 0.0004901961074210703
+    },
+    "C": {
+      "analytic_loss": 1.0,
+      "measured_loss": 1.0
+    }
+  }
+}

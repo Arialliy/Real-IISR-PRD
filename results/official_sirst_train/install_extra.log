@@ -1,0 +1,31 @@
+Collecting mypy-extensions==1.1.0
+  Downloading mypy_extensions-1.1.0-py3-none-any.whl.metadata (1.1 kB)
+Collecting regex==2024.11.6
+  Downloading regex-2024.11.6-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (40 kB)
+Collecting future==1.0.0
+  Downloading future-1.0.0-py3-none-any.whl.metadata (4.0 kB)
+Collecting pandas==2.2.3
+  Downloading pandas-2.2.3-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (89 kB)
+Collecting sentencepiece==0.2.0
+  Downloading sentencepiece-0.2.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (7.7 kB)
+Collecting tensorboard==2.14.0
+  Downloading tensorboard-2.14.0-py3-none-any.whl.metadata (1.8 kB)
+Collecting tomli==2.2.1
+  Downloading tomli-2.2.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (11 kB)
+Collecting imgaug==0.4.0
+  Downloading imgaug-0.4.0-py2.py3-none-any.whl.metadata (1.8 kB)
+Downloading mypy_extensions-1.1.0-py3-none-any.whl (5.0 kB)
+Downloading regex-2024.11.6-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (792 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 792.7/792.7 kB 301.5 kB/s eta 0:00:00
+Downloading future-1.0.0-py3-none-any.whl (491 kB)
+Downloading pandas-2.2.3-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (13.1 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 13.1/13.1 MB 403.0 kB/s eta 0:00:00
+Downloading sentencepiece-0.2.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (1.3 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.3/1.3 MB 286.0 kB/s eta 0:00:00
+Downloading tensorboard-2.14.0-py3-none-any.whl (5.5 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 5.5/5.5 MB 402.9 kB/s eta 0:00:00
+Downloading tomli-2.2.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (236 kB)
+Downloading imgaug-0.4.0-py2.py3-none-any.whl (948 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 948.0/948.0 kB 428.2 kB/s eta 0:00:00
+Installing collected packages: sentencepiece, imgaug, tomli, tensorboard, regex, pandas, mypy-extensions, future
+Successfully installed future-1.0.0 imgaug-0.4.0 mypy-extensions-1.1.0 pandas-2.2.3 regex-2024.11.6 sentencepiece-0.2.0 tensorboard-2.14.0 tomli-2.2.1

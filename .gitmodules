@@ -1,0 +1,3 @@
+[submodule "vendor/Real-IISR"]
+	path = vendor/Real-IISR
+	url = https://github.com/JZD151/Real-IISR.git

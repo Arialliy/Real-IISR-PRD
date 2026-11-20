@@ -1,0 +1,33 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+
+# Downloaded weights, installed packages and device caches
+/checkpoints/
+/.runtime/*
+!/.runtime/retrain_init/
+/.runtime/retrain_init/*
+!/.runtime/retrain_init/fetch.py
+!/.runtime/retrain_init/verify.py
+
+# Dataset metadata and split lists are versioned separately from the raw data.
+/datasets/*/images/
+/datasets/*/masks/
+/datasets/FLIR-IISR/HR/
+/datasets/FLIR-IISR/LR/
+/datasets/FLIR-IISR/LR_4x/
+/datasets/**/*.png
+/datasets/**/*.bmp
+
+# Generated arrays, full image batches and local training locks
+/results/**/*.npy
+/results/**/*.npz
+/results/**/.train.lock
+/results/official_sirst_train/testset/HR/
+/results/official_sirst_train/testset/LR/
+/results/official_sirst_train/float_audit/testset/HR
+/results/official_sirst_train/float_audit/testset/LR
+/results/official_sirst_train/**/*.png
+!/results/official_sirst_train/testset/VARPrediction/0001_Misc_119.png
+!/results/official_sirst_train/float_audit/scenes/0001_Misc_119.png
+!/results/official_sirst_train/float_audit/targets/0001_Misc_119_c01.png

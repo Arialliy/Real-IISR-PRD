@@ -1,0 +1,24 @@
+Collecting openai-clip==1.0.1
+  Downloading openai-clip-1.0.1.tar.gz (1.4 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.4/1.4 MB 421.8 kB/s eta 0:00:00
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Collecting facexlib==0.3.0
+  Downloading facexlib-0.3.0-py3-none-any.whl.metadata (4.6 kB)
+Collecting filterpy==1.4.5
+  Downloading filterpy-1.4.5.zip (177 kB)
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Downloading facexlib-0.3.0-py3-none-any.whl (59 kB)
+Building wheels for collected packages: openai-clip, filterpy
+  Building wheel for openai-clip (setup.py): started
+  Building wheel for openai-clip (setup.py): finished with status 'done'
+  Created wheel for openai-clip: filename=openai_clip-1.0.1-py3-none-any.whl size=1368630 sha256=676bfd691d74a8f076552baca0512685a70fe95045a22246d1db8558bf3b8c72
+  Stored in directory: /tmp/pip-ephem-wheel-cache-vqh8_yh9/wheels/0d/17/90/042948fd2e2a87f1dcf6db6d438cad015c49db0c53d1d9c7dc
+  Building wheel for filterpy (setup.py): started
+  Building wheel for filterpy (setup.py): finished with status 'done'
+  Created wheel for filterpy: filename=filterpy-1.4.5-py3-none-any.whl size=110512 sha256=ce5c349315a28088334c4c08d8bd5661986c21c34251a843f62884bee115775b
+  Stored in directory: /tmp/pip-ephem-wheel-cache-vqh8_yh9/wheels/12/dc/3c/e12983eac132d00f82a20c6cbe7b42ce6e96190ef8fa2d15e1
+Successfully built openai-clip filterpy
+Installing collected packages: openai-clip, filterpy, facexlib
+Successfully installed facexlib-0.3.0 filterpy-1.4.5 openai-clip-1.0.1

@@ -1,0 +1,2030 @@
+{
+  "format": "real_iisr_prd_s1_v1",
+  "base_sha256": "fe1c2600ec6aeb18bfa674f7726a1dcd0aec45d9fbba25c7f1b9fe266b3ef9a9",
+  "train_steps": 213,
+  "training_ids": [
+    "NUAA-SIRST/Misc_190",
+    "NUAA-SIRST/Misc_280",
+    "NUAA-SIRST/Misc_278",
+    "NUAA-SIRST/Misc_351",
+    "NUAA-SIRST/Misc_407",
+    "NUAA-SIRST/Misc_166",
+    "NUAA-SIRST/Misc_175",
+    "NUAA-SIRST/Misc_161",
+    "NUAA-SIRST/Misc_141",
+    "NUAA-SIRST/Misc_296",
+    "NUAA-SIRST/Misc_223",
+    "NUAA-SIRST/Misc_398",
+    "NUAA-SIRST/Misc_238",
+    "NUAA-SIRST/Misc_47",
+    "NUAA-SIRST/Misc_152",
+    "NUAA-SIRST/Misc_318",
+    "NUAA-SIRST/Misc_315",
+    "NUAA-SIRST/Misc_119",
+    "NUAA-SIRST/Misc_269",
+    "NUAA-SIRST/Misc_313",
+    "NUAA-SIRST/Misc_142",
+    "NUAA-SIRST/Misc_258",
+    "NUAA-SIRST/Misc_284",
+    "NUAA-SIRST/Misc_179",
+    "NUAA-SIRST/Misc_96",
+    "NUAA-SIRST/Misc_55",
+    "NUAA-SIRST/Misc_389",
+    "NUAA-SIRST/Misc_329",
+    "NUAA-SIRST/Misc_254",
+    "NUAA-SIRST/Misc_129",
+    "NUAA-SIRST/Misc_167",
+    "NUAA-SIRST/Misc_183",
+    "NUAA-SIRST/Misc_157",
+    "NUAA-SIRST/Misc_247",
+    "NUAA-SIRST/Misc_256",
+    "NUAA-SIRST/Misc_419",
+    "NUAA-SIRST/Misc_404",
+    "NUAA-SIRST/Misc_33",
+    "NUAA-SIRST/Misc_165",
+    "NUAA-SIRST/Misc_160",
+    "NUAA-SIRST/Misc_170",
+    "NUAA-SIRST/Misc_263",
+    "NUAA-SIRST/Misc_324",
+    "NUAA-SIRST/Misc_50",
+    "NUAA-SIRST/Misc_58",
+    "NUAA-SIRST/Misc_159",
+    "NUAA-SIRST/Misc_391",
+    "NUAA-SIRST/Misc_202",
+    "NUAA-SIRST/Misc_184",
+    "NUAA-SIRST/Misc_120",
+    "NUAA-SIRST/Misc_392",
+    "NUAA-SIRST/Misc_244",
+    "NUAA-SIRST/Misc_218",
+    "NUAA-SIRST/Misc_191",
+    "NUAA-SIRST/Misc_65",
+    "NUAA-SIRST/Misc_194",
+    "NUAA-SIRST/Misc_128",
+    "NUAA-SIRST/Misc_200",
+    "NUAA-SIRST/Misc_36",
+    "NUAA-SIRST/Misc_195",
+    "NUAA-SIRST/Misc_63",
+    "NUAA-SIRST/Misc_103",
+    "NUAA-SIRST/Misc_213",
+    "NUAA-SIRST/Misc_72",
+    "NUAA-SIRST/Misc_52",
+    "NUAA-SIRST/Misc_399",
+    "NUAA-SIRST/Misc_115",
+    "NUAA-SIRST/Misc_330",
+    "NUAA-SIRST/Misc_104",
+    "NUAA-SIRST/Misc_112",
+    "NUAA-SIRST/Misc_27",
+    "NUAA-SIRST/Misc_40",
+    "NUAA-SIRST/Misc_211",
+    "NUAA-SIRST/Misc_253",
+    "NUAA-SIRST/Misc_201",
+    "NUAA-SIRST/Misc_333",
+    "NUAA-SIRST/Misc_187",
+    "NUAA-SIRST/Misc_67",
+    "NUAA-SIRST/Misc_132",
+    "NUAA-SIRST/Misc_17",
+    "NUAA-SIRST/Misc_415",
+    "NUAA-SIRST/Misc_11",
+    "NUAA-SIRST/Misc_233",
+    "NUAA-SIRST/Misc_168",
+    "NUAA-SIRST/Misc_405",
+    "NUAA-SIRST/Misc_105",
+    "NUAA-SIRST/Misc_354",
+    "NUAA-SIRST/Misc_42",
+    "NUAA-SIRST/Misc_174",
+    "NUAA-SIRST/Misc_163",
+    "NUAA-SIRST/Misc_322",
+    "NUAA-SIRST/Misc_310",
+    "NUAA-SIRST/Misc_417",
+    "NUAA-SIRST/Misc_127",
+    "NUAA-SIRST/Misc_209",
+    "NUAA-SIRST/Misc_250",
+    "NUAA-SIRST/Misc_337",
+    "NUAA-SIRST/Misc_352",
+    "NUAA-SIRST/Misc_245",
+    "NUAA-SIRST/Misc_362",
+    "NUAA-SIRST/Misc_61",
+    "NUAA-SIRST/Misc_169",
+    "NUAA-SIRST/Misc_353",
+    "NUAA-SIRST/Misc_369",
+    "NUAA-SIRST/Misc_108",
+    "NUAA-SIRST/Misc_144",
+    "NUAA-SIRST/Misc_383",
+    "NUAA-SIRST/Misc_78",
+    "NUAA-SIRST/Misc_71",
+    "NUAA-SIRST/Misc_285",
+    "NUAA-SIRST/Misc_7",
+    "NUAA-SIRST/Misc_114",
+    "NUAA-SIRST/Misc_343",
+    "NUAA-SIRST/Misc_171",
+    "NUAA-SIRST/Misc_93",
+    "NUAA-SIRST/Misc_217",
+    "NUAA-SIRST/Misc_88",
+    "NUAA-SIRST/Misc_215",
+    "NUAA-SIRST/Misc_77",
+    "NUAA-SIRST/Misc_220",
+    "NUAA-SIRST/Misc_198",
+    "NUAA-SIRST/Misc_90",
+    "NUAA-SIRST/Misc_43",
+    "NUAA-SIRST/Misc_182",
+    "NUAA-SIRST/Misc_147",
+    "NUAA-SIRST/Misc_355",
+    "NUAA-SIRST/Misc_2",
+    "NUAA-SIRST/Misc_304",
+    "NUAA-SIRST/Misc_393",
+    "NUAA-SIRST/Misc_92",
+    "NUAA-SIRST/Misc_282",
+    "NUAA-SIRST/Misc_423",
+    "NUAA-SIRST/Misc_339",
+    "NUAA-SIRST/Misc_378",
+    "NUAA-SIRST/Misc_133",
+    "NUAA-SIRST/Misc_402",
+    "NUAA-SIRST/Misc_424",
+    "NUAA-SIRST/Misc_344",
+    "NUAA-SIRST/Misc_214",
+    "NUAA-SIRST/Misc_226",
+    "NUAA-SIRST/Misc_426",
+    "NUAA-SIRST/Misc_16",
+    "NUAA-SIRST/Misc_8",
+    "NUAA-SIRST/Misc_118",
+    "NUAA-SIRST/Misc_231",
+    "NUAA-SIRST/Misc_70",
+    "NUAA-SIRST/Misc_403",
+    "NUAA-SIRST/Misc_89",
+    "NUAA-SIRST/Misc_26",
+    "NUAA-SIRST/Misc_267",
+    "NUAA-SIRST/Misc_367",
+    "NUAA-SIRST/Misc_12",
+    "NUAA-SIRST/Misc_6",
+    "NUAA-SIRST/Misc_232",
+    "NUAA-SIRST/Misc_95",
+    "NUAA-SIRST/Misc_242",
+    "NUAA-SIRST/Misc_150",
+    "NUAA-SIRST/Misc_264",
+    "NUAA-SIRST/Misc_138",
+    "NUAA-SIRST/Misc_86",
+    "NUAA-SIRST/Misc_421",
+    "NUAA-SIRST/Misc_45",
+    "NUAA-SIRST/Misc_406",
+    "NUAA-SIRST/Misc_349",
+    "NUAA-SIRST/Misc_336",
+    "NUAA-SIRST/Misc_295",
+    "NUAA-SIRST/Misc_146",
+    "NUAA-SIRST/Misc_134",
+    "NUAA-SIRST/Misc_192",
+    "NUAA-SIRST/Misc_320",
+    "NUAA-SIRST/Misc_172",
+    "NUAA-SIRST/Misc_363",
+    "NUAA-SIRST/Misc_64",
+    "NUAA-SIRST/Misc_388",
+    "NUAA-SIRST/Misc_360",
+    "NUAA-SIRST/Misc_364",
+    "NUAA-SIRST/Misc_109",
+    "NUAA-SIRST/Misc_260",
+    "NUAA-SIRST/Misc_283",
+    "NUAA-SIRST/Misc_302",
+    "NUAA-SIRST/Misc_81",
+    "NUAA-SIRST/Misc_100",
+    "NUAA-SIRST/Misc_243",
+    "NUAA-SIRST/Misc_4",
+    "NUAA-SIRST/Misc_246",
+    "NUAA-SIRST/Misc_305",
+    "NUAA-SIRST/Misc_358",
+    "NUAA-SIRST/Misc_180",
+    "NUAA-SIRST/Misc_149",
+    "NUAA-SIRST/Misc_98",
+    "NUAA-SIRST/Misc_158",
+    "NUAA-SIRST/Misc_116",
+    "NUAA-SIRST/Misc_425",
+    "NUAA-SIRST/Misc_370",
+    "NUAA-SIRST/Misc_261",
+    "NUAA-SIRST/Misc_32",
+    "NUAA-SIRST/Misc_23",
+    "NUAA-SIRST/Misc_409",
+    "NUAA-SIRST/Misc_384",
+    "NUAA-SIRST/Misc_229",
+    "NUAA-SIRST/Misc_31",
+    "NUAA-SIRST/Misc_316",
+    "NUAA-SIRST/Misc_341",
+    "NUAA-SIRST/Misc_18",
+    "NUAA-SIRST/Misc_382",
+    "NUAA-SIRST/Misc_401",
+    "NUAA-SIRST/Misc_281",
+    "NUAA-SIRST/Misc_290",
+    "NUAA-SIRST/Misc_311",
+    "NUAA-SIRST/Misc_39",
+    "NUAA-SIRST/Misc_291",
+    "NUAA-SIRST/Misc_102",
+    "NUAA-SIRST/Misc_29"
+  ],
+  "data_seed": 0,
+  "schedule_seed": 20261120,
+  "manifest_sha256": "192c73934cd78efe8d283024add8c43d03ccbaaea89d4072a06e35d7a64faaa0",
+  "epoch": 0,
+  "draw_id": 0,
+  "image_size": 512,
+  "padding_dn": 0,
+  "branches_per_step": 2,
+  "training_source": "local bundled SIRST train; no test or separate validation lists loaded",
+  "stage": "S1 teacher-forced warmup; hard argmax decode, deployment-matched CAC conditioning",
+  "trainable_names": [
+    "vae.quantize.U",
+    "vae.quantize.V",
+    "vae.quantize.lora_gate",
+    "blocks.23.attn.scale_mul_1H11",
+    "blocks.23.attn.q_bias",
+    "blocks.23.attn.v_bias",
+    "blocks.23.attn.mat_qkv.weight",
+    "blocks.23.attn.proj.weight",
+    "blocks.23.attn.proj.bias",
+    "blocks.23.ffn.fc1.weight",
+    "blocks.23.ffn.fc1.bias",
+    "blocks.23.ffn.fc2.weight",
+    "blocks.23.ffn.fc2.bias",
+    "blocks.23.ada_lin.1.weight",
+    "blocks.23.ada_lin.1.bias",
+    "head_nm.ada_lin.1.weight",
+    "head_nm.ada_lin.1.bias",
+    "head.weight",
+    "head.bias",
+    "cb_cond.2.weight",
+    "cb_cond.2.bias",
+    "cb_cond.4.weight",
+    "cb_cond.4.bias"
+  ],
+  "trainable_count": 53588545,
+  "frozen": "all except final original VAR block, logit head/head norm, cb_cond and original CAC U/V/gate",
+  "loss_weights": {
+    "valid_coverage_token_ce": 1.0,
+    "valid_gray_mse": 0.2,
+    "valid_patch_order": 0.8
+  },
+  "lr": {
+    "var": 1e-05,
+    "cac": 5e-05
+  },
+  "weight_decay": 0.0,
+  "gradient_clip_norm": 2.0,
+  "loss_scale": 128.0,
+  "precision": "FP32 tokenization and CAC/decoder; FP16 autocast teacher-forced VAR",
+  "torch_version": "2.7.0+cu128",
+  "device": "NVIDIA GeForce RTX 5090",
+  "steps": [
+    {
+      "step": 1,
+      "id": "NUAA-SIRST/Misc_190",
+      "ce": 5.135037422180176,
+      "masked_mse": 0.004383034072816372,
+      "patch_order": 0.0,
+      "gradient_norm": 9.671735763549805
+    },
+    {
+      "step": 2,
+      "id": "NUAA-SIRST/Misc_280",
+      "ce": 5.801547050476074,
+      "masked_mse": 0.012664671055972576,
+      "patch_order": 0.0,
+      "gradient_norm": 7.667971134185791
+    },
+    {
+      "step": 3,
+      "id": "NUAA-SIRST/Misc_278",
+      "ce": 4.501883506774902,
+      "masked_mse": 0.009979738853871822,
+      "patch_order": 6.57613327348372e-06,
+      "gradient_norm": 9.402283668518066
+    },
+    {
+      "step": 4,
+      "id": "NUAA-SIRST/Misc_351",
+      "ce": 4.42681360244751,
+      "masked_mse": 0.01067307684570551,
+      "patch_order": 5.5673185670457315e-06,
+      "gradient_norm": 9.832093238830566
+    },
+    {
+      "step": 5,
+      "id": "NUAA-SIRST/Misc_407",
+      "ce": 5.49324369430542,
+      "masked_mse": 0.024248875677585602,
+      "patch_order": 0.0,
+      "gradient_norm": 7.550019264221191
+    },
+    {
+      "step": 6,
+      "id": "NUAA-SIRST/Misc_166",
+      "ce": 3.2678489685058594,
+      "masked_mse": 0.023994963616132736,
+      "patch_order": 0.0,
+      "gradient_norm": 11.727620124816895
+    },
+    {
+      "step": 7,
+      "id": "NUAA-SIRST/Misc_175",
+      "ce": 5.305572509765625,
+      "masked_mse": 0.004422951489686966,
+      "patch_order": 0.0,
+      "gradient_norm": 8.59301471710205
+    },
+    {
+      "step": 8,
+      "id": "NUAA-SIRST/Misc_161",
+      "ce": 4.464384078979492,
+      "masked_mse": 0.0016162132378667593,
+      "patch_order": 0.0,
+      "gradient_norm": 13.30247688293457
+    },
+    {
+      "step": 9,
+      "id": "NUAA-SIRST/Misc_141",
+      "ce": 4.088490009307861,
+      "masked_mse": 0.017547644674777985,
+      "patch_order": 7.78297362558078e-06,
+      "gradient_norm": 13.081722259521484
+    },
+    {
+      "step": 10,
+      "id": "NUAA-SIRST/Misc_296",
+      "ce": 5.055787086486816,
+      "masked_mse": 0.00671898340806365,
+      "patch_order": 0.0,
+      "gradient_norm": 7.543108940124512
+    },
+    {
+      "step": 11,
+      "id": "NUAA-SIRST/Misc_223",
+      "ce": 5.26835823059082,
+      "masked_mse": 0.005035073030740023,
+      "patch_order": 0.0,
+      "gradient_norm": 8.574055671691895
+    },
+    {
+      "step": 12,
+      "id": "NUAA-SIRST/Misc_398",
+      "ce": 4.064937591552734,
+      "masked_mse": 0.01072461623698473,
+      "patch_order": 8.16069314168999e-06,
+      "gradient_norm": 9.530714988708496
+    },
+    {
+      "step": 13,
+      "id": "NUAA-SIRST/Misc_238",
+      "ce": 4.144576072692871,
+      "masked_mse": 0.015497777611017227,
+      "patch_order": 2.328571554244263e-06,
+      "gradient_norm": 8.256400108337402
+    },
+    {
+      "step": 14,
+      "id": "NUAA-SIRST/Misc_47",
+      "ce": 4.748508453369141,
+      "masked_mse": 0.008250800892710686,
+      "patch_order": 1.1136598914163187e-05,
+      "gradient_norm": 9.622720718383789
+    },
+    {
+      "step": 15,
+      "id": "NUAA-SIRST/Misc_152",
+      "ce": 4.305002212524414,
+      "masked_mse": 0.006728272885084152,
+      "patch_order": 1.7636701841183822e-06,
+      "gradient_norm": 8.266533851623535
+    },
+    {
+      "step": 16,
+      "id": "NUAA-SIRST/Misc_318",
+      "ce": 5.549983024597168,
+      "masked_mse": 0.00769492331892252,
+      "patch_order": 0.0,
+      "gradient_norm": 7.0142621994018555
+    },
+    {
+      "step": 17,
+      "id": "NUAA-SIRST/Misc_315",
+      "ce": 3.922600269317627,
+      "masked_mse": 0.015241645276546478,
+      "patch_order": 1.2113283446524292e-05,
+      "gradient_norm": 9.561168670654297
+    },
+    {
+      "step": 18,
+      "id": "NUAA-SIRST/Misc_119",
+      "ce": 3.9356369972229004,
+      "masked_mse": 0.016534440219402313,
+      "patch_order": 2.8102571377530694e-05,
+      "gradient_norm": 10.205195426940918
+    },
+    {
+      "step": 19,
+      "id": "NUAA-SIRST/Misc_269",
+      "ce": 4.917187213897705,
+      "masked_mse": 0.006868235766887665,
+      "patch_order": 0.0,
+      "gradient_norm": 8.75310230255127
+    },
+    {
+      "step": 20,
+      "id": "NUAA-SIRST/Misc_313",
+      "ce": 3.935279369354248,
+      "masked_mse": 0.0021147076040506363,
+      "patch_order": 2.344535232623457e-07,
+      "gradient_norm": 8.764277458190918
+    },
+    {
+      "step": 21,
+      "id": "NUAA-SIRST/Misc_142",
+      "ce": 4.934207916259766,
+      "masked_mse": 0.009022079408168793,
+      "patch_order": 1.3283835187394288e-07,
+      "gradient_norm": 8.92809772491455
+    },
+    {
+      "step": 22,
+      "id": "NUAA-SIRST/Misc_258",
+      "ce": 4.894045352935791,
+      "masked_mse": 0.01007351279258728,
+      "patch_order": 0.0,
+      "gradient_norm": 9.906533241271973
+    },
+    {
+      "step": 23,
+      "id": "NUAA-SIRST/Misc_284",
+      "ce": 4.751884460449219,
+      "masked_mse": 0.043809544295072556,
+      "patch_order": 0.0,
+      "gradient_norm": 7.364368915557861
+    },
+    {
+      "step": 24,
+      "id": "NUAA-SIRST/Misc_179",
+      "ce": 4.0815629959106445,
+      "masked_mse": 0.005635015666484833,
+      "patch_order": 0.0,
+      "gradient_norm": 10.96607780456543
+    },
+    {
+      "step": 25,
+      "id": "NUAA-SIRST/Misc_96",
+      "ce": 3.6190972328186035,
+      "masked_mse": 0.00786206778138876,
+      "patch_order": 5.247372428129893e-06,
+      "gradient_norm": 10.809633255004883
+    },
+    {
+      "step": 26,
+      "id": "NUAA-SIRST/Misc_55",
+      "ce": 5.287485599517822,
+      "masked_mse": 0.0019365389598533511,
+      "patch_order": 0.0,
+      "gradient_norm": 6.8774261474609375
+    },
+    {
+      "step": 27,
+      "id": "NUAA-SIRST/Misc_389",
+      "ce": 5.17801570892334,
+      "masked_mse": 0.03666170686483383,
+      "patch_order": 1.9426283870416228e-06,
+      "gradient_norm": 6.341950416564941
+    },
+    {
+      "step": 28,
+      "id": "NUAA-SIRST/Misc_329",
+      "ce": 5.067322731018066,
+      "masked_mse": 0.0023588205222040415,
+      "patch_order": 0.0,
+      "gradient_norm": 9.019783020019531
+    },
+    {
+      "step": 29,
+      "id": "NUAA-SIRST/Misc_254",
+      "ce": 4.527912616729736,
+      "masked_mse": 0.006139644421637058,
+      "patch_order": 1.3583267843841895e-07,
+      "gradient_norm": 7.451331615447998
+    },
+    {
+      "step": 30,
+      "id": "NUAA-SIRST/Misc_129",
+      "ce": 4.752326011657715,
+      "masked_mse": 0.012226615101099014,
+      "patch_order": 0.0,
+      "gradient_norm": 8.454825401306152
+    },
+    {
+      "step": 31,
+      "id": "NUAA-SIRST/Misc_167",
+      "ce": 4.219862937927246,
+      "masked_mse": 0.005071659572422504,
+      "patch_order": 0.0,
+      "gradient_norm": 8.934345245361328
+    },
+    {
+      "step": 32,
+      "id": "NUAA-SIRST/Misc_183",
+      "ce": 4.80125093460083,
+      "masked_mse": 0.02052108198404312,
+      "patch_order": 0.0,
+      "gradient_norm": 8.500157356262207
+    },
+    {
+      "step": 33,
+      "id": "NUAA-SIRST/Misc_157",
+      "ce": 3.718174934387207,
+      "masked_mse": 0.008417936973273754,
+      "patch_order": 0.0,
+      "gradient_norm": 9.009198188781738
+    },
+    {
+      "step": 34,
+      "id": "NUAA-SIRST/Misc_247",
+      "ce": 5.267697334289551,
+      "masked_mse": 0.008495213463902473,
+      "patch_order": 0.0,
+      "gradient_norm": 7.863907337188721
+    },
+    {
+      "step": 35,
+      "id": "NUAA-SIRST/Misc_256",
+      "ce": 4.370490550994873,
+      "masked_mse": 0.02027745172381401,
+      "patch_order": 1.1658419680316001e-05,
+      "gradient_norm": 7.539619445800781
+    },
+    {
+      "step": 36,
+      "id": "NUAA-SIRST/Misc_419",
+      "ce": 4.569495677947998,
+      "masked_mse": 0.003842621110379696,
+      "patch_order": 0.0,
+      "gradient_norm": 7.6863508224487305
+    },
+    {
+      "step": 37,
+      "id": "NUAA-SIRST/Misc_404",
+      "ce": 4.973676681518555,
+      "masked_mse": 0.005743526853621006,
+      "patch_order": 0.0,
+      "gradient_norm": 7.2880659103393555
+    },
+    {
+      "step": 38,
+      "id": "NUAA-SIRST/Misc_33",
+      "ce": 4.815268516540527,
+      "masked_mse": 0.028178874403238297,
+      "patch_order": 0.0,
+      "gradient_norm": 8.315247535705566
+    },
+    {
+      "step": 39,
+      "id": "NUAA-SIRST/Misc_165",
+      "ce": 4.749259948730469,
+      "masked_mse": 0.010617846623063087,
+      "patch_order": 0.0,
+      "gradient_norm": 7.941866397857666
+    },
+    {
+      "step": 40,
+      "id": "NUAA-SIRST/Misc_160",
+      "ce": 3.7071006298065186,
+      "masked_mse": 0.03789447993040085,
+      "patch_order": 0.0,
+      "gradient_norm": 10.87484359741211
+    },
+    {
+      "step": 41,
+      "id": "NUAA-SIRST/Misc_170",
+      "ce": 4.926026344299316,
+      "masked_mse": 0.007042196113616228,
+      "patch_order": 0.0,
+      "gradient_norm": 8.693120002746582
+    },
+    {
+      "step": 42,
+      "id": "NUAA-SIRST/Misc_263",
+      "ce": 4.00699520111084,
+      "masked_mse": 0.012749077752232552,
+      "patch_order": 2.502834490769601e-07,
+      "gradient_norm": 11.997953414916992
+    },
+    {
+      "step": 43,
+      "id": "NUAA-SIRST/Misc_324",
+      "ce": 4.986006736755371,
+      "masked_mse": 0.011427951976656914,
+      "patch_order": 0.0,
+      "gradient_norm": 9.65357780456543
+    },
+    {
+      "step": 44,
+      "id": "NUAA-SIRST/Misc_50",
+      "ce": 5.532839775085449,
+      "masked_mse": 0.017422502860426903,
+      "patch_order": 0.0,
+      "gradient_norm": 6.954469203948975
+    },
+    {
+      "step": 45,
+      "id": "NUAA-SIRST/Misc_58",
+      "ce": 4.353616237640381,
+      "masked_mse": 0.0032089315354824066,
+      "patch_order": 0.0,
+      "gradient_norm": 8.757553100585938
+    },
+    {
+      "step": 46,
+      "id": "NUAA-SIRST/Misc_159",
+      "ce": 4.26412296295166,
+      "masked_mse": 0.00441809231415391,
+      "patch_order": 0.0,
+      "gradient_norm": 8.915450096130371
+    },
+    {
+      "step": 47,
+      "id": "NUAA-SIRST/Misc_391",
+      "ce": 4.254168510437012,
+      "masked_mse": 0.021785371005535126,
+      "patch_order": 1.3507000403478742e-05,
+      "gradient_norm": 6.793758869171143
+    },
+    {
+      "step": 48,
+      "id": "NUAA-SIRST/Misc_202",
+      "ce": 4.665470123291016,
+      "masked_mse": 0.004665178246796131,
+      "patch_order": 0.0,
+      "gradient_norm": 7.799862861633301
+    },
+    {
+      "step": 49,
+      "id": "NUAA-SIRST/Misc_184",
+      "ce": 5.093275547027588,
+      "masked_mse": 0.005303739570081234,
+      "patch_order": 0.0,
+      "gradient_norm": 8.164928436279297
+    },
+    {
+      "step": 50,
+      "id": "NUAA-SIRST/Misc_120",
+      "ce": 3.5548977851867676,
+      "masked_mse": 0.006548525299876928,
+      "patch_order": 6.036432750988752e-06,
+      "gradient_norm": 10.506875038146973
+    },
+    {
+      "step": 51,
+      "id": "NUAA-SIRST/Misc_392",
+      "ce": 3.983438491821289,
+      "masked_mse": 0.07375039905309677,
+      "patch_order": 1.6448277165181935e-05,
+      "gradient_norm": 7.706761837005615
+    },
+    {
+      "step": 52,
+      "id": "NUAA-SIRST/Misc_244",
+      "ce": 3.8630268573760986,
+      "masked_mse": 0.0007444708608090878,
+      "patch_order": 0.0,
+      "gradient_norm": 8.751386642456055
+    },
+    {
+      "step": 53,
+      "id": "NUAA-SIRST/Misc_218",
+      "ce": 4.381861209869385,
+      "masked_mse": 0.005375316366553307,
+      "patch_order": 0.0,
+      "gradient_norm": 9.798089027404785
+    },
+    {
+      "step": 54,
+      "id": "NUAA-SIRST/Misc_191",
+      "ce": 4.771636962890625,
+      "masked_mse": 0.002358525525778532,
+      "patch_order": 0.0,
+      "gradient_norm": 7.941957950592041
+    },
+    {
+      "step": 55,
+      "id": "NUAA-SIRST/Misc_65",
+      "ce": 4.882397651672363,
+      "masked_mse": 0.008350668475031853,
+      "patch_order": 0.0,
+      "gradient_norm": 7.8737897872924805
+    },
+    {
+      "step": 56,
+      "id": "NUAA-SIRST/Misc_194",
+      "ce": 2.898139238357544,
+      "masked_mse": 0.000612313742749393,
+      "patch_order": 0.0,
+      "gradient_norm": 12.213314056396484
+    },
+    {
+      "step": 57,
+      "id": "NUAA-SIRST/Misc_128",
+      "ce": 5.230910778045654,
+      "masked_mse": 0.01231321506202221,
+      "patch_order": 6.296877472777851e-06,
+      "gradient_norm": 7.2851409912109375
+    },
+    {
+      "step": 58,
+      "id": "NUAA-SIRST/Misc_200",
+      "ce": 3.3572490215301514,
+      "masked_mse": 0.010885270312428474,
+      "patch_order": 0.0,
+      "gradient_norm": 11.2626953125
+    },
+    {
+      "step": 59,
+      "id": "NUAA-SIRST/Misc_36",
+      "ce": 4.763009071350098,
+      "masked_mse": 0.026666078716516495,
+      "patch_order": 7.396603905363008e-06,
+      "gradient_norm": 7.714041233062744
+    },
+    {
+      "step": 60,
+      "id": "NUAA-SIRST/Misc_195",
+      "ce": 3.7746524810791016,
+      "masked_mse": 0.0011037123622372746,
+      "patch_order": 0.0,
+      "gradient_norm": 8.67068862915039
+    },
+    {
+      "step": 61,
+      "id": "NUAA-SIRST/Misc_63",
+      "ce": 5.3727216720581055,
+      "masked_mse": 0.0036594620905816555,
+      "patch_order": 0.0,
+      "gradient_norm": 7.779665470123291
+    },
+    {
+      "step": 62,
+      "id": "NUAA-SIRST/Misc_103",
+      "ce": 4.721235752105713,
+      "masked_mse": 0.014380130916833878,
+      "patch_order": 6.861484962428221e-07,
+      "gradient_norm": 7.581655025482178
+    },
+    {
+      "step": 63,
+      "id": "NUAA-SIRST/Misc_213",
+      "ce": 5.278087615966797,
+      "masked_mse": 0.010159824043512344,
+      "patch_order": 2.0462244719965383e-05,
+      "gradient_norm": 6.404317855834961
+    },
+    {
+      "step": 64,
+      "id": "NUAA-SIRST/Misc_72",
+      "ce": 3.9676642417907715,
+      "masked_mse": 0.0049232919700443745,
+      "patch_order": 0.0,
+      "gradient_norm": 10.307409286499023
+    },
+    {
+      "step": 65,
+      "id": "NUAA-SIRST/Misc_52",
+      "ce": 4.751047134399414,
+      "masked_mse": 0.005009233020246029,
+      "patch_order": 9.251343726646155e-06,
+      "gradient_norm": 7.930276393890381
+    },
+    {
+      "step": 66,
+      "id": "NUAA-SIRST/Misc_399",
+      "ce": 3.6657180786132812,
+      "masked_mse": 0.01575423777103424,
+      "patch_order": 7.85399947744736e-07,
+      "gradient_norm": 10.255934715270996
+    },
+    {
+      "step": 67,
+      "id": "NUAA-SIRST/Misc_115",
+      "ce": 4.394744873046875,
+      "masked_mse": 0.0029869736172258854,
+      "patch_order": 0.0,
+      "gradient_norm": 10.029581069946289
+    },
+    {
+      "step": 68,
+      "id": "NUAA-SIRST/Misc_330",
+      "ce": 4.70599365234375,
+      "masked_mse": 0.005611522123217583,
+      "patch_order": 1.6221739542743308e-06,
+      "gradient_norm": 7.681028842926025
+    },
+    {
+      "step": 69,
+      "id": "NUAA-SIRST/Misc_104",
+      "ce": 4.021700382232666,
+      "masked_mse": 0.01654287986457348,
+      "patch_order": 1.6498573813805706e-06,
+      "gradient_norm": 6.4766764640808105
+    },
+    {
+      "step": 70,
+      "id": "NUAA-SIRST/Misc_112",
+      "ce": 4.235799789428711,
+      "masked_mse": 0.007200455293059349,
+      "patch_order": 0.0,
+      "gradient_norm": 9.671520233154297
+    },
+    {
+      "step": 71,
+      "id": "NUAA-SIRST/Misc_27",
+      "ce": 5.203936576843262,
+      "masked_mse": 0.002423258498311043,
+      "patch_order": 0.0,
+      "gradient_norm": 7.197206497192383
+    },
+    {
+      "step": 72,
+      "id": "NUAA-SIRST/Misc_40",
+      "ce": 4.632168292999268,
+      "masked_mse": 0.013730812817811966,
+      "patch_order": 8.697053317519021e-07,
+      "gradient_norm": 18.48427391052246
+    },
+    {
+      "step": 73,
+      "id": "NUAA-SIRST/Misc_211",
+      "ce": 4.430826187133789,
+      "masked_mse": 0.01596176251769066,
+      "patch_order": 0.0,
+      "gradient_norm": 7.010615825653076
+    },
+    {
+      "step": 74,
+      "id": "NUAA-SIRST/Misc_253",
+      "ce": 3.9898760318756104,
+      "masked_mse": 0.005976163782179356,
+      "patch_order": 8.628219802631065e-06,
+      "gradient_norm": 7.856560707092285
+    },
+    {
+      "step": 75,
+      "id": "NUAA-SIRST/Misc_201",
+      "ce": 3.469108819961548,
+      "masked_mse": 0.006368852220475674,
+      "patch_order": 0.0,
+      "gradient_norm": 7.864417552947998
+    },
+    {
+      "step": 76,
+      "id": "NUAA-SIRST/Misc_333",
+      "ce": 5.001951217651367,
+      "masked_mse": 0.0048865070566535,
+      "patch_order": 0.0,
+      "gradient_norm": 9.035548210144043
+    },
+    {
+      "step": 77,
+      "id": "NUAA-SIRST/Misc_187",
+      "ce": 4.133378982543945,
+      "masked_mse": 0.0015980096068233252,
+      "patch_order": 0.0,
+      "gradient_norm": 8.830582618713379
+    },
+    {
+      "step": 78,
+      "id": "NUAA-SIRST/Misc_67",
+      "ce": 4.098178863525391,
+      "masked_mse": 0.007626042235642672,
+      "patch_order": 0.0,
+      "gradient_norm": 8.03502368927002
+    },
+    {
+      "step": 79,
+      "id": "NUAA-SIRST/Misc_132",
+      "ce": 4.643811225891113,
+      "masked_mse": 0.01139076054096222,
+      "patch_order": 5.666350375577167e-07,
+      "gradient_norm": 7.978612422943115
+    },
+    {
+      "step": 80,
+      "id": "NUAA-SIRST/Misc_17",
+      "ce": 3.9515938758850098,
+      "masked_mse": 0.039215754717588425,
+      "patch_order": 0.0,
+      "gradient_norm": 8.565393447875977
+    },
+    {
+      "step": 81,
+      "id": "NUAA-SIRST/Misc_415",
+      "ce": 4.618042945861816,
+      "masked_mse": 0.015819493681192398,
+      "patch_order": 2.0508018678810913e-06,
+      "gradient_norm": 9.010117530822754
+    },
+    {
+      "step": 82,
+      "id": "NUAA-SIRST/Misc_11",
+      "ce": 4.389435768127441,
+      "masked_mse": 0.01586923561990261,
+      "patch_order": 0.0,
+      "gradient_norm": 8.05307674407959
+    },
+    {
+      "step": 83,
+      "id": "NUAA-SIRST/Misc_233",
+      "ce": 5.389129161834717,
+      "masked_mse": 0.006882250774651766,
+      "patch_order": 0.0,
+      "gradient_norm": 9.599339485168457
+    },
+    {
+      "step": 84,
+      "id": "NUAA-SIRST/Misc_168",
+      "ce": 4.107529640197754,
+      "masked_mse": 0.005321290343999863,
+      "patch_order": 0.0,
+      "gradient_norm": 11.367486953735352
+    },
+    {
+      "step": 85,
+      "id": "NUAA-SIRST/Misc_405",
+      "ce": 4.701629638671875,
+      "masked_mse": 0.013194408267736435,
+      "patch_order": 1.7072934497264214e-06,
+      "gradient_norm": 10.795706748962402
+    },
+    {
+      "step": 86,
+      "id": "NUAA-SIRST/Misc_105",
+      "ce": 5.034749984741211,
+      "masked_mse": 0.0030368936713784933,
+      "patch_order": 0.0,
+      "gradient_norm": 8.344176292419434
+    },
+    {
+      "step": 87,
+      "id": "NUAA-SIRST/Misc_354",
+      "ce": 4.540657997131348,
+      "masked_mse": 0.024793297052383423,
+      "patch_order": 8.572267518047738e-08,
+      "gradient_norm": 8.780537605285645
+    },
+    {
+      "step": 88,
+      "id": "NUAA-SIRST/Misc_42",
+      "ce": 4.287975788116455,
+      "masked_mse": 0.008265514858067036,
+      "patch_order": 9.121023936131678e-08,
+      "gradient_norm": 9.187220573425293
+    },
+    {
+      "step": 89,
+      "id": "NUAA-SIRST/Misc_174",
+      "ce": 4.708148956298828,
+      "masked_mse": 0.0008947528549470007,
+      "patch_order": 0.0,
+      "gradient_norm": 9.041596412658691
+    },
+    {
+      "step": 90,
+      "id": "NUAA-SIRST/Misc_163",
+      "ce": 3.8486971855163574,
+      "masked_mse": 0.0014285426586866379,
+      "patch_order": 0.0,
+      "gradient_norm": 9.308292388916016
+    },
+    {
+      "step": 91,
+      "id": "NUAA-SIRST/Misc_322",
+      "ce": 5.162540912628174,
+      "masked_mse": 0.005997749976813793,
+      "patch_order": 2.6210724968223076e-07,
+      "gradient_norm": 8.243926048278809
+    },
+    {
+      "step": 92,
+      "id": "NUAA-SIRST/Misc_310",
+      "ce": 4.970158576965332,
+      "masked_mse": 0.007972056046128273,
+      "patch_order": 0.0,
+      "gradient_norm": 9.122313499450684
+    },
+    {
+      "step": 93,
+      "id": "NUAA-SIRST/Misc_417",
+      "ce": 3.622354030609131,
+      "masked_mse": 0.0029563773423433304,
+      "patch_order": 0.0,
+      "gradient_norm": 9.937457084655762
+    },
+    {
+      "step": 94,
+      "id": "NUAA-SIRST/Misc_127",
+      "ce": 4.87434196472168,
+      "masked_mse": 0.007361574098467827,
+      "patch_order": 1.982453568416531e-06,
+      "gradient_norm": 6.29807186126709
+    },
+    {
+      "step": 95,
+      "id": "NUAA-SIRST/Misc_209",
+      "ce": 4.537435531616211,
+      "masked_mse": 0.0030577490106225014,
+      "patch_order": 0.0,
+      "gradient_norm": 6.006051540374756
+    },
+    {
+      "step": 96,
+      "id": "NUAA-SIRST/Misc_250",
+      "ce": 5.030391693115234,
+      "masked_mse": 0.0021997294388711452,
+      "patch_order": 0.0,
+      "gradient_norm": 8.354928970336914
+    },
+    {
+      "step": 97,
+      "id": "NUAA-SIRST/Misc_337",
+      "ce": 4.181290149688721,
+      "masked_mse": 0.007440960966050625,
+      "patch_order": 0.0,
+      "gradient_norm": 9.574139595031738
+    },
+    {
+      "step": 98,
+      "id": "NUAA-SIRST/Misc_352",
+      "ce": 4.52507209777832,
+      "masked_mse": 0.008508298546075821,
+      "patch_order": 4.758392719850235e-07,
+      "gradient_norm": 8.95598316192627
+    },
+    {
+      "step": 99,
+      "id": "NUAA-SIRST/Misc_245",
+      "ce": 4.579579830169678,
+      "masked_mse": 0.0020241807214915752,
+      "patch_order": 0.0,
+      "gradient_norm": 7.165261745452881
+    },
+    {
+      "step": 100,
+      "id": "NUAA-SIRST/Misc_362",
+      "ce": 3.5052456855773926,
+      "masked_mse": 0.013390999287366867,
+      "patch_order": 5.537086326512508e-05,
+      "gradient_norm": 10.52295207977295
+    },
+    {
+      "step": 101,
+      "id": "NUAA-SIRST/Misc_61",
+      "ce": 4.381914138793945,
+      "masked_mse": 0.0034155608154833317,
+      "patch_order": 0.0,
+      "gradient_norm": 7.697058200836182
+    },
+    {
+      "step": 102,
+      "id": "NUAA-SIRST/Misc_169",
+      "ce": 4.007554531097412,
+      "masked_mse": 0.004346462897956371,
+      "patch_order": 0.0,
+      "gradient_norm": 8.862446784973145
+    },
+    {
+      "step": 103,
+      "id": "NUAA-SIRST/Misc_353",
+      "ce": 4.104145050048828,
+      "masked_mse": 0.010973871685564518,
+      "patch_order": 7.731055666226894e-05,
+      "gradient_norm": 7.435269832611084
+    },
+    {
+      "step": 104,
+      "id": "NUAA-SIRST/Misc_369",
+      "ce": 4.029523849487305,
+      "masked_mse": 0.0016322701703757048,
+      "patch_order": 0.0,
+      "gradient_norm": 10.35944938659668
+    },
+    {
+      "step": 105,
+      "id": "NUAA-SIRST/Misc_108",
+      "ce": 3.9817452430725098,
+      "masked_mse": 0.005176914855837822,
+      "patch_order": 0.0,
+      "gradient_norm": 8.961095809936523
+    },
+    {
+      "step": 106,
+      "id": "NUAA-SIRST/Misc_144",
+      "ce": 4.683656692504883,
+      "masked_mse": 0.01210108958184719,
+      "patch_order": 0.0,
+      "gradient_norm": 9.206169128417969
+    },
+    {
+      "step": 107,
+      "id": "NUAA-SIRST/Misc_383",
+      "ce": 3.7248435020446777,
+      "masked_mse": 0.01069206278771162,
+      "patch_order": 1.0920765589617076e-06,
+      "gradient_norm": 7.591272830963135
+    },
+    {
+      "step": 108,
+      "id": "NUAA-SIRST/Misc_78",
+      "ce": 4.61757755279541,
+      "masked_mse": 0.0018143237102776766,
+      "patch_order": 2.614347920371074e-07,
+      "gradient_norm": 6.976667404174805
+    },
+    {
+      "step": 109,
+      "id": "NUAA-SIRST/Misc_71",
+      "ce": 4.244987487792969,
+      "masked_mse": 0.006905705668032169,
+      "patch_order": 0.0,
+      "gradient_norm": 8.760770797729492
+    },
+    {
+      "step": 110,
+      "id": "NUAA-SIRST/Misc_285",
+      "ce": 3.767228603363037,
+      "masked_mse": 0.007072231732308865,
+      "patch_order": 0.0,
+      "gradient_norm": 10.379406929016113
+    },
+    {
+      "step": 111,
+      "id": "NUAA-SIRST/Misc_7",
+      "ce": 4.753334045410156,
+      "masked_mse": 0.014681531116366386,
+      "patch_order": 3.39908922342147e-07,
+      "gradient_norm": 7.650581359863281
+    },
+    {
+      "step": 112,
+      "id": "NUAA-SIRST/Misc_114",
+      "ce": 4.926006317138672,
+      "masked_mse": 0.02203340083360672,
+      "patch_order": 2.850280361599289e-05,
+      "gradient_norm": 9.381234169006348
+    },
+    {
+      "step": 113,
+      "id": "NUAA-SIRST/Misc_343",
+      "ce": 4.068141937255859,
+      "masked_mse": 0.00620091799646616,
+      "patch_order": 0.0,
+      "gradient_norm": 7.976557731628418
+    },
+    {
+      "step": 114,
+      "id": "NUAA-SIRST/Misc_171",
+      "ce": 4.199178695678711,
+      "masked_mse": 0.007371267769485712,
+      "patch_order": 8.286115189548582e-07,
+      "gradient_norm": 9.206513404846191
+    },
+    {
+      "step": 115,
+      "id": "NUAA-SIRST/Misc_93",
+      "ce": 3.5681447982788086,
+      "masked_mse": 0.01537399087101221,
+      "patch_order": 2.3601037923981494e-07,
+      "gradient_norm": 10.663165092468262
+    },
+    {
+      "step": 116,
+      "id": "NUAA-SIRST/Misc_217",
+      "ce": 4.965291500091553,
+      "masked_mse": 0.005849894136190414,
+      "patch_order": 3.687091520987451e-07,
+      "gradient_norm": 8.34147834777832
+    },
+    {
+      "step": 117,
+      "id": "NUAA-SIRST/Misc_88",
+      "ce": 2.8766870498657227,
+      "masked_mse": 0.006745077669620514,
+      "patch_order": 1.209463817986034e-07,
+      "gradient_norm": 10.531599998474121
+    },
+    {
+      "step": 118,
+      "id": "NUAA-SIRST/Misc_215",
+      "ce": 5.327407360076904,
+      "masked_mse": 0.0011948540341109037,
+      "patch_order": 0.0,
+      "gradient_norm": 7.530502796173096
+    },
+    {
+      "step": 119,
+      "id": "NUAA-SIRST/Misc_77",
+      "ce": 3.17490291595459,
+      "masked_mse": 0.010715378448367119,
+      "patch_order": 9.214558303938247e-06,
+      "gradient_norm": 12.38124942779541
+    },
+    {
+      "step": 120,
+      "id": "NUAA-SIRST/Misc_220",
+      "ce": 5.282977104187012,
+      "masked_mse": 0.0017340497579425573,
+      "patch_order": 0.0,
+      "gradient_norm": 6.924993991851807
+    },
+    {
+      "step": 121,
+      "id": "NUAA-SIRST/Misc_198",
+      "ce": 4.579113960266113,
+      "masked_mse": 0.0019784197211265564,
+      "patch_order": 0.0,
+      "gradient_norm": 8.22555923461914
+    },
+    {
+      "step": 122,
+      "id": "NUAA-SIRST/Misc_90",
+      "ce": 4.526675224304199,
+      "masked_mse": 0.009442806243896484,
+      "patch_order": 3.847976586257573e-07,
+      "gradient_norm": 7.892741680145264
+    },
+    {
+      "step": 123,
+      "id": "NUAA-SIRST/Misc_43",
+      "ce": 5.121356964111328,
+      "masked_mse": 0.01411721482872963,
+      "patch_order": 0.0,
+      "gradient_norm": 7.644480228424072
+    },
+    {
+      "step": 124,
+      "id": "NUAA-SIRST/Misc_182",
+      "ce": 3.9859466552734375,
+      "masked_mse": 0.0010018855100497603,
+      "patch_order": 0.0,
+      "gradient_norm": 8.24064826965332
+    },
+    {
+      "step": 125,
+      "id": "NUAA-SIRST/Misc_147",
+      "ce": 4.2621378898620605,
+      "masked_mse": 0.002853113692253828,
+      "patch_order": 0.0,
+      "gradient_norm": 10.238988876342773
+    },
+    {
+      "step": 126,
+      "id": "NUAA-SIRST/Misc_355",
+      "ce": 4.942539691925049,
+      "masked_mse": 0.002573722507804632,
+      "patch_order": 1.4763415379093203e-07,
+      "gradient_norm": 8.220563888549805
+    },
+    {
+      "step": 127,
+      "id": "NUAA-SIRST/Misc_2",
+      "ce": 5.201964378356934,
+      "masked_mse": 0.019967570900917053,
+      "patch_order": 1.4324726294034917e-07,
+      "gradient_norm": 6.446770191192627
+    },
+    {
+      "step": 128,
+      "id": "NUAA-SIRST/Misc_304",
+      "ce": 5.479127883911133,
+      "masked_mse": 0.0023275851272046566,
+      "patch_order": 0.0,
+      "gradient_norm": 8.527111053466797
+    },
+    {
+      "step": 129,
+      "id": "NUAA-SIRST/Misc_393",
+      "ce": 3.8337883949279785,
+      "masked_mse": 0.030048221349716187,
+      "patch_order": 8.99500992090907e-06,
+      "gradient_norm": 8.336515426635742
+    },
+    {
+      "step": 130,
+      "id": "NUAA-SIRST/Misc_92",
+      "ce": 4.32959508895874,
+      "masked_mse": 0.02528577297925949,
+      "patch_order": 4.866535164183006e-05,
+      "gradient_norm": 9.028059005737305
+    },
+    {
+      "step": 131,
+      "id": "NUAA-SIRST/Misc_282",
+      "ce": 4.48812198638916,
+      "masked_mse": 0.0031344974413514137,
+      "patch_order": 0.0,
+      "gradient_norm": 7.104151725769043
+    },
+    {
+      "step": 132,
+      "id": "NUAA-SIRST/Misc_423",
+      "ce": 5.159818172454834,
+      "masked_mse": 0.006128448992967606,
+      "patch_order": 2.7173831540494575e-07,
+      "gradient_norm": 9.23780345916748
+    },
+    {
+      "step": 133,
+      "id": "NUAA-SIRST/Misc_339",
+      "ce": 3.8687193393707275,
+      "masked_mse": 0.009347573854029179,
+      "patch_order": 0.0,
+      "gradient_norm": 7.744119644165039
+    },
+    {
+      "step": 134,
+      "id": "NUAA-SIRST/Misc_378",
+      "ce": 4.054479598999023,
+      "masked_mse": 0.003840608289465308,
+      "patch_order": 9.147904478368218e-08,
+      "gradient_norm": 10.052811622619629
+    },
+    {
+      "step": 135,
+      "id": "NUAA-SIRST/Misc_133",
+      "ce": 4.991466045379639,
+      "masked_mse": 0.004313892684876919,
+      "patch_order": 0.0,
+      "gradient_norm": 7.501279354095459
+    },
+    {
+      "step": 136,
+      "id": "NUAA-SIRST/Misc_402",
+      "ce": 4.40523099899292,
+      "masked_mse": 0.006269227713346481,
+      "patch_order": 0.0,
+      "gradient_norm": 8.15286636352539
+    },
+    {
+      "step": 137,
+      "id": "NUAA-SIRST/Misc_424",
+      "ce": 5.187004089355469,
+      "masked_mse": 0.005788309965282679,
+      "patch_order": 0.0,
+      "gradient_norm": 9.205142974853516
+    },
+    {
+      "step": 138,
+      "id": "NUAA-SIRST/Misc_344",
+      "ce": 5.081277847290039,
+      "masked_mse": 0.002932598115876317,
+      "patch_order": 0.0,
+      "gradient_norm": 7.1783061027526855
+    },
+    {
+      "step": 139,
+      "id": "NUAA-SIRST/Misc_214",
+      "ce": 5.322690963745117,
+      "masked_mse": 0.0016832422697916627,
+      "patch_order": 0.0,
+      "gradient_norm": 7.371073246002197
+    },
+    {
+      "step": 140,
+      "id": "NUAA-SIRST/Misc_226",
+      "ce": 4.7674055099487305,
+      "masked_mse": 0.0017673070542514324,
+      "patch_order": 0.0,
+      "gradient_norm": 9.168292045593262
+    },
+    {
+      "step": 141,
+      "id": "NUAA-SIRST/Misc_426",
+      "ce": 5.476286888122559,
+      "masked_mse": 0.004229798447340727,
+      "patch_order": 0.0,
+      "gradient_norm": 8.225848197937012
+    },
+    {
+      "step": 142,
+      "id": "NUAA-SIRST/Misc_16",
+      "ce": 4.995121002197266,
+      "masked_mse": 0.0019595460034906864,
+      "patch_order": 0.0,
+      "gradient_norm": 8.89010238647461
+    },
+    {
+      "step": 143,
+      "id": "NUAA-SIRST/Misc_8",
+      "ce": 4.7439703941345215,
+      "masked_mse": 0.016755489632487297,
+      "patch_order": 0.0,
+      "gradient_norm": 8.570964813232422
+    },
+    {
+      "step": 144,
+      "id": "NUAA-SIRST/Misc_118",
+      "ce": 4.2585649490356445,
+      "masked_mse": 0.008182902820408344,
+      "patch_order": 2.173366374336183e-05,
+      "gradient_norm": 9.863494873046875
+    },
+    {
+      "step": 145,
+      "id": "NUAA-SIRST/Misc_231",
+      "ce": 4.911251544952393,
+      "masked_mse": 0.0013150970917195082,
+      "patch_order": 0.0,
+      "gradient_norm": 8.268060684204102
+    },
+    {
+      "step": 146,
+      "id": "NUAA-SIRST/Misc_70",
+      "ce": 4.757772922515869,
+      "masked_mse": 0.0039039989933371544,
+      "patch_order": 0.0,
+      "gradient_norm": 7.3625383377075195
+    },
+    {
+      "step": 147,
+      "id": "NUAA-SIRST/Misc_403",
+      "ce": 4.780566215515137,
+      "masked_mse": 0.004015629179775715,
+      "patch_order": 0.0,
+      "gradient_norm": 8.105009078979492
+    },
+    {
+      "step": 148,
+      "id": "NUAA-SIRST/Misc_89",
+      "ce": 4.334085464477539,
+      "masked_mse": 0.005335076712071896,
+      "patch_order": 0.0,
+      "gradient_norm": 7.008657932281494
+    },
+    {
+      "step": 149,
+      "id": "NUAA-SIRST/Misc_26",
+      "ce": 4.699488639831543,
+      "masked_mse": 0.012038832530379295,
+      "patch_order": 0.0,
+      "gradient_norm": 7.475366592407227
+    },
+    {
+      "step": 150,
+      "id": "NUAA-SIRST/Misc_267",
+      "ce": 5.094642162322998,
+      "masked_mse": 0.0027483676094561815,
+      "patch_order": 0.0,
+      "gradient_norm": 6.990665912628174
+    },
+    {
+      "step": 151,
+      "id": "NUAA-SIRST/Misc_367",
+      "ce": 3.7515339851379395,
+      "masked_mse": 0.04564448073506355,
+      "patch_order": 1.7877474078886735e-07,
+      "gradient_norm": 9.350028991699219
+    },
+    {
+      "step": 152,
+      "id": "NUAA-SIRST/Misc_12",
+      "ce": 4.523578643798828,
+      "masked_mse": 0.004189028404653072,
+      "patch_order": 0.0,
+      "gradient_norm": 8.454805374145508
+    },
+    {
+      "step": 153,
+      "id": "NUAA-SIRST/Misc_6",
+      "ce": 4.494022846221924,
+      "masked_mse": 0.009639675728976727,
+      "patch_order": 0.0,
+      "gradient_norm": 9.465398788452148
+    },
+    {
+      "step": 154,
+      "id": "NUAA-SIRST/Misc_232",
+      "ce": 4.950624465942383,
+      "masked_mse": 0.0009577081073075533,
+      "patch_order": 0.0,
+      "gradient_norm": 9.843822479248047
+    },
+    {
+      "step": 155,
+      "id": "NUAA-SIRST/Misc_95",
+      "ce": 3.8519480228424072,
+      "masked_mse": 0.0233423113822937,
+      "patch_order": 2.6019471988547593e-05,
+      "gradient_norm": 8.457271575927734
+    },
+    {
+      "step": 156,
+      "id": "NUAA-SIRST/Misc_242",
+      "ce": 3.168389320373535,
+      "masked_mse": 0.00218702363781631,
+      "patch_order": 0.0,
+      "gradient_norm": 10.1497163772583
+    },
+    {
+      "step": 157,
+      "id": "NUAA-SIRST/Misc_150",
+      "ce": 3.814695119857788,
+      "masked_mse": 0.012506894767284393,
+      "patch_order": 2.897835997828224e-07,
+      "gradient_norm": 8.662008285522461
+    },
+    {
+      "step": 158,
+      "id": "NUAA-SIRST/Misc_264",
+      "ce": 2.9547295570373535,
+      "masked_mse": 0.004568610340356827,
+      "patch_order": 0.0,
+      "gradient_norm": 13.363381385803223
+    },
+    {
+      "step": 159,
+      "id": "NUAA-SIRST/Misc_138",
+      "ce": 4.8148193359375,
+      "masked_mse": 0.04347672685980797,
+      "patch_order": 0.0,
+      "gradient_norm": 8.546830177307129
+    },
+    {
+      "step": 160,
+      "id": "NUAA-SIRST/Misc_86",
+      "ce": 4.478132247924805,
+      "masked_mse": 0.008787360042333603,
+      "patch_order": 1.4098561678110855e-06,
+      "gradient_norm": 8.261337280273438
+    },
+    {
+      "step": 161,
+      "id": "NUAA-SIRST/Misc_421",
+      "ce": 4.842795372009277,
+      "masked_mse": 0.007012846879661083,
+      "patch_order": 0.0,
+      "gradient_norm": 7.130375862121582
+    },
+    {
+      "step": 162,
+      "id": "NUAA-SIRST/Misc_45",
+      "ce": 3.4302210807800293,
+      "masked_mse": 0.0087888827547431,
+      "patch_order": 3.4147310543630738e-06,
+      "gradient_norm": 11.766611099243164
+    },
+    {
+      "step": 163,
+      "id": "NUAA-SIRST/Misc_406",
+      "ce": 4.003167629241943,
+      "masked_mse": 0.009368745610117912,
+      "patch_order": 1.5623848526047368e-07,
+      "gradient_norm": 10.082707405090332
+    },
+    {
+      "step": 164,
+      "id": "NUAA-SIRST/Misc_349",
+      "ce": 5.741081714630127,
+      "masked_mse": 0.00716644711792469,
+      "patch_order": 0.0,
+      "gradient_norm": 6.521342754364014
+    },
+    {
+      "step": 165,
+      "id": "NUAA-SIRST/Misc_336",
+      "ce": 5.121259689331055,
+      "masked_mse": 0.001795309130102396,
+      "patch_order": 0.0,
+      "gradient_norm": 8.017265319824219
+    },
+    {
+      "step": 166,
+      "id": "NUAA-SIRST/Misc_295",
+      "ce": 5.027405261993408,
+      "masked_mse": 0.004795502871274948,
+      "patch_order": 1.6732687413423264e-07,
+      "gradient_norm": 6.4710869789123535
+    },
+    {
+      "step": 167,
+      "id": "NUAA-SIRST/Misc_146",
+      "ce": 4.642460823059082,
+      "masked_mse": 0.026494283229112625,
+      "patch_order": 0.0,
+      "gradient_norm": 8.124368667602539
+    },
+    {
+      "step": 168,
+      "id": "NUAA-SIRST/Misc_134",
+      "ce": 4.082515716552734,
+      "masked_mse": 0.0078163743019104,
+      "patch_order": 1.5054173672979232e-05,
+      "gradient_norm": 9.706323623657227
+    },
+    {
+      "step": 169,
+      "id": "NUAA-SIRST/Misc_192",
+      "ce": 4.370165824890137,
+      "masked_mse": 0.0004859623732045293,
+      "patch_order": 0.0,
+      "gradient_norm": 8.382250785827637
+    },
+    {
+      "step": 170,
+      "id": "NUAA-SIRST/Misc_320",
+      "ce": 5.373427391052246,
+      "masked_mse": 0.022125668823719025,
+      "patch_order": 0.0,
+      "gradient_norm": 8.064844131469727
+    },
+    {
+      "step": 171,
+      "id": "NUAA-SIRST/Misc_172",
+      "ce": 5.039696216583252,
+      "masked_mse": 0.0021720235235989094,
+      "patch_order": 0.0,
+      "gradient_norm": 7.343079090118408
+    },
+    {
+      "step": 172,
+      "id": "NUAA-SIRST/Misc_363",
+      "ce": 4.714448928833008,
+      "masked_mse": 0.02395259216427803,
+      "patch_order": 1.3805679373035673e-05,
+      "gradient_norm": 7.21097993850708
+    },
+    {
+      "step": 173,
+      "id": "NUAA-SIRST/Misc_64",
+      "ce": 5.092243194580078,
+      "masked_mse": 0.003287574974820018,
+      "patch_order": 0.0,
+      "gradient_norm": 8.011361122131348
+    },
+    {
+      "step": 174,
+      "id": "NUAA-SIRST/Misc_388",
+      "ce": 4.24000883102417,
+      "masked_mse": 0.003317571245133877,
+      "patch_order": 2.024980361170492e-08,
+      "gradient_norm": 8.242238998413086
+    },
+    {
+      "step": 175,
+      "id": "NUAA-SIRST/Misc_360",
+      "ce": 5.108556747436523,
+      "masked_mse": 0.08110420405864716,
+      "patch_order": 4.49350136477733e-06,
+      "gradient_norm": 4.62220573425293
+    },
+    {
+      "step": 176,
+      "id": "NUAA-SIRST/Misc_364",
+      "ce": 4.803586959838867,
+      "masked_mse": 0.01679764688014984,
+      "patch_order": 0.0,
+      "gradient_norm": 7.109538555145264
+    },
+    {
+      "step": 177,
+      "id": "NUAA-SIRST/Misc_109",
+      "ce": 3.499143600463867,
+      "masked_mse": 0.0065346984192729,
+      "patch_order": 6.635907993768342e-06,
+      "gradient_norm": 8.695889472961426
+    },
+    {
+      "step": 178,
+      "id": "NUAA-SIRST/Misc_260",
+      "ce": 3.929748773574829,
+      "masked_mse": 0.002513389103114605,
+      "patch_order": 0.0,
+      "gradient_norm": 9.754646301269531
+    },
+    {
+      "step": 179,
+      "id": "NUAA-SIRST/Misc_283",
+      "ce": 4.832995891571045,
+      "masked_mse": 0.0026040752418339252,
+      "patch_order": 0.0,
+      "gradient_norm": 8.858168601989746
+    },
+    {
+      "step": 180,
+      "id": "NUAA-SIRST/Misc_302",
+      "ce": 4.799756050109863,
+      "masked_mse": 0.008952120319008827,
+      "patch_order": 1.6496137789090426e-08,
+      "gradient_norm": 7.9743218421936035
+    },
+    {
+      "step": 181,
+      "id": "NUAA-SIRST/Misc_81",
+      "ce": 3.906824827194214,
+      "masked_mse": 0.0012614282313734293,
+      "patch_order": 0.0,
+      "gradient_norm": 8.096818923950195
+    },
+    {
+      "step": 182,
+      "id": "NUAA-SIRST/Misc_100",
+      "ce": 5.048974514007568,
+      "masked_mse": 0.004014458507299423,
+      "patch_order": 0.0,
+      "gradient_norm": 6.840987205505371
+    },
+    {
+      "step": 183,
+      "id": "NUAA-SIRST/Misc_243",
+      "ce": 3.407874584197998,
+      "masked_mse": 0.0030531976372003555,
+      "patch_order": 0.0,
+      "gradient_norm": 9.814629554748535
+    },
+    {
+      "step": 184,
+      "id": "NUAA-SIRST/Misc_4",
+      "ce": 4.638157844543457,
+      "masked_mse": 0.004110526293516159,
+      "patch_order": 0.0,
+      "gradient_norm": 7.379543304443359
+    },
+    {
+      "step": 185,
+      "id": "NUAA-SIRST/Misc_246",
+      "ce": 3.3338241577148438,
+      "masked_mse": 0.00260321912355721,
+      "patch_order": 0.0,
+      "gradient_norm": 9.081513404846191
+    },
+    {
+      "step": 186,
+      "id": "NUAA-SIRST/Misc_305",
+      "ce": 4.194971084594727,
+      "masked_mse": 0.0012988217640668154,
+      "patch_order": 0.0,
+      "gradient_norm": 9.853198051452637
+    },
+    {
+      "step": 187,
+      "id": "NUAA-SIRST/Misc_358",
+      "ce": 3.8737661838531494,
+      "masked_mse": 0.014605849981307983,
+      "patch_order": 7.353923137998208e-06,
+      "gradient_norm": 7.930959701538086
+    },
+    {
+      "step": 188,
+      "id": "NUAA-SIRST/Misc_180",
+      "ce": 3.192958116531372,
+      "masked_mse": 0.01238509826362133,
+      "patch_order": 3.0647724997834302e-06,
+      "gradient_norm": 11.803216934204102
+    },
+    {
+      "step": 189,
+      "id": "NUAA-SIRST/Misc_149",
+      "ce": 4.31874942779541,
+      "masked_mse": 0.004169340245425701,
+      "patch_order": 0.0,
+      "gradient_norm": 9.557568550109863
+    },
+    {
+      "step": 190,
+      "id": "NUAA-SIRST/Misc_98",
+      "ce": 3.603502035140991,
+      "masked_mse": 0.013128751888871193,
+      "patch_order": 0.0,
+      "gradient_norm": 8.927262306213379
+    },
+    {
+      "step": 191,
+      "id": "NUAA-SIRST/Misc_158",
+      "ce": 4.408688545227051,
+      "masked_mse": 0.0008597092237323523,
+      "patch_order": 0.0,
+      "gradient_norm": 8.56194019317627
+    },
+    {
+      "step": 192,
+      "id": "NUAA-SIRST/Misc_116",
+      "ce": 2.810842752456665,
+      "masked_mse": 0.009804422035813332,
+      "patch_order": 9.784218946151668e-07,
+      "gradient_norm": 11.28326416015625
+    },
+    {
+      "step": 193,
+      "id": "NUAA-SIRST/Misc_425",
+      "ce": 4.4748125076293945,
+      "masked_mse": 0.0035578201059252024,
+      "patch_order": 1.4393455103345332e-06,
+      "gradient_norm": 8.556774139404297
+    },
+    {
+      "step": 194,
+      "id": "NUAA-SIRST/Misc_370",
+      "ce": 3.3065972328186035,
+      "masked_mse": 0.016936203464865685,
+      "patch_order": 1.302663665825321e-08,
+      "gradient_norm": 10.78319263458252
+    },
+    {
+      "step": 195,
+      "id": "NUAA-SIRST/Misc_261",
+      "ce": 4.961235046386719,
+      "masked_mse": 0.00321498466655612,
+      "patch_order": 0.0,
+      "gradient_norm": 8.11374282836914
+    },
+    {
+      "step": 196,
+      "id": "NUAA-SIRST/Misc_32",
+      "ce": 4.272822856903076,
+      "masked_mse": 0.004104170016944408,
+      "patch_order": 0.0,
+      "gradient_norm": 9.535260200500488
+    },
+    {
+      "step": 197,
+      "id": "NUAA-SIRST/Misc_23",
+      "ce": 4.586920738220215,
+      "masked_mse": 0.008397748693823814,
+      "patch_order": 0.0,
+      "gradient_norm": 12.083699226379395
+    },
+    {
+      "step": 198,
+      "id": "NUAA-SIRST/Misc_409",
+      "ce": 4.427049160003662,
+      "masked_mse": 0.01408749632537365,
+      "patch_order": 0.0,
+      "gradient_norm": 8.920064926147461
+    },
+    {
+      "step": 199,
+      "id": "NUAA-SIRST/Misc_384",
+      "ce": 4.239727973937988,
+      "masked_mse": 0.008531547151505947,
+      "patch_order": 0.0,
+      "gradient_norm": 7.036670684814453
+    },
+    {
+      "step": 200,
+      "id": "NUAA-SIRST/Misc_229",
+      "ce": 4.0697736740112305,
+      "masked_mse": 0.007694796659052372,
+      "patch_order": 0.0,
+      "gradient_norm": 8.223496437072754
+    },
+    {
+      "step": 201,
+      "id": "NUAA-SIRST/Misc_31",
+      "ce": 4.805800437927246,
+      "masked_mse": 0.003214494790881872,
+      "patch_order": 0.0,
+      "gradient_norm": 6.578522682189941
+    },
+    {
+      "step": 202,
+      "id": "NUAA-SIRST/Misc_316",
+      "ce": 5.174252510070801,
+      "masked_mse": 0.0017431857995688915,
+      "patch_order": 0.0,
+      "gradient_norm": 9.520990371704102
+    },
+    {
+      "step": 203,
+      "id": "NUAA-SIRST/Misc_341",
+      "ce": 5.279436111450195,
+      "masked_mse": 0.005268864333629608,
+      "patch_order": 0.0,
+      "gradient_norm": 7.186207294464111
+    },
+    {
+      "step": 204,
+      "id": "NUAA-SIRST/Misc_18",
+      "ce": 5.058673858642578,
+      "masked_mse": 0.00247217551805079,
+      "patch_order": 0.0,
+      "gradient_norm": 6.286787986755371
+    },
+    {
+      "step": 205,
+      "id": "NUAA-SIRST/Misc_382",
+      "ce": 3.9591360092163086,
+      "masked_mse": 0.004606268368661404,
+      "patch_order": 0.0,
+      "gradient_norm": 6.867458343505859
+    },
+    {
+      "step": 206,
+      "id": "NUAA-SIRST/Misc_401",
+      "ce": 4.039518356323242,
+      "masked_mse": 0.003772490657866001,
+      "patch_order": 0.0,
+      "gradient_norm": 7.547114372253418
+    },
+    {
+      "step": 207,
+      "id": "NUAA-SIRST/Misc_281",
+      "ce": 3.4954614639282227,
+      "masked_mse": 0.03727312758564949,
+      "patch_order": 5.605337264569243e-06,
+      "gradient_norm": 12.403032302856445
+    },
+    {
+      "step": 208,
+      "id": "NUAA-SIRST/Misc_290",
+      "ce": 4.608309745788574,
+      "masked_mse": 0.003083127085119486,
+      "patch_order": 0.0,
+      "gradient_norm": 9.240399360656738
+    },
+    {
+      "step": 209,
+      "id": "NUAA-SIRST/Misc_311",
+      "ce": 4.418585777282715,
+      "masked_mse": 0.0005000196979381144,
+      "patch_order": 0.0,
+      "gradient_norm": 8.241515159606934
+    },
+    {
+      "step": 210,
+      "id": "NUAA-SIRST/Misc_39",
+      "ce": 3.6391172409057617,
+      "masked_mse": 0.01708984561264515,
+      "patch_order": 2.2090862330514938e-05,
+      "gradient_norm": 11.931061744689941
+    },
+    {
+      "step": 211,
+      "id": "NUAA-SIRST/Misc_291",
+      "ce": 5.120924949645996,
+      "masked_mse": 0.008558119647204876,
+      "patch_order": 0.0,
+      "gradient_norm": 6.3236799240112305
+    },
+    {
+      "step": 212,
+      "id": "NUAA-SIRST/Misc_102",
+      "ce": 4.421936988830566,
+      "masked_mse": 0.0038971533067524433,
+      "patch_order": 0.0,
+      "gradient_norm": 8.138213157653809
+    },
+    {
+      "step": 213,
+      "id": "NUAA-SIRST/Misc_29",
+      "ce": 4.874388694763184,
+      "masked_mse": 0.004449056461453438,
+      "patch_order": 0.0,
+      "gradient_norm": 7.531834125518799
+    }
+  ],
+  "elapsed_seconds": 91.97682390804403,
+  "peak_allocated_bytes": 11852965888,
+  "first_step_parameter_grad_norm": {
+    "vae.quantize.U": 0.0006816155510023236,
+    "vae.quantize.V": 0.0003231134614907205,
+    "vae.quantize.lora_gate": 0.0005325332749634981,
+    "blocks.23.attn.scale_mul_1H11": 0.024772461503744125,
+    "blocks.23.attn.q_bias": 0.005296485498547554,
+    "blocks.23.attn.v_bias": 0.01906956173479557,
+    "blocks.23.attn.mat_qkv.weight": 0.35374537110328674,
+    "blocks.23.attn.proj.weight": 0.12717783451080322,
+    "blocks.23.attn.proj.bias": 0.008857916109263897,
+    "blocks.23.ffn.fc1.weight": 0.10999208688735962,
+    "blocks.23.ffn.fc1.bias": 0.007796002086251974,
+    "blocks.23.ffn.fc2.weight": 0.07093982398509979,
+    "blocks.23.ffn.fc2.bias": 0.00667303241789341,
+    "blocks.23.ada_lin.1.weight": 0.020501920953392982,
+    "blocks.23.ada_lin.1.bias": 0.0384044349193573,
+    "head_nm.ada_lin.1.weight": 0.0032532550394535065,
+    "head_nm.ada_lin.1.bias": 0.006094041280448437,
+    "head.weight": 1.9591602087020874,
+    "head.bias": 0.010814364068210125,
+    "cb_cond.2.weight": 3.4621240047272295e-05,
+    "cb_cond.2.bias": 1.3416703268376295e-06,
+    "cb_cond.4.weight": 0.00020129191398154944,
+    "cb_cond.4.bias": 2.746689688137849e-06
+  },
+  "max_abs_update_by_parameter": {
+    "vae.quantize.U": 0.004686309024691582,
+    "vae.quantize.V": 0.003555789589881897,
+    "vae.quantize.lora_gate": 0.0029494240880012512,
+    "blocks.23.attn.scale_mul_1H11": 0.0015935897827148438,
+    "blocks.23.attn.q_bias": 0.0017247274518013,
+    "blocks.23.attn.v_bias": 0.0011030696332454681,
+    "blocks.23.attn.mat_qkv.weight": 0.0017989957705140114,
+    "blocks.23.attn.proj.weight": 0.0015699267387390137,
+    "blocks.23.attn.proj.bias": 0.0010367631912231445,
+    "blocks.23.ffn.fc1.weight": 0.001772531308233738,
+    "blocks.23.ffn.fc1.bias": 0.0011113956570625305,
+    "blocks.23.ffn.fc2.weight": 0.0016402238979935646,
+    "blocks.23.ffn.fc2.bias": 0.0005466118454933167,
+    "blocks.23.ada_lin.1.weight": 0.0016921218484640121,
+    "blocks.23.ada_lin.1.bias": 0.001694273203611374,
+    "head_nm.ada_lin.1.weight": 0.00098351389169693,
+    "head_nm.ada_lin.1.bias": 0.0009885281324386597,
+    "head.weight": 0.0014457209035754204,
+    "head.bias": 0.0008170646615326405,
+    "cb_cond.2.weight": 0.003115043044090271,
+    "cb_cond.2.bias": 0.002626165747642517,
+    "cb_cond.4.weight": 0.0027275457978248596,
+    "cb_cond.4.bias": 0.0022087059915065765
+  }
+}

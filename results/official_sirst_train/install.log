@@ -1,0 +1,54 @@
+Collecting accelerate==1.0.1
+  Downloading accelerate-1.0.1-py3-none-any.whl.metadata (19 kB)
+Collecting safetensors==0.5.3
+  Downloading safetensors-0.5.3-cp38-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (3.8 kB)
+Collecting transformers==4.37.2
+  Downloading transformers-4.37.2-py3-none-any.whl.metadata (129 kB)
+Collecting tokenizers==0.15.2
+  Downloading tokenizers-0.15.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (6.7 kB)
+Collecting pyiqa==0.1.12
+  Downloading pyiqa-0.1.12-py3-none-any.whl.metadata (16 kB)
+Collecting typed-argument-parser==1.10.1
+  Downloading typed_argument_parser-1.10.1-py3-none-any.whl.metadata (32 kB)
+Collecting typing-inspect
+  Downloading typing_inspect-0.9.0-py3-none-any.whl.metadata (1.5 kB)
+Collecting docstring-parser
+  Downloading docstring_parser-0.18.0-py3-none-any.whl.metadata (3.5 kB)
+Collecting diffusers==0.32.2
+  Downloading diffusers-0.32.2-py3-none-any.whl.metadata (18 kB)
+Collecting ftfy
+  Downloading ftfy-6.3.1-py3-none-any.whl.metadata (7.3 kB)
+Collecting icecream
+  Downloading icecream-2.2.0-py3-none-any.whl.metadata (1.5 kB)
+Collecting lmdb==1.5.1
+  Downloading lmdb-1.5.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (1.1 kB)
+Collecting timm==0.9.16
+  Downloading timm-0.9.16-py3-none-any.whl.metadata (38 kB)
+Collecting addict
+  Downloading addict-2.4.0-py3-none-any.whl.metadata (1.0 kB)
+Collecting yapf==0.40.2
+  Downloading yapf-0.40.2-py3-none-any.whl.metadata (45 kB)
+Collecting einops==0.8.1
+  Downloading einops-0.8.1-py3-none-any.whl.metadata (13 kB)
+Downloading accelerate-1.0.1-py3-none-any.whl (330 kB)
+Downloading safetensors-0.5.3-cp38-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (471 kB)
+Downloading transformers-4.37.2-py3-none-any.whl (8.4 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 8.4/8.4 MB 164.1 kB/s eta 0:00:00
+Downloading tokenizers-0.15.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.6 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.6/3.6 MB 209.2 kB/s eta 0:00:00
+Downloading pyiqa-0.1.12-py3-none-any.whl (250 kB)
+Downloading typed_argument_parser-1.10.1-py3-none-any.whl (30 kB)
+Downloading diffusers-0.32.2-py3-none-any.whl (3.2 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.2/3.2 MB 190.0 kB/s eta 0:00:00
+Downloading lmdb-1.5.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (297 kB)
+Downloading timm-0.9.16-py3-none-any.whl (2.2 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.2/2.2 MB 242.8 kB/s eta 0:00:00
+Downloading yapf-0.40.2-py3-none-any.whl (254 kB)
+Downloading einops-0.8.1-py3-none-any.whl (64 kB)
+Downloading typing_inspect-0.9.0-py3-none-any.whl (8.8 kB)
+Downloading docstring_parser-0.18.0-py3-none-any.whl (22 kB)
+Downloading ftfy-6.3.1-py3-none-any.whl (44 kB)
+Downloading icecream-2.2.0-py3-none-any.whl (16 kB)
+Downloading addict-2.4.0-py3-none-any.whl (3.8 kB)
+Installing collected packages: typing-inspect, lmdb, icecream, addict, yapf, typed-argument-parser, transformers, tokenizers, timm, safetensors, pyiqa, ftfy, einops, docstring-parser, diffusers, accelerate
+Successfully installed accelerate-1.0.1 addict-2.4.0 diffusers-0.32.2 docstring-parser-0.18.0 einops-0.8.1 ftfy-6.3.1 icecream-2.2.0 lmdb-1.5.1 pyiqa-0.1.12 safetensors-0.5.3 timm-0.9.16 tokenizers-0.15.2 transformers-4.37.2 typed-argument-parser-1.10.1 typing-inspect-0.9.0 yapf-0.40.2
