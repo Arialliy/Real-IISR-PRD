@@ -14,3 +14,7 @@ torch.Size([1, 1, 4288, 4288])
 /opt/conda/lib/python3.11/site-packages/torch/utils/checkpoint.py:86: UserWarning: None of the inputs have requires_grad=True. Gradients will be None
   warnings.warn(
 s2 1: 50/213 training images
+s2 1: 100/213 training images
+s2 1: 150/213 training images
+s2 1: 200/213 training images
+Saved /project/results/sirst_endpoints/s2_draw1.json

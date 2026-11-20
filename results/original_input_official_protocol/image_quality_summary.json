@@ -1,0 +1,72 @@
+{
+  "split": "NUAA-SIRST/train",
+  "n_images": 213,
+  "n_components": 270,
+  "shared_inputs_exact": 213,
+  "published_targets_replayed": 270,
+  "input_mean_contrast_dn": 50.63903071420929,
+  "image_weighted_means": {
+    "published": {
+      "mae_dn": 7.026866343206146,
+      "ssim": 0.8925374938064077,
+      "psnr_db": 30.589112563094655,
+      "contrast_dn": 10.41824329937992,
+      "contrast_bias_dn": -40.22078741482937,
+      "contrast_abs_error_dn": 40.289130488928
+    },
+    "s1": {
+      "mae_dn": 2.8610316668636933,
+      "ssim": 0.9683276522627254,
+      "psnr_db": 36.620732373343124,
+      "contrast_dn": 59.84475821792843,
+      "contrast_bias_dn": 9.205727503719137,
+      "contrast_abs_error_dn": 18.58210927365141
+    }
+  },
+  "paired": {
+    "mae_dn": {
+      "mean_s1_minus_published": -4.165834676342453,
+      "images_improved": 197
+    },
+    "ssim": {
+      "mean_s1_minus_published": 0.07579015845631738,
+      "images_improved": 205
+    },
+    "psnr_db": {
+      "mean_s1_minus_published": 6.031619810248465,
+      "images_improved": 197
+    },
+    "contrast_abs_error_dn": {
+      "mean_s1_minus_published": -21.707021215276598,
+      "images_improved": 169
+    }
+  },
+  "protocol": {
+    "reference": "Actual input_chw from both captures, bitwise equal and rechecked versus original image through official RGB resize/ToTensor. RGB arithmetic mean in 0\u2013255 DN. Same raw source assigned to HR and LR.",
+    "outputs": "Final 512x512 RGB uint8 PNG after rounding and AdaIN at both checkpoints. Published PNGs use the same replay as the captured input (float_audit), not the first archived execution.",
+    "whole": "Grayscale full-frame MAE and PSNR peak=255; Gaussian SSIM 11x11 sigma=1.5 with valid windows, population covariance, K1=.01/K2=.03. Per-image metrics, equally weighted across images.",
+    "local": "Label native mask using 8-connectivity; square dilation by 2 native pixels excluding all targets. Nearest-neighbor projection of original core labels/ring masks to 512x512. Contrast is core mean minus ring median in DN. Bias is output minus input. Absolute errors averaged by component within each image, then equally over images.",
+    "scope": "Identity preservation on unmodified local training images; reference is the resized input. No independent clean observation, synthetic corruption or test images."
+  },
+  "checkpoint_sha256": {
+    "published": "fe1c2600ec6aeb18bfa674f7726a1dcd0aec45d9fbba25c7f1b9fe266b3ef9a9",
+    "s1": "fb2eaf0426e1634b8cde12c7d8951ded9d6b4f04a0ae2ef77a1c13f794caacab"
+  },
+  "provenance_sha256": {
+    "results/official_sirst_train/input_manifest.json": "cc830356cccb7cb1b5e2a56c5be5959a59c2643e57c749461b129a48f8909bf2",
+    "datasets/NUAA-SIRST/img_idx/train_NUAA-SIRST.txt": "324e5dadcb6cc9fc2a99a5f5dedd06ad4de77b2ed826e4ceffda8b6a784da0b4",
+    "manifests/train.jsonl": "192c73934cd78efe8d283024add8c43d03ccbaaea89d4072a06e35d7a64faaa0",
+    "results/original_input_official_protocol/protocol.json": "40a823c23efbe1d417b99cf3274dfa54332ad1047f340c1ef7f3c787fe286811",
+    "results/original_input_official_protocol/score_final_png.py": "c3fe7d94d0d79d839bd7b0b84afdc6e26da23e010a3a0bde8b0b8d4576b538d2",
+    "results/official_sirst_train/float_audit/summary.json": "395fa6e2322198b42a04ed0d0eda4735205c5bc3307ecf09ba4d50f83cfaeaa1",
+    "results/official_sirst_train/float_audit/per_image.csv": "8d1d48445b5dc85a63d8d7bc63a69e26b0087781b712d8ae32f982e6238ae417",
+    "results/official_sirst_train/float_audit/per_target.csv": "98e4555c8cb05dc4108f668fa7d7e5f2b75655d1d7ada80b4cbf90d0ddaaa048",
+    "vendor/Real-IISR/test.py": "35d99e959624b09c45c54c7dc72c6cd0a7e5c2b83e633a8dd9a839d0ec234d49",
+    "vendor/Real-IISR/dataloader/testdataset.py": "69b3f6f05050ef2a2a3294ba1247070f2f4c9ab262a265e656b4f25bde5764df",
+    "results/original_input_official_protocol/s1/complete.json": "d51a7cd2659c9558ee8192ae72709b21f53464b17bb80bcdeb1c1c3f905d8fae"
+  },
+  "score_files_sha256": {
+    "image_quality_per_image.csv": "a91f2761846e54f10d3ef6668d2b19d8b8fd112f3a9da8ad747dfdd4fd63d189",
+    "image_quality_per_target.csv": "4141078774cb49d8944300581e2aad5e4a3105294359ae1d52210e853bed86bc"
+  }
+}

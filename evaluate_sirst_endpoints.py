@@ -9,6 +9,7 @@ from PIL import Image
 
 from evaluate_retrained import ROOT, hard_prediction
 from evaluate_warmup import file_hash, prepare_metrics, sample_digest, save_report, summarize
+from prd_backbone import OFFICIAL_SHA256, load_backbone
 from prd_data import DenoisePairDataset
 
 OUT = ROOT / "results/sirst_endpoints"
@@ -38,11 +39,17 @@ def evaluate(endpoint, draw):
     torch.backends.cuda.matmul.allow_tf32 = False
     torch.backends.cudnn.allow_tf32 = False
     data = DenoisePairDataset(ROOT, seed=0)
-    asset = S1 if endpoint == "s1" else S2
+    asset = {"s1": S1, "s2": S2, "published": ROOT / "checkpoints/Real-IISR.pth"}[endpoint]
     parent_hash = file_hash(S1)
     manifest = file_hash(MANIFEST)
     device = torch.device("cuda:0")
-    if endpoint == "s1":
+    samplers = SAMPLERS
+    if endpoint == "published":
+        if draw != "clean":
+            raise ValueError("This published-model comparison uses the uncorrupted training originals")
+        model = load_backbone(asset, device)
+        samplers = ("greedy_argmax",)
+    elif endpoint == "s1":
         from train_local_baseline import load_trained
         model = load_trained(asset, device)
     else:
@@ -70,7 +77,7 @@ def evaluate(endpoint, draw):
             if sample["meta"]["crop_xywh"] != (0, 0, w, h) or coverage["valid_pixels"] != w*h:
                 raise ValueError("Metrics must cover the complete native image")
             metrics = {"input": measure(gray[0])}
-            for sampler in SAMPLERS:
+            for sampler in samplers:
                 pred = hard_prediction(model, gray, device, greedy=(sampler == "greedy_argmax"))
                 metrics[sampler] = measure(pred)
                 if sampler == "greedy_argmax":
@@ -95,9 +102,10 @@ def evaluate(endpoint, draw):
     if len(rows) != 213 or len({r["sample_id"] for r in rows}) != 213:
         raise ValueError("Incomplete primary training population")
     report = dict(endpoint=endpoint, draw=draw, data_seed=0, epoch=0, manifest_sha256=manifest,
-                  checkpoint_sha256=parent_hash if endpoint == "s1" else file_hash(asset),
+                  checkpoint_sha256=(parent_hash if endpoint == "s1" else
+                                     OFFICIAL_SHA256 if endpoint == "published" else file_hash(asset)),
                   s1_sha256=parent_hash, split="NUAA-SIRST/train", samples=rows, all_images=summary(rows),
-                  protocol=dict(samplers=list(SAMPLERS), matmul_tf32=torch.backends.cuda.matmul.allow_tf32,
+                  protocol=dict(samplers=list(samplers), matmul_tf32=torch.backends.cuda.matmul.allow_tf32,
                                 cudnn_tf32=torch.backends.cudnn.allow_tf32, torch_version=str(torch.__version__),
                                 sampler_options="cfg=1, top_k=1, top_p=0.75, g_seed=0; greedy uses argmax in upstream cached autoregressive entry; FP16",
                                 image_output="float RGB arithmetic mean [0,1], preceding PNG rounding and AdaIN",
@@ -188,7 +196,7 @@ def compare():
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--endpoint", choices=("s1", "s2"))
+    parser.add_argument("--endpoint", choices=("s1", "s2", "published"))
     parser.add_argument("--draw", choices=DRAWS)
     parser.add_argument("--compare", action="store_true")
     args = parser.parse_args()

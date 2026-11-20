@@ -27,6 +27,7 @@ __pycache__/
 /results/official_sirst_train/testset/LR/
 /results/official_sirst_train/float_audit/testset/HR
 /results/official_sirst_train/float_audit/testset/LR
+/results/original_input_official_protocol/s1/testset/
 /results/official_sirst_train/**/*.png
 !/results/official_sirst_train/testset/VARPrediction/0001_Misc_119.png
 !/results/official_sirst_train/float_audit/scenes/0001_Misc_119.png

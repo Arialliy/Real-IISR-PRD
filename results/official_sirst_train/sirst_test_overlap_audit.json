@@ -1,0 +1,38 @@
+{
+  "query": "All 214 IDs from datasets/NUAA-SIRST/img_idx/test_NUAA-SIRST.txt",
+  "pillow": "12.1.1",
+  "sirst_test_count": 214,
+  "match_rules": {
+    "native_pixels": "SHA-256(width,height,grayscale uint8 pixels), decoded without resampling",
+    "normalized_pixels": "SHA-256 of 64x64 grayscale uint8 pixels after Pillow Lanczos; exact equality only"
+  },
+  "flir_release_archive_sha256": "bbf265e50344c4151b45f21a4148242d956921e116d5efc10abdcd0c7f8c08d4",
+  "direct_official_inference": {
+    "source": "results/official_sirst_train/run_summary.json",
+    "all_213_ids_equal_local_training_list_in_order": true,
+    "local_test_ids_in_run": 0
+  },
+  "comparisons": {
+    "HR": {
+      "compared_files": 1457,
+      "native_pixel_matches": {},
+      "normalized_pixel_matches": {}
+    },
+    "LR": {
+      "compared_files": 1457,
+      "native_pixel_matches": {},
+      "normalized_pixel_matches": {}
+    },
+    "LR_4x": {
+      "compared_files": 1457,
+      "native_pixel_matches": {},
+      "normalized_pixel_matches": {}
+    },
+    "SIRST_train": {
+      "compared_files": 213,
+      "native_pixel_matches": {},
+      "normalized_pixel_matches": {}
+    }
+  },
+  "limits": "Does not detect arbitrary crops, nearby video frames, or all re-encodings. Evidence covers the locally available release, not unknown upstream pretraining data. Membership audit only; no model predictions or test performance inspected."
+}

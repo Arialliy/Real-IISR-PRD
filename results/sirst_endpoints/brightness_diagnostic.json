@@ -1,0 +1,60 @@
+{
+  "definition": "For each image, b=mean error over the valid background, m=background RMSE. m^2=b^2+variance(error). The energy share is sum(n*b^2)/sum(n*m^2), with n valid background pixels. Centered RMSE is diagnostic only and uses the paired reference.",
+  "units": "8-bit gray levels",
+  "results": {
+    "s1_draw0": {
+      "source_sha256": "3e015a1a69d8813a29b547d8d85f74c5d65cf315061e51c5eb7cf59d64a1b322",
+      "images": 213,
+      "image_mean_background_bias_dn": -0.43917282773740185,
+      "image_mean_abs_background_bias_dn": 1.1493475076208965,
+      "image_mean_centered_background_rmse_dn": 5.297472372678049,
+      "pooled_mse_fraction_from_image_bias": 0.05664260984787482,
+      "positive_bias_images": 72
+    },
+    "s1_draw1": {
+      "source_sha256": "ed8aba92641565166155200a7d3690688f182e248fcfc1d7a1c8dcd90889ecfb",
+      "images": 213,
+      "image_mean_background_bias_dn": -0.504323544129663,
+      "image_mean_abs_background_bias_dn": 1.044381397329361,
+      "image_mean_centered_background_rmse_dn": 5.310299541167718,
+      "pooled_mse_fraction_from_image_bias": 0.05051880880991637,
+      "positive_bias_images": 66
+    },
+    "s1_drawclean": {
+      "source_sha256": "46bf214d81ebab6456996f7a0c9fa900b2727666131d7702d0753f3a9c25456d",
+      "images": 213,
+      "image_mean_background_bias_dn": -0.5325888432392152,
+      "image_mean_abs_background_bias_dn": 1.147838176140615,
+      "image_mean_centered_background_rmse_dn": 5.253842077169271,
+      "pooled_mse_fraction_from_image_bias": 0.058992885009916896,
+      "positive_bias_images": 72
+    },
+    "s2_draw0": {
+      "source_sha256": "2519f6e095c930616c9fcb3517c9a688f78ee8b7560401b8c43231a699d2446a",
+      "images": 213,
+      "image_mean_background_bias_dn": 27.609247462527183,
+      "image_mean_abs_background_bias_dn": 27.609247462527183,
+      "image_mean_centered_background_rmse_dn": 8.975559719187283,
+      "pooled_mse_fraction_from_image_bias": 0.8803187545959791,
+      "positive_bias_images": 213
+    },
+    "s2_draw1": {
+      "source_sha256": "876ec98362af2fee2b1d9b94a19aa187d32a42fa124febcdbbbab94907943e30",
+      "images": 213,
+      "image_mean_background_bias_dn": 27.643530098991437,
+      "image_mean_abs_background_bias_dn": 27.643530098991437,
+      "image_mean_centered_background_rmse_dn": 9.022408752270534,
+      "pooled_mse_fraction_from_image_bias": 0.8784932832794431,
+      "positive_bias_images": 213
+    },
+    "s2_drawclean": {
+      "source_sha256": "fa50c5c677e7ad99018d5c79b9122d22090f6377cc2dde3d38097fabb1bbc806",
+      "images": 213,
+      "image_mean_background_bias_dn": 27.479424392514524,
+      "image_mean_abs_background_bias_dn": 27.479424392514524,
+      "image_mean_centered_background_rmse_dn": 8.875681057439555,
+      "pooled_mse_fraction_from_image_bias": 0.8796580263790121,
+      "positive_bias_images": 213
+    }
+  }
+}
