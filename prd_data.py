@@ -82,7 +82,8 @@ class DenoisePairDataset:
         """Set before starting each loader iteration (nonpersistent workers)."""
         self.epoch = int(epoch)
 
-    def sample(self, index, epoch=0, draw_id=0):
+    def sample(self, index, epoch=0, draw_id=0, *, noise_override=None):
+        """An optional sigma mapping changes the amplitude of the same noise realization."""
         row = self.records[index]
         seeds = {name: _seed(self.seed, row["sample_id"], int(epoch), int(draw_id), name)
                  for name in ("geometry", "signal", "noise")}
@@ -100,6 +101,13 @@ class DenoisePairDataset:
             raise ValueError(f"Image/mask size mismatch: {row['sample_id']}")
         height, width = ref.shape
         stripe_dn, pixel_dn = float(noise_rng.uniform(0, 12)), float(noise_rng.uniform(0, 4))
+        if noise_override is not None:
+            if set(noise_override) != {"stripe_sigma_dn", "pixel_sigma_dn"}:
+                raise ValueError("Supply both stripe_sigma_dn and pixel_sigma_dn")
+            stripe_dn = float(noise_override["stripe_sigma_dn"])
+            pixel_dn = float(noise_override["pixel_sigma_dn"])
+            if not np.isfinite([stripe_dn, pixel_dn]).all() or min(stripe_dn, pixel_dn) < 0:
+                raise ValueError("Noise sigmas must be finite and nonnegative")
         # Generate the noise on the entire unpadded original before selecting a crop.
         stripe = noise_rng.standard_normal((1, width), dtype=np.float32) * (stripe_dn / 255)
         noise = noise_rng.standard_normal(ref.shape, dtype=np.float32) * (pixel_dn / 255) + stripe

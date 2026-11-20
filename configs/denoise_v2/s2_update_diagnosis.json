@@ -1,0 +1,41 @@
+{
+  "version": "P1.s2_update_diagnosis.v1",
+  "registered_at": "2026-11-21T00:45:33.850361+08:00",
+  "population": "NUAA-SIRST/train, all tests held untouched; engineering diagnostics on already-trained sources",
+  "parent": "checkpoints/sirst_retrained_baseline.pt",
+  "parent_sha256": "fb2eaf0426e1634b8cde12c7d8951ded9d6b4f04a0ae2ef77a1c13f794caacab",
+  "manifest_sha256": "192c73934cd78efe8d283024add8c43d03ccbaaea89d4072a06e35d7a64faaa0",
+  "split_sha256": "324e5dadcb6cc9fc2a99a5f5dedd06ad4de77b2ed826e4ceffda8b6a784da0b4",
+  "history_registration_sha256": "e4a47f224c6a7b1b2036c28ac70314c6cbf6cec243b3202aef696f900c8550b7",
+  "history_schedule_sha256": "b3f388d863481f10ceb9d27f20ea5b3208b8543b729fdcf2a71a93b32554af7f",
+  "historic_updates_sha256": "d8d96796c42bd8783ee465dece8ee71f9efae19c1443ec1cb1bb1a276c15e828",
+  "frozen_trainable_scope": "all original S2 388 trainable tensors; original freeze and valid masks",
+  "training": "prefix of original ordered schedule, epoch20 draw2, minus; identical freshly initialized AdamW, FP16+FP32 ST with AMP retries and clip2",
+  "primary": "T-ALL is both engineering replay and combined arm. Compare every step to actual original logged losses, norm, ids and AMP. Archived weight files for steps 1/4/16 are unavailable.",
+  "budget": {
+    "T-ALL": 16,
+    "T-CE": 1,
+    "T-IMG": 1
+  },
+  "extension_rule": "If the ALL, CE or IMG one-step panel shows any changed first-scale code or >=2 DN absolute change in mean whole MAE or mean background bias in either input condition compared with S1, extend BOTH counterfactual arms to step4, never beyond.",
+  "objective": {
+    "T-ALL": "CE + 0.2*RGB_MSE + 0.8*original masked patch order, original addition order",
+    "T-CE": "only global coverage-weighted token CE, unused CAC parameters receive no gradient",
+    "T-IMG": "0.2*RGB_MSE + 0.8*original masked patch order"
+  },
+  "panel_ids": [
+    "NUAA-SIRST/Misc_119",
+    "NUAA-SIRST/Misc_64",
+    "NUAA-SIRST/Misc_90",
+    "NUAA-SIRST/Misc_364",
+    "NUAA-SIRST/Misc_250",
+    "NUAA-SIRST/Misc_351",
+    "NUAA-SIRST/Misc_39",
+    "NUAA-SIRST/Misc_313"
+  ],
+  "panel": "first 8 IDs in bundled train ordering, paired epoch0 draw0 noisy_minus/reference_minus on same native valid region; independent of outcomes; no held-out performance interpretation",
+  "measure": "All accepted steps starting from 0. Also directly inspect step50 resume and step54 endpoint and their actual metadata. For each panel record both conditions, whole MAE, background RMSE and signed mean error, target contrast/bias, per-level coverage-weighted CE, raw and coverage-weighted disagreement, first two levels IDs and margins at every image, decoder pre-clamp and valid output ranges/saturation.",
+  "grads": "Record actual objective gradient norm at each level of post-CFG logits before clipping, normalized to per-image unscaled loss; direct CE level reduction weights and representative unclipped average parameters on group1 with CE/IMG/ALL gradient cosine. Record global clipping and relative parameter change from S1.",
+  "first_drift": "earliest integer update for the same predefined panel trigger; separately report direction and magnitude. Early code change alone is not evidence of degradation.",
+  "artifact_selection": "all registered results, no winning endpoint and no change to historical checkpoints"
+}

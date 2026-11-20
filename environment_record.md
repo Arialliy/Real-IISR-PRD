@@ -1,5 +1,7 @@
 # Real-IISR 先导环境
 
+2026-11-21 的统一指标、S1/S2 权重关系、短程重放及人工点斑和真实配对实验已归档。以下较早条目保留各自的输入范围、采样器和指标定义。跨方法比较采用本轮固定输入与原尺寸浮点计分。[统一实测报告](results/denoise_v2/README.md) · [模型与权重 SHA-256](results/denoise_v2/experiment_registry.json) · [统一评价运行与核验](results/protocol_v2/README.md) · [TIDY 和 SCaN-TIR 的版本](results/denoise_v2/tidy_control/README.md)
+
 ## 固定版本
 
 | 项目 | 本次配置 |

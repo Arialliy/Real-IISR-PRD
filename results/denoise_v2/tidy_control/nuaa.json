@@ -1,0 +1,46 @@
+{
+  "per_condition": {
+    "clean": {
+      "whole_mae_dn": 14.386455931641036,
+      "whole_psnr_db": 22.04724884486637,
+      "whole_ssim": 0.8854307014858325,
+      "plan_background_rmse_dn": 20.88360368487208,
+      "plan_background_mean_error_dn": -12.118005565362967,
+      "weighted_background_column_residual_dn": 4.283103449513624,
+      "native_target_mae_dn": 54.63407044872418,
+      "native_median_ring_contrast_abs_error_dn": 38.38111756836409,
+      "native_median_ring_contrast_bias_dn": -38.38111756836409
+    },
+    "draw0": {
+      "whole_mae_dn": 15.123754060051585,
+      "whole_psnr_db": 21.72202938191181,
+      "whole_ssim": 0.8744049766566837,
+      "plan_background_rmse_dn": 21.517616757823042,
+      "plan_background_mean_error_dn": -12.687838244375687,
+      "weighted_background_column_residual_dn": 4.828609179239541,
+      "native_target_mae_dn": 54.702646160547474,
+      "native_median_ring_contrast_abs_error_dn": 38.89910786887319,
+      "native_median_ring_contrast_bias_dn": -38.89910786887319
+    },
+    "draw1": {
+      "whole_mae_dn": 15.166490422331645,
+      "whole_psnr_db": 21.715192958656683,
+      "whole_ssim": 0.8748700700019805,
+      "plan_background_rmse_dn": 21.538287482685917,
+      "plan_background_mean_error_dn": -12.762067143779518,
+      "weighted_background_column_residual_dn": 4.878022755759668,
+      "native_target_mae_dn": 55.012973782994486,
+      "native_median_ring_contrast_abs_error_dn": 38.90854543100948,
+      "native_median_ring_contrast_bias_dn": -38.90854543100948
+    }
+  },
+  "population": 213,
+  "conditions": 3,
+  "train_manifest": "192c73934cd78efe8d283024add8c43d03ccbaaea89d4072a06e35d7a64faaa0",
+  "local_tidy_updates": 0,
+  "checkpoint": "37a45473779afcd73abd941e71787caac658325d813342a1bbf787612180906b",
+  "source_commit": "ebb20eaa615cc3ae3fbad6d25ee48de46e7034c0",
+  "tensors_loaded": 668,
+  "native_float_inputs_matched": 639,
+  "precision": "official PyTorch FP32, TF32 off"
+}

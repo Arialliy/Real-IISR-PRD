@@ -1,0 +1,23 @@
+{
+  "source": "actual archived snapshots read directly",
+  "snapshots": [
+    {
+      "step": 50,
+      "path": "checkpoints/sirst_s2_common_resume.pt",
+      "sha256": "1cb49260bd0ed874e301d67df5e13b218ff3a8e4902e04b371b48bb34a78a4b6",
+      "saved_optimizer_steps": [
+        50
+      ],
+      "manifest_sha256": "192c73934cd78efe8d283024add8c43d03ccbaaea89d4072a06e35d7a64faaa0",
+      "images": 200
+    },
+    {
+      "step": 54,
+      "path": "checkpoints/sirst_s2_common.pt",
+      "sha256": "0be3668c63d2224c89b7c011bcd8167f01802e80acaab54d8c70639fcbb47010",
+      "saved_optimizer_steps": [],
+      "manifest_sha256": "192c73934cd78efe8d283024add8c43d03ccbaaea89d4072a06e35d7a64faaa0",
+      "images": 213
+    }
+  ]
+}

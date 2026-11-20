@@ -1,0 +1,16 @@
+{
+  "original_train_images": 213,
+  "original_draw_hashes_checked": 426,
+  "zero_noise_exact_images": 213,
+  "invalid_cases_rejected": 3,
+  "manifest_sha256": {
+    "test.jsonl": "687d8306d9f560927fdeb1539c09202b711648dc73b3f9656d5baf490724e4c0",
+    "test_irstd1k.jsonl": "6b57cd081ef0768324def084413b4d310d496447f09dc8f4a68d59bb77c26359",
+    "test_nudt_sirst.jsonl": "ac5aa8a24bfce22b728e455e21bedefc8aca9e5f2168e1c586abb0d8a284887c",
+    "train.jsonl": "192c73934cd78efe8d283024add8c43d03ccbaaea89d4072a06e35d7a64faaa0",
+    "train_irstd1k.jsonl": "83afe162791a7d28f836baaed0b25f98b58676c8d5b12f9e3fcd00d5eeb7aedb",
+    "train_nudt_sirst.jsonl": "f5c447d8b41ee2a8d994eecf9a9b4c4e4fc5cf51d77774f428987de1fbf1cc42"
+  },
+  "shared_field_max_abs_error_0to1": 1.4901161193847656e-07,
+  "config_sha256": "026db486d5d08828ed68d3c1b843a16274c432f55f416aa554f6a01a56b81af2"
+}

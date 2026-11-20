@@ -1,0 +1,21 @@
+{
+  "version": "native_detail_v1",
+  "split": "Entire bundled NUAA-SIRST training list (213 originals); no dev split; 214 test images reserved",
+  "train_manifest_sha256": "192c73934cd78efe8d283024add8c43d03ccbaaea89d4072a06e35d7a64faaa0",
+  "s1_sha256": "fb2eaf0426e1634b8cde12c7d8951ded9d6b4f04a0ae2ef77a1c13f794caacab",
+  "model": "Retrain-S1. Native greedy FP16 output before AdaIN and rounding; 0 additional updates in all arms.",
+  "operator": "r = input - s1; K = [1,4,6,4,1]/16 vertically along rows with scipy reflect on unpadded frames; output = clip(s1 + alpha*(r-K*r),0,1)",
+  "primary": "detail_full (alpha = 1) vs s1 (alpha = 0). Fixed strength on every image.",
+  "controls": ["input","column","s1","detail_half","detail_full","full_blend_half"],
+  "calibration_spots": "Same 213 epoch 0 draw 0 templates and locations as the previous clean spot diagnosis; add each template to the possibly clipped minus input, then clip to [0,1]. Measure gain against the clean injected contrast and additionally against the realized input contrast.",
+  "paired_conditions": ["clean","draw0","draw1","fresh"],
+  "additional_noise_conditions": {
+    "stripe_only": {"stripe_sigma_dn":6,"pixel_sigma_dn":0},
+    "pixel_only": {"stripe_sigma_dn":0,"pixel_sigma_dn":2},
+    "combined": {"stripe_sigma_dn":6,"pixel_sigma_dn":2}
+  },
+  "additional_noise_draw": 20261121,
+  "outcomes": "Spot contrast transfer, half-height width eligibility and paired width error; native_v2 whole-frame MAE and target contrast error, fixed background RMSE and weighted column residual, signed background bias. Each draw is a repeated observation of the same original.",
+  "paired_intervals": "5000 percentile bootstrap samples of original IDs with seed 20261121. Do not pool draws as independent images.",
+  "background_overlap": "Descriptive on train. For each image both absolute paired column residual difference <=0.5 DN and absolute background RMSE difference <=1 DN, as used in the preceding TIDY control. Report subset coverage and paired native target contrast error; no image-specific tuning."
+}

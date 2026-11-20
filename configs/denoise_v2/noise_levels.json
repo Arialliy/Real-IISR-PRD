@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "population": "Original 213 NUAA-SIRST training IDs from the bundled train file. No new split. In-sample diagnostics.",
+  "seed": 0,
+  "epoch": 0,
+  "conditions": {
+    "fresh": {"draw_id": 20261121, "noise_override": null},
+    "low": {"draw_id": 20261121, "noise_override": {"stripe_sigma_dn": 3, "pixel_sigma_dn": 1}},
+    "medium": {"draw_id": 20261121, "noise_override": {"stripe_sigma_dn": 6, "pixel_sigma_dn": 2}},
+    "high": {"draw_id": 20261121, "noise_override": {"stripe_sigma_dn": 12, "pixel_sigma_dn": 4}}
+  },
+  "column_curve_extra_conditions": {"clean": {"draw_id": 0, "noise_override": {"stripe_sigma_dn": 0, "pixel_sigma_dn": 0}}, "draw0": {"draw_id": 0, "noise_override": null}, "draw1": {"draw_id": 1, "noise_override": null}},
+  "column_strengths": [0, 0.5, 0.75, 1.0, 1.25],
+  "column_window": 7,
+  "models": {"published": "Real-IISR.pth", "s1": "sirst_retrained_baseline.pt", "s2": "sirst_s2_common.pt"},
+  "inference": "One FP16 greedy-argmax image at a time; TF32 disabled, no AdaIN, RGB arithmetic mean before quantization. Gray native reference before extra noise.",
+  "scores": "native_v2; image means weighted equally; primary comparison on alpha=1. Curves are descriptive. Only conditions sharing a draw use the same underlying noise field. Noise sigma values are before clipping on the 0-255 scale."
+}

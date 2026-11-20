@@ -1,0 +1,2136 @@
+{
+  "step": 1,
+  "registration_sha256": "8d8770f5f57a74f155a6c685dcb532be8b84cea42d9ddecb39ce979e2208e581",
+  "summary": {
+    "clean": {
+      "whole_mae_dn": 5.16495742862854,
+      "plan_background_rmse_dn": 6.755697785507582,
+      "plan_background_mean_error_dn": 2.562000465110028,
+      "native_median_ring_contrast_bias_dn": -13.75136774237382,
+      "native_median_ring_contrast_abs_error_dn": 15.54376212574966,
+      "mean_predicted_signed_contrast_dn": 54.55866061127878,
+      "mean_reference_signed_contrast_dn": 68.3100283536526,
+      "first_tokens": [
+        3788,
+        3788,
+        3788,
+        3788,
+        3788,
+        3788,
+        3788,
+        3788
+      ],
+      "first_reference": [
+        3788,
+        3788,
+        3788,
+        3788,
+        3788,
+        3788,
+        3788,
+        3788
+      ]
+    },
+    "noisy": {
+      "whole_mae_dn": 5.681873436907089,
+      "plan_background_rmse_dn": 7.24578528114305,
+      "plan_background_mean_error_dn": 3.2975012964093393,
+      "native_median_ring_contrast_bias_dn": -7.3518447813659815,
+      "native_median_ring_contrast_abs_error_dn": 11.108971161942357,
+      "mean_predicted_signed_contrast_dn": 60.958183572286615,
+      "mean_reference_signed_contrast_dn": 68.3100283536526,
+      "first_tokens": [
+        3788,
+        3788,
+        3788,
+        3788,
+        3788,
+        3788,
+        3788,
+        3788
+      ],
+      "first_reference": [
+        3788,
+        3788,
+        3788,
+        3788,
+        3788,
+        3788,
+        3788,
+        3788
+      ]
+    }
+  },
+  "relative_L2_vs_S1": {
+    "other": 0.000257746707068183,
+    "CAC": 2.502185556098526e-06,
+    "blocks": 0.00033511740385193926,
+    "all": 0.00032622556085472435
+  },
+  "rows": [
+    {
+      "id": "NUAA-SIRST/Misc_119",
+      "input_mode": "clean",
+      "input_sha256": "b2de94783c40282280f8ce4fc59bf7f0ca8f1cba6f5828da3a2629a85d90e433",
+      "reference_sha256": "b2de94783c40282280f8ce4fc59bf7f0ca8f1cba6f5828da3a2629a85d90e433",
+      "dataset_pair_digest": "4ee815cc3975a668d94ed8a2d69e50fde871c5d77e407811622fd5fd091db89a",
+      "metrics": {
+        "whole_mae_dn": 6.4688561671351,
+        "plan_background_rmse_dn": 9.653472779664824,
+        "plan_background_mean_error_dn": 2.555413732317883,
+        "native_median_ring_contrast_bias_dn": -22.611020223491565,
+        "native_median_ring_contrast_abs_error_dn": 22.611020223491565,
+        "mean_predicted_signed_contrast_dn": 43.33216307600114,
+        "mean_reference_signed_contrast_dn": 65.9431832994927
+      },
+      "levels": [
+        {
+          "tokens": 1,
+          "coverage": 0.222442626953125,
+          "ce": 0.004149755463004112,
+          "disagreement": 0.0,
+          "coverage_weighted_disagreement": 0.0,
+          "predicted": [
+            3788
+          ],
+          "reference": [
+            3788
+          ],
+          "top1_top2_margin": [
+            5.625
+          ]
+        },
+        {
+          "tokens": 4,
+          "coverage": 0.8897705078125,
+          "ce": 1.7802989482879639,
+          "disagreement": 0.25,
+          "coverage_weighted_disagreement": 0.25126904249191284,
+          "predicted": [
+            3770,
+            1753,
+            1150,
+            1150
+          ],
+          "reference": [
+            1753,
+            1753,
+            1150,
+            1150
+          ],
+          "top1_top2_margin": [
+            5.809028625488281,
+            0.005207061767578125,
+            0.6440963745117188,
+            4.677085876464844
+          ]
+        },
+        {
+          "tokens": 9,
+          "coverage": 2.011080265045166,
+          "ce": 3.205796480178833,
+          "disagreement": 0.6666666865348816,
+          "coverage_weighted_disagreement": 0.2817569971084595
+        },
+        {
+          "tokens": 16,
+          "coverage": 3.55908203125,
+          "ce": 0.655238687992096,
+          "disagreement": 0.625,
+          "coverage_weighted_disagreement": 0.06756756454706192
+        },
+        {
+          "tokens": 36,
+          "coverage": 8.018117904663086,
+          "ce": 0.380130797624588,
+          "disagreement": 0.4444444477558136,
+          "coverage_weighted_disagreement": 0.1051735207438469
+        },
+        {
+          "tokens": 81,
+          "coverage": 18.04458999633789,
+          "ce": 0.15270043909549713,
+          "disagreement": 0.5802469253540039,
+          "coverage_weighted_disagreement": 0.05106915906071663
+        },
+        {
+          "tokens": 169,
+          "coverage": 37.682926177978516,
+          "ce": 0.13516546785831451,
+          "disagreement": 0.6153846383094788,
+          "coverage_weighted_disagreement": 0.045372169464826584
+        },
+        {
+          "tokens": 324,
+          "coverage": 72.17835998535156,
+          "ce": 0.5222485661506653,
+          "disagreement": 0.6666666865348816,
+          "coverage_weighted_disagreement": 0.08861321955919266
+        },
+        {
+          "tokens": 576,
+          "coverage": 127.50413513183594,
+          "ce": 0.9443038702011108,
+          "disagreement": 0.7239583134651184,
+          "coverage_weighted_disagreement": 0.11310604214668274
+        },
+        {
+          "tokens": 1024,
+          "coverage": 227.78125,
+          "ce": 2.034743547439575,
+          "disagreement": 0.7890625,
+          "coverage_weighted_disagreement": 0.18342708051204681
+        }
+      ],
+      "latent_minmax": [
+        -2.243281841278076,
+        1.7046806812286377
+      ],
+      "preclamp_valid_rgb_minmax": [
+        -0.9619140625,
+        1.12890625
+      ],
+      "preclamp_valid_rgb_frac_outside": 0.01386221218854189,
+      "output_valid_rgb_minmax": [
+        0.01904296875,
+        1.0
+      ],
+      "output_valid_rgb_frac_saturated": 0.019195590168237686
+    },
+    {
+      "id": "NUAA-SIRST/Misc_119",
+      "input_mode": "noisy",
+      "input_sha256": "3b8bd8c14097685985756cb7ea91264ca6909494cb5ca5f31a63ef507f2b39e6",
+      "reference_sha256": "b2de94783c40282280f8ce4fc59bf7f0ca8f1cba6f5828da3a2629a85d90e433",
+      "dataset_pair_digest": "4ee815cc3975a668d94ed8a2d69e50fde871c5d77e407811622fd5fd091db89a",
+      "metrics": {
+        "whole_mae_dn": 7.134716138199914,
+        "plan_background_rmse_dn": 10.353527055066568,
+        "plan_background_mean_error_dn": 4.309887334494895,
+        "native_median_ring_contrast_bias_dn": -3.5406837261027837,
+        "native_median_ring_contrast_abs_error_dn": 18.639524567618295,
+        "mean_predicted_signed_contrast_dn": 62.40249957338992,
+        "mean_reference_signed_contrast_dn": 65.9431832994927
+      },
+      "levels": [
+        {
+          "tokens": 1,
+          "coverage": 0.222442626953125,
+          "ce": 0.004383597988635302,
+          "disagreement": 0.0,
+          "coverage_weighted_disagreement": 0.0,
+          "predicted": [
+            3788
+          ],
+          "reference": [
+            3788
+          ],
+          "top1_top2_margin": [
+            5.5625
+          ]
+        },
+        {
+          "tokens": 4,
+          "coverage": 0.8897705078125,
+          "ce": 1.8357253074645996,
+          "disagreement": 0.5,
+          "coverage_weighted_disagreement": 0.5025380849838257,
+          "predicted": [
+            3770,
+            3770,
+            1150,
+            1150
+          ],
+          "reference": [
+            1753,
+            1753,
+            1150,
+            1150
+          ],
+          "top1_top2_margin": [
+            5.864582061767578,
+            0.23090362548828125,
+            0.4444427490234375,
+            4.645832061767578
+          ]
+        },
+        {
+          "tokens": 9,
+          "coverage": 2.011080265045166,
+          "ce": 5.5892558097839355,
+          "disagreement": 0.7777777910232544,
+          "coverage_weighted_disagreement": 0.4649525582790375
+        },
+        {
+          "tokens": 16,
+          "coverage": 3.55908203125,
+          "ce": 0.7511695623397827,
+          "disagreement": 0.625,
+          "coverage_weighted_disagreement": 0.10152284055948257
+        },
+        {
+          "tokens": 36,
+          "coverage": 8.018117904663086,
+          "ce": 0.6963186264038086,
+          "disagreement": 0.5555555820465088,
+          "coverage_weighted_disagreement": 0.1403494030237198
+        },
+        {
+          "tokens": 81,
+          "coverage": 18.04458999633789,
+          "ce": 0.8115492463111877,
+          "disagreement": 0.5679012537002563,
+          "coverage_weighted_disagreement": 0.07719679176807404
+        },
+        {
+          "tokens": 169,
+          "coverage": 37.682926177978516,
+          "ce": 0.212969109416008,
+          "disagreement": 0.6568047404289246,
+          "coverage_weighted_disagreement": 0.05205501988530159
+        },
+        {
+          "tokens": 324,
+          "coverage": 72.17835998535156,
+          "ce": 0.45902517437934875,
+          "disagreement": 0.6697530746459961,
+          "coverage_weighted_disagreement": 0.08001384139060974
+        },
+        {
+          "tokens": 576,
+          "coverage": 127.50413513183594,
+          "ce": 0.7819520235061646,
+          "disagreement": 0.7222222089767456,
+          "coverage_weighted_disagreement": 0.10775861889123917
+        },
+        {
+          "tokens": 1024,
+          "coverage": 227.78125,
+          "ce": 2.0199124813079834,
+          "disagreement": 0.7763671875,
+          "coverage_weighted_disagreement": 0.1809576004743576
+        }
+      ],
+      "latent_minmax": [
+        -2.2764415740966797,
+        1.7421791553497314
+      ],
+      "preclamp_valid_rgb_minmax": [
+        -0.90966796875,
+        1.0869140625
+      ],
+      "preclamp_valid_rgb_frac_outside": 0.013593542389571667,
+      "output_valid_rgb_minmax": [
+        0.045166015625,
+        1.0
+      ],
+      "output_valid_rgb_frac_saturated": 0.01801801659166813
+    },
+    {
+      "id": "NUAA-SIRST/Misc_64",
+      "input_mode": "clean",
+      "input_sha256": "fb50ca696fd5894feeaa5897a7dae30d006329770b3be9361d0e711843d0965c",
+      "reference_sha256": "fb50ca696fd5894feeaa5897a7dae30d006329770b3be9361d0e711843d0965c",
+      "dataset_pair_digest": "7d26b1825e65b0a9e4bf5ddbc2b3ab1f4b5a08a00f3eabe05d714d974da0c7f6",
+      "metrics": {
+        "whole_mae_dn": 3.01745225092521,
+        "plan_background_rmse_dn": 3.6057939910592824,
+        "plan_background_mean_error_dn": 2.3348443331250754,
+        "native_median_ring_contrast_bias_dn": -9.947299796962335,
+        "native_median_ring_contrast_abs_error_dn": 9.947299796962335,
+        "mean_predicted_signed_contrast_dn": 46.490904615166485,
+        "mean_reference_signed_contrast_dn": 56.43820441212882
+      },
+      "levels": [
+        {
+          "tokens": 1,
+          "coverage": 0.24944686889648438,
+          "ce": 5.328513361746445e-05,
+          "disagreement": 0.0,
+          "coverage_weighted_disagreement": 0.0,
+          "predicted": [
+            3788
+          ],
+          "reference": [
+            3788
+          ],
+          "top1_top2_margin": [
+            10.25
+          ]
+        },
+        {
+          "tokens": 4,
+          "coverage": 0.9977874755859375,
+          "ce": 0.1070476844906807,
+          "disagreement": 0.0,
+          "coverage_weighted_disagreement": 0.0,
+          "predicted": [
+            1753,
+            1753,
+            1753,
+            1753
+          ],
+          "reference": [
+            1753,
+            1753,
+            1753,
+            1753
+          ],
+          "top1_top2_margin": [
+            3.423614501953125,
+            0.782989501953125,
+            9.069442749023438,
+            7.456600189208984
+          ]
+        },
+        {
+          "tokens": 9,
+          "coverage": 2.2540953159332275,
+          "ce": 0.15413615107536316,
+          "disagreement": 0.2222222238779068,
+          "coverage_weighted_disagreement": 0.04468078538775444
+        },
+        {
+          "tokens": 16,
+          "coverage": 3.99114990234375,
+          "ce": 0.12533368170261383,
+          "disagreement": 0.375,
+          "coverage_weighted_disagreement": 0.042544081807136536
+        },
+        {
+          "tokens": 36,
+          "coverage": 8.982558250427246,
+          "ce": 0.11079725623130798,
+          "disagreement": 0.3611111044883728,
+          "coverage_weighted_disagreement": 0.05436893180012703
+        },
+        {
+          "tokens": 81,
+          "coverage": 20.190547943115234,
+          "ce": 0.9584144353866577,
+          "disagreement": 0.5802469253540039,
+          "coverage_weighted_disagreement": 0.0758969858288765
+        },
+        {
+          "tokens": 169,
+          "coverage": 42.341461181640625,
+          "ce": 0.7204470634460449,
+          "disagreement": 0.6094674468040466,
+          "coverage_weighted_disagreement": 0.061664748936891556
+        },
+        {
+          "tokens": 324,
+          "coverage": 80.76219177246094,
+          "ce": 0.995943009853363,
+          "disagreement": 0.6820987462997437,
+          "coverage_weighted_disagreement": 0.11645882576704025
+        },
+        {
+          "tokens": 576,
+          "coverage": 144.09091186523438,
+          "ce": 2.0848498344421387,
+          "disagreement": 0.7083333134651184,
+          "coverage_weighted_disagreement": 0.1457413285970688
+        },
+        {
+          "tokens": 1024,
+          "coverage": 255.43359375,
+          "ce": 3.1756677627563477,
+          "disagreement": 0.76953125,
+          "coverage_weighted_disagreement": 0.24573718011379242
+        }
+      ],
+      "latent_minmax": [
+        -2.0015335083007812,
+        1.2566227912902832
+      ],
+      "preclamp_valid_rgb_minmax": [
+        -0.93798828125,
+        0.09716796875
+      ],
+      "preclamp_valid_rgb_frac_outside": 0.0,
+      "output_valid_rgb_minmax": [
+        0.031005859375,
+        0.548828125
+      ],
+      "output_valid_rgb_frac_saturated": 0.0
+    },
+    {
+      "id": "NUAA-SIRST/Misc_64",
+      "input_mode": "noisy",
+      "input_sha256": "0675c816bf2e2281c7f436f67d8725db383e1077702cfc4494fa32ef6f1775fc",
+      "reference_sha256": "fb50ca696fd5894feeaa5897a7dae30d006329770b3be9361d0e711843d0965c",
+      "dataset_pair_digest": "7d26b1825e65b0a9e4bf5ddbc2b3ab1f4b5a08a00f3eabe05d714d974da0c7f6",
+      "metrics": {
+        "whole_mae_dn": 5.282823286067249,
+        "plan_background_rmse_dn": 6.082394639280719,
+        "plan_background_mean_error_dn": 4.927705123350406,
+        "native_median_ring_contrast_bias_dn": 0.018769242288028398,
+        "native_median_ring_contrast_abs_error_dn": 0.018769242288028398,
+        "mean_predicted_signed_contrast_dn": 56.45697365441685,
+        "mean_reference_signed_contrast_dn": 56.43820441212882
+      },
+      "levels": [
+        {
+          "tokens": 1,
+          "coverage": 0.24944686889648438,
+          "ce": 5.018585216021165e-05,
+          "disagreement": 0.0,
+          "coverage_weighted_disagreement": 0.0,
+          "predicted": [
+            3788
+          ],
+          "reference": [
+            3788
+          ],
+          "top1_top2_margin": [
+            10.375
+          ]
+        },
+        {
+          "tokens": 4,
+          "coverage": 0.9977874755859375,
+          "ce": 0.22405390441417694,
+          "disagreement": 0.25,
+          "coverage_weighted_disagreement": 0.2503555417060852,
+          "predicted": [
+            1753,
+            191,
+            1753,
+            1753
+          ],
+          "reference": [
+            1753,
+            1753,
+            1753,
+            1753
+          ],
+          "top1_top2_margin": [
+            2.901042938232422,
+            0.24479293823242188,
+            8.600696563720703,
+            6.137153625488281
+          ]
+        },
+        {
+          "tokens": 9,
+          "coverage": 2.2540953159332275,
+          "ce": 4.390104293823242,
+          "disagreement": 0.4444444477558136,
+          "coverage_weighted_disagreement": 0.27817392349243164
+        },
+        {
+          "tokens": 16,
+          "coverage": 3.99114990234375,
+          "ce": 0.3710203170776367,
+          "disagreement": 0.5,
+          "coverage_weighted_disagreement": 0.24801577627658844
+        },
+        {
+          "tokens": 36,
+          "coverage": 8.982558250427246,
+          "ce": 2.1601884365081787,
+          "disagreement": 0.5,
+          "coverage_weighted_disagreement": 0.3920373320579529
+        },
+        {
+          "tokens": 81,
+          "coverage": 20.190547943115234,
+          "ce": 2.190775156021118,
+          "disagreement": 0.6913580298423767,
+          "coverage_weighted_disagreement": 0.35614901781082153
+        },
+        {
+          "tokens": 169,
+          "coverage": 42.341461181640625,
+          "ce": 3.197417974472046,
+          "disagreement": 0.7573964595794678,
+          "coverage_weighted_disagreement": 0.449510395526886
+        },
+        {
+          "tokens": 324,
+          "coverage": 80.76219177246094,
+          "ce": 3.6077985763549805,
+          "disagreement": 0.7777777910232544,
+          "coverage_weighted_disagreement": 0.46586471796035767
+        },
+        {
+          "tokens": 576,
+          "coverage": 144.09091186523438,
+          "ce": 5.269779682159424,
+          "disagreement": 0.8003472089767456,
+          "coverage_weighted_disagreement": 0.5255520939826965
+        },
+        {
+          "tokens": 1024,
+          "coverage": 255.43359375,
+          "ce": 9.62522029876709,
+          "disagreement": 0.904296875,
+          "coverage_weighted_disagreement": 0.719594419002533
+        }
+      ],
+      "latent_minmax": [
+        -1.8361963033676147,
+        1.3315188884735107
+      ],
+      "preclamp_valid_rgb_minmax": [
+        -0.8837890625,
+        0.372314453125
+      ],
+      "preclamp_valid_rgb_frac_outside": 0.0,
+      "output_valid_rgb_minmax": [
+        0.05810546875,
+        0.68603515625
+      ],
+      "output_valid_rgb_frac_saturated": 0.0
+    },
+    {
+      "id": "NUAA-SIRST/Misc_90",
+      "input_mode": "clean",
+      "input_sha256": "4372a044d7b492600d76a6d38f257ac22f5f01707bf3e97fea3afae791992bf3",
+      "reference_sha256": "4372a044d7b492600d76a6d38f257ac22f5f01707bf3e97fea3afae791992bf3",
+      "dataset_pair_digest": "c96302b3cca80f14e513209c515f2262916ce576c4b81ca46eecb9cd2762fa00",
+      "metrics": {
+        "whole_mae_dn": 8.591839799797578,
+        "plan_background_rmse_dn": 9.843954353987762,
+        "plan_background_mean_error_dn": 5.8606752882142406,
+        "native_median_ring_contrast_bias_dn": -4.908525421489768,
+        "native_median_ring_contrast_abs_error_dn": 4.908525421489768,
+        "mean_predicted_signed_contrast_dn": 144.15641050471308,
+        "mean_reference_signed_contrast_dn": 149.06493592620285
+      },
+      "levels": [
+        {
+          "tokens": 1,
+          "coverage": 0.245849609375,
+          "ce": 1.549708758830093e-05,
+          "disagreement": 0.0,
+          "coverage_weighted_disagreement": 0.0,
+          "predicted": [
+            3788
+          ],
+          "reference": [
+            3788
+          ],
+          "top1_top2_margin": [
+            11.9375
+          ]
+        },
+        {
+          "tokens": 4,
+          "coverage": 0.9833984375,
+          "ce": 4.2034196853637695,
+          "disagreement": 1.0,
+          "coverage_weighted_disagreement": 1.0,
+          "predicted": [
+            1753,
+            1753,
+            3770,
+            3770
+          ],
+          "reference": [
+            685,
+            161,
+            685,
+            685
+          ],
+          "top1_top2_margin": [
+            3.3836822509765625,
+            0.8767356872558594,
+            2.911457061767578,
+            0.14235687255859375
+          ]
+        },
+        {
+          "tokens": 9,
+          "coverage": 2.2217092514038086,
+          "ce": 3.248465061187744,
+          "disagreement": 0.6666666865348816,
+          "coverage_weighted_disagreement": 0.3182636499404907
+        },
+        {
+          "tokens": 16,
+          "coverage": 3.93359375,
+          "ce": 4.368305206298828,
+          "disagreement": 0.6875,
+          "coverage_weighted_disagreement": 0.7105262875556946
+        },
+        {
+          "tokens": 36,
+          "coverage": 8.853975296020508,
+          "ce": 5.385704040527344,
+          "disagreement": 0.8055555820465088,
+          "coverage_weighted_disagreement": 0.640522837638855
+        },
+        {
+          "tokens": 81,
+          "coverage": 19.904874801635742,
+          "ce": 3.2364704608917236,
+          "disagreement": 0.6296296119689941,
+          "coverage_weighted_disagreement": 0.3988649845123291
+        },
+        {
+          "tokens": 169,
+          "coverage": 41.751220703125,
+          "ce": 2.3356807231903076,
+          "disagreement": 0.7100591659545898,
+          "coverage_weighted_disagreement": 0.3229348957538605
+        },
+        {
+          "tokens": 324,
+          "coverage": 79.6195068359375,
+          "ce": 2.5621683597564697,
+          "disagreement": 0.7191358208656311,
+          "coverage_weighted_disagreement": 0.3682347536087036
+        },
+        {
+          "tokens": 576,
+          "coverage": 141.42974853515625,
+          "ce": 4.623038291931152,
+          "disagreement": 0.8125,
+          "coverage_weighted_disagreement": 0.4857710301876068
+        },
+        {
+          "tokens": 1024,
+          "coverage": 251.75,
+          "ce": 5.905844688415527,
+          "disagreement": 0.8623046875,
+          "coverage_weighted_disagreement": 0.5479146242141724
+        }
+      ],
+      "latent_minmax": [
+        -2.00606632232666,
+        1.2814531326293945
+      ],
+      "preclamp_valid_rgb_minmax": [
+        -0.888671875,
+        0.974609375
+      ],
+      "preclamp_valid_rgb_frac_outside": 0.0,
+      "output_valid_rgb_minmax": [
+        0.0556640625,
+        0.9873046875
+      ],
+      "output_valid_rgb_frac_saturated": 0.0
+    },
+    {
+      "id": "NUAA-SIRST/Misc_90",
+      "input_mode": "noisy",
+      "input_sha256": "cf03e2d840aa912bd799e8372ff33ef122c3abc5a184690f0ab4875357c6e9d6",
+      "reference_sha256": "4372a044d7b492600d76a6d38f257ac22f5f01707bf3e97fea3afae791992bf3",
+      "dataset_pair_digest": "c96302b3cca80f14e513209c515f2262916ce576c4b81ca46eecb9cd2762fa00",
+      "metrics": {
+        "whole_mae_dn": 10.096270377485029,
+        "plan_background_rmse_dn": 11.179218878225758,
+        "plan_background_mean_error_dn": 7.314345336007773,
+        "native_median_ring_contrast_bias_dn": 1.8522995732144043,
+        "native_median_ring_contrast_abs_error_dn": 1.8522995732144043,
+        "mean_predicted_signed_contrast_dn": 150.91723549941725,
+        "mean_reference_signed_contrast_dn": 149.06493592620285
+      },
+      "levels": [
+        {
+          "tokens": 1,
+          "coverage": 0.245849609375,
+          "ce": 1.7165990357170813e-05,
+          "disagreement": 0.0,
+          "coverage_weighted_disagreement": 0.0,
+          "predicted": [
+            3788
+          ],
+          "reference": [
+            3788
+          ],
+          "top1_top2_margin": [
+            11.59375
+          ]
+        },
+        {
+          "tokens": 4,
+          "coverage": 0.9833984375,
+          "ce": 4.3617730140686035,
+          "disagreement": 1.0,
+          "coverage_weighted_disagreement": 1.0,
+          "predicted": [
+            1753,
+            1753,
+            3770,
+            3770
+          ],
+          "reference": [
+            685,
+            161,
+            685,
+            685
+          ],
+          "top1_top2_margin": [
+            3.8125,
+            2.1805572509765625,
+            3.375,
+            0.4010429382324219
+          ]
+        },
+        {
+          "tokens": 9,
+          "coverage": 2.2217092514038086,
+          "ce": 3.478912115097046,
+          "disagreement": 0.6666666865348816,
+          "coverage_weighted_disagreement": 0.3182636499404907
+        },
+        {
+          "tokens": 16,
+          "coverage": 3.93359375,
+          "ce": 3.5630178451538086,
+          "disagreement": 0.6875,
+          "coverage_weighted_disagreement": 0.7105262875556946
+        },
+        {
+          "tokens": 36,
+          "coverage": 8.853975296020508,
+          "ce": 4.273970127105713,
+          "disagreement": 0.7777777910232544,
+          "coverage_weighted_disagreement": 0.640522837638855
+        },
+        {
+          "tokens": 81,
+          "coverage": 19.904874801635742,
+          "ce": 4.44216251373291,
+          "disagreement": 0.654321014881134,
+          "coverage_weighted_disagreement": 0.5135304927825928
+        },
+        {
+          "tokens": 169,
+          "coverage": 41.751220703125,
+          "ce": 2.8053953647613525,
+          "disagreement": 0.715976357460022,
+          "coverage_weighted_disagreement": 0.41395020484924316
+        },
+        {
+          "tokens": 324,
+          "coverage": 79.6195068359375,
+          "ce": 4.022422790527344,
+          "disagreement": 0.7222222089767456,
+          "coverage_weighted_disagreement": 0.42647847533226013
+        },
+        {
+          "tokens": 576,
+          "coverage": 141.42974853515625,
+          "ce": 4.547138214111328,
+          "disagreement": 0.8090277910232544,
+          "coverage_weighted_disagreement": 0.5112049579620361
+        },
+        {
+          "tokens": 1024,
+          "coverage": 251.75,
+          "ce": 8.2880859375,
+          "disagreement": 0.884765625,
+          "coverage_weighted_disagreement": 0.6015392541885376
+        }
+      ],
+      "latent_minmax": [
+        -2.0590121746063232,
+        1.4314286708831787
+      ],
+      "preclamp_valid_rgb_minmax": [
+        -0.94482421875,
+        1.005859375
+      ],
+      "preclamp_valid_rgb_frac_outside": 2.0688514268840663e-05,
+      "output_valid_rgb_minmax": [
+        0.027587890625,
+        1.0
+      ],
+      "output_valid_rgb_frac_saturated": 2.0688514268840663e-05
+    },
+    {
+      "id": "NUAA-SIRST/Misc_364",
+      "input_mode": "clean",
+      "input_sha256": "0eecb4784406e40e7ee9bd0f19bb090b732fcfb7761e9bab11879b93d5b8c02d",
+      "reference_sha256": "0eecb4784406e40e7ee9bd0f19bb090b732fcfb7761e9bab11879b93d5b8c02d",
+      "dataset_pair_digest": "d7c7080fb61710781aa7c2fd9aa056d7e71f36cdfc4c0e61517258030ab94523",
+      "metrics": {
+        "whole_mae_dn": 2.2163250791944793,
+        "plan_background_rmse_dn": 3.8856177999596926,
+        "plan_background_mean_error_dn": -1.2853430379772828,
+        "native_median_ring_contrast_bias_dn": -9.544435769319529,
+        "native_median_ring_contrast_abs_error_dn": 9.544435769319529,
+        "mean_predicted_signed_contrast_dn": 4.955563366413122,
+        "mean_reference_signed_contrast_dn": 14.49999913573265
+      },
+      "levels": [
+        {
+          "tokens": 1,
+          "coverage": 0.299072265625,
+          "ce": 0.36445164680480957,
+          "disagreement": 0.0,
+          "coverage_weighted_disagreement": 0.0,
+          "predicted": [
+            3788
+          ],
+          "reference": [
+            3788
+          ],
+          "top1_top2_margin": [
+            0.875
+          ]
+        },
+        {
+          "tokens": 4,
+          "coverage": 1.1962890625,
+          "ce": 0.15301015973091125,
+          "disagreement": 0.0,
+          "coverage_weighted_disagreement": 0.0,
+          "predicted": [
+            949,
+            1849,
+            1849,
+            1849
+          ],
+          "reference": [
+            949,
+            1849,
+            1849,
+            1849
+          ],
+          "top1_top2_margin": [
+            1.7274284362792969,
+            2.0781288146972656,
+            7.315971374511719,
+            3.1875
+          ]
+        },
+        {
+          "tokens": 9,
+          "coverage": 2.700352191925049,
+          "ce": 0.05321086570620537,
+          "disagreement": 0.0,
+          "coverage_weighted_disagreement": 0.0
+        },
+        {
+          "tokens": 16,
+          "coverage": 4.78515625,
+          "ce": 0.04721364378929138,
+          "disagreement": 0.1875,
+          "coverage_weighted_disagreement": 0.005510204005986452
+        },
+        {
+          "tokens": 36,
+          "coverage": 10.752298355102539,
+          "ce": 0.002662100363522768,
+          "disagreement": 0.25,
+          "coverage_weighted_disagreement": 0.0
+        },
+        {
+          "tokens": 81,
+          "coverage": 23.976219177246094,
+          "ce": 0.003329372964799404,
+          "disagreement": 0.45679011940956116,
+          "coverage_weighted_disagreement": 0.0
+        },
+        {
+          "tokens": 169,
+          "coverage": 51.070194244384766,
+          "ce": 0.23657025396823883,
+          "disagreement": 0.5325443744659424,
+          "coverage_weighted_disagreement": 0.03040221892297268
+        },
+        {
+          "tokens": 324,
+          "coverage": 96.04000091552734,
+          "ce": 0.01782073825597763,
+          "disagreement": 0.604938268661499,
+          "coverage_weighted_disagreement": 0.009371095336973667
+        },
+        {
+          "tokens": 576,
+          "coverage": 171.37188720703125,
+          "ce": 0.7904791831970215,
+          "disagreement": 0.6527777910232544,
+          "coverage_weighted_disagreement": 0.11554785072803497
+        },
+        {
+          "tokens": 1024,
+          "coverage": 306.25,
+          "ce": 1.463593602180481,
+          "disagreement": 0.708984375,
+          "coverage_weighted_disagreement": 0.13367347419261932
+        }
+      ],
+      "latent_minmax": [
+        -1.4636518955230713,
+        1.8684813976287842
+      ],
+      "preclamp_valid_rgb_minmax": [
+        -0.64013671875,
+        0.8486328125
+      ],
+      "preclamp_valid_rgb_frac_outside": 0.0,
+      "output_valid_rgb_minmax": [
+        0.179931640625,
+        0.92431640625
+      ],
+      "output_valid_rgb_frac_saturated": 0.0
+    },
+    {
+      "id": "NUAA-SIRST/Misc_364",
+      "input_mode": "noisy",
+      "input_sha256": "47ed956441688efaca97a2b190613d0b4f1e330b2e5093d6008c4a511d852a8a",
+      "reference_sha256": "0eecb4784406e40e7ee9bd0f19bb090b732fcfb7761e9bab11879b93d5b8c02d",
+      "dataset_pair_digest": "d7c7080fb61710781aa7c2fd9aa056d7e71f36cdfc4c0e61517258030ab94523",
+      "metrics": {
+        "whole_mae_dn": 2.3199887593818485,
+        "plan_background_rmse_dn": 3.8376244260411334,
+        "plan_background_mean_error_dn": -1.4427774539609743,
+        "native_median_ring_contrast_bias_dn": -9.534054726362223,
+        "native_median_ring_contrast_abs_error_dn": 9.534054726362223,
+        "mean_predicted_signed_contrast_dn": 4.965944409370428,
+        "mean_reference_signed_contrast_dn": 14.49999913573265
+      },
+      "levels": [
+        {
+          "tokens": 1,
+          "coverage": 0.299072265625,
+          "ce": 0.26603662967681885,
+          "disagreement": 0.0,
+          "coverage_weighted_disagreement": 0.0,
+          "predicted": [
+            3788
+          ],
+          "reference": [
+            3788
+          ],
+          "top1_top2_margin": [
+            1.25
+          ]
+        },
+        {
+          "tokens": 4,
+          "coverage": 1.1962890625,
+          "ce": 0.11431989073753357,
+          "disagreement": 0.0,
+          "coverage_weighted_disagreement": 0.0,
+          "predicted": [
+            949,
+            1849,
+            1849,
+            1849
+          ],
+          "reference": [
+            949,
+            1849,
+            1849,
+            1849
+          ],
+          "top1_top2_margin": [
+            1.8506965637207031,
+            2.8315963745117188,
+            7.447917938232422,
+            3.972217559814453
+          ]
+        },
+        {
+          "tokens": 9,
+          "coverage": 2.700352191925049,
+          "ce": 0.04135987535119057,
+          "disagreement": 0.0,
+          "coverage_weighted_disagreement": 0.0
+        },
+        {
+          "tokens": 16,
+          "coverage": 4.78515625,
+          "ce": 0.04008086398243904,
+          "disagreement": 0.1875,
+          "coverage_weighted_disagreement": 0.005510204005986452
+        },
+        {
+          "tokens": 36,
+          "coverage": 10.752298355102539,
+          "ce": 0.0013874861178919673,
+          "disagreement": 0.2222222238779068,
+          "coverage_weighted_disagreement": 0.0
+        },
+        {
+          "tokens": 81,
+          "coverage": 23.976219177246094,
+          "ce": 0.005658924579620361,
+          "disagreement": 0.4444444477558136,
+          "coverage_weighted_disagreement": 0.0
+        },
+        {
+          "tokens": 169,
+          "coverage": 51.070194244384766,
+          "ce": 0.20843589305877686,
+          "disagreement": 0.526627242565155,
+          "coverage_weighted_disagreement": 0.027536723762750626
+        },
+        {
+          "tokens": 324,
+          "coverage": 96.04000091552734,
+          "ce": 0.03625183925032616,
+          "disagreement": 0.5956790447235107,
+          "coverage_weighted_disagreement": 0.019783422350883484
+        },
+        {
+          "tokens": 576,
+          "coverage": 171.37188720703125,
+          "ce": 0.7553207278251648,
+          "disagreement": 0.6423611044883728,
+          "coverage_weighted_disagreement": 0.09751157462596893
+        },
+        {
+          "tokens": 1024,
+          "coverage": 306.25,
+          "ce": 1.1013717651367188,
+          "disagreement": 0.7119140625,
+          "coverage_weighted_disagreement": 0.1304081678390503
+        }
+      ],
+      "latent_minmax": [
+        -1.4624427556991577,
+        1.8682596683502197
+      ],
+      "preclamp_valid_rgb_minmax": [
+        -0.53173828125,
+        0.8642578125
+      ],
+      "preclamp_valid_rgb_frac_outside": 0.0,
+      "output_valid_rgb_minmax": [
+        0.234130859375,
+        0.93212890625
+      ],
+      "output_valid_rgb_frac_saturated": 0.0
+    },
+    {
+      "id": "NUAA-SIRST/Misc_250",
+      "input_mode": "clean",
+      "input_sha256": "86059aa5280bb6545bf2379f7ae51f1871e1855d0324540074f46e50199c4cc9",
+      "reference_sha256": "86059aa5280bb6545bf2379f7ae51f1871e1855d0324540074f46e50199c4cc9",
+      "dataset_pair_digest": "7bd5017e5ba6c9b65d87583ddcd9b016f38687bffd9480a3a5bdae41c08a097b",
+      "metrics": {
+        "whole_mae_dn": 2.1492682950229374,
+        "plan_background_rmse_dn": 2.7428705339509665,
+        "plan_background_mean_error_dn": 0.8866690829705,
+        "native_median_ring_contrast_bias_dn": -8.631475935290965,
+        "native_median_ring_contrast_abs_error_dn": 19.98954079042943,
+        "mean_predicted_signed_contrast_dn": 62.71554982116713,
+        "mean_reference_signed_contrast_dn": 71.3470257564581
+      },
+      "levels": [
+        {
+          "tokens": 1,
+          "coverage": 0.17890167236328125,
+          "ce": 1.1086402082582936e-05,
+          "disagreement": 0.0,
+          "coverage_weighted_disagreement": 0.0,
+          "predicted": [
+            3788
+          ],
+          "reference": [
+            3788
+          ],
+          "top1_top2_margin": [
+            12.1875
+          ]
+        },
+        {
+          "tokens": 4,
+          "coverage": 0.715606689453125,
+          "ce": 0.05071743577718735,
+          "disagreement": 0.0,
+          "coverage_weighted_disagreement": 0.0,
+          "predicted": [
+            1753,
+            1753,
+            1753,
+            1753
+          ],
+          "reference": [
+            1753,
+            1753,
+            1753,
+            1753
+          ],
+          "top1_top2_margin": [
+            2.5347251892089844,
+            3.3003463745117188,
+            7.4375,
+            2.7743072509765625
+          ]
+        },
+        {
+          "tokens": 9,
+          "coverage": 1.6189595460891724,
+          "ce": 0.024927737191319466,
+          "disagreement": 0.2222222238779068,
+          "coverage_weighted_disagreement": 0.007773553021252155
+        },
+        {
+          "tokens": 16,
+          "coverage": 2.8624267578125,
+          "ce": 0.05925603583455086,
+          "disagreement": 0.3125,
+          "coverage_weighted_disagreement": 0.005693206563591957
+        },
+        {
+          "tokens": 36,
+          "coverage": 6.460789680480957,
+          "ce": 0.008546095341444016,
+          "disagreement": 0.1666666716337204,
+          "coverage_weighted_disagreement": 0.0
+        },
+        {
+          "tokens": 81,
+          "coverage": 14.470273971557617,
+          "ce": 0.02830720692873001,
+          "disagreement": 0.5432099103927612,
+          "coverage_weighted_disagreement": 0.008545954711735249
+        },
+        {
+          "tokens": 169,
+          "coverage": 30.091249465942383,
+          "ce": 0.007112645078450441,
+          "disagreement": 0.6982248425483704,
+          "coverage_weighted_disagreement": 0.0
+        },
+        {
+          "tokens": 324,
+          "coverage": 58.05516815185547,
+          "ce": 0.10467357188463211,
+          "disagreement": 0.7037037014961243,
+          "coverage_weighted_disagreement": 0.01805654540657997
+        },
+        {
+          "tokens": 576,
+          "coverage": 103.20248413085938,
+          "ce": 0.21200203895568848,
+          "disagreement": 0.6961805820465088,
+          "coverage_weighted_disagreement": 0.0409209206700325
+        },
+        {
+          "tokens": 1024,
+          "coverage": 183.1953125,
+          "ce": 0.6056095361709595,
+          "disagreement": 0.7861328125,
+          "coverage_weighted_disagreement": 0.07134632766246796
+        }
+      ],
+      "latent_minmax": [
+        -2.1260499954223633,
+        1.3714492321014404
+      ],
+      "preclamp_valid_rgb_minmax": [
+        -0.91357421875,
+        0.483154296875
+      ],
+      "preclamp_valid_rgb_frac_outside": 0.0,
+      "output_valid_rgb_minmax": [
+        0.043212890625,
+        0.74169921875
+      ],
+      "output_valid_rgb_frac_saturated": 0.0
+    },
+    {
+      "id": "NUAA-SIRST/Misc_250",
+      "input_mode": "noisy",
+      "input_sha256": "1dead994e30ef9058229f21c70f019310a614ac2a4311599cbec884e62e331ec",
+      "reference_sha256": "86059aa5280bb6545bf2379f7ae51f1871e1855d0324540074f46e50199c4cc9",
+      "dataset_pair_digest": "7bd5017e5ba6c9b65d87583ddcd9b016f38687bffd9480a3a5bdae41c08a097b",
+      "metrics": {
+        "whole_mae_dn": 2.0993949061107036,
+        "plan_background_rmse_dn": 2.5415509118830335,
+        "plan_background_mean_error_dn": 0.5786399542896826,
+        "native_median_ring_contrast_bias_dn": -17.756309430780156,
+        "native_median_ring_contrast_abs_error_dn": 28.97234200287078,
+        "mean_predicted_signed_contrast_dn": 53.59071632567794,
+        "mean_reference_signed_contrast_dn": 71.3470257564581
+      },
+      "levels": [
+        {
+          "tokens": 1,
+          "coverage": 0.17890167236328125,
+          "ce": 1.144402540376177e-05,
+          "disagreement": 0.0,
+          "coverage_weighted_disagreement": 0.0,
+          "predicted": [
+            3788
+          ],
+          "reference": [
+            3788
+          ],
+          "top1_top2_margin": [
+            12.125
+          ]
+        },
+        {
+          "tokens": 4,
+          "coverage": 0.715606689453125,
+          "ce": 0.04879012703895569,
+          "disagreement": 0.0,
+          "coverage_weighted_disagreement": 0.0,
+          "predicted": [
+            1753,
+            1753,
+            1753,
+            1753
+          ],
+          "reference": [
+            1753,
+            1753,
+            1753,
+            1753
+          ],
+          "top1_top2_margin": [
+            2.6440963745117188,
+            2.7170143127441406,
+            6.864585876464844,
+            3.3558998107910156
+          ]
+        },
+        {
+          "tokens": 9,
+          "coverage": 1.6189595460891724,
+          "ce": 0.028311464935541153,
+          "disagreement": 0.2222222238779068,
+          "coverage_weighted_disagreement": 0.007773553021252155
+        },
+        {
+          "tokens": 16,
+          "coverage": 2.8624267578125,
+          "ce": 0.12612996995449066,
+          "disagreement": 0.3125,
+          "coverage_weighted_disagreement": 0.005693206563591957
+        },
+        {
+          "tokens": 36,
+          "coverage": 6.460789680480957,
+          "ce": 0.02719332091510296,
+          "disagreement": 0.1666666716337204,
+          "coverage_weighted_disagreement": 0.0
+        },
+        {
+          "tokens": 81,
+          "coverage": 14.470273971557617,
+          "ce": 0.03172382339835167,
+          "disagreement": 0.5432099103927612,
+          "coverage_weighted_disagreement": 0.008545954711735249
+        },
+        {
+          "tokens": 169,
+          "coverage": 30.091249465942383,
+          "ce": 0.043335165828466415,
+          "disagreement": 0.6804733872413635,
+          "coverage_weighted_disagreement": 0.0
+        },
+        {
+          "tokens": 324,
+          "coverage": 58.05516815185547,
+          "ce": 0.09178925305604935,
+          "disagreement": 0.6851851940155029,
+          "coverage_weighted_disagreement": 0.019482063129544258
+        },
+        {
+          "tokens": 576,
+          "coverage": 103.20248413085938,
+          "ce": 0.3170093894004822,
+          "disagreement": 0.6875,
+          "coverage_weighted_disagreement": 0.04414414241909981
+        },
+        {
+          "tokens": 1024,
+          "coverage": 183.1953125,
+          "ce": 0.8241055607795715,
+          "disagreement": 0.775390625,
+          "coverage_weighted_disagreement": 0.08128278702497482
+        }
+      ],
+      "latent_minmax": [
+        -2.128331184387207,
+        1.3714492321014404
+      ],
+      "preclamp_valid_rgb_minmax": [
+        -0.91259765625,
+        0.57421875
+      ],
+      "preclamp_valid_rgb_frac_outside": 0.0,
+      "output_valid_rgb_minmax": [
+        0.043701171875,
+        0.787109375
+      ],
+      "output_valid_rgb_frac_saturated": 0.0
+    },
+    {
+      "id": "NUAA-SIRST/Misc_351",
+      "input_mode": "clean",
+      "input_sha256": "f52d89a60762f2dee5961d8e591006bb3cc120007a74b59686df2d4c2ea93542",
+      "reference_sha256": "f52d89a60762f2dee5961d8e591006bb3cc120007a74b59686df2d4c2ea93542",
+      "dataset_pair_digest": "f717f9d244a20fb5f8ff3aead4ebbc263e6732941ab22ed1c0f8a8957e7ae16d",
+      "metrics": {
+        "whole_mae_dn": 3.2246028306936085,
+        "plan_background_rmse_dn": 4.6404424987444965,
+        "plan_background_mean_error_dn": -0.03833231256346063,
+        "native_median_ring_contrast_bias_dn": -29.997823100004876,
+        "native_median_ring_contrast_abs_error_dn": 29.997823100004876,
+        "mean_predicted_signed_contrast_dn": 8.930750350866997,
+        "mean_reference_signed_contrast_dn": 38.92857345087187
+      },
+      "levels": [
+        {
+          "tokens": 1,
+          "coverage": 0.23851394653320312,
+          "ce": 8.165503095369786e-05,
+          "disagreement": 0.0,
+          "coverage_weighted_disagreement": 0.0,
+          "predicted": [
+            3788
+          ],
+          "reference": [
+            3788
+          ],
+          "top1_top2_margin": [
+            10.46875
+          ]
+        },
+        {
+          "tokens": 4,
+          "coverage": 0.9540557861328125,
+          "ce": 6.2667012214660645,
+          "disagreement": 0.75,
+          "coverage_weighted_disagreement": 0.7496041655540466,
+          "predicted": [
+            3770,
+            3770,
+            3770,
+            3770
+          ],
+          "reference": [
+            1753,
+            3770,
+            1753,
+            1753
+          ],
+          "top1_top2_margin": [
+            4.3506927490234375,
+            11.189239501953125,
+            5.84375,
+            7.451389312744141
+          ]
+        },
+        {
+          "tokens": 9,
+          "coverage": 2.155740261077881,
+          "ce": 7.7427849769592285,
+          "disagreement": 0.8888888955116272,
+          "coverage_weighted_disagreement": 0.53612220287323
+        },
+        {
+          "tokens": 16,
+          "coverage": 3.81622314453125,
+          "ce": 2.074965238571167,
+          "disagreement": 0.5625,
+          "coverage_weighted_disagreement": 0.36946821212768555
+        },
+        {
+          "tokens": 36,
+          "coverage": 8.592347145080566,
+          "ce": 2.6868951320648193,
+          "disagreement": 0.5833333134651184,
+          "coverage_weighted_disagreement": 0.33415162563323975
+        },
+        {
+          "tokens": 81,
+          "coverage": 19.321937561035156,
+          "ce": 2.096634864807129,
+          "disagreement": 0.654321014881134,
+          "coverage_weighted_disagreement": 0.3298666179180145
+        },
+        {
+          "tokens": 169,
+          "coverage": 40.52560806274414,
+          "ce": 1.5042085647583008,
+          "disagreement": 0.715976357460022,
+          "coverage_weighted_disagreement": 0.33829858899116516
+        },
+        {
+          "tokens": 324,
+          "coverage": 77.28775024414062,
+          "ce": 3.560663938522339,
+          "disagreement": 0.75,
+          "coverage_weighted_disagreement": 0.36279022693634033
+        },
+        {
+          "tokens": 576,
+          "coverage": 137.3243865966797,
+          "ce": 4.343535900115967,
+          "disagreement": 0.796875,
+          "coverage_weighted_disagreement": 0.43795982003211975
+        },
+        {
+          "tokens": 1024,
+          "coverage": 244.23828125,
+          "ce": 6.7918782234191895,
+          "disagreement": 0.859375,
+          "coverage_weighted_disagreement": 0.5452699065208435
+        }
+      ],
+      "latent_minmax": [
+        -1.8707129955291748,
+        1.3619400262832642
+      ],
+      "preclamp_valid_rgb_minmax": [
+        -0.431640625,
+        0.78125
+      ],
+      "preclamp_valid_rgb_frac_outside": 0.0,
+      "output_valid_rgb_minmax": [
+        0.2841796875,
+        0.890625
+      ],
+      "output_valid_rgb_frac_saturated": 0.0
+    },
+    {
+      "id": "NUAA-SIRST/Misc_351",
+      "input_mode": "noisy",
+      "input_sha256": "2e8420b1434c455b7959a795531d7fe54d4acb3f3008ec1ccdebb767bd909b50",
+      "reference_sha256": "f52d89a60762f2dee5961d8e591006bb3cc120007a74b59686df2d4c2ea93542",
+      "dataset_pair_digest": "f717f9d244a20fb5f8ff3aead4ebbc263e6732941ab22ed1c0f8a8957e7ae16d",
+      "metrics": {
+        "whole_mae_dn": 3.393647558930539,
+        "plan_background_rmse_dn": 4.601199649831755,
+        "plan_background_mean_error_dn": 1.2769327904932621,
+        "native_median_ring_contrast_bias_dn": -2.8824287014348147,
+        "native_median_ring_contrast_abs_error_dn": 2.8824287014348147,
+        "mean_predicted_signed_contrast_dn": 36.04614474943706,
+        "mean_reference_signed_contrast_dn": 38.92857345087187
+      },
+      "levels": [
+        {
+          "tokens": 1,
+          "coverage": 0.23851394653320312,
+          "ce": 9.035655966727063e-05,
+          "disagreement": 0.0,
+          "coverage_weighted_disagreement": 0.0,
+          "predicted": [
+            3788
+          ],
+          "reference": [
+            3788
+          ],
+          "top1_top2_margin": [
+            10.375
+          ]
+        },
+        {
+          "tokens": 4,
+          "coverage": 0.9540557861328125,
+          "ce": 6.733286380767822,
+          "disagreement": 0.75,
+          "coverage_weighted_disagreement": 0.7496041655540466,
+          "predicted": [
+            3770,
+            3770,
+            3770,
+            3770
+          ],
+          "reference": [
+            1753,
+            3770,
+            1753,
+            1753
+          ],
+          "top1_top2_margin": [
+            4.541664123535156,
+            11.37326431274414,
+            7.081596374511719,
+            6.239582061767578
+          ]
+        },
+        {
+          "tokens": 9,
+          "coverage": 2.155740261077881,
+          "ce": 7.610548973083496,
+          "disagreement": 0.8888888955116272,
+          "coverage_weighted_disagreement": 0.53612220287323
+        },
+        {
+          "tokens": 16,
+          "coverage": 3.81622314453125,
+          "ce": 1.995270848274231,
+          "disagreement": 0.5625,
+          "coverage_weighted_disagreement": 0.36946821212768555
+        },
+        {
+          "tokens": 36,
+          "coverage": 8.592347145080566,
+          "ce": 2.654534101486206,
+          "disagreement": 0.5277777910232544,
+          "coverage_weighted_disagreement": 0.31489089131355286
+        },
+        {
+          "tokens": 81,
+          "coverage": 19.321937561035156,
+          "ce": 2.6066107749938965,
+          "disagreement": 0.6296296119689941,
+          "coverage_weighted_disagreement": 0.3079893887042999
+        },
+        {
+          "tokens": 169,
+          "coverage": 40.52560806274414,
+          "ce": 1.3696459531784058,
+          "disagreement": 0.692307710647583,
+          "coverage_weighted_disagreement": 0.2647377550601959
+        },
+        {
+          "tokens": 324,
+          "coverage": 77.28775024414062,
+          "ce": 2.4558098316192627,
+          "disagreement": 0.7376543283462524,
+          "coverage_weighted_disagreement": 0.3476976752281189
+        },
+        {
+          "tokens": 576,
+          "coverage": 137.3243865966797,
+          "ce": 4.419857501983643,
+          "disagreement": 0.828125,
+          "coverage_weighted_disagreement": 0.4812307357788086
+        },
+        {
+          "tokens": 1024,
+          "coverage": 244.23828125,
+          "ce": 7.692706108093262,
+          "disagreement": 0.888671875,
+          "coverage_weighted_disagreement": 0.6153858304023743
+        }
+      ],
+      "latent_minmax": [
+        -1.5730961561203003,
+        1.416945457458496
+      ],
+      "preclamp_valid_rgb_minmax": [
+        -0.5703125,
+        0.93017578125
+      ],
+      "preclamp_valid_rgb_frac_outside": 0.0,
+      "output_valid_rgb_minmax": [
+        0.21484375,
+        0.96484375
+      ],
+      "output_valid_rgb_frac_saturated": 0.0
+    },
+    {
+      "id": "NUAA-SIRST/Misc_39",
+      "input_mode": "clean",
+      "input_sha256": "7cd803e313ee808d5861597f1439022aaf98268286b32ab56c117430c50cb151",
+      "reference_sha256": "7cd803e313ee808d5861597f1439022aaf98268286b32ab56c117430c50cb151",
+      "dataset_pair_digest": "20f311b332c02df6c2db0f5e7eacf3ebd8a9e5539b50ada719a2a6ae51c2d12e",
+      "metrics": {
+        "whole_mae_dn": 10.064054229643947,
+        "plan_background_rmse_dn": 12.175780757115954,
+        "plan_background_mean_error_dn": 8.922920560530386,
+        "native_median_ring_contrast_bias_dn": 1.4905451059341353,
+        "native_median_ring_contrast_abs_error_dn": 1.4905451059341353,
+        "mean_predicted_signed_contrast_dn": 63.61054900288582,
+        "mean_reference_signed_contrast_dn": 62.12000389695168
+      },
+      "levels": [
+        {
+          "tokens": 1,
+          "coverage": 0.1669921875,
+          "ce": 7.509902934543788e-05,
+          "disagreement": 0.0,
+          "coverage_weighted_disagreement": 0.0,
+          "predicted": [
+            3788
+          ],
+          "reference": [
+            3788
+          ],
+          "top1_top2_margin": [
+            9.78125
+          ]
+        },
+        {
+          "tokens": 4,
+          "coverage": 0.66796875,
+          "ce": 2.7314682006835938,
+          "disagreement": 0.5,
+          "coverage_weighted_disagreement": 0.49707603454589844,
+          "predicted": [
+            685,
+            685,
+            3770,
+            3770
+          ],
+          "reference": [
+            685,
+            685,
+            1753,
+            1753
+          ],
+          "top1_top2_margin": [
+            0.5833320617675781,
+            0.27777862548828125,
+            6.942710876464844,
+            2.7621536254882812
+          ]
+        },
+        {
+          "tokens": 9,
+          "coverage": 1.5029751062393188,
+          "ce": 1.974536657333374,
+          "disagreement": 0.8888888955116272,
+          "coverage_weighted_disagreement": 0.338521271944046
+        },
+        {
+          "tokens": 16,
+          "coverage": 2.671875,
+          "ce": 0.03466309979557991,
+          "disagreement": 0.625,
+          "coverage_weighted_disagreement": 0.0
+        },
+        {
+          "tokens": 36,
+          "coverage": 5.999999523162842,
+          "ce": 0.10172534734010696,
+          "disagreement": 0.694444477558136,
+          "coverage_weighted_disagreement": 0.003875969210639596
+        },
+        {
+          "tokens": 81,
+          "coverage": 13.448275566101074,
+          "ce": 0.027049800381064415,
+          "disagreement": 0.5185185074806213,
+          "coverage_weighted_disagreement": 0.003183024236932397
+        },
+        {
+          "tokens": 169,
+          "coverage": 28.112499237060547,
+          "ce": 0.15297384560108185,
+          "disagreement": 0.6804733872413635,
+          "coverage_weighted_disagreement": 0.042018674314022064
+        },
+        {
+          "tokens": 324,
+          "coverage": 54.010345458984375,
+          "ce": 0.4165309965610504,
+          "disagreement": 0.7438271641731262,
+          "coverage_weighted_disagreement": 0.07852902263402939
+        },
+        {
+          "tokens": 576,
+          "coverage": 96.0,
+          "ce": 1.3338223695755005,
+          "disagreement": 0.7673611044883728,
+          "coverage_weighted_disagreement": 0.09801136702299118
+        },
+        {
+          "tokens": 1024,
+          "coverage": 171.0,
+          "ce": 2.4932193756103516,
+          "disagreement": 0.8203125,
+          "coverage_weighted_disagreement": 0.1538742631673813
+        }
+      ],
+      "latent_minmax": [
+        -2.0475707054138184,
+        1.404332160949707
+      ],
+      "preclamp_valid_rgb_minmax": [
+        -0.9365234375,
+        0.90380859375
+      ],
+      "preclamp_valid_rgb_frac_outside": 0.0,
+      "output_valid_rgb_minmax": [
+        0.03173828125,
+        0.9521484375
+      ],
+      "output_valid_rgb_frac_saturated": 0.0
+    },
+    {
+      "id": "NUAA-SIRST/Misc_39",
+      "input_mode": "noisy",
+      "input_sha256": "6e0fa28643fd1ab5c26f6bb7c1e6635c4ebe89e870a3d8f4a24642ad373e2117",
+      "reference_sha256": "7cd803e313ee808d5861597f1439022aaf98268286b32ab56c117430c50cb151",
+      "dataset_pair_digest": "20f311b332c02df6c2db0f5e7eacf3ebd8a9e5539b50ada719a2a6ae51c2d12e",
+      "metrics": {
+        "whole_mae_dn": 9.465359806502084,
+        "plan_background_rmse_dn": 11.842531802672976,
+        "plan_background_mean_error_dn": 7.991835633597828,
+        "native_median_ring_contrast_bias_dn": -0.07622527778148425,
+        "native_median_ring_contrast_abs_error_dn": 0.07622527778148425,
+        "mean_predicted_signed_contrast_dn": 62.0437786191702,
+        "mean_reference_signed_contrast_dn": 62.12000389695168
+      },
+      "levels": [
+        {
+          "tokens": 1,
+          "coverage": 0.1669921875,
+          "ce": 7.962863310240209e-05,
+          "disagreement": 0.0,
+          "coverage_weighted_disagreement": 0.0,
+          "predicted": [
+            3788
+          ],
+          "reference": [
+            3788
+          ],
+          "top1_top2_margin": [
+            9.71875
+          ]
+        },
+        {
+          "tokens": 4,
+          "coverage": 0.66796875,
+          "ce": 2.7283427715301514,
+          "disagreement": 0.5,
+          "coverage_weighted_disagreement": 0.49707603454589844,
+          "predicted": [
+            685,
+            685,
+            3770,
+            3770
+          ],
+          "reference": [
+            685,
+            685,
+            1753,
+            1753
+          ],
+          "top1_top2_margin": [
+            0.5850677490234375,
+            0.3072929382324219,
+            6.913200378417969,
+            2.796875
+          ]
+        },
+        {
+          "tokens": 9,
+          "coverage": 1.5029751062393188,
+          "ce": 1.9727327823638916,
+          "disagreement": 0.8888888955116272,
+          "coverage_weighted_disagreement": 0.338521271944046
+        },
+        {
+          "tokens": 16,
+          "coverage": 2.671875,
+          "ce": 0.03610655665397644,
+          "disagreement": 0.625,
+          "coverage_weighted_disagreement": 0.0
+        },
+        {
+          "tokens": 36,
+          "coverage": 5.999999523162842,
+          "ce": 0.1026407852768898,
+          "disagreement": 0.694444477558136,
+          "coverage_weighted_disagreement": 0.003875969210639596
+        },
+        {
+          "tokens": 81,
+          "coverage": 13.448275566101074,
+          "ce": 0.02683934010565281,
+          "disagreement": 0.5185185074806213,
+          "coverage_weighted_disagreement": 0.003183024236932397
+        },
+        {
+          "tokens": 169,
+          "coverage": 28.112499237060547,
+          "ce": 0.10760374367237091,
+          "disagreement": 0.6745561957359314,
+          "coverage_weighted_disagreement": 0.042018674314022064
+        },
+        {
+          "tokens": 324,
+          "coverage": 54.010345458984375,
+          "ce": 0.38345757126808167,
+          "disagreement": 0.7376543283462524,
+          "coverage_weighted_disagreement": 0.07852902263402939
+        },
+        {
+          "tokens": 576,
+          "coverage": 96.0,
+          "ce": 1.3229165077209473,
+          "disagreement": 0.7621527910232544,
+          "coverage_weighted_disagreement": 0.09848485141992569
+        },
+        {
+          "tokens": 1024,
+          "coverage": 171.0,
+          "ce": 2.6229827404022217,
+          "disagreement": 0.8203125,
+          "coverage_weighted_disagreement": 0.1871345043182373
+        }
+      ],
+      "latent_minmax": [
+        -2.0812337398529053,
+        1.404473066329956
+      ],
+      "preclamp_valid_rgb_minmax": [
+        -0.9072265625,
+        0.8994140625
+      ],
+      "preclamp_valid_rgb_frac_outside": 0.0,
+      "output_valid_rgb_minmax": [
+        0.04638671875,
+        0.94970703125
+      ],
+      "output_valid_rgb_frac_saturated": 0.0
+    },
+    {
+      "id": "NUAA-SIRST/Misc_313",
+      "input_mode": "clean",
+      "input_sha256": "d07a91b0c4a646850942e281948f8f8082592a5e93376a0bc1ee1c63f4ee4ad5",
+      "reference_sha256": "d07a91b0c4a646850942e281948f8f8082592a5e93376a0bc1ee1c63f4ee4ad5",
+      "dataset_pair_digest": "985586cbdbf7e55e5990aa4ff44658bdb69fca5df3db774e6947d8d99175dae2",
+      "metrics": {
+        "whole_mae_dn": 5.587260776615459,
+        "plan_background_rmse_dn": 7.497649569577676,
+        "plan_background_mean_error_dn": 1.2591560742628822,
+        "native_median_ring_contrast_bias_dn": -25.860906798365647,
+        "native_median_ring_contrast_abs_error_dn": 25.860906798365647,
+        "mean_predicted_signed_contrast_dn": 62.27739415301647,
+        "mean_reference_signed_contrast_dn": 88.13830095138212
+      },
+      "levels": [
+        {
+          "tokens": 1,
+          "coverage": 0.279327392578125,
+          "ce": 0.0014948395546525717,
+          "disagreement": 0.0,
+          "coverage_weighted_disagreement": 0.0,
+          "predicted": [
+            3788
+          ],
+          "reference": [
+            3788
+          ],
+          "top1_top2_margin": [
+            7.03125
+          ]
+        },
+        {
+          "tokens": 4,
+          "coverage": 1.1173095703125,
+          "ce": 0.0005160986911505461,
+          "disagreement": 0.0,
+          "coverage_weighted_disagreement": 0.0,
+          "predicted": [
+            3770,
+            3770,
+            3770,
+            3770
+          ],
+          "reference": [
+            3770,
+            3770,
+            3770,
+            3770
+          ],
+          "top1_top2_margin": [
+            8.256942749023438,
+            13.321182250976562,
+            7.376735687255859,
+            7.185760498046875
+          ]
+        },
+        {
+          "tokens": 9,
+          "coverage": 2.522998571395874,
+          "ce": 3.6323070526123047,
+          "disagreement": 0.3333333432674408,
+          "coverage_weighted_disagreement": 0.4548017978668213
+        },
+        {
+          "tokens": 16,
+          "coverage": 4.46923828125,
+          "ce": 9.737251281738281,
+          "disagreement": 0.8125,
+          "coverage_weighted_disagreement": 0.8425925970077515
+        },
+        {
+          "tokens": 36,
+          "coverage": 10.04975700378418,
+          "ce": 13.765009880065918,
+          "disagreement": 0.75,
+          "coverage_weighted_disagreement": 0.6953771710395813
+        },
+        {
+          "tokens": 81,
+          "coverage": 22.56242561340332,
+          "ce": 12.012221336364746,
+          "disagreement": 0.7654321193695068,
+          "coverage_weighted_disagreement": 0.6701449155807495
+        },
+        {
+          "tokens": 169,
+          "coverage": 47.2621955871582,
+          "ce": 16.127389907836914,
+          "disagreement": 0.8047337532043457,
+          "coverage_weighted_disagreement": 0.7503548264503479
+        },
+        {
+          "tokens": 324,
+          "coverage": 90.24970245361328,
+          "ce": 19.205184936523438,
+          "disagreement": 0.8456790447235107,
+          "coverage_weighted_disagreement": 0.8606851100921631
+        },
+        {
+          "tokens": 576,
+          "coverage": 161.47933959960938,
+          "ce": 20.98316192626953,
+          "disagreement": 0.9079861044883728,
+          "coverage_weighted_disagreement": 0.8896566033363342
+        },
+        {
+          "tokens": 1024,
+          "coverage": 286.03125,
+          "ce": 18.729095458984375,
+          "disagreement": 0.9296875,
+          "coverage_weighted_disagreement": 0.8575330376625061
+        }
+      ],
+      "latent_minmax": [
+        -1.584511160850525,
+        1.4770581722259521
+      ],
+      "preclamp_valid_rgb_minmax": [
+        -0.8740234375,
+        0.9599609375
+      ],
+      "preclamp_valid_rgb_frac_outside": 0.0,
+      "output_valid_rgb_minmax": [
+        0.06298828125,
+        0.97998046875
+      ],
+      "output_valid_rgb_frac_saturated": 0.0
+    },
+    {
+      "id": "NUAA-SIRST/Misc_313",
+      "input_mode": "noisy",
+      "input_sha256": "2374134b074322553e7cc0537431401ca40baf24f4dc808e9c6cd97dc3ed3d7f",
+      "reference_sha256": "d07a91b0c4a646850942e281948f8f8082592a5e93376a0bc1ee1c63f4ee4ad5",
+      "dataset_pair_digest": "985586cbdbf7e55e5990aa4ff44658bdb69fca5df3db774e6947d8d99175dae2",
+      "metrics": {
+        "whole_mae_dn": 5.662786662579346,
+        "plan_background_rmse_dn": 7.528234886142459,
+        "plan_background_mean_error_dn": 1.4234416530018446,
+        "native_median_ring_contrast_bias_dn": -26.89612520396882,
+        "native_median_ring_contrast_abs_error_dn": 26.89612520396882,
+        "mean_predicted_signed_contrast_dn": 61.2421757474133,
+        "mean_reference_signed_contrast_dn": 88.13830095138212
+      },
+      "levels": [
+        {
+          "tokens": 1,
+          "coverage": 0.279327392578125,
+          "ce": 0.0014678190927952528,
+          "disagreement": 0.0,
+          "coverage_weighted_disagreement": 0.0,
+          "predicted": [
+            3788
+          ],
+          "reference": [
+            3788
+          ],
+          "top1_top2_margin": [
+            7.0625
+          ]
+        },
+        {
+          "tokens": 4,
+          "coverage": 1.1173095703125,
+          "ce": 0.0004799807502422482,
+          "disagreement": 0.0,
+          "coverage_weighted_disagreement": 0.0,
+          "predicted": [
+            3770,
+            3770,
+            3770,
+            3770
+          ],
+          "reference": [
+            3770,
+            3770,
+            3770,
+            3770
+          ],
+          "top1_top2_margin": [
+            8.222221374511719,
+            13.348958969116211,
+            7.411457061767578,
+            7.315971374511719
+          ]
+        },
+        {
+          "tokens": 9,
+          "coverage": 2.522998571395874,
+          "ce": 3.6114537715911865,
+          "disagreement": 0.3333333432674408,
+          "coverage_weighted_disagreement": 0.4548017978668213
+        },
+        {
+          "tokens": 16,
+          "coverage": 4.46923828125,
+          "ce": 9.735812187194824,
+          "disagreement": 0.8125,
+          "coverage_weighted_disagreement": 0.8425925970077515
+        },
+        {
+          "tokens": 36,
+          "coverage": 10.04975700378418,
+          "ce": 13.848745346069336,
+          "disagreement": 0.75,
+          "coverage_weighted_disagreement": 0.6953771710395813
+        },
+        {
+          "tokens": 81,
+          "coverage": 22.56242561340332,
+          "ce": 11.989700317382812,
+          "disagreement": 0.7654321193695068,
+          "coverage_weighted_disagreement": 0.6701449155807495
+        },
+        {
+          "tokens": 169,
+          "coverage": 47.2621955871582,
+          "ce": 16.115463256835938,
+          "disagreement": 0.8047337532043457,
+          "coverage_weighted_disagreement": 0.7503548264503479
+        },
+        {
+          "tokens": 324,
+          "coverage": 90.24970245361328,
+          "ce": 19.192798614501953,
+          "disagreement": 0.8456790447235107,
+          "coverage_weighted_disagreement": 0.8606851100921631
+        },
+        {
+          "tokens": 576,
+          "coverage": 161.47933959960938,
+          "ce": 20.978477478027344,
+          "disagreement": 0.9114583134651184,
+          "coverage_weighted_disagreement": 0.8896566033363342
+        },
+        {
+          "tokens": 1024,
+          "coverage": 286.03125,
+          "ce": 18.690773010253906,
+          "disagreement": 0.9287109375,
+          "coverage_weighted_disagreement": 0.8540369272232056
+        }
+      ],
+      "latent_minmax": [
+        -1.8123841285705566,
+        1.4770581722259521
+      ],
+      "preclamp_valid_rgb_minmax": [
+        -0.912109375,
+        0.9775390625
+      ],
+      "preclamp_valid_rgb_frac_outside": 0.0,
+      "output_valid_rgb_minmax": [
+        0.0439453125,
+        0.98876953125
+      ],
+      "output_valid_rgb_frac_saturated": 0.0
+    }
+  ]
+}

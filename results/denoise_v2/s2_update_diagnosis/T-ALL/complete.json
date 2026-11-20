@@ -1,0 +1,17 @@
+{
+  "arm": "T-ALL",
+  "images": 64,
+  "accepted_updates": 16,
+  "registration_sha256": "8d8770f5f57a74f155a6c685dcb532be8b84cea42d9ddecb39ce979e2208e581",
+  "parent_sha256": "fb2eaf0426e1634b8cde12c7d8951ded9d6b4f04a0ae2ef77a1c13f794caacab",
+  "manifest_sha256": "192c73934cd78efe8d283024add8c43d03ccbaaea89d4072a06e35d7a64faaa0",
+  "tests_used": 0,
+  "optimizer_steps": [
+    16
+  ],
+  "optimizer_states": 388,
+  "sum_retries": 3,
+  "elapsed": 604.121755605971,
+  "code_sha256": "b31d7df84f549261382e3caa1699ae5028e7030004e2ba48997d1ae54e08ced5",
+  "peak_gib": 29.232919692993164
+}

@@ -30,6 +30,31 @@ def save_report(path, report):
     os.replace(temp.name, path)
 
 
+METRIC_DIRECTION = {
+    "whole_mae_dn": "lower", "valid_mae_dn": "lower", "background_rmse_dn": "lower",
+    "plan_background_rmse_dn": "lower", "weighted_background_column_residual_dn": "lower",
+    "background_column_residual_dn": "lower", "native_contrast_abs_error_dn": "lower",
+    "native_median_ring_contrast_abs_error_dn": "lower", "native_target_mae_dn": "lower",
+    "whole_psnr_db": "higher", "whole_ssim": "higher",
+    "native_median_ring_contrast_bias_dn": "signed", "plan_background_mean_error_dn": "signed",
+}
+
+
+def checked_error_dn(prediction, reference):
+    pred, ref = np.asarray(prediction), np.asarray(reference)
+    if pred.shape != ref.shape or pred.ndim != 2:
+        raise ValueError(f"Expected identical 2D grids, got {pred.shape} and {ref.shape}")
+    if not np.isfinite(pred).all() or not np.isfinite(ref).all():
+        raise ValueError("Nonfinite prediction or reference")
+    return (pred.astype(np.float64) - ref.astype(np.float64)) * 255
+
+
+def fixed_background(sample):
+    valid = sample["valid_mask"][0]
+    target = sample["native_mask"][0] & valid
+    return valid & ~ndimage.binary_dilation(target, structure=np.ones((5, 5), bool))
+
+
 def prepare_metrics(sample, *, extended=False):
     reference = sample["reference_minus"][0]
     valid = sample["valid_mask"][0]
@@ -50,16 +75,14 @@ def prepare_metrics(sample, *, extended=False):
     bg_counts = background.sum(axis=0)
     columns = bg_counts >= 8
     if extended:
-        plan_bg = valid & ~ndimage.binary_dilation(native, structure=np.ones((5, 5), bool))
+        plan_bg = fixed_background(sample)
         weights = plan_bg.sum(axis=0)
         active = weights > 0
         ref64 = reference.astype(np.float64)
         ref_contrasts = [ref64[r][m].mean() - np.median(ref64[r][a]) for r, m, a in local_regions]
 
     def measure(image):
-        error = (np.asarray(image, dtype=np.float64) - reference) * 255.0
-        if error.shape != valid.shape or not np.isfinite(error).all():
-            raise ValueError("Invalid output shape or values")
+        error = checked_error_dn(image, reference)
         contrast_errors = [
             abs(error[region][core].mean() - error[region][ring].mean())
             for region, core, ring in local_regions
@@ -128,12 +151,32 @@ def summarize(rows):
 def paired_changes(rows, ref, current):
     changes = {}
     for metric in rows[0]["metrics"][ref]:
-        delta = [r["metrics"][current][metric] - r["metrics"][ref][metric] for r in rows
-                 if r["metrics"][current][metric] is not None and r["metrics"][ref][metric] is not None]
+        direction = METRIC_DIRECTION[metric]
+        delta = []
+        for row in rows:
+            before, after = (row["metrics"][route][metric] for route in (ref, current))
+            if metric == "whole_psnr_db":
+                if before is None and row["metrics"][ref].get("whole_mae_dn") == 0:
+                    before = np.inf
+                if after is None and row["metrics"][current].get("whole_mae_dn") == 0:
+                    after = np.inf
+            if before is not None and after is not None:
+                delta.append(0.0 if before == after else after - before)
         if delta:
             arr = np.asarray(delta)
-            changes[metric] = dict(n_images=len(delta), mean_delta=float(arr.mean()),
-                                   improved_image_fraction=float((arr < 0).mean()))
+            mean = float(arr.mean()) if np.isfinite(arr).all() else None
+            item = dict(n_images=len(delta), mean_delta=mean)
+            if direction == "signed":
+                item.update(mean_absolute_delta=float(np.abs(arr).mean()), negative_fraction=float((arr<0).mean()),
+                            positive_fraction=float((arr>0).mean()), q05=float(np.quantile(arr,.05)),
+                            median=float(np.median(arr)), q95=float(np.quantile(arr,.95)))
+            else:
+                good = arr < 0 if direction == "lower" else arr > 0
+                item["improved_image_fraction"] = float(good.mean())
+            if metric == "whole_psnr_db":
+                item.update(positive_infinite_deltas=int(np.isposinf(arr).sum()),
+                            negative_infinite_deltas=int(np.isneginf(arr).sum()))
+            changes[metric] = item
     return changes
 
 

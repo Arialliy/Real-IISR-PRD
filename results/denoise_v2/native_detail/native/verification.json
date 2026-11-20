@@ -1,0 +1,25 @@
+{
+  "train_images": 213,
+  "conditions": [
+    "clean",
+    "draw0",
+    "draw1",
+    "fresh",
+    "stripe_only",
+    "pixel_only",
+    "combined"
+  ],
+  "methods": [
+    "input",
+    "column",
+    "s1",
+    "detail_half",
+    "detail_full",
+    "full_blend_half"
+  ],
+  "images": 8946,
+  "targets": 11340,
+  "legacy_control_rows_verified": 3195,
+  "config_sha256": "0d8853dadcf0b1f0053f45c76767f0fe22b0160b0a03d38db1f1a35ae31baae0",
+  "operator_sha256": "3d493384e6e13d24aabb0219fd78ace93b87e341f6330bc3b05391a9c2291e62"
+}

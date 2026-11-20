@@ -1,0 +1,7 @@
+{
+  "sample_id": "NUAA-SIRST/Misc_119",
+  "matches_two_runs_and_previous_archive": true,
+  "native_prediction_sha256": "0ff656ea17297ab2588197d55b77cada49216b0409748cfda25a24c2008ce42d",
+  "archive_file_sha256": "6d66cff7e319e62a7bdcc80063a9ff2c18b71d3a38ff39fb1ef2872566e98ec7",
+  "checkpoint_sha256": "fe1c2600ec6aeb18bfa674f7726a1dcd0aec45d9fbba25c7f1b9fe266b3ef9a9"
+}

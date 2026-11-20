@@ -1,0 +1,35 @@
+{
+  "n_sources": 213,
+  "n_rows": 1065,
+  "archive_hashes_checked": 213,
+  "n_code_identical_with_verified_identical_full_frame_base_and_fixed_cac": 12,
+  "independent_contrast_and_width_recomputation": "pass",
+  "summary_sha256": "0a42de4651dccda3c29ce8a80a62384fbc8217a39c09fc92b435814bede61cd7",
+  "counts": {
+    "reference_pair": {
+      "retained": 213,
+      "negative": 0,
+      "width": 207
+    },
+    "q_base_e_only": {
+      "retained": 87,
+      "negative": 37,
+      "width": 32
+    },
+    "q_global_cac_fixed_h_minus": {
+      "retained": 87,
+      "negative": 35,
+      "width": 33
+    },
+    "q_global_cac_own_h": {
+      "retained": 87,
+      "negative": 36,
+      "width": 33
+    },
+    "s1_deployment": {
+      "retained": 8,
+      "negative": 99,
+      "width": 1
+    }
+  }
+}

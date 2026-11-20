@@ -16,6 +16,8 @@ __pycache__/
 /datasets/FLIR-IISR/HR/
 /datasets/FLIR-IISR/LR/
 /datasets/FLIR-IISR/LR_4x/
+/datasets/SCaN-TIR/*.tar.gz
+/datasets/SCaN-TIR/*.tar.gz.part
 /datasets/**/*.png
 /datasets/**/*.bmp
 
@@ -23,6 +25,7 @@ __pycache__/
 /results/**/*.npy
 /results/**/*.npz
 /results/**/.train.lock
+/results/**/.run.lock
 /results/official_sirst_train/testset/HR/
 /results/official_sirst_train/testset/LR/
 /results/official_sirst_train/float_audit/testset/HR

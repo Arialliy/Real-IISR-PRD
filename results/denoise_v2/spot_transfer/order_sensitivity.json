@@ -1,0 +1,4960 @@
+{
+  "epoch": 0,
+  "draw_id": 0,
+  "train_candidates": 213,
+  "valid_pairs": 213,
+  "summary": {
+    "identity": {
+      "local": {
+        "exact_zero": 213,
+        "mean": 0.0,
+        "max": 0.0
+      },
+      "upstream": {
+        "exact_zero": 213,
+        "mean": 0.0,
+        "max": 0.0
+      }
+    },
+    "half_response": {
+      "local": {
+        "exact_zero": 213,
+        "mean": 0.0,
+        "max": 0.0
+      },
+      "upstream": {
+        "exact_zero": 213,
+        "mean": 0.0,
+        "max": 0.0
+      }
+    },
+    "deleted": {
+      "local": {
+        "exact_zero": 213,
+        "mean": 0.0,
+        "max": 0.0
+      },
+      "upstream": {
+        "exact_zero": 213,
+        "mean": 0.0,
+        "max": 0.0
+      }
+    },
+    "inversion_control": {
+      "local": {
+        "exact_zero": 67,
+        "mean": 0.0017505733697846938,
+        "max": 0.013808635994791985
+      },
+      "upstream": {
+        "exact_zero": 0,
+        "mean": 17.685642446815407,
+        "max": 84.49909973144531
+      }
+    }
+  },
+  "upstream_source_sha256": "bc7cb7d2acfb3ccc4666a5194cf4586f7142dc42f22fbdddf65c9e3d19b4be34",
+  "working_range": "[0,1] display gray on original padded grid",
+  "local_order_source_sha256": "669f62fed4f39e6591e0cbd113c148e7b55ddb74c471a5c69b50651be725286d",
+  "rows": [
+    {
+      "sample_id": "NUAA-SIRST/Misc_119",
+      "realized_peak_dn": 0.9999999403953552,
+      "max_change_8x8_mean_dn": 0.09820976760238409,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.006050678435713053,
+          "upstream": 27.801921844482422
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_64",
+      "realized_peak_dn": 0.9999999403953552,
+      "max_change_8x8_mean_dn": 0.05846921412739903,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 9.61266050580889e-05,
+          "upstream": 1.1112879514694214
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_90",
+      "realized_peak_dn": 3.999999761581421,
+      "max_change_8x8_mean_dn": 0.6761939032003284,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.005590445827692747,
+          "upstream": 17.473220825195312
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_364",
+      "realized_peak_dn": 1.9999998807907104,
+      "max_change_8x8_mean_dn": 0.354538313113153,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.0,
+          "upstream": 25.240459442138672
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_250",
+      "realized_peak_dn": 6.000001542270184,
+      "max_change_8x8_mean_dn": 0.36595978774130344,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.000161409581778571,
+          "upstream": 0.235270157456398
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_351",
+      "realized_peak_dn": 3.999999761581421,
+      "max_change_8x8_mean_dn": 0.4272727039642632,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.0011823524255305529,
+          "upstream": 13.279675483703613
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_39",
+      "realized_peak_dn": 5.999999642372131,
+      "max_change_8x8_mean_dn": 0.3400957630947232,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.010454116389155388,
+          "upstream": 14.566360473632812
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_313",
+      "realized_peak_dn": 3.999999761581421,
+      "max_change_8x8_mean_dn": 0.6539924070239067,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.00036458304384723306,
+          "upstream": 12.09526252746582
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_179",
+      "realized_peak_dn": 1.9999998807907104,
+      "max_change_8x8_mean_dn": 0.19732575688976794,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.0018800602992996573,
+          "upstream": 11.051935195922852
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_344",
+      "realized_peak_dn": 3.999999761581421,
+      "max_change_8x8_mean_dn": 0.5402620160020888,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 1.4143808584776707e-05,
+          "upstream": 4.139753818511963
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_421",
+      "realized_peak_dn": 1.9999998807907104,
+      "max_change_8x8_mean_dn": 0.36297611659392715,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.0,
+          "upstream": 10.263585090637207
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_398",
+      "realized_peak_dn": 1.9999998807907104,
+      "max_change_8x8_mean_dn": 0.21876738290302455,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.012010875158011913,
+          "upstream": 39.75151062011719
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_417",
+      "realized_peak_dn": 0.9999999403953552,
+      "max_change_8x8_mean_dn": 0.0821642973460257,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.000585931062232703,
+          "upstream": 12.060394287109375
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_95",
+      "realized_peak_dn": 11.999999284744263,
+      "max_change_8x8_mean_dn": 1.1852126894518733,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.010972341522574425,
+          "upstream": 15.661171913146973
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_339",
+      "realized_peak_dn": 7.999999523162842,
+      "max_change_8x8_mean_dn": 1.3817895599640906,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.0,
+          "upstream": 22.005117416381836
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_426",
+      "realized_peak_dn": 0.9999999403953552,
+      "max_change_8x8_mean_dn": 0.06719179451465607,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 8.544998308934737e-06,
+          "upstream": 14.137889862060547
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_269",
+      "realized_peak_dn": 0.9999999403953552,
+      "max_change_8x8_mean_dn": 0.12346463743597269,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.0,
+          "upstream": 15.683265686035156
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_316",
+      "realized_peak_dn": 0.9999999403953552,
+      "max_change_8x8_mean_dn": 0.15683029079809785,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.0,
+          "upstream": 10.759198188781738
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_419",
+      "realized_peak_dn": 1.9999998807907104,
+      "max_change_8x8_mean_dn": 0.12585019692778587,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.0,
+          "upstream": 6.176812171936035
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_144",
+      "realized_peak_dn": 5.999999642372131,
+      "max_change_8x8_mean_dn": 0.7800802099518478,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.00325528415851295,
+          "upstream": 24.330440521240234
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_149",
+      "realized_peak_dn": 3.999999761581421,
+      "max_change_8x8_mean_dn": 0.25925842579454184,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.0,
+          "upstream": 16.65228843688965
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_146",
+      "realized_peak_dn": 11.999999284744263,
+      "max_change_8x8_mean_dn": 1.1558413342572749,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.0,
+          "upstream": 13.988801002502441
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_31",
+      "realized_peak_dn": 6.000003442168236,
+      "max_change_8x8_mean_dn": 0.9769645670894533,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 2.4357846086786594e-06,
+          "upstream": 6.812099933624268
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_58",
+      "realized_peak_dn": 3.999999761581421,
+      "max_change_8x8_mean_dn": 0.2632245817221701,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.0013549344148486853,
+          "upstream": 10.782651901245117
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_4",
+      "realized_peak_dn": 6.00000724196434,
+      "max_change_8x8_mean_dn": 0.7606853381730616,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.000601627049036324,
+          "upstream": 7.97880744934082
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_264",
+      "realized_peak_dn": 0.9999999403953552,
+      "max_change_8x8_mean_dn": 0.03396293381229043,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.0,
+          "upstream": 8.633246421813965
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_283",
+      "realized_peak_dn": 3.999999761581421,
+      "max_change_8x8_mean_dn": 0.45523279113695025,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.0,
+          "upstream": 6.44084358215332
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_284",
+      "realized_peak_dn": 7.999999523162842,
+      "max_change_8x8_mean_dn": 0.7288429280743003,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.0,
+          "upstream": 25.96425437927246
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_150",
+      "realized_peak_dn": 3.999999761581421,
+      "max_change_8x8_mean_dn": 0.18593233544379473,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.004558771848678589,
+          "upstream": 35.26762771606445
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_220",
+      "realized_peak_dn": 5.999999642372131,
+      "max_change_8x8_mean_dn": 0.5497423885390162,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.0,
+          "upstream": 10.655062675476074
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_133",
+      "realized_peak_dn": 0.9999999403953552,
+      "max_change_8x8_mean_dn": 0.0615357980132103,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 2.354353455302771e-06,
+          "upstream": 23.16889762878418
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_77",
+      "realized_peak_dn": 0.9999999403953552,
+      "max_change_8x8_mean_dn": 0.11083507997682318,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.013034207746386528,
+          "upstream": 14.4452543258667
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_70",
+      "realized_peak_dn": 6.000003442168236,
+      "max_change_8x8_mean_dn": 0.571433762088418,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.0,
+          "upstream": 4.099186897277832
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_425",
+      "realized_peak_dn": 11.999999284744263,
+      "max_change_8x8_mean_dn": 0.9521327214315534,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.0007235390949063003,
+          "upstream": 7.617297649383545
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_195",
+      "realized_peak_dn": 11.999999284744263,
+      "max_change_8x8_mean_dn": 1.4585849829018116,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.0,
+          "upstream": 1.3381688594818115
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_304",
+      "realized_peak_dn": 7.999999523162842,
+      "max_change_8x8_mean_dn": 0.34354229690507054,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 6.557345477631316e-05,
+          "upstream": 5.185053825378418
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_329",
+      "realized_peak_dn": 1.9999998807907104,
+      "max_change_8x8_mean_dn": 0.21635433426126838,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.0007244584267027676,
+          "upstream": 5.118937015533447
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_65",
+      "realized_peak_dn": 11.999999284744263,
+      "max_change_8x8_mean_dn": 0.4732250631786883,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.0001834044378483668,
+          "upstream": 2.939680337905884
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_167",
+      "realized_peak_dn": 11.999999284744263,
+      "max_change_8x8_mean_dn": 1.6127323801629245,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.0,
+          "upstream": 6.911428451538086
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_174",
+      "realized_peak_dn": 0.9999999403953552,
+      "max_change_8x8_mean_dn": 0.04378689103759825,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.0,
+          "upstream": 1.3660671710968018
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_202",
+      "realized_peak_dn": 0.9999999403953552,
+      "max_change_8x8_mean_dn": 0.1570374984294176,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.0,
+          "upstream": 4.025198459625244
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_157",
+      "realized_peak_dn": 5.999999642372131,
+      "max_change_8x8_mean_dn": 1.0905098961666226,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.0005381859373301268,
+          "upstream": 23.196617126464844
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_96",
+      "realized_peak_dn": 1.9999998807907104,
+      "max_change_8x8_mean_dn": 0.16824452206492424,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.007391415070742369,
+          "upstream": 19.740522384643555
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_320",
+      "realized_peak_dn": 7.999999523162842,
+      "max_change_8x8_mean_dn": 1.0524202650412917,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.0,
+          "upstream": 11.551193237304688
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_369",
+      "realized_peak_dn": 3.999999761581421,
+      "max_change_8x8_mean_dn": 0.34892862662672997,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.0,
+          "upstream": 7.769542694091797
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_109",
+      "realized_peak_dn": 1.9999998807907104,
+      "max_change_8x8_mean_dn": 0.12653166661038995,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.007988480851054192,
+          "upstream": 17.65183448791504
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_16",
+      "realized_peak_dn": 0.9999999403953552,
+      "max_change_8x8_mean_dn": 0.05972175160422921,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.00032877802732400596,
+          "upstream": 5.648633003234863
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_40",
+      "realized_peak_dn": 11.999999284744263,
+      "max_change_8x8_mean_dn": 1.5062002278864384,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.000200624592253007,
+          "upstream": 1.4979979991912842
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_295",
+      "realized_peak_dn": 5.999999642372131,
+      "max_change_8x8_mean_dn": 0.2391553670167923,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.00018544953491073102,
+          "upstream": 10.875669479370117
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_147",
+      "realized_peak_dn": 3.999999761581421,
+      "max_change_8x8_mean_dn": 0.4639792093075812,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.0,
+          "upstream": 0.06413418054580688
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_247",
+      "realized_peak_dn": 11.999999284744263,
+      "max_change_8x8_mean_dn": 1.7458842415362597,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 6.481193850049749e-05,
+          "upstream": 5.9570088386535645
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_423",
+      "realized_peak_dn": 0.9999999403953552,
+      "max_change_8x8_mean_dn": 0.17808560805860907,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.003574035130441189,
+          "upstream": 4.223825454711914
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_152",
+      "realized_peak_dn": 11.999999284744263,
+      "max_change_8x8_mean_dn": 1.2402329058386385,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.0012773509370163083,
+          "upstream": 17.757156372070312
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_100",
+      "realized_peak_dn": 7.999999523162842,
+      "max_change_8x8_mean_dn": 0.4883128067012876,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.0,
+          "upstream": 3.2641210556030273
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_263",
+      "realized_peak_dn": 1.9999998807907104,
+      "max_change_8x8_mean_dn": 0.21436846582219005,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 9.784135909285396e-05,
+          "upstream": 11.71351146697998
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_352",
+      "realized_peak_dn": 5.999999642372131,
+      "max_change_8x8_mean_dn": 0.15120956115424633,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.0075779142789542675,
+          "upstream": 37.83647155761719
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_233",
+      "realized_peak_dn": 7.999999523162842,
+      "max_change_8x8_mean_dn": 0.763962424825877,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.0,
+          "upstream": 11.22358512878418
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_190",
+      "realized_peak_dn": 0.9999999403953552,
+      "max_change_8x8_mean_dn": 0.10789176682010293,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.0,
+          "upstream": 3.629812717437744
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_392",
+      "realized_peak_dn": 11.999999284744263,
+      "max_change_8x8_mean_dn": 1.4403032138943672,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.013808635994791985,
+          "upstream": 79.89423370361328
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_281",
+      "realized_peak_dn": 7.999999523162842,
+      "max_change_8x8_mean_dn": 0.862212743377313,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.0037424482870846987,
+          "upstream": 3.781947135925293
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_358",
+      "realized_peak_dn": 1.9999998807907104,
+      "max_change_8x8_mean_dn": 0.20656350650824606,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.007538515143096447,
+          "upstream": 36.6802978515625
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_163",
+      "realized_peak_dn": 5.999999642372131,
+      "max_change_8x8_mean_dn": 0.6137417606078088,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.0,
+          "upstream": 6.6119160652160645
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_132",
+      "realized_peak_dn": 5.999999642372131,
+      "max_change_8x8_mean_dn": 0.5482338694855571,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.0011772351572290063,
+          "upstream": 19.21259307861328
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_405",
+      "realized_peak_dn": 11.999999284744263,
+      "max_change_8x8_mean_dn": 0.64811424119398,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.0004379600577522069,
+          "upstream": 8.006114959716797
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_159",
+      "realized_peak_dn": 5.999999642372131,
+      "max_change_8x8_mean_dn": 0.19239341374486685,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.0,
+          "upstream": 44.906494140625
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_12",
+      "realized_peak_dn": 11.999999284744263,
+      "max_change_8x8_mean_dn": 2.2494821436703205,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.002772945212200284,
+          "upstream": 34.728519439697266
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_367",
+      "realized_peak_dn": 0.9999999403953552,
+      "max_change_8x8_mean_dn": 0.047690290957689285,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.0008506941958330572,
+          "upstream": 47.02314376831055
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_172",
+      "realized_peak_dn": 0.9999999403953552,
+      "max_change_8x8_mean_dn": 0.13012757990509272,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 1.5469702702830546e-05,
+          "upstream": 4.7754130363464355
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_401",
+      "realized_peak_dn": 0.9999999403953552,
+      "max_change_8x8_mean_dn": 0.10572101455181837,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.00021178055612836033,
+          "upstream": 13.752229690551758
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_138",
+      "realized_peak_dn": 1.9999998807907104,
+      "max_change_8x8_mean_dn": 0.272206231020391,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 1.5012476069387048e-05,
+          "upstream": 18.009124755859375
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_104",
+      "realized_peak_dn": 7.999999523162842,
+      "max_change_8x8_mean_dn": 0.6310671684332192,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.011782963760197163,
+          "upstream": 84.49909973144531
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_86",
+      "realized_peak_dn": 3.999999761581421,
+      "max_change_8x8_mean_dn": 0.4595183674246073,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.0016224634600803256,
+          "upstream": 40.30622863769531
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_160",
+      "realized_peak_dn": 3.999999761581421,
+      "max_change_8x8_mean_dn": 0.3864964982494712,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.00023958843667060137,
+          "upstream": 24.834964752197266
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_242",
+      "realized_peak_dn": 1.9999998807907104,
+      "max_change_8x8_mean_dn": 0.21096907323226333,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 1.0804539670061786e-05,
+          "upstream": 13.060860633850098
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_7",
+      "realized_peak_dn": 11.999999284744263,
+      "max_change_8x8_mean_dn": 0.4720686189830303,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 5.608470382867381e-05,
+          "upstream": 17.63758659362793
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_305",
+      "realized_peak_dn": 1.9999998807907104,
+      "max_change_8x8_mean_dn": 0.14061359222978354,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.0,
+          "upstream": 11.023560523986816
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_243",
+      "realized_peak_dn": 0.9999999403953552,
+      "max_change_8x8_mean_dn": 0.06016781204380095,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 4.444007572601549e-05,
+          "upstream": 6.063682556152344
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_399",
+      "realized_peak_dn": 3.999999761581421,
+      "max_change_8x8_mean_dn": 0.49708481412380934,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.0014956645900383592,
+          "upstream": 15.566874504089355
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_363",
+      "realized_peak_dn": 12.000006884336472,
+      "max_change_8x8_mean_dn": 0.577724443282932,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.01044201385229826,
+          "upstream": 60.24454879760742
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_61",
+      "realized_peak_dn": 3.999999761581421,
+      "max_change_8x8_mean_dn": 0.39029855048283935,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.0004298115964047611,
+          "upstream": 7.308928966522217
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_129",
+      "realized_peak_dn": 3.999999761581421,
+      "max_change_8x8_mean_dn": 0.4728449648246169,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.0,
+          "upstream": 21.180646896362305
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_330",
+      "realized_peak_dn": 0.9999999403953552,
+      "max_change_8x8_mean_dn": 0.0691513018682599,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.0036273032892495394,
+          "upstream": 41.789859771728516
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_134",
+      "realized_peak_dn": 1.9999998807907104,
+      "max_change_8x8_mean_dn": 0.14579265494830906,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.005636351183056831,
+          "upstream": 13.106823921203613
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_315",
+      "realized_peak_dn": 3.999999761581421,
+      "max_change_8x8_mean_dn": 0.6023427285254002,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.008786790072917938,
+          "upstream": 29.77554702758789
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_180",
+      "realized_peak_dn": 11.999999284744263,
+      "max_change_8x8_mean_dn": 0.6907846452668309,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.005151927936822176,
+          "upstream": 35.11450958251953
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_244",
+      "realized_peak_dn": 1.9999998807907104,
+      "max_change_8x8_mean_dn": 0.10196735034696758,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 1.3737681911152322e-05,
+          "upstream": 1.2594908475875854
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_63",
+      "realized_peak_dn": 7.999999523162842,
+      "max_change_8x8_mean_dn": 0.3757729986682534,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.0009561724145896733,
+          "upstream": 8.338153839111328
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_391",
+      "realized_peak_dn": 0.9999999403953552,
+      "max_change_8x8_mean_dn": 0.08771093096584082,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.00722974818199873,
+          "upstream": 36.094825744628906
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_42",
+      "realized_peak_dn": 0.9999999403953552,
+      "max_change_8x8_mean_dn": 0.11042587459087372,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.000915722397621721,
+          "upstream": 15.351386070251465
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_404",
+      "realized_peak_dn": 1.9999998807907104,
+      "max_change_8x8_mean_dn": 0.26318812742829323,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.0,
+          "upstream": 64.50812530517578
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_29",
+      "realized_peak_dn": 3.999999761581421,
+      "max_change_8x8_mean_dn": 0.17632152303121984,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 4.0604223613627255e-05,
+          "upstream": 4.817133903503418
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_238",
+      "realized_peak_dn": 3.999999761581421,
+      "max_change_8x8_mean_dn": 0.3654652205295861,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.002506132470443845,
+          "upstream": 19.456951141357422
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_285",
+      "realized_peak_dn": 1.9999998807907104,
+      "max_change_8x8_mean_dn": 0.2080407366156578,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.0,
+          "upstream": 17.33295440673828
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_214",
+      "realized_peak_dn": 11.999999284744263,
+      "max_change_8x8_mean_dn": 1.4550402481108904,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.00020476050849538296,
+          "upstream": 18.12543487548828
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_93",
+      "realized_peak_dn": 3.999999761581421,
+      "max_change_8x8_mean_dn": 0.49589761532843113,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.003414425766095519,
+          "upstream": 25.52358627319336
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_253",
+      "realized_peak_dn": 12.000003084540367,
+      "max_change_8x8_mean_dn": 0.7031219301279634,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.004363738466054201,
+          "upstream": 14.71916389465332
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_402",
+      "realized_peak_dn": 2.0000074803829193,
+      "max_change_8x8_mean_dn": 0.20214511547237635,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 9.846774628385901e-05,
+          "upstream": 28.924774169921875
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_50",
+      "realized_peak_dn": 5.999999642372131,
+      "max_change_8x8_mean_dn": 0.5210453784093261,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.0,
+          "upstream": 31.560474395751953
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_291",
+      "realized_peak_dn": 0.9999999403953552,
+      "max_change_8x8_mean_dn": 0.08923678658902645,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.0003756245132535696,
+          "upstream": 22.97696876525879
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_128",
+      "realized_peak_dn": 7.999999523162842,
+      "max_change_8x8_mean_dn": 1.005730270408094,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.0004937066696584225,
+          "upstream": 20.075979232788086
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_267",
+      "realized_peak_dn": 1.9999998807907104,
+      "max_change_8x8_mean_dn": 0.15788152813911438,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.001406343886628747,
+          "upstream": 16.388710021972656
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_115",
+      "realized_peak_dn": 6.000001542270184,
+      "max_change_8x8_mean_dn": 0.7309882098343223,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.0001463603985030204,
+          "upstream": 1.5288746356964111
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_337",
+      "realized_peak_dn": 11.999999284744263,
+      "max_change_8x8_mean_dn": 1.4292350015603006,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.0,
+          "upstream": 12.280793190002441
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_370",
+      "realized_peak_dn": 3.999999761581421,
+      "max_change_8x8_mean_dn": 0.4006811371073127,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.0008279498433694243,
+          "upstream": 42.03276824951172
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_158",
+      "realized_peak_dn": 5.999999642372131,
+      "max_change_8x8_mean_dn": 0.84683669032529,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 1.3325426152732689e-05,
+          "upstream": 25.008777618408203
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_114",
+      "realized_peak_dn": 3.999999761581421,
+      "max_change_8x8_mean_dn": 0.17559499014168978,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.010341930203139782,
+          "upstream": 18.496700286865234
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_388",
+      "realized_peak_dn": 7.999999523162842,
+      "max_change_8x8_mean_dn": 0.5265624448657036,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.0009899354772642255,
+          "upstream": 45.48188018798828
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_170",
+      "realized_peak_dn": 0.9999999403953552,
+      "max_change_8x8_mean_dn": 0.08718085940927267,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.0,
+          "upstream": 4.096982955932617
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_354",
+      "realized_peak_dn": 3.999999761581421,
+      "max_change_8x8_mean_dn": 0.152768783736974,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.004169856198132038,
+          "upstream": 52.86969757080078
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_36",
+      "realized_peak_dn": 0.9999999403953552,
+      "max_change_8x8_mean_dn": 0.04969159606844187,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.003777633188292384,
+          "upstream": 49.18828201293945
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_424",
+      "realized_peak_dn": 0.9999999403953552,
+      "max_change_8x8_mean_dn": 0.04515927052125335,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.0,
+          "upstream": 11.738492012023926
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_336",
+      "realized_peak_dn": 0.9999999403953552,
+      "max_change_8x8_mean_dn": 0.05650320556014776,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.0,
+          "upstream": 9.68004035949707
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_393",
+      "realized_peak_dn": 5.999999642372131,
+      "max_change_8x8_mean_dn": 0.2121206489391625,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.012467649765312672,
+          "upstream": 46.33111572265625
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_229",
+      "realized_peak_dn": 1.9999998807907104,
+      "max_change_8x8_mean_dn": 0.0676144624594599,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.0008027798030525446,
+          "upstream": 4.317093372344971
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_108",
+      "realized_peak_dn": 2.0000017806887627,
+      "max_change_8x8_mean_dn": 0.15448103717062622,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.004260380286723375,
+          "upstream": 9.78409194946289
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_105",
+      "realized_peak_dn": 5.999999642372131,
+      "max_change_8x8_mean_dn": 0.9988089418038726,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.0006822518189437687,
+          "upstream": 5.698888778686523
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_406",
+      "realized_peak_dn": 3.999999761581421,
+      "max_change_8x8_mean_dn": 0.7229907077271491,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.0011489049065858126,
+          "upstream": 10.603342056274414
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_2",
+      "realized_peak_dn": 7.999999523162842,
+      "max_change_8x8_mean_dn": 0.5371447582729161,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.00033245226950384676,
+          "upstream": 22.798267364501953
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_324",
+      "realized_peak_dn": 1.9999998807907104,
+      "max_change_8x8_mean_dn": 0.22493249271064997,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.0,
+          "upstream": 7.056128025054932
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_47",
+      "realized_peak_dn": 3.999999761581421,
+      "max_change_8x8_mean_dn": 0.22938810987398028,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.010749926790595055,
+          "upstream": 13.354138374328613
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_200",
+      "realized_peak_dn": 11.999999284744263,
+      "max_change_8x8_mean_dn": 1.269119312055409,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.0,
+          "upstream": 7.6085968017578125
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_187",
+      "realized_peak_dn": 6.000003442168236,
+      "max_change_8x8_mean_dn": 0.41545088519342244,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 8.050704309425782e-06,
+          "upstream": 3.8846309185028076
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_33",
+      "realized_peak_dn": 1.9999998807907104,
+      "max_change_8x8_mean_dn": 0.13367872685194016,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 6.732404290232807e-05,
+          "upstream": 32.8936767578125
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_72",
+      "realized_peak_dn": 1.9999998807907104,
+      "max_change_8x8_mean_dn": 0.16917143482714891,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.0,
+          "upstream": 22.99936866760254
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_384",
+      "realized_peak_dn": 1.9999998807907104,
+      "max_change_8x8_mean_dn": 0.20019582007080317,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 8.955968223745003e-05,
+          "upstream": 57.951053619384766
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_120",
+      "realized_peak_dn": 3.999999761581421,
+      "max_change_8x8_mean_dn": 0.2239412209019065,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.005113977938890457,
+          "upstream": 6.562607288360596
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_322",
+      "realized_peak_dn": 5.999999642372131,
+      "max_change_8x8_mean_dn": 0.28185343835502863,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.009504836983978748,
+          "upstream": 30.845333099365234
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_360",
+      "realized_peak_dn": 1.9999998807907104,
+      "max_change_8x8_mean_dn": 0.194551816675812,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.00385656557045877,
+          "upstream": 23.786012649536133
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_192",
+      "realized_peak_dn": 7.999999523162842,
+      "max_change_8x8_mean_dn": 0.33916065702214837,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.0,
+          "upstream": 5.626644611358643
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_112",
+      "realized_peak_dn": 1.9999998807907104,
+      "max_change_8x8_mean_dn": 0.19799312576651573,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.0,
+          "upstream": 11.073173522949219
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_142",
+      "realized_peak_dn": 1.9999998807907104,
+      "max_change_8x8_mean_dn": 0.17324101645499468,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.001266057719476521,
+          "upstream": 7.299558162689209
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_403",
+      "realized_peak_dn": 1.9999998807907104,
+      "max_change_8x8_mean_dn": 0.348431090824306,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.0,
+          "upstream": 4.14167594909668
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_169",
+      "realized_peak_dn": 7.999999523162842,
+      "max_change_8x8_mean_dn": 1.0693992977030575,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.0002214589767390862,
+          "upstream": 12.680747032165527
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_223",
+      "realized_peak_dn": 0.9999999403953552,
+      "max_change_8x8_mean_dn": 0.0464971549808979,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.00011052530317101628,
+          "upstream": 5.487565994262695
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_213",
+      "realized_peak_dn": 0.9999999403953552,
+      "max_change_8x8_mean_dn": 0.048909313045442104,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.0014071919722482562,
+          "upstream": 25.634963989257812
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_161",
+      "realized_peak_dn": 3.999999761581421,
+      "max_change_8x8_mean_dn": 0.12108240276575089,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.0,
+          "upstream": 11.428787231445312
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_256",
+      "realized_peak_dn": 1.9999998807907104,
+      "max_change_8x8_mean_dn": 0.10089135495945811,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.003863824065774679,
+          "upstream": 21.509281158447266
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_141",
+      "realized_peak_dn": 5.999999642372131,
+      "max_change_8x8_mean_dn": 0.2046406315639615,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.003932081628590822,
+          "upstream": 15.606797218322754
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_78",
+      "realized_peak_dn": 0.9999999403953552,
+      "max_change_8x8_mean_dn": 0.07202276028692722,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 8.114751835819334e-05,
+          "upstream": 8.295973777770996
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_296",
+      "realized_peak_dn": 5.999999642372131,
+      "max_change_8x8_mean_dn": 0.44175491435453296,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.0,
+          "upstream": 22.611848831176758
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_6",
+      "realized_peak_dn": 1.9999998807907104,
+      "max_change_8x8_mean_dn": 0.17696885392069817,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 5.4735875892220065e-05,
+          "upstream": 17.805185317993164
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_258",
+      "realized_peak_dn": 7.999999523162842,
+      "max_change_8x8_mean_dn": 0.3018706454895437,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.0,
+          "upstream": 7.438545227050781
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_231",
+      "realized_peak_dn": 0.9999999403953552,
+      "max_change_8x8_mean_dn": 0.15386348124593496,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.0,
+          "upstream": 4.520363807678223
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_52",
+      "realized_peak_dn": 5.999999642372131,
+      "max_change_8x8_mean_dn": 0.23037320701405406,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.0016687936149537563,
+          "upstream": 12.332786560058594
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_183",
+      "realized_peak_dn": 7.999999523162842,
+      "max_change_8x8_mean_dn": 0.2784863440319896,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.0,
+          "upstream": 6.36289119720459
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_362",
+      "realized_peak_dn": 8.000001423060894,
+      "max_change_8x8_mean_dn": 1.4036375563591719,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.012993713840842247,
+          "upstream": 21.03761863708496
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_102",
+      "realized_peak_dn": 7.999999523162842,
+      "max_change_8x8_mean_dn": 0.9887216705828905,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 4.1436524043092504e-05,
+          "upstream": 12.802874565124512
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_88",
+      "realized_peak_dn": 5.999999642372131,
+      "max_change_8x8_mean_dn": 1.1182712065055966,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.003977238666266203,
+          "upstream": 19.6551570892334
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_343",
+      "realized_peak_dn": 7.999999523162842,
+      "max_change_8x8_mean_dn": 0.5779169267043471,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.0006111058755777776,
+          "upstream": 11.221962928771973
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_341",
+      "realized_peak_dn": 11.999999284744263,
+      "max_change_8x8_mean_dn": 0.7628199923783541,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.0,
+          "upstream": 7.727092266082764
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_118",
+      "realized_peak_dn": 3.999999761581421,
+      "max_change_8x8_mean_dn": 0.18886684672906995,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.007971235550940037,
+          "upstream": 33.0509147644043
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_165",
+      "realized_peak_dn": 1.9999998807907104,
+      "max_change_8x8_mean_dn": 0.227616336196661,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.0,
+          "upstream": 6.34300422668457
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_280",
+      "realized_peak_dn": 11.999999284744263,
+      "max_change_8x8_mean_dn": 1.7865234171040356,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 4.443896978045814e-05,
+          "upstream": 9.514444351196289
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_17",
+      "realized_peak_dn": 0.9999999403953552,
+      "max_change_8x8_mean_dn": 0.05218901205807924,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.000805179588496685,
+          "upstream": 30.740224838256836
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_290",
+      "realized_peak_dn": 3.999999761581421,
+      "max_change_8x8_mean_dn": 0.4373498819768429,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.0001845285587478429,
+          "upstream": 8.933778762817383
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_67",
+      "realized_peak_dn": 7.999999523162842,
+      "max_change_8x8_mean_dn": 0.47721116803586483,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.001088202465325594,
+          "upstream": 12.461597442626953
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_382",
+      "realized_peak_dn": 3.999999761581421,
+      "max_change_8x8_mean_dn": 0.43214463628828526,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.001245268969796598,
+          "upstream": 59.43938446044922
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_191",
+      "realized_peak_dn": 0.9999999403953552,
+      "max_change_8x8_mean_dn": 0.062108736019581556,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.0,
+          "upstream": 7.538946628570557
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_166",
+      "realized_peak_dn": 6.00000724196434,
+      "max_change_8x8_mean_dn": 0.6953761051408947,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.0,
+          "upstream": 8.441829681396484
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_8",
+      "realized_peak_dn": 3.999999761581421,
+      "max_change_8x8_mean_dn": 0.5391832301393151,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.00028421959723345935,
+          "upstream": 23.051002502441406
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_45",
+      "realized_peak_dn": 5.999999642372131,
+      "max_change_8x8_mean_dn": 0.3251023613847792,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.011853350326418877,
+          "upstream": 17.486703872680664
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_415",
+      "realized_peak_dn": 11.999999284744263,
+      "max_change_8x8_mean_dn": 1.3391357799991965,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.003312530694529414,
+          "upstream": 12.462512016296387
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_349",
+      "realized_peak_dn": 3.999999761581421,
+      "max_change_8x8_mean_dn": 0.5539281014353037,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.0,
+          "upstream": 66.29216003417969
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_98",
+      "realized_peak_dn": 1.9999998807907104,
+      "max_change_8x8_mean_dn": 0.15676830662414432,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.0,
+          "upstream": 12.924474716186523
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_127",
+      "realized_peak_dn": 11.999999284744263,
+      "max_change_8x8_mean_dn": 0.46924964524805546,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.0033869692124426365,
+          "upstream": 27.299598693847656
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_184",
+      "realized_peak_dn": 1.9999998807907104,
+      "max_change_8x8_mean_dn": 0.151675867382437,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 7.292153895832598e-06,
+          "upstream": 5.738339900970459
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_310",
+      "realized_peak_dn": 5.999999642372131,
+      "max_change_8x8_mean_dn": 0.4841906810179353,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.0,
+          "upstream": 6.462765216827393
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_198",
+      "realized_peak_dn": 7.999999523162842,
+      "max_change_8x8_mean_dn": 0.613886509090662,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 1.8746370187727734e-05,
+          "upstream": 12.226933479309082
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_254",
+      "realized_peak_dn": 5.999999642372131,
+      "max_change_8x8_mean_dn": 0.6000938429497182,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.001437967293895781,
+          "upstream": 10.855691909790039
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_211",
+      "realized_peak_dn": 5.999999642372131,
+      "max_change_8x8_mean_dn": 0.8763307076878846,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.0,
+          "upstream": 7.880539417266846
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_103",
+      "realized_peak_dn": 1.9999998807907104,
+      "max_change_8x8_mean_dn": 0.09429004043340683,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.0007499280036427081,
+          "upstream": 26.861309051513672
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_232",
+      "realized_peak_dn": 3.999999761581421,
+      "max_change_8x8_mean_dn": 0.5669115297496319,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 7.406906661344692e-05,
+          "upstream": 2.0517916679382324
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_218",
+      "realized_peak_dn": 7.999999523162842,
+      "max_change_8x8_mean_dn": 1.2631624191999435,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 6.362264684867114e-05,
+          "upstream": 24.509153366088867
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_89",
+      "realized_peak_dn": 3.999999761581421,
+      "max_change_8x8_mean_dn": 0.10681523708626628,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.0007910554413683712,
+          "upstream": 8.312760353088379
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_201",
+      "realized_peak_dn": 11.999999284744263,
+      "max_change_8x8_mean_dn": 0.88904969394207,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 4.741325756185688e-05,
+          "upstream": 4.269898414611816
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_11",
+      "realized_peak_dn": 5.999999642372131,
+      "max_change_8x8_mean_dn": 0.5675244843587279,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.0005360997165553272,
+          "upstream": 16.43683624267578
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_168",
+      "realized_peak_dn": 1.9999998807907104,
+      "max_change_8x8_mean_dn": 0.15113332774490118,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.0,
+          "upstream": 5.082686901092529
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_215",
+      "realized_peak_dn": 7.999999523162842,
+      "max_change_8x8_mean_dn": 0.6323665799573064,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.0,
+          "upstream": 15.45007038116455
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_383",
+      "realized_peak_dn": 1.9999998807907104,
+      "max_change_8x8_mean_dn": 0.11637160554528236,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.0009591482230462134,
+          "upstream": 63.497249603271484
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_333",
+      "realized_peak_dn": 11.999999284744263,
+      "max_change_8x8_mean_dn": 0.6085872184485197,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.0,
+          "upstream": 7.074738502502441
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_245",
+      "realized_peak_dn": 7.999999523162842,
+      "max_change_8x8_mean_dn": 0.7775481801945716,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.0,
+          "upstream": 7.209083557128906
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_55",
+      "realized_peak_dn": 11.999999284744263,
+      "max_change_8x8_mean_dn": 0.5676995124667883,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.0,
+          "upstream": 24.019546508789062
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_27",
+      "realized_peak_dn": 3.999999761581421,
+      "max_change_8x8_mean_dn": 0.4273243574425578,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.0,
+          "upstream": 2.200195789337158
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_226",
+      "realized_peak_dn": 11.999999284744263,
+      "max_change_8x8_mean_dn": 0.912906713783741,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 2.6314579372410662e-05,
+          "upstream": 6.583216190338135
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_116",
+      "realized_peak_dn": 11.999999284744263,
+      "max_change_8x8_mean_dn": 0.9515710640698671,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.008944426663219929,
+          "upstream": 23.815439224243164
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_378",
+      "realized_peak_dn": 7.999999523162842,
+      "max_change_8x8_mean_dn": 0.9072139067575336,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.0039003798738121986,
+          "upstream": 12.184258460998535
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_355",
+      "realized_peak_dn": 0.9999999403953552,
+      "max_change_8x8_mean_dn": 0.13942639343440533,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.00036824579001404345,
+          "upstream": 30.911197662353516
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_302",
+      "realized_peak_dn": 7.999999523162842,
+      "max_change_8x8_mean_dn": 0.6752090435475111,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 1.9277396859251894e-05,
+          "upstream": 34.57509994506836
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_209",
+      "realized_peak_dn": 11.999999284744263,
+      "max_change_8x8_mean_dn": 0.9619607753120363,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 1.965631554412539e-06,
+          "upstream": 13.39627742767334
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_32",
+      "realized_peak_dn": 3.999999761581421,
+      "max_change_8x8_mean_dn": 0.2543070539832115,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.00012358679668977857,
+          "upstream": 3.488407611846924
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_23",
+      "realized_peak_dn": 3.999999761581421,
+      "max_change_8x8_mean_dn": 0.3727601165883243,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.0,
+          "upstream": 7.102133274078369
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_261",
+      "realized_peak_dn": 4.00000736117363,
+      "max_change_8x8_mean_dn": 0.11159348068758845,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.00019548210548236966,
+          "upstream": 16.899410247802734
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_182",
+      "realized_peak_dn": 1.9999998807907104,
+      "max_change_8x8_mean_dn": 0.12525920988991857,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.0,
+          "upstream": 4.104498863220215
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_282",
+      "realized_peak_dn": 7.999999523162842,
+      "max_change_8x8_mean_dn": 0.19674762384966016,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.0,
+          "upstream": 11.404918670654297
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_409",
+      "realized_peak_dn": 1.9999998807907104,
+      "max_change_8x8_mean_dn": 0.21063362248241901,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 4.678180630435236e-05,
+          "upstream": 35.8912239074707
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_260",
+      "realized_peak_dn": 11.999999284744263,
+      "max_change_8x8_mean_dn": 0.8712174883112311,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.002130629261955619,
+          "upstream": 20.636808395385742
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_194",
+      "realized_peak_dn": 7.999999523162842,
+      "max_change_8x8_mean_dn": 0.42473657755181193,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.0,
+          "upstream": 0.6511910557746887
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_407",
+      "realized_peak_dn": 1.9999998807907104,
+      "max_change_8x8_mean_dn": 0.2039504935964942,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 1.3205501090851612e-05,
+          "upstream": 28.30017852783203
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_175",
+      "realized_peak_dn": 12.000001184642315,
+      "max_change_8x8_mean_dn": 1.3043630146421492,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 2.336663965252228e-05,
+          "upstream": 0.10320524126291275
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_278",
+      "realized_peak_dn": 11.999999284744263,
+      "max_change_8x8_mean_dn": 1.2550973519682884,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.0003696913190651685,
+          "upstream": 20.34499740600586
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_26",
+      "realized_peak_dn": 12.000003084540367,
+      "max_change_8x8_mean_dn": 2.0010405499488115,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 1.3387323633651249e-05,
+          "upstream": 7.496914863586426
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_246",
+      "realized_peak_dn": 3.999999761581421,
+      "max_change_8x8_mean_dn": 0.22293035639449954,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.0003513769479468465,
+          "upstream": 6.463204383850098
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_217",
+      "realized_peak_dn": 1.9999998807907104,
+      "max_change_8x8_mean_dn": 0.22058552596718073,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 6.584177754120901e-05,
+          "upstream": 50.932437896728516
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_311",
+      "realized_peak_dn": 5.999999642372131,
+      "max_change_8x8_mean_dn": 1.1408607568591833,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.0,
+          "upstream": 6.119710922241211
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_43",
+      "realized_peak_dn": 3.999999761581421,
+      "max_change_8x8_mean_dn": 0.250891987234354,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.0,
+          "upstream": 30.80008316040039
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_353",
+      "realized_peak_dn": 1.9999998807907104,
+      "max_change_8x8_mean_dn": 0.11906114872545004,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.00613720016553998,
+          "upstream": 21.802465438842773
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_81",
+      "realized_peak_dn": 5.999999642372131,
+      "max_change_8x8_mean_dn": 0.3600050916429609,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 3.1929590477375314e-05,
+          "upstream": 0.4133242070674896
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_18",
+      "realized_peak_dn": 3.999999761581421,
+      "max_change_8x8_mean_dn": 0.1576512842439115,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.0,
+          "upstream": 11.456246376037598
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_318",
+      "realized_peak_dn": 7.999999523162842,
+      "max_change_8x8_mean_dn": 0.819056024774909,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.0,
+          "upstream": 17.890865325927734
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_389",
+      "realized_peak_dn": 3.999999761581421,
+      "max_change_8x8_mean_dn": 0.7391857355833054,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.0013849869137629867,
+          "upstream": 37.51667785644531
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_171",
+      "realized_peak_dn": 11.999999284744263,
+      "max_change_8x8_mean_dn": 0.8685611933469772,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.0031439291778951883,
+          "upstream": 17.49258041381836
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_71",
+      "realized_peak_dn": 1.9999998807907104,
+      "max_change_8x8_mean_dn": 0.12131086550652981,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.00012087640789104626,
+          "upstream": 26.83069610595703
+        }
+      }
+    },
+    {
+      "sample_id": "NUAA-SIRST/Misc_92",
+      "realized_peak_dn": 5.999999642372131,
+      "max_change_8x8_mean_dn": 0.7576436013914645,
+      "losses": {
+        "identity": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "half_response": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "deleted": {
+          "local": 0.0,
+          "upstream": 0.0
+        },
+        "inversion_control": {
+          "local": 0.005997840315103531,
+          "upstream": 28.967987060546875
+        }
+      }
+    }
+  ]
+}

@@ -14,12 +14,16 @@ from prd_data import DenoisePairDataset
 ROOT = Path(__file__).resolve().parent
 
 
-def correct_columns(noisy, x, y, width, height):
+def correct_columns(noisy, x, y, width, height, *, window=7, strength=1.0):
+    if not isinstance(window, (int, np.integer)) or window < 1 or window % 2 == 0:
+        raise ValueError("window must be a positive odd integer")
+    if not np.isfinite(strength) or strength < 0:
+        raise ValueError("strength must be finite and nonnegative")
     result = noisy.copy()
     field = result[y:y + height, x:x + width]
-    local = median_filter(field, size=(1, 7), mode="reflect")
+    local = median_filter(field, size=(1, window), mode="reflect")
     bias = np.median(field - local, axis=0)
-    field[:] = (field - (bias - np.median(bias))).clip(0, 1)
+    field[:] = (field - strength * (bias - np.median(bias))).clip(0, 1)
     return result
 
 

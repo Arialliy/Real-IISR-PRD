@@ -1,0 +1,95 @@
+{
+  "analytic": {
+    "shape_cases": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        7
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        16,
+        1
+      ],
+      [
+        19,
+        31
+      ]
+    ],
+    "strength_cases": [
+      0,
+      0.5,
+      1
+    ],
+    "maximum_independent_pixel_difference_0to1": 0.0,
+    "constant_and_arbitrary_column_only_inputs_pass": true,
+    "interior_point_and_row_impulse_pass": true,
+    "post_clip_column_sum_counterexample": 0.3125,
+    "max_unclipped_column_sum_abs_unit": 1.4901161193847656e-07,
+    "repeated_outputs_bitwise_identical": true,
+    "conclusion": "Zero column sum applies to the full native grid before clipping; masked background means can change."
+  },
+  "real_frames": {
+    "train_n": 213,
+    "reserved_test_manifest_n": 214,
+    "train_test_id_overlap": 0,
+    "selected_original_indices": [
+      0,
+      17,
+      53,
+      106,
+      159,
+      212
+    ],
+    "selected_sample_ids": [
+      "NUAA-SIRST/Misc_119",
+      "NUAA-SIRST/Misc_316",
+      "NUAA-SIRST/Misc_100",
+      "NUAA-SIRST/Misc_388",
+      "NUAA-SIRST/Misc_8",
+      "NUAA-SIRST/Misc_92"
+    ],
+    "capture_file_hashes_checked": 852,
+    "matched_s1_native_frames": 852,
+    "independently_rebuilt_with_original_PNG_or_seeded_noise": 24,
+    "historical_input_s1_column_rows_verified": 2556,
+    "native_rows_recomputed": 144,
+    "independent_full_frame_hashes": 144,
+    "independent_native_metric_values": 1152,
+    "artificial_pair_rows_remeasured": 144,
+    "full_group_native_means_checked": 24,
+    "spot_group_medians_counts_and_coverage_checked": 24,
+    "checked_metric_names": [
+      "whole_mae_dn",
+      "plan_background_mean_error_dn",
+      "plan_background_rmse_dn",
+      "weighted_background_column_residual_dn",
+      "native_median_ring_contrast_abs_error_dn",
+      "native_median_ring_contrast_bias_dn",
+      "native_target_mae_dn",
+      "whole_psnr_db"
+    ],
+    "max_independent_real_pixel_difference_0to1": 0.0,
+    "sha256": {
+      "checkpoint": "fb2eaf0426e1634b8cde12c7d8951ded9d6b4f04a0ae2ef77a1c13f794caacab",
+      "native_table": "e66801e18e4235525951974e7b7d5bec73893a45343b13b06458ec4b88b71891",
+      "spot_table": "6a421674d8ff8dba065063d03ca1c048a6a501ce00d315653f5641db94db9ce3",
+      "means": "2b029ed36bf821e4941950fe70b1d0b4a133858466e7ad3264b28f2aa5d35fc1",
+      "train_manifest": "192c73934cd78efe8d283024add8c43d03ccbaaea89d4072a06e35d7a64faaa0"
+    }
+  }
+}

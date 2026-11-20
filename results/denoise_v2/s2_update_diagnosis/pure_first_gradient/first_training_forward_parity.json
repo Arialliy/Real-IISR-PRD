@@ -1,0 +1,28 @@
+{
+  "sample_id": "NUAA-SIRST/Misc_63",
+  "token_mismatches": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "token_counts": [
+    1,
+    4,
+    9,
+    16,
+    36,
+    81,
+    169,
+    324,
+    576,
+    1024
+  ],
+  "rgb_max_abs_dn": 0.0
+}

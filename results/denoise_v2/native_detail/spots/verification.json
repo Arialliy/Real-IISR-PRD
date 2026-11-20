@@ -1,0 +1,51 @@
+{
+  "train_origins": 213,
+  "draw_ids": [
+    "clean",
+    "draw0",
+    "draw1",
+    "fresh"
+  ],
+  "method_ids": [
+    "input",
+    "column",
+    "s1",
+    "detail_half",
+    "detail_full",
+    "full_blend_half"
+  ],
+  "total_rows": 5112,
+  "held_out_test_used": 0,
+  "checked_clean_input_history": 213,
+  "checked_clean_s1_history": 213,
+  "historical_absolute_tolerance": 1e-10,
+  "capture_indices_sha256": {
+    "clean": "670284f1e13c8ebe35bef89bc511f618faf03e0a6cb55ebd8f5a1fee06af52a1",
+    "draw0": "f42c02a1d8be8a4e55d36f720dcd5797fdf3e6d639fdedb8977579b5cc4f9a0a",
+    "draw1": "548e07d354ca819a8856c9c2733d4e3f3423b8c81d4b1dda597a42c59ed2fc60",
+    "fresh": "3ec23750e64e3df53d33b057d04927f358fc1a9d0d873608281e657f63efdf2c"
+  },
+  "hashes": {
+    "train.jsonl": "192c73934cd78efe8d283024add8c43d03ccbaaea89d4072a06e35d7a64faaa0",
+    "protocol.json": "ba5a60d22ccf2512b4ff5e15c912efad4191abca54100d46718290409551166a",
+    "per_pair_stage.csv": "a67253bbd328f1938069db6753609a464fac226889804e946d8dec856247ff3a",
+    "evaluate_native_detail_spots.py": "e2117011817a964d5f3ee46ec5a779270618ea4dcbea9b8372becce8f973088e",
+    "native_detail.py": "3d493384e6e13d24aabb0219fd78ace93b87e341f6330bc3b05391a9c2291e62",
+    "diagnose_spot_transfer.py": "bf29d315827f946aef885ac3cfedaf396d8f21b08c7353720c213512fd316923",
+    "per_pair.csv": "6a421674d8ff8dba065063d03ca1c048a6a501ce00d315653f5641db94db9ce3",
+    "by_dose.csv": "d04d20f3a984755f9120dddfc25371a50156085831bc678ac505fe855e292e14",
+    "paired_intervals.csv": "6110e794ccffd7d8ab1ab16f6f8aed97e84bb613d0ad091fb6692030b10b5f33",
+    "summary.json": "1e4caea8945de8114b5c0f3ac86ae9044efc302bc954b2f5c56562c48f84b146"
+  },
+  "gain_denominator": "positive reference C(clean+) minus C(clean-); input-relative denominator reported separately",
+  "bootstrap": {
+    "seed": 20261121,
+    "draws": 5000,
+    "unit": "source image separately within each condition",
+    "quantiles": [
+      0.025,
+      0.975
+    ],
+    "formula": "statistic(full) minus statistic(comparator) after paired resampling"
+  }
+}

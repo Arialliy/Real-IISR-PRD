@@ -1,0 +1,15 @@
+{
+  "config_sha256": "026db486d5d08828ed68d3c1b843a16274c432f55f416aa554f6a01a56b81af2",
+  "train_sha256": "192c73934cd78efe8d283024add8c43d03ccbaaea89d4072a06e35d7a64faaa0",
+  "checkpoint_sha256": {
+    "published": "fe1c2600ec6aeb18bfa674f7726a1dcd0aec45d9fbba25c7f1b9fe266b3ef9a9",
+    "s1": "fb2eaf0426e1634b8cde12c7d8951ded9d6b4f04a0ae2ef77a1c13f794caacab",
+    "s2": "0be3668c63d2224c89b7c011bcd8167f01802e80acaab54d8c70639fcbb47010"
+  },
+  "paired_native_inputs": 1491,
+  "matching_conventional_rows_from_main_table": 1278,
+  "conditions": 7,
+  "groups": 47,
+  "image_rows": 10011,
+  "target_rows": 12690
+}

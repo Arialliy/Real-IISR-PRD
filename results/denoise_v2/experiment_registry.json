@@ -1,0 +1,72 @@
+{
+  "local_dataset": "NUAA-SIRST",
+  "train_manifest_sha256": "192c73934cd78efe8d283024add8c43d03ccbaaea89d4072a06e35d7a64faaa0",
+  "train": 213,
+  "test_reserved": 214,
+  "develop_subset": null,
+  "checkpoints": [
+    {
+      "name": "Published",
+      "checkpoint": "checkpoints/Real-IISR.pth",
+      "checkpoint_sha256": "fe1c2600ec6aeb18bfa674f7726a1dcd0aec45d9fbba25c7f1b9fe266b3ef9a9",
+      "size_bytes": 14246400682,
+      "initialization": "author release",
+      "local_updates": 0,
+      "evidence": "results/sirst_endpoints/published_drawclean.json",
+      "evidence_sha256": "f47974f3290031c7768168f421974b303ddfa03dd61ea932185fddb88ed5a420",
+      "role": "transferred weights on local train, no local fit"
+    },
+    {
+      "name": "Warmup-S1",
+      "checkpoint": "checkpoints/s1_warmup.pt",
+      "checkpoint_sha256": "66d6605c0f6ac08b26f016824f314277d974a695d4476f6f12533152a314ef39",
+      "size_bytes": 214369519,
+      "initialization": "Published",
+      "local_updates": 213,
+      "evidence": "results/s1_warmup.json",
+      "evidence_sha256": "391337bb2813c587332a357b68d7941e4e2e731f8bba64f776ed4c8ccf1d760f",
+      "role": "historical partial-parameter pilot"
+    },
+    {
+      "name": "Pilot-S2",
+      "checkpoint": "checkpoints/s2_common_pilot.pt",
+      "checkpoint_sha256": "40e8b180968de648dabc16c6a7329cd58a4ed2d0190b1de93efe0efa5c5c1491",
+      "size_bytes": 214363741,
+      "initialization": "Warmup-S1",
+      "local_updates": 16,
+      "evidence": "results/s2_common_pilot.json",
+      "evidence_sha256": "7d3cc328b1058e887511ce593fa1660528e107f4ea77da7a8c616fae32210e12",
+      "role": "historical partial-parameter pilot"
+    },
+    {
+      "name": "Retrain-S1",
+      "checkpoint": "checkpoints/sirst_retrained_baseline.pt",
+      "checkpoint_sha256": "fb2eaf0426e1634b8cde12c7d8951ded9d6b4f04a0ae2ef77a1c13f794caacab",
+      "size_bytes": 5088674951,
+      "initialization": [
+        "VQVAE.pth",
+        "VARSR.pth"
+      ],
+      "local_updates": 1080,
+      "evidence": "results/local_retrain/training_summary.json",
+      "evidence_sha256": "ed63ee0104ae5fdab7f00f43b3ca5d154affeb3f49c17c8edcd5d83027ba5af2",
+      "role": "locally retrained unmodified architecture",
+      "initializer_sha256": {
+        "VQVAE.pth": "b4b60aaa47e7cff7fdebb479521138efbbd968faa893fe0d4f8c703fd49ddf45",
+        "VARSR.pth": "fd7ebfa6e1d69abdbe5097957c647cbac840cf225355fded2847b6a4d67914db"
+      }
+    },
+    {
+      "name": "Free-S2-v1",
+      "checkpoint": "checkpoints/sirst_s2_common.pt",
+      "checkpoint_sha256": "0be3668c63d2224c89b7c011bcd8167f01802e80acaab54d8c70639fcbb47010",
+      "size_bytes": 5088667955,
+      "initialization": "Retrain-S1",
+      "local_updates": 54,
+      "evidence": "results/s2_common/training_summary.json",
+      "evidence_sha256": "5f389d4853c9cd054d23bbded376b912061ec90d8d6d49d8f792e4382190fa8b",
+      "role": "free-running diagnostic endpoint"
+    }
+  ],
+  "common_v2_status": "untrained; no new split or model selection this round"
+}

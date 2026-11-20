@@ -1,0 +1,45 @@
+{
+  "sequence": "300_floor5, same 32 train-side frames and central native 512 crop",
+  "registered_nuaa_config_sha256": "0d8853dadcf0b1f0053f45c76767f0fe22b0160b0a03d38db1f1a35ae31baae0",
+  "checkpoint_sha256": "fb2eaf0426e1634b8cde12c7d8951ded9d6b4f04a0ae2ef77a1c13f794caacab",
+  "archive_sha256": "06a495daec5db7593335138e6fee8e5c8f9b21f4ff7ed83a7070a094523f533b",
+  "control_hashes_reproduced": 96,
+  "means": {
+    "input": {
+      "mae_dn": 74.88433523920824,
+      "rmse_dn": 82.37343148407349,
+      "col_residual_dn": 15.323792944936077,
+      "mean_signed_dn": 71.63295187472039
+    },
+    "column": {
+      "mae_dn": 74.89140547819636,
+      "rmse_dn": 82.36376735511607,
+      "col_residual_dn": 15.18762653361501,
+      "mean_signed_dn": 71.64930541512442
+    },
+    "s1": {
+      "mae_dn": 72.45527569276402,
+      "rmse_dn": 80.01028402869173,
+      "col_residual_dn": 15.51173502222685,
+      "mean_signed_dn": 68.08474319726415
+    },
+    "detail_half": {
+      "mae_dn": 72.46522271006823,
+      "rmse_dn": 80.05003280062752,
+      "col_residual_dn": 15.512471526697706,
+      "mean_signed_dn": 68.0841011579287
+    },
+    "detail_full": {
+      "mae_dn": 72.51398926604958,
+      "rmse_dn": 80.20364433401866,
+      "col_residual_dn": 15.514248032819552,
+      "mean_signed_dn": 68.08263008417481
+    },
+    "full_blend_half": {
+      "mae_dn": 73.53966234861389,
+      "rmse_dn": 80.96188878232724,
+      "col_residual_dn": 15.292980167506238,
+      "mean_signed_dn": 69.8588475076076
+    }
+  }
+}

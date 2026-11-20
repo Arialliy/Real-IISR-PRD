@@ -1,0 +1,19 @@
+{
+  "scan_same_pair_ids_and_pixels_all_methods": 32,
+  "scan_methods": [
+    "input",
+    "column",
+    "s1",
+    "tidy"
+  ],
+  "nuaa_shared_inputs": 639,
+  "nuaa_target_records": 810,
+  "files": {
+    "nuaa_per_image.csv": "161d62106c31b248cc9575f32136603aa1a5d712aa1219ab6b6d8b3b74422e2f",
+    "nuaa_per_target.csv": "b32a7b35757de251cd5a04c428beddeeecb5c0a988ffef2e4b49d2f43b414a73",
+    "scan_column_frames.csv": "86764c7462b7912c4c4cf8a9ad97aa7ca9abbdad00d7f314333dee3b3092c1ea",
+    "scan_input_frames.csv": "5b6796421514dbba3843a885da232079b3f0464161b4506f2c673dc3e588d36f",
+    "scan_s1_frames.csv": "09a77f735ef8026edf3c47d985441b69b0130bfa3145671e67bca8e79f210203",
+    "scan_tidy_frames.csv": "74a8d902d06c0253b88e7a218d2f862d9f4ed5bd4a4726cf370bb2b9d4498b17"
+  }
+}

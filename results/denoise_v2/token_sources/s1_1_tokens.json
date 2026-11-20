@@ -1,0 +1,41 @@
+{
+  "checkpoint_sha256": "fb2eaf0426e1634b8cde12c7d8951ded9d6b4f04a0ae2ef77a1c13f794caacab",
+  "manifest_sha256": "192c73934cd78efe8d283024add8c43d03ccbaaea89d4072a06e35d7a64faaa0",
+  "tokenizer_sha256": "ceb21d03d3a0b6a2967f4f593711f33f4242e9569329df661a5d639a9ab825ca",
+  "decoder_sha256": "2cc83a073e8577289078810252b4dcb72d0b89e34f9f95eda1f46c10efa7b3a3",
+  "endpoint_control_sha256": "ed8aba92641565166155200a7d3690688f182e248fcfc1d7a1c8dcd90889ecfb",
+  "endpoint": "s1",
+  "draw": "1",
+  "n_images": 213,
+  "token_archive": "s1_1_tokens.npz",
+  "tokens_and_h_sha256": "cdf21e283d0df63c25faf3316c3dbd543b37cfd3f9b6957c55407fca2ed97d37",
+  "verified_greedy_rasters": 213,
+  "clean_independent_encodings_verified": 0,
+  "historical_draw0_token_mismatch_counts_verified": 0,
+  "scales": [
+    1,
+    2,
+    3,
+    4,
+    6,
+    9,
+    13,
+    18,
+    24,
+    32
+  ],
+  "scale_offsets": [
+    0,
+    1,
+    5,
+    14,
+    30,
+    66,
+    147,
+    316,
+    640,
+    1216,
+    2240
+  ],
+  "global_h_dtype": "float16"
+}

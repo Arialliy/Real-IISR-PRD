@@ -1,0 +1,82 @@
+{
+  "narrow_gaussian_sigma_px": 1.5,
+  "wide_gaussian_sigma_px": 2.5,
+  "narrow": {
+    "minus_contrast_dn": 0.0,
+    "plus_contrast_dn": 1.0434043810193003,
+    "incremental_contrast_dn": 1.0434043810193003,
+    "difference_image_contrast_dn": 1.0434043810192966,
+    "background_median_change_dn": 0.0,
+    "core_peak_after_ring_subtraction_dn": 5.999999999999986,
+    "ring_robust_sd_dn": 0.0,
+    "width_noise_threshold_dn": 0.1,
+    "width_px": 3.385137501286538,
+    "width_reason": "measured",
+    "half_max_pixels": 9
+  },
+  "wide": {
+    "minus_contrast_dn": 0.0,
+    "plus_contrast_dn": 2.533258291968721,
+    "incremental_contrast_dn": 2.533258291968721,
+    "difference_image_contrast_dn": 2.5332582919687145,
+    "background_median_change_dn": 0.0,
+    "core_peak_after_ring_subtraction_dn": 5.999999999999986,
+    "ring_robust_sd_dn": 0.0,
+    "width_noise_threshold_dn": 0.1,
+    "width_px": 5.641895835477563,
+    "width_reason": "measured",
+    "half_max_pixels": 25
+  },
+  "flat": {
+    "minus_contrast_dn": 0.0,
+    "plus_contrast_dn": 0.0,
+    "incremental_contrast_dn": 0.0,
+    "difference_image_contrast_dn": 0.0,
+    "background_median_change_dn": 0.0,
+    "core_peak_after_ring_subtraction_dn": 0.0,
+    "ring_robust_sd_dn": 0.0,
+    "width_noise_threshold_dn": 0.1,
+    "width_px": null,
+    "width_reason": "identical_local_outputs",
+    "half_max_pixels": null
+  },
+  "reversed": {
+    "minus_contrast_dn": 0.0,
+    "plus_contrast_dn": -1.0434043810193003,
+    "incremental_contrast_dn": -1.0434043810193003,
+    "difference_image_contrast_dn": -1.043404381019305,
+    "background_median_change_dn": 0.0,
+    "core_peak_after_ring_subtraction_dn": -0.023195520836850392,
+    "ring_robust_sd_dn": 0.0,
+    "width_noise_threshold_dn": 0.1,
+    "width_px": null,
+    "width_reason": "nonpositive_contrast_increment",
+    "half_max_pixels": null
+  },
+  "single_pixel": {
+    "minus_contrast_dn": 0.0,
+    "plus_contrast_dn": 0.07407407407407618,
+    "incremental_contrast_dn": 0.07407407407407618,
+    "difference_image_contrast_dn": 0.0740740740740739,
+    "background_median_change_dn": 0.0,
+    "core_peak_after_ring_subtraction_dn": 5.999999999999986,
+    "ring_robust_sd_dn": 0.0,
+    "width_noise_threshold_dn": 0.1,
+    "width_px": null,
+    "width_reason": "single_pixel_unresolved",
+    "half_max_pixels": 1
+  },
+  "displaced": {
+    "minus_contrast_dn": 0.0,
+    "plus_contrast_dn": 1.0434043810193003,
+    "incremental_contrast_dn": 1.0434043810193003,
+    "difference_image_contrast_dn": 1.0434043810192966,
+    "background_median_change_dn": 0.0,
+    "core_peak_after_ring_subtraction_dn": 5.999999999999986,
+    "ring_robust_sd_dn": 0.0,
+    "width_noise_threshold_dn": 0.1,
+    "width_px": null,
+    "width_reason": "local_peak_outside_injection_core",
+    "half_max_pixels": null
+  }
+}

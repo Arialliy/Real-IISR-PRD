@@ -8,7 +8,7 @@ import torch
 from PIL import Image
 
 from evaluate_retrained import ROOT, hard_prediction
-from evaluate_warmup import file_hash, prepare_metrics, sample_digest, save_report, summarize
+from evaluate_warmup import file_hash, paired_changes, prepare_metrics, sample_digest, save_report, summarize
 from prd_backbone import OFFICIAL_SHA256, load_backbone
 from prd_data import DenoisePairDataset
 
@@ -45,8 +45,6 @@ def evaluate(endpoint, draw):
     device = torch.device("cuda:0")
     samplers = SAMPLERS
     if endpoint == "published":
-        if draw != "clean":
-            raise ValueError("This published-model comparison uses the uncorrupted training originals")
         model = load_backbone(asset, device)
         samplers = ("greedy_argmax",)
     elif endpoint == "s1":
@@ -121,16 +119,16 @@ def evaluate(endpoint, draw):
 
 
 def paired(rows, before, after):
+    """Keep the legacy endpoint report fields and use the common metric directions."""
     result = {}
+    registered = paired_changes(rows, before, after)
     for field in rows[0]["metrics"][before]:
         vals = [(r["metrics"][before][field], r["metrics"][after][field]) for r in rows]
         diff = np.asarray([b-a for a,b in vals if a is not None and b is not None])
         item = {"finite_pairs": int(diff.size), "finite_mean_change": float(diff.mean()) if diff.size else None}
-        if field == "whole_psnr_db":
-            # PSNR has no missing support here. Null marks an exact reference.
-            item["improved_images"] = sum((np.inf if b is None else b) > (np.inf if a is None else a) for a,b in vals)
-        elif field not in ("native_median_ring_contrast_bias_dn", "plan_background_mean_error_dn"):
-            item["improved_images"] = int((diff < 0).sum())
+        stats = registered.get(field, {})
+        if "improved_image_fraction" in stats:
+            item["improved_images"] = round(stats["n_images"] * stats["improved_image_fraction"])
         result[field] = item
     return result
 

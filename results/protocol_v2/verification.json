@@ -1,0 +1,28 @@
+{
+  "verification": "all native float archives reread, original PNG MAE recomputed, all intervention fields independently rebuilt",
+  "n_sources": 213,
+  "n_image_rows": 3195,
+  "n_target_rows": 4050,
+  "n_interventions": 2130,
+  "legacy_image_metrics_exact": true,
+  "fixed_background_across_methods_draws": true,
+  "same_input_across_methods": true,
+  "default_column_pixels_equal_legacy": true,
+  "tests": {
+    "identity_mae": 0,
+    "identity_psnr_status": "perfect_reconstruction",
+    "identity_ssim": 1,
+    "reject_broadcast_and_nonfinite": true,
+    "strict_signed_contrast": true,
+    "metric_directions": true,
+    "zero_strength_identity": true
+  },
+  "artifact_sha256": {
+    "protocol_v2.json": "319796489266bc7aa273232ac2445d081c6360c467eb93e3687db87c2537e436",
+    "summary.json": "0eded2e4c2b739d198536e17d5aa17a71871d9775594cbaeb8a80a1f5cd2d693",
+    "per_image.csv": "976de7b15e60305f434ab55d558e81c9cfd0af93fa864fa1ccbf8e928c88ccdf",
+    "per_target.csv": "99808d9fd1b6fb5843422dbd6b349dcb80734837da86d52bc82acdb188a78de2",
+    "per_target.jsonl": "0b7e5a4b720ccf611363b584dcff7a3149825636b9484f6985c5378a400ea5c8",
+    "interventions.csv": "49c8b6114122549e49a282349b1e333a474a7b324a414fce689f4a675bbca78d"
+  }
+}

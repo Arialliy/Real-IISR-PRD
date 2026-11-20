@@ -1,0 +1,290 @@
+{
+  "metric_version": "native_v2",
+  "partition": "NUAA-SIRST/train",
+  "partition_path": "datasets/NUAA-SIRST/img_idx/train_NUAA-SIRST.txt",
+  "partition_sha256": "324e5dadcb6cc9fc2a99a5f5dedd06ad4de77b2ed826e4ceffda8b6a784da0b4",
+  "manifest_sha256": "192c73934cd78efe8d283024add8c43d03ccbaaea89d4072a06e35d7a64faaa0",
+  "methods": [
+    "input",
+    "column",
+    "published",
+    "s1_retrained",
+    "s2_common"
+  ],
+  "corruptions": [
+    "clean",
+    "draw0",
+    "draw1"
+  ],
+  "n_sources": 213,
+  "code_head": "06c9bca1e94f9b989bbeeeeddbf4beebabf7cf67",
+  "vendor_head": "70355f7e9d6b849272d429d12e854f5890b89ae2",
+  "source_files_sha256": {
+    "evaluate_protocol_v2.py": "1c162a86e8c1545c5ec6fe888aaae95e1d64f6428bdba76a688f93f096eccd50",
+    "evaluate_warmup.py": "6cae22b692bfecbdac0fb515012ac81f2327e6ef4832a8252801646391024541",
+    "check_column_baseline.py": "aa3fd426bb1d3f355afc5a959ad57aec44b867db0d4771b944f680acc72b52bb",
+    "prd_data.py": "52d3f8e4499fa64d2b5c056d2f23d49f743d53497551da68f3a2b60d12b55022",
+    "evaluate_sirst_endpoints.py": "c5d0f8c55d6c229ca8129cf8d409b410f9950c65919c8f2eea4bbf88c988f0ec",
+    "evaluate_retrained.py": "cd354bcd83f933b46688daae490e5c340a3c826d236e5a0522de9dbb69a3ffc8",
+    "verify_rollout.py": "fceffe395fd83528cc481ac97fe1684252d95cfceb199a12e808bfe732adb5e5",
+    "prd_backbone.py": "2396ed6db8751e3a54107f7c1bd9908ffb2927e3442d8ed3f091f6ea18a144ce"
+  },
+  "methods_provenance": {
+    "input": {
+      "kind": "identity"
+    },
+    "column": {
+      "kind": "horizontal median column correction"
+    },
+    "published": {
+      "checkpoint": "checkpoints/Real-IISR.pth",
+      "sha256": "fe1c2600ec6aeb18bfa674f7726a1dcd0aec45d9fbba25c7f1b9fe266b3ef9a9",
+      "parents": {
+        "origin": "author released Real-IISR checkpoint"
+      },
+      "reports": {
+        "clean": {
+          "path": "results/sirst_endpoints/published_drawclean.json",
+          "sha256": "f47974f3290031c7768168f421974b303ddfa03dd61ea932185fddb88ed5a420",
+          "protocol": {
+            "samplers": [
+              "greedy_argmax"
+            ],
+            "matmul_tf32": false,
+            "cudnn_tf32": false,
+            "torch_version": "2.7.0+cu128",
+            "sampler_options": "cfg=1, top_k=1, top_p=0.75, g_seed=0; greedy uses argmax in upstream cached autoregressive entry; FP16",
+            "image_output": "float RGB arithmetic mean [0,1], preceding PNG rounding and AdaIN",
+            "input": "reference_minus",
+            "reference": "reference_minus",
+            "scale": "whole unpadded native valid pixels, 255 DN full scale",
+            "aggregation": "image means weighted equally, target contrast errors first averaged within image",
+            "weighted_background": "all valid pixels except square 2-pixel dilation of all native targets",
+            "ring": "square 2-pixel dilation of each native 8-connected target, valid excluding all native targets",
+            "psnr_null": "positive infinity, perfect reconstruction"
+          }
+        },
+        "draw0": {
+          "path": "results/sirst_endpoints/published_draw0.json",
+          "sha256": "728094e7647ed71f0004c7d735114069c2bc63d1429a85b36ed176d944ffbd7e",
+          "protocol": {
+            "samplers": [
+              "greedy_argmax"
+            ],
+            "matmul_tf32": false,
+            "cudnn_tf32": false,
+            "torch_version": "2.7.0+cu128",
+            "sampler_options": "cfg=1, top_k=1, top_p=0.75, g_seed=0; greedy uses argmax in upstream cached autoregressive entry; FP16",
+            "image_output": "float RGB arithmetic mean [0,1], preceding PNG rounding and AdaIN",
+            "input": "noisy_minus",
+            "reference": "reference_minus",
+            "scale": "whole unpadded native valid pixels, 255 DN full scale",
+            "aggregation": "image means weighted equally, target contrast errors first averaged within image",
+            "weighted_background": "all valid pixels except square 2-pixel dilation of all native targets",
+            "ring": "square 2-pixel dilation of each native 8-connected target, valid excluding all native targets",
+            "psnr_null": "positive infinity, perfect reconstruction"
+          }
+        },
+        "draw1": {
+          "path": "results/sirst_endpoints/published_draw1.json",
+          "sha256": "a212ad2bac79aac0a0b1c096a12e35260836dfb1ae1113883a5162a7041698ec",
+          "protocol": {
+            "samplers": [
+              "greedy_argmax"
+            ],
+            "matmul_tf32": false,
+            "cudnn_tf32": false,
+            "torch_version": "2.7.0+cu128",
+            "sampler_options": "cfg=1, top_k=1, top_p=0.75, g_seed=0; greedy uses argmax in upstream cached autoregressive entry; FP16",
+            "image_output": "float RGB arithmetic mean [0,1], preceding PNG rounding and AdaIN",
+            "input": "noisy_minus",
+            "reference": "reference_minus",
+            "scale": "whole unpadded native valid pixels, 255 DN full scale",
+            "aggregation": "image means weighted equally, target contrast errors first averaged within image",
+            "weighted_background": "all valid pixels except square 2-pixel dilation of all native targets",
+            "ring": "square 2-pixel dilation of each native 8-connected target, valid excluding all native targets",
+            "psnr_null": "positive infinity, perfect reconstruction"
+          }
+        }
+      }
+    },
+    "s1_retrained": {
+      "checkpoint": "checkpoints/sirst_retrained_baseline.pt",
+      "sha256": "fb2eaf0426e1634b8cde12c7d8951ded9d6b4f04a0ae2ef77a1c13f794caacab",
+      "parents": {
+        "VQVAE.pth": "b4b60aaa47e7cff7fdebb479521138efbbd968faa893fe0d4f8c703fd49ddf45",
+        "VARSR.pth": "fd7ebfa6e1d69abdbe5097957c647cbac840cf225355fded2847b6a4d67914db"
+      },
+      "reports": {
+        "clean": {
+          "path": "results/sirst_endpoints/s1_drawclean.json",
+          "sha256": "46bf214d81ebab6456996f7a0c9fa900b2727666131d7702d0753f3a9c25456d",
+          "protocol": {
+            "samplers": [
+              "greedy_argmax",
+              "upstream_seeded_top1"
+            ],
+            "matmul_tf32": false,
+            "cudnn_tf32": false,
+            "torch_version": "2.7.0+cu128",
+            "sampler_options": "cfg=1, top_k=1, top_p=0.75, g_seed=0; greedy uses argmax in upstream cached autoregressive entry; FP16",
+            "image_output": "float RGB arithmetic mean [0,1], preceding PNG rounding and AdaIN",
+            "input": "reference_minus",
+            "reference": "reference_minus",
+            "scale": "whole unpadded native valid pixels, 255 DN full scale",
+            "aggregation": "image means weighted equally, target contrast errors first averaged within image",
+            "weighted_background": "all valid pixels except square 2-pixel dilation of all native targets",
+            "ring": "square 2-pixel dilation of each native 8-connected target, valid excluding all native targets",
+            "psnr_null": "positive infinity, perfect reconstruction"
+          }
+        },
+        "draw0": {
+          "path": "results/sirst_endpoints/s1_draw0.json",
+          "sha256": "3e015a1a69d8813a29b547d8d85f74c5d65cf315061e51c5eb7cf59d64a1b322",
+          "protocol": {
+            "samplers": [
+              "greedy_argmax",
+              "upstream_seeded_top1"
+            ],
+            "matmul_tf32": false,
+            "cudnn_tf32": false,
+            "torch_version": "2.7.0+cu128",
+            "sampler_options": "cfg=1, top_k=1, top_p=0.75, g_seed=0; greedy uses argmax in upstream cached autoregressive entry; FP16",
+            "image_output": "float RGB arithmetic mean [0,1], preceding PNG rounding and AdaIN",
+            "input": "noisy_minus",
+            "reference": "reference_minus",
+            "scale": "whole unpadded native valid pixels, 255 DN full scale",
+            "aggregation": "image means weighted equally, target contrast errors first averaged within image",
+            "weighted_background": "all valid pixels except square 2-pixel dilation of all native targets",
+            "ring": "square 2-pixel dilation of each native 8-connected target, valid excluding all native targets",
+            "psnr_null": "positive infinity, perfect reconstruction"
+          }
+        },
+        "draw1": {
+          "path": "results/sirst_endpoints/s1_draw1.json",
+          "sha256": "ed8aba92641565166155200a7d3690688f182e248fcfc1d7a1c8dcd90889ecfb",
+          "protocol": {
+            "samplers": [
+              "greedy_argmax",
+              "upstream_seeded_top1"
+            ],
+            "matmul_tf32": false,
+            "cudnn_tf32": false,
+            "torch_version": "2.7.0+cu128",
+            "sampler_options": "cfg=1, top_k=1, top_p=0.75, g_seed=0; greedy uses argmax in upstream cached autoregressive entry; FP16",
+            "image_output": "float RGB arithmetic mean [0,1], preceding PNG rounding and AdaIN",
+            "input": "noisy_minus",
+            "reference": "reference_minus",
+            "scale": "whole unpadded native valid pixels, 255 DN full scale",
+            "aggregation": "image means weighted equally, target contrast errors first averaged within image",
+            "weighted_background": "all valid pixels except square 2-pixel dilation of all native targets",
+            "ring": "square 2-pixel dilation of each native 8-connected target, valid excluding all native targets",
+            "psnr_null": "positive infinity, perfect reconstruction"
+          }
+        }
+      }
+    },
+    "s2_common": {
+      "checkpoint": "checkpoints/sirst_s2_common.pt",
+      "sha256": "0be3668c63d2224c89b7c011bcd8167f01802e80acaab54d8c70639fcbb47010",
+      "parents": {
+        "s1_retrained": "fb2eaf0426e1634b8cde12c7d8951ded9d6b4f04a0ae2ef77a1c13f794caacab"
+      },
+      "reports": {
+        "clean": {
+          "path": "results/sirst_endpoints/s2_drawclean.json",
+          "sha256": "fa50c5c677e7ad99018d5c79b9122d22090f6377cc2dde3d38097fabb1bbc806",
+          "protocol": {
+            "samplers": [
+              "greedy_argmax",
+              "upstream_seeded_top1"
+            ],
+            "matmul_tf32": false,
+            "cudnn_tf32": false,
+            "torch_version": "2.7.0+cu128",
+            "sampler_options": "cfg=1, top_k=1, top_p=0.75, g_seed=0; greedy uses argmax in upstream cached autoregressive entry; FP16",
+            "image_output": "float RGB arithmetic mean [0,1], preceding PNG rounding and AdaIN",
+            "input": "reference_minus",
+            "reference": "reference_minus",
+            "scale": "whole unpadded native valid pixels, 255 DN full scale",
+            "aggregation": "image means weighted equally, target contrast errors first averaged within image",
+            "weighted_background": "all valid pixels except square 2-pixel dilation of all native targets",
+            "ring": "square 2-pixel dilation of each native 8-connected target, valid excluding all native targets",
+            "psnr_null": "positive infinity, perfect reconstruction"
+          }
+        },
+        "draw0": {
+          "path": "results/sirst_endpoints/s2_draw0.json",
+          "sha256": "2519f6e095c930616c9fcb3517c9a688f78ee8b7560401b8c43231a699d2446a",
+          "protocol": {
+            "samplers": [
+              "greedy_argmax",
+              "upstream_seeded_top1"
+            ],
+            "matmul_tf32": false,
+            "cudnn_tf32": false,
+            "torch_version": "2.7.0+cu128",
+            "sampler_options": "cfg=1, top_k=1, top_p=0.75, g_seed=0; greedy uses argmax in upstream cached autoregressive entry; FP16",
+            "image_output": "float RGB arithmetic mean [0,1], preceding PNG rounding and AdaIN",
+            "input": "noisy_minus",
+            "reference": "reference_minus",
+            "scale": "whole unpadded native valid pixels, 255 DN full scale",
+            "aggregation": "image means weighted equally, target contrast errors first averaged within image",
+            "weighted_background": "all valid pixels except square 2-pixel dilation of all native targets",
+            "ring": "square 2-pixel dilation of each native 8-connected target, valid excluding all native targets",
+            "psnr_null": "positive infinity, perfect reconstruction"
+          }
+        },
+        "draw1": {
+          "path": "results/sirst_endpoints/s2_draw1.json",
+          "sha256": "876ec98362af2fee2b1d9b94a19aa187d32a42fa124febcdbbbab94907943e30",
+          "protocol": {
+            "samplers": [
+              "greedy_argmax",
+              "upstream_seeded_top1"
+            ],
+            "matmul_tf32": false,
+            "cudnn_tf32": false,
+            "torch_version": "2.7.0+cu128",
+            "sampler_options": "cfg=1, top_k=1, top_p=0.75, g_seed=0; greedy uses argmax in upstream cached autoregressive entry; FP16",
+            "image_output": "float RGB arithmetic mean [0,1], preceding PNG rounding and AdaIN",
+            "input": "noisy_minus",
+            "reference": "reference_minus",
+            "scale": "whole unpadded native valid pixels, 255 DN full scale",
+            "aggregation": "image means weighted equally, target contrast errors first averaged within image",
+            "weighted_background": "all valid pixels except square 2-pixel dilation of all native targets",
+            "ring": "square 2-pixel dilation of each native 8-connected target, valid excluding all native targets",
+            "psnr_null": "positive infinity, perfect reconstruction"
+          }
+        }
+      }
+    }
+  },
+  "seed": 0,
+  "epoch": 0,
+  "orientations": {
+    "whole_mae_dn": "lower",
+    "valid_mae_dn": "lower",
+    "background_rmse_dn": "lower",
+    "plan_background_rmse_dn": "lower",
+    "weighted_background_column_residual_dn": "lower",
+    "background_column_residual_dn": "lower",
+    "native_contrast_abs_error_dn": "lower",
+    "native_median_ring_contrast_abs_error_dn": "lower",
+    "native_target_mae_dn": "lower",
+    "whole_psnr_db": "higher",
+    "whole_ssim": "higher",
+    "native_median_ring_contrast_bias_dn": "signed",
+    "plan_background_mean_error_dn": "signed"
+  },
+  "noise": "clean = original PNG gray. draw0/1 = fixed per-ID realization; independent uniform stripe sigma [0,12] DN and pixel sigma [0,4] DN, Gaussian offsets and pixel noise, clipping [0,1]. No injected spot.",
+  "input_hash": "SHA256 of contiguous native HxW float32 [0,1] bytes. Also save PNG hash, reference float hash, cached sample digest and native output NPY hash.",
+  "inference": "Center zero-pad to 512, native grid, cached first-index greedy; cfg=1, FP16, CUDA matmul/cuDNN TF32 off; FP32 arithmetic RGB mean, pre-AdaIN and pre-rounding.",
+  "scope": "Training images only; physical sensor cleanliness has no ground truth here. No fit/dev/test selection.",
+  "metrics": "Image-weighted means. Eight-connected native components; median ring in 2px square dilation excludes all native targets/outside native frame. All eligible target instances within each image get equal weight. Legacy four metrics retain original masks, 8-pixel minimum column and mean-ring contrast.",
+  "weak_contrast": "Reference-only absolute median-ring contrast in fixed bins (<10, [10,30), >=30 DN). Descriptive bins, not a calibrated physical definition.",
+  "gain_minimum_reference_abs_contrast_dn": 1.0,
+  "perfect_psnr": "whole_psnr_db=null plus explicit perfect_reconstruction status; remains +infinity in means, distinct from missing",
+  "ssim": "Native [0,1] grayscale float64, Gaussian 11x11 sigma 1.5, population covariance, valid windows",
+  "intervention": "e0=255*(F(clean)-reference), d_n=255*(F(noisy)-F(clean)), e_n=e0+d_n. Float64 DN archives store e0 and d_n; e_n is reconstructed without loss. No subtraction of scalar MAEs."
+}

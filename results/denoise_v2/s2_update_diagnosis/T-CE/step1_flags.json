@@ -1,0 +1,7 @@
+{
+  "step": 1,
+  "trigger": [
+    "clean/plan_background_mean_error_dn",
+    "noisy/plan_background_mean_error_dn"
+  ]
+}

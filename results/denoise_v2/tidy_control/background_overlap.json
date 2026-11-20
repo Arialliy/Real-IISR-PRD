@@ -1,0 +1,103 @@
+[
+  {
+    "draw": "draw0",
+    "n_originals": 213,
+    "column_caliper_dn": 0.5,
+    "rmse_caliper_dn": null,
+    "n_matched": 15,
+    "matched_ids": [
+      "NUAA-SIRST/Misc_77",
+      "NUAA-SIRST/Misc_167",
+      "NUAA-SIRST/Misc_147",
+      "NUAA-SIRST/Misc_281",
+      "NUAA-SIRST/Misc_104",
+      "NUAA-SIRST/Misc_160",
+      "NUAA-SIRST/Misc_243",
+      "NUAA-SIRST/Misc_238",
+      "NUAA-SIRST/Misc_120",
+      "NUAA-SIRST/Misc_166",
+      "NUAA-SIRST/Misc_45",
+      "NUAA-SIRST/Misc_254",
+      "NUAA-SIRST/Misc_245",
+      "NUAA-SIRST/Misc_23",
+      "NUAA-SIRST/Misc_81"
+    ],
+    "s1_mean_background_rmse_dn": 6.556153088549981,
+    "tidy_mean_background_rmse_dn": 18.739502677720182,
+    "s1_mean_contrast_error_dn": 15.006720903329093,
+    "tidy_mean_contrast_error_dn": 34.77088314306153
+  },
+  {
+    "draw": "draw0",
+    "n_originals": 213,
+    "column_caliper_dn": 0.5,
+    "rmse_caliper_dn": 1.0,
+    "n_matched": 0,
+    "matched_ids": [],
+    "s1_mean_background_rmse_dn": null,
+    "tidy_mean_background_rmse_dn": null,
+    "s1_mean_contrast_error_dn": null,
+    "tidy_mean_contrast_error_dn": null
+  },
+  {
+    "draw": "draw0",
+    "n_originals": 213,
+    "column_caliper_dn": 1.0,
+    "rmse_caliper_dn": 2.0,
+    "n_matched": 0,
+    "matched_ids": [],
+    "s1_mean_background_rmse_dn": null,
+    "tidy_mean_background_rmse_dn": null,
+    "s1_mean_contrast_error_dn": null,
+    "tidy_mean_contrast_error_dn": null
+  },
+  {
+    "draw": "draw1",
+    "n_originals": 213,
+    "column_caliper_dn": 0.5,
+    "rmse_caliper_dn": null,
+    "n_matched": 12,
+    "matched_ids": [
+      "NUAA-SIRST/Misc_39",
+      "NUAA-SIRST/Misc_31",
+      "NUAA-SIRST/Misc_133",
+      "NUAA-SIRST/Misc_320",
+      "NUAA-SIRST/Misc_147",
+      "NUAA-SIRST/Misc_281",
+      "NUAA-SIRST/Misc_7",
+      "NUAA-SIRST/Misc_238",
+      "NUAA-SIRST/Misc_354",
+      "NUAA-SIRST/Misc_108",
+      "NUAA-SIRST/Misc_32",
+      "NUAA-SIRST/Misc_409"
+    ],
+    "s1_mean_background_rmse_dn": 6.1835473433460555,
+    "tidy_mean_background_rmse_dn": 19.112805873928526,
+    "s1_mean_contrast_error_dn": 24.291950584410586,
+    "tidy_mean_contrast_error_dn": 39.68498319321458
+  },
+  {
+    "draw": "draw1",
+    "n_originals": 213,
+    "column_caliper_dn": 0.5,
+    "rmse_caliper_dn": 1.0,
+    "n_matched": 0,
+    "matched_ids": [],
+    "s1_mean_background_rmse_dn": null,
+    "tidy_mean_background_rmse_dn": null,
+    "s1_mean_contrast_error_dn": null,
+    "tidy_mean_contrast_error_dn": null
+  },
+  {
+    "draw": "draw1",
+    "n_originals": 213,
+    "column_caliper_dn": 1.0,
+    "rmse_caliper_dn": 2.0,
+    "n_matched": 0,
+    "matched_ids": [],
+    "s1_mean_background_rmse_dn": null,
+    "tidy_mean_background_rmse_dn": null,
+    "s1_mean_contrast_error_dn": null,
+    "tidy_mean_contrast_error_dn": null
+  }
+]
