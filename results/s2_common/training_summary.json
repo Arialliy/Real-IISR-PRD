@@ -1,0 +1,23 @@
+{
+  "format": "sirst_s2_common_v1",
+  "parent_sha256": "fb2eaf0426e1634b8cde12c7d8951ded9d6b4f04a0ae2ef77a1c13f794caacab",
+  "manifest_sha256": "192c73934cd78efe8d283024add8c43d03ccbaaea89d4072a06e35d7a64faaa0",
+  "registration_sha256": "e4a47f224c6a7b1b2036c28ac70314c6cbf6cec243b3202aef696f900c8550b7",
+  "checkpoint_sha256": "0be3668c63d2224c89b7c011bcd8167f01802e80acaab54d8c70639fcbb47010",
+  "bytes": 5088667955,
+  "images": 213,
+  "updates": 54,
+  "elapsed_seconds": 1776.69,
+  "optimizer_state_entries": 388,
+  "optimizer_steps": [
+    54
+  ],
+  "trainable_tensors": 388,
+  "trainable_parameters": 1144665865,
+  "peak_allocated_gib": 29.187939643859863,
+  "torch_version": "2.7.0+cu128",
+  "device": "NVIDIA GeForce RTX 5090",
+  "device_layout": "single GPU",
+  "test_images": 0,
+  "overflow_retries": 2
+}

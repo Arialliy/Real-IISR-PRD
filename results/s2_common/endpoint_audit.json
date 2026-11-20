@@ -1,0 +1,57 @@
+{
+  "checkpoint_sha256": "0be3668c63d2224c89b7c011bcd8167f01802e80acaab54d8c70639fcbb47010",
+  "parent_sha256": "fb2eaf0426e1634b8cde12c7d8951ded9d6b4f04a0ae2ef77a1c13f794caacab",
+  "manifest_sha256": "192c73934cd78efe8d283024add8c43d03ccbaaea89d4072a06e35d7a64faaa0",
+  "registration_sha256": "e4a47f224c6a7b1b2036c28ac70314c6cbf6cec243b3202aef696f900c8550b7",
+  "tensor_entries": 763,
+  "trainable_tensors": 388,
+  "trainable_finite": 388,
+  "changed_vs_initial_S1": 388,
+  "unchanged_trainable_names": [],
+  "frozen_tensor_entries": 372,
+  "frozen_entries_equal_to_S1": 372,
+  "cac_aliases_equal": [
+    "vq.U",
+    "vq.V",
+    "vq.lora_gate"
+  ],
+  "sample_ids_exact_match_schedule": true,
+  "unique_origins": 213,
+  "optimizer_state_entries": 388,
+  "optimizer_steps": [
+    54
+  ],
+  "max_gradient_before_clip": 2833.77587890625,
+  "min_gradient_before_clip": 15.799699783325195,
+  "updates_clipped": 54,
+  "num_updates": 54,
+  "retry_count": 2,
+  "first_training_image_forward_parity": {
+    "sample_id": "NUAA-SIRST/Misc_63",
+    "token_mismatches": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "token_counts": [
+      1,
+      4,
+      9,
+      16,
+      36,
+      81,
+      169,
+      324,
+      576,
+      1024
+    ],
+    "rgb_max_abs_dn": 0.0
+  }
+}
